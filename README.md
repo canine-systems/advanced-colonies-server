@@ -1,8 +1,10 @@
 # Advanced Colonies (Minecraft mod)
 
-This is a Minecraft modpack set up using [Pakku](https://juraj-hrivnak.github.io/Pakku/).
+Server build for a Minecraft modpack set up using [Pakku](https://juraj-hrivnak.github.io/Pakku/).
 
-[Latest Release](https://github.com/canine-systems/advanced-colonies/releases/latest).
+Client repo: [canine-systems/advanced-colonies](https://github.com/canine-systems/advanced-colonies)
+
+Latest Release: https://github.com/canine-systems/advanced-colonies-server/releases/latest
 
 ## Server Config
 
