@@ -3,5 +3,14 @@
     "version": "2.0",
     "overrides": [
         "config"
-    ]
+    ],
+    "packages": {
+        "bridging-mod": {"side": "BOTH"},
+        "colorful-hearts": {"side": "BOTH"},
+        "crafttweaker-gui": {"side": "BOTH"},
+        "enchantment-descriptions": {"side": "BOTH"},
+        "mouse-tweaks": {"side": "BOTH"},
+        "xaeros-minimap": {"side": "BOTH"},
+        "xaeros-world-map": {"side": "BOTH"}
+    }
 }

@@ -1079,6 +1079,43 @@
             ]
         },
         {
+            "pakku_id": "RPZCzoSYlG7karSW",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "better-wandering-trader-trades-(bwtt)"
+            },
+            "name": {
+                "modrinth": "Better Wandering Trader Trades (BWTT)"
+            },
+            "id": {
+                "modrinth": "oIIQG4zW"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "better_wandering_trader_trades-1.1.0-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/oIIQG4zW/versions/GYYCnqBl/better_wandering_trader_trades-1.1.0-neoforge-1.21.1.jar",
+                    "id": "GYYCnqBl",
+                    "parent_id": "oIIQG4zW",
+                    "hashes": {
+                        "sha512": "09f5275c92df502fcb0676fafa902ed220742e9cb2edbef659f77756e1226050bbeb9e64ba0d5c52e6ef73c5229607d4c97352b0fa8e2dcd336764be8962a3dc",
+                        "sha1": "33a238c483c1f01d47dd62da68062c33a50e906e"
+                    },
+                    "required_dependencies": [],
+                    "size": 7995,
+                    "date_published": "2025-01-30T19:42:28.256890Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3NH3xZlrQN2TP3Si",
             "type": "MOD",
             "side": "BOTH",
