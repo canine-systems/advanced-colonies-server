@@ -4,7 +4,7 @@
     "overrides": [
         "config"
     ],
-    "packages": {
+    "projects": {
         "bridging-mod": {"side": "BOTH"},
         "colorful-hearts": {"side": "BOTH"},
         "crafttweaker-gui": {"side": "BOTH"},
