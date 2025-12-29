@@ -9,6 +9,13 @@
         "colorful-hearts": {"side": "BOTH"},
         "crafttweaker-gui": {"side": "BOTH"},
         "enchantment-descriptions": {"side": "BOTH"},
+        "essential": {"side": "BOTH"},
+        "geckolib": {"side": "BOTH"},
+        "jei-multiblocks": {"side": "BOTH"},
+        "just-enough-effect-descriptions-jeed": {"side": "BOTH"},
+        "just-enough-mekanism-multiblocks": {"side": "BOTH"},
+        "just-enough-resources-jer": {"side": "BOTH"},
+        "justenoughbreeding": {"side": "BOTH"},
         "mouse-tweaks": {"side": "BOTH"},
         "xaeros-minimap": {"side": "BOTH"},
         "xaeros-world-map": {"side": "BOTH"}
