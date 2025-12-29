@@ -250,6 +250,9 @@
         },
         {
             "pakku_id": "eoXvujYockDtDgI6",
+            "pakku_links": [
+                "dfFkB57fLASaNgGi"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "apothic-attributes"
@@ -1444,7 +1447,7 @@
                 "YMMHLyfjv65PZZWj"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "bridging-mod"
             },
@@ -1984,7 +1987,7 @@
         {
             "pakku_id": "sFu608ty1vLCOltl",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "colorful-hearts"
             },
@@ -2249,7 +2252,7 @@
         {
             "pakku_id": "fU3OJVmD9j1FbSNB",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "crafttweaker-gui"
             },
@@ -3697,7 +3700,7 @@
                 "Qyfy7wTHIK8ZHZc3"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "enchantment-descriptions"
             },
@@ -3902,7 +3905,7 @@
         {
             "pakku_id": "xSc0goEEDjl9b14a",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "essential"
             },
@@ -4401,6 +4404,9 @@
         },
         {
             "pakku_id": "i3KzXR68mAyGLl21",
+            "pakku_links": [
+                "dfFkB57fLASaNgGi"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "gateways-to-eternity"
@@ -4441,7 +4447,7 @@
         {
             "pakku_id": "AeUeU0wZE1MQJYGg",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "geckolib"
             },
@@ -5180,7 +5186,7 @@
         {
             "pakku_id": "yx9Wj5TB6ZUisB0x",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "justenoughbreeding"
             },
@@ -5218,7 +5224,7 @@
         {
             "pakku_id": "6mkidXCO6vCYrAAe",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "just-enough-effect-descriptions-jeed"
             },
@@ -5260,7 +5266,7 @@
                 "A8vmKAibOF0kx9Zg"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "jei-multiblocks"
             },
@@ -5342,7 +5348,7 @@
                 "h6yB2Mab21NgQNnW"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "just-enough-mekanism-multiblocks"
             },
@@ -5424,7 +5430,7 @@
         {
             "pakku_id": "Txw6B0vXXDTwhRHY",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "just-enough-resources-jer"
             },
@@ -5782,49 +5788,41 @@
             ]
         },
         {
-            "pakku_id": "niy1lAmhr7P706TY",
-            "pakku_links": [
-                "AeUeU0wZE1MQJYGg",
-                "1L8nNuzy5o0GrjZy"
-            ],
+            "pakku_id": "QnJ0BTom7EWckpGI",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "mekanism-turrets"
+                "curseforge": "mekanism-turrets-fences"
             },
             "name": {
-                "modrinth": "Mekanism Turrets"
+                "curseforge": "Mekanism Turrets & Fences"
             },
             "id": {
-                "modrinth": "WXVvYlIb"
+                "curseforge": "1031448"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "mekanism_turrets-2.0.9.jar",
+                    "type": "curseforge",
+                    "file_name": "mekanism_turrets-2.2.1.jar",
                     "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/WXVvYlIb/versions/HPABM2BT/mekanism_turrets-2.0.9.jar",
-                    "id": "HPABM2BT",
-                    "parent_id": "WXVvYlIb",
+                    "url": "https://edge.forgecdn.net/files/7130/552/mekanism_turrets-2.2.1.jar",
+                    "id": "7130552",
+                    "parent_id": "1031448",
                     "hashes": {
-                        "sha512": "2048a294b012a286e5ab4f43b84c4d800f4f1c586e979825caaf045c84da3c920fc1c54faa23311ad8d97fe6cc632e4ad1b6d1087cb51b2e9db4167dc68d5890",
-                        "sha1": "ac18a85898117a39c4f281e5c72bbbeb44b1ac4e"
+                        "sha1": "d0553f9c07c364bb2ac17be036e20163b4d4e220",
+                        "md5": "cee678c8cd2ed0cf3ba27a3525fba74d"
                     },
                     "required_dependencies": [
-                        "8BmcQJ2H",
-                        "Ce6I4WUE"
+                        "268560",
+                        "388172"
                     ],
-                    "size": 149395,
-                    "date_published": "2024-10-25T12:39:25.171682Z"
+                    "size": 151410,
+                    "date_published": "2025-10-20T19:14:21.003Z"
                 }
             ]
         },
@@ -6348,7 +6346,7 @@
         {
             "pakku_id": "QNFIpQWrQybTzJ0F",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "mouse-tweaks"
             },
@@ -6915,6 +6913,42 @@
                     ],
                     "size": 39573,
                     "date_published": "2025-10-17T00:04:35.078806Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dfFkB57fLASaNgGi",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "placebo"
+            },
+            "name": {
+                "curseforge": "Placebo"
+            },
+            "id": {
+                "curseforge": "283644"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Placebo-1.21.1-9.9.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar",
+                    "id": "6926281",
+                    "parent_id": "283644",
+                    "hashes": {
+                        "sha1": "1c2b8c38066d6f36209c5dadee25c184ef65202e",
+                        "md5": "cc725fc5406d3af893484cfbba06f6ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 324056,
+                    "date_published": "2025-08-25T10:59:44.943Z"
                 }
             ]
         },
@@ -8631,9 +8665,68 @@
             ]
         },
         {
+            "pakku_id": "EkryfaGjUAJVS8bG",
+            "pakku_links": [
+                "YMMHLyfjv65PZZWj",
+                "Bdy6bCPvRqLLXKXr",
+                "TpkXdt8tc1SApavK",
+                "jQoyL9ybZkgXO8d6"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "xaeros-maps-x-waystones"
+            },
+            "name": {
+                "modrinth": "Xaero's Maps x Waystones"
+            },
+            "id": {
+                "modrinth": "iv2jCzkP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "xaeromaps_waystones-1.0.8+1.21.x-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/WSyAqBkT/xaeromaps_waystones-1.0.8+1.21.x-neoforge.jar",
+                    "id": "WSyAqBkT",
+                    "parent_id": "iv2jCzkP",
+                    "hashes": {
+                        "sha512": "1f8d55abdc62a4a040d09895617bcd072074e587231fd6ba5c2c0f200569c47e36c8830516e02877e123a2e528fab38d93c1330dc691bf14bab5595d8b64f4f3",
+                        "sha1": "586d21bb63974574e593a80e424069fa1a67ff54"
+                    },
+                    "required_dependencies": [
+                        "1eAoo2KR",
+                        "1bokaNcj",
+                        "ordsPcFz",
+                        "LOpKHB2A"
+                    ],
+                    "size": 83648,
+                    "date_published": "2025-12-25T09:43:27.177035Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Bdy6bCPvRqLLXKXr",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "xaeros-minimap"
             },
@@ -8671,7 +8764,7 @@
         {
             "pakku_id": "yQDGLhRP5gFcVqjh",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "xaeros-world-map"
             },
