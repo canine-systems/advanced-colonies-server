@@ -4014,42 +4014,39 @@
             ]
         },
         {
-            "pakku_id": "t1ECvkeKvbHNWIOX",
+            "pakku_id": "KjQTqmR5X3cE5p7B",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "modrinth": "extra-weapons"
+                "curseforge": "extra-weapons"
             },
             "name": {
-                "modrinth": "Extra Weapons"
+                "curseforge": "Extra Weapons"
             },
             "id": {
-                "modrinth": "3ww1ZSPH"
+                "curseforge": "387153"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "lair_weapons-neoforge-1.21.1-V1.jar",
+                    "type": "curseforge",
+                    "file_name": "extraweapons-1.21.1-3.0-neoforge.jar",
                     "mc_versions": [
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/3ww1ZSPH/versions/AiW0CsFA/lair_weapons-neoforge-1.21.1-V1.jar",
-                    "id": "AiW0CsFA",
-                    "parent_id": "3ww1ZSPH",
+                    "url": "https://edge.forgecdn.net/files/6565/981/extraweapons-1.21.1-3.0-neoforge.jar",
+                    "id": "6565981",
+                    "parent_id": "387153",
                     "hashes": {
-                        "sha512": "f2d05316417942342d8317c3609844175ef8ab46cc4bea561b9c0457140f5fb54d1053d447ebd615f849653aea0337f59efb84994955a5079c1711cee1a01f89",
-                        "sha1": "85f8618bdf0a139b07bb57075cc05f44b414d491"
+                        "sha1": "4bcf84317248d260c194b6ea3743f395b8399d00",
+                        "md5": "6e7dbf1ff3b43e3f9f0def1a8eb3524c"
                     },
                     "required_dependencies": [],
-                    "size": 138444,
-                    "date_published": "2025-02-01T21:32:57.019120Z"
+                    "size": 1291428,
+                    "date_published": "2025-05-25T22:57:27.253Z"
                 }
             ]
         },
@@ -4325,7 +4322,7 @@
         {
             "pakku_id": "RMcPa2RLM0lIQwlo",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "fusion-connected-textures"
             },
