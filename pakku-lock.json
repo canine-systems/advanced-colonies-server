@@ -1601,26 +1601,22 @@
             ]
         },
         {
-            "pakku_id": "GpZJWEZ33ReUu9YS",
+            "pakku_id": "faLRRwNYYsfTcqaN",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "byzantine-styles-pack-for-minecolonies"
+                "curseforge": "byzantine-styles-pack-for-minecolonies"
             },
             "name": {
-                "modrinth": "Byzantine Styles Pack for Minecolonies"
+                "curseforge": "Byzantine Styles Pack for Minecolonies"
             },
             "id": {
-                "modrinth": "5andNzP4"
+                "curseforge": "974855"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "Byzantine-1.21.1-37.jar",
+                    "type": "curseforge",
+                    "file_name": "Byzantine-1.21.1-46.jar",
                     "mc_versions": [
-                        "1.20",
-                        "1.20.1",
-                        "1.20.4",
                         "1.21",
                         "1.21.1"
                     ],
@@ -1629,16 +1625,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5andNzP4/versions/H0yoh9qf/Byzantine-1.21.1-37.jar",
-                    "id": "H0yoh9qf",
-                    "parent_id": "5andNzP4",
+                    "url": "https://edge.forgecdn.net/files/7343/110/Byzantine-1.21.1-46.jar",
+                    "id": "7343110",
+                    "parent_id": "974855",
                     "hashes": {
-                        "sha512": "01da00db7b40cae82565e40277d35f2857f56dc95744858bcb4dae07676773b71b40ef14fc65f1f4cbde636b3e5474171b7e6bf57c57b79302d9a2316f049016",
-                        "sha1": "d23618d0d294bff021d7b21025b393e5794e90ab"
+                        "sha1": "b73cc3838962fd5d501b92e1b58e7fb1d774543f",
+                        "md5": "94ad37f0f312ba6e4c5aea9310e8da26"
                     },
                     "required_dependencies": [],
-                    "size": 12834555,
-                    "date_published": "2025-09-08T21:58:13.730203Z"
+                    "size": 15144947,
+                    "date_published": "2025-12-17T06:48:47.540Z"
                 }
             ]
         },
@@ -3935,22 +3931,21 @@
             ]
         },
         {
-            "pakku_id": "G63DEB6Lu31e3DA4",
+            "pakku_id": "IN3h6kGWjZJ2Igw5",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "everythingcopper"
+                "curseforge": "everythingcopper"
             },
             "name": {
-                "modrinth": "Everything is Copper"
+                "curseforge": "Everything is Copper"
             },
             "id": {
-                "modrinth": "73MCa9Po"
+                "curseforge": "579545"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "everythingcopper-1.21.1-2.4.2.jar",
+                    "type": "curseforge",
+                    "file_name": "everythingcopper-1.21.1-2.4.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3958,16 +3953,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/73MCa9Po/versions/dnoUh0Rf/everythingcopper-1.21.1-2.4.2.jar",
-                    "id": "dnoUh0Rf",
-                    "parent_id": "73MCa9Po",
+                    "url": "https://edge.forgecdn.net/files/6958/511/everythingcopper-1.21.1-2.4.5.jar",
+                    "id": "6958511",
+                    "parent_id": "579545",
                     "hashes": {
-                        "sha512": "e51bd007ec68da13bc4ad87d98042e8856b1aa92a5fb65dba4546d6755c90a0765d54be6a41c394674d96511eae6d0afb48398b90a28e9aa7b0971b6dc76d101",
-                        "sha1": "8ef91c50ec6ac33fe29b93be85755069cc2ec759"
+                        "sha1": "b1e47814467032ed8d24f5a2ce3f466e44be9239",
+                        "md5": "fb896ae997e932fe5af9f2b17b60830c"
                     },
                     "required_dependencies": [],
-                    "size": 652418,
-                    "date_published": "2025-03-03T12:12:07.434252Z"
+                    "size": 620493,
+                    "date_published": "2025-09-03T08:59:01.547Z"
                 }
             ]
         },
@@ -4046,25 +4041,21 @@
             ]
         },
         {
-            "pakku_id": "1LgjqrZQ7YmFIj4y",
-            "pakku_links": [
-                "0kLos1QvKwdPlmOn"
-            ],
+            "pakku_id": "zeCaYJd56DFvH0ig",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "extreme-reactors"
+                "curseforge": "extreme-reactors"
             },
             "name": {
-                "modrinth": "Extreme Reactors"
+                "curseforge": "Extreme Reactors"
             },
             "id": {
-                "modrinth": "idkvShUy"
+                "curseforge": "250277"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "ExtremeReactors2-1.21.1-2.4.9.jar",
+                    "type": "curseforge",
+                    "file_name": "ExtremeReactors2-1.21.1-2.4.28.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4072,18 +4063,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/idkvShUy/versions/wABJBBTd/ExtremeReactors2-1.21.1-2.4.9.jar",
-                    "id": "wABJBBTd",
-                    "parent_id": "idkvShUy",
+                    "url": "https://edge.forgecdn.net/files/7344/744/ExtremeReactors2-1.21.1-2.4.28.jar",
+                    "id": "7344744",
+                    "parent_id": "250277",
                     "hashes": {
-                        "sha512": "4b934d4479751796a8c26327517f6a31a9f8a299023950947768deb7b9d8c77ac106e07024e0b88109f65fbb13d38b28d7d6a9026ae426c0b8f13a7fd0b33dea",
-                        "sha1": "9a079dfcbb4fa350dfbe76b2674d20f1028cad62"
+                        "sha1": "b017d5d0cf5d5ab5ad5826e3e89f2d861f31d15a",
+                        "md5": "598008e487f6dae196a4d3c538d6333a"
                     },
                     "required_dependencies": [
-                        "rHpb85Mf"
+                        "247921"
                     ],
-                    "size": 2518864,
-                    "date_published": "2024-09-18T04:57:21.566064Z"
+                    "size": 2554779,
+                    "date_published": "2025-12-17T17:02:05.040Z"
                 }
             ]
         },
@@ -5139,22 +5130,21 @@
             ]
         },
         {
-            "pakku_id": "eqMgCnRChTbeCpTp",
+            "pakku_id": "YxBfnTDVmCb2ay0q",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "just-enough-archaeology"
+                "curseforge": "just-enough-archaeology"
             },
             "name": {
-                "modrinth": "Just Enough Archaeology"
+                "curseforge": "Just Enough Archaeology"
             },
             "id": {
-                "modrinth": "K0LQpdmm"
+                "curseforge": "890755"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "jearchaeology-1.21.0-1.1.5.jar",
+                    "type": "curseforge",
+                    "file_name": "jearchaeology-1.21.1-1.1.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5162,16 +5152,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/K0LQpdmm/versions/49BQQZfR/jearchaeology-1.21.0-1.1.5.jar",
-                    "id": "49BQQZfR",
-                    "parent_id": "K0LQpdmm",
+                    "url": "https://edge.forgecdn.net/files/6329/637/jearchaeology-1.21.1-1.1.6.jar",
+                    "id": "6329637",
+                    "parent_id": "890755",
                     "hashes": {
-                        "sha512": "d3fb7aba18a8caa2efc5ee56e648414961675b8f9717d653820836d058b9ce43061e7b13de18ff2bc3c46cf58a24af67ed4f3d57dccb2ce4f0ee6c4e62917438",
-                        "sha1": "db6532fc1630450bac0a4d38ce87feb97696b88f"
+                        "sha1": "6f69ac6b014838f0732cfb67245c9d03ae54a446",
+                        "md5": "3012d0a19303d75cbbb4418370ec4101"
                     },
                     "required_dependencies": [],
-                    "size": 43589,
-                    "date_published": "2025-03-03T12:16:37.424555Z"
+                    "size": 44537,
+                    "date_published": "2025-03-21T21:03:14.680Z"
                 }
             ]
         },
@@ -5504,22 +5494,21 @@
             ]
         },
         {
-            "pakku_id": "Ez512Ssx4t0qZYY5",
+            "pakku_id": "AtYsSanrwf3Cr32c",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "lodestonelib"
+                "curseforge": "lodestone"
             },
             "name": {
-                "modrinth": "Lodestone"
+                "curseforge": "Lodestone"
             },
             "id": {
-                "modrinth": "bN3xUWdo"
+                "curseforge": "616457"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "lodestone-1.21.1-1.7.1.jar",
+                    "type": "curseforge",
+                    "file_name": "lodestone-1.21.1-1.8.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5527,16 +5516,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/bN3xUWdo/versions/46jCo03u/lodestone-1.21.1-1.7.1.jar",
-                    "id": "46jCo03u",
-                    "parent_id": "bN3xUWdo",
+                    "url": "https://edge.forgecdn.net/files/7264/731/lodestone-1.21.1-1.8.2.jar",
+                    "id": "7264731",
+                    "parent_id": "616457",
                     "hashes": {
-                        "sha512": "6d206540abf86f1fc21c47857399a372eed47f9ef5ab27073fb26c6377f0956ff869927894b9698b8459001bf76ee44eb18d7cfc00ee60e36059c826d0be8a86",
-                        "sha1": "bd0c9548412abbb7f164f12af70311ef268435d0"
+                        "sha1": "d1f7c638fac5192e01b1873f27e694a3c262ad11",
+                        "md5": "de0e38b222129dc010a7ffee59a07ea5"
                     },
                     "required_dependencies": [],
-                    "size": 675765,
-                    "date_published": "2025-06-08T15:59:00.054082Z"
+                    "size": 818829,
+                    "date_published": "2025-11-26T15:33:46.263Z"
                 }
             ]
         },
@@ -6068,7 +6057,6 @@
         {
             "pakku_id": "RNohBDnRGjMGb60M",
             "pakku_links": [
-                "Ez512Ssx4t0qZYY5",
                 "cgSLGkYM7T3H5NJC",
                 "5gPNSy3hHb6uRyuO"
             ],
@@ -6941,6 +6929,49 @@
                     "required_dependencies": [],
                     "size": 324056,
                     "date_published": "2025-08-25T10:59:44.943Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "96jxpSRcgBy4WjfE",
+            "pakku_links": [
+                "hRMS7SHCCrksLTcE"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "polylib"
+            },
+            "name": {
+                "modrinth": "PolyLib"
+            },
+            "id": {
+                "modrinth": "6lvkzFFj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "polylib-2100.0.3-build.159-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6lvkzFFj/versions/1lK0ukh4/polylib-2100.0.3-build.159-neoforge.jar",
+                    "id": "1lK0ukh4",
+                    "parent_id": "6lvkzFFj",
+                    "hashes": {
+                        "sha512": "2221bea5435409354733a3411052b9a8734de30f17b6cbcc322bd7e1361d8d0c8bc35926f6cb2e0c3bd2a1114b9c71f60209dcd50df23dee614d4e6152d6e738",
+                        "sha1": "538e4e47e51a85a786431508597bad9e11fd1b63"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ"
+                    ],
+                    "size": 1295469,
+                    "date_published": "2024-11-05T16:24:55.985250Z"
                 }
             ]
         },
@@ -8873,43 +8904,6 @@
             ]
         },
         {
-            "pakku_id": "0kLos1QvKwdPlmOn",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "zerocore"
-            },
-            "name": {
-                "modrinth": "ZeroCore"
-            },
-            "id": {
-                "modrinth": "rHpb85Mf"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "ZeroCore2-1.21.1-2.4.9.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/rHpb85Mf/versions/6AlNHOWo/ZeroCore2-1.21.1-2.4.9.jar",
-                    "id": "6AlNHOWo",
-                    "parent_id": "rHpb85Mf",
-                    "hashes": {
-                        "sha512": "955cbf2729f03e539e069231d0015f5dcc74cecdf1d5de51cc942bc9397e789cae0e5fd941a6a73bc6ce11d046ba7cb66cca02f6fc4fd7f48fa05fe1bd0f5884",
-                        "sha1": "c7e7f135039df964a704245d05ca41ff2df2f496"
-                    },
-                    "required_dependencies": [],
-                    "size": 1529900,
-                    "date_published": "2024-09-18T04:55:08.337354Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "PeWHYiQO1kAQiNui",
             "type": "MOD",
             "side": "BOTH",
@@ -8943,6 +8937,44 @@
                     "required_dependencies": [],
                     "size": 1221583,
                     "date_published": "2025-07-19T00:45:19.909132Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GgCBmpEeRLOIrk1G",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "playeranimator"
+            },
+            "name": {
+                "modrinth": "playerAnimator"
+            },
+            "id": {
+                "modrinth": "gedNE4y2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4+1.21.1.jar",
+                    "id": "HJZB6bmA",
+                    "parent_id": "gedNE4y2",
+                    "hashes": {
+                        "sha512": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f",
+                        "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c"
+                    },
+                    "required_dependencies": [],
+                    "size": 203149,
+                    "date_published": "2025-12-28T21:00:18.426451Z"
                 }
             ]
         }
