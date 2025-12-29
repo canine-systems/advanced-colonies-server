@@ -7732,6 +7732,52 @@
             ]
         },
         {
+            "pakku_id": "2lJ42Gsh5rvz7CBz",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "snowballs-freeze-mobs"
+            },
+            "name": {
+                "modrinth": "Snowballs Freeze Mobs"
+            },
+            "id": {
+                "modrinth": "ETKe9DNz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "snowballsfreezemobs-1.21.1-3.8.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ETKe9DNz/versions/qlxzJokn/snowballsfreezemobs-1.21.1-3.8.jar",
+                    "id": "qlxzJokn",
+                    "parent_id": "ETKe9DNz",
+                    "hashes": {
+                        "sha512": "e46189813f581e879f125b1d11d08fe347753d5431d599f372755b01744e04ba712a0ebb11ca43aeca55145fb39d1c12682cc6709d58aa0a62955f888ac81175",
+                        "sha1": "ff0a049894e7ca86bb7c99e50f7e48517c9683a6"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 40255,
+                    "date_published": "2025-02-12T13:30:40.288348Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "YCpOOlZMQeBcVMdK",
             "pakku_links": [
                 "Qt3sRGx68j2cfzOV"
@@ -8583,6 +8629,43 @@
             ]
         },
         {
+            "pakku_id": "zxFSQetDibj4sCLB",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "vein-mining"
+            },
+            "name": {
+                "modrinth": "Vein Mining"
+            },
+            "id": {
+                "modrinth": "bRAPbNyF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "veinmining-neoforge-5.0.0-beta.2+1.21.jar",
+                    "mc_versions": [
+                        "1.21"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/bRAPbNyF/versions/bAYRag9u/veinmining-neoforge-5.0.0-beta.2+1.21.jar",
+                    "id": "bAYRag9u",
+                    "parent_id": "bRAPbNyF",
+                    "hashes": {
+                        "sha512": "3e6014e41885db4d99f8bd8069f0f364370045f3125ac7d909f47d101194159cf863c9786ad2664234db11617d5fe9e7988240f904d178edd10ea5fa3dc6f2ac",
+                        "sha1": "8fd7cd1e02103b4ffee716f3a76abfd5c04d8883"
+                    },
+                    "required_dependencies": [],
+                    "size": 221494,
+                    "date_published": "2024-07-30T06:53:17.362822Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jQoyL9ybZkgXO8d6",
             "pakku_links": [
                 "WSH1maVNFXHl0hIW"
@@ -8905,42 +8988,6 @@
                     "required_dependencies": [],
                     "size": 1221583,
                     "date_published": "2025-07-19T00:45:19.909132Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "nWNoM7OgVBgf8WFR",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "veinmining"
-            },
-            "name": {
-                "curseforge": "veinmining"
-            },
-            "id": {
-                "curseforge": "1376942"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "veinmining-1.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7176/292/veinmining-1.0.jar",
-                    "id": "7176292",
-                    "parent_id": "1376942",
-                    "hashes": {
-                        "sha1": "a8c755204c17d9fd7061dd8401e0a00fd54cc36d",
-                        "md5": "5988ed97e02e4459eaa61b452becfa4f"
-                    },
-                    "required_dependencies": [],
-                    "size": 1319978,
-                    "date_published": "2025-11-02T01:50:42.147Z"
                 }
             ]
         }
