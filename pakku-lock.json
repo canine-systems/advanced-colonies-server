@@ -5334,26 +5334,21 @@
             ]
         },
         {
-            "pakku_id": "iVzmqKLk4E2Y4C0j",
-            "pakku_links": [
-                "opwvDfaVX6ojaYx7",
-                "1L8nNuzy5o0GrjZy"
-            ],
+            "pakku_id": "qKHuMEnnn0inGRT2",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "modrinth": "just-enough-mekanism-multiblocks"
+                "curseforge": "just-enough-mekanism-multiblocks"
             },
             "name": {
-                "modrinth": "Just Enough Mekanism Multiblocks"
+                "curseforge": "Just Enough Mekanism Multiblocks"
             },
             "id": {
-                "modrinth": "kRaE85yQ"
+                "curseforge": "898746"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "JustEnoughMekanismMultiblocks-1.21.1-7.1.jar",
+                    "type": "curseforge",
+                    "file_name": "JustEnoughMekanismMultiblocks-1.21.1-7.11.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5361,19 +5356,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/kRaE85yQ/versions/V77uh32g/JustEnoughMekanismMultiblocks-1.21.1-7.1.jar",
-                    "id": "V77uh32g",
-                    "parent_id": "kRaE85yQ",
+                    "url": "https://edge.forgecdn.net/files/7045/737/JustEnoughMekanismMultiblocks-1.21.1-7.11.jar",
+                    "id": "7045737",
+                    "parent_id": "898746",
                     "hashes": {
-                        "sha512": "040a1f37521a02318a2a1c0b17e61595abb64e176eac3b2f2ff327641c43b0612ea2b44f75430d1daac1d8117cbfa0a8f12080257cdbd724d69720f348885761",
-                        "sha1": "62d563e6ebb6bc1ac4ca2866453b846c1c16d736"
+                        "sha1": "5a5c41681656894b39c5bde56bbe18bdd614c590",
+                        "md5": "c299c67501c37c27614ca41cbb5b4608"
                     },
                     "required_dependencies": [
-                        "u6dRKJwZ",
-                        "Ce6I4WUE"
+                        "268560",
+                        "238222"
                     ],
-                    "size": 131253,
-                    "date_published": "2024-09-19T01:16:01.731503Z"
+                    "size": 162216,
+                    "date_published": "2025-09-29T13:43:22.193Z"
                 }
             ]
         },
