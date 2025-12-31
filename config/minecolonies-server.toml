@@ -113,7 +113,7 @@
 #All configuration items related to the combat elements of MineColonies
 [combat]
 	#minecolonies.config.dobarbariansspawn.comment [Default: true]
-	dobarbariansspawn = true
+	dobarbariansspawn = false
 	#minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
 	# Default: 5
 	# Range: 0 ~ 10
@@ -133,7 +133,7 @@
 	# Range: 1 ~ 30
 	minimumnumberofnightsbetweenraids = 10
 	#Should mobs attack citizens? [Default: true]
-	mobattackcitizens = true
+	mobattackcitizens = false
 	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
 	shouldraiderbreakdoors = true
 	#Attack damage multiplier for Guards. [Default: 1.0, min: 0.1, max: 15.0]
