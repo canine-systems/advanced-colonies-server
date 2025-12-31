@@ -2,7 +2,8 @@
     "name": "Advanced Colonies",
     "version": "2.0",
     "overrides": [
-        "config"
+        "config",
+        "scripts"
     ],
     "projects": {
         "bridging-mod": {"side": "BOTH"},
