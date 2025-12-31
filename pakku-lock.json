@@ -1793,6 +1793,51 @@
             ]
         },
         {
+            "pakku_id": "F9c2cUi5GxqSRIw7",
+            "pakku_links": [
+                "SG3ynpZNpaeUjp5W",
+                "f9fawziqhF3a5ffA"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "chunk-loaders"
+            },
+            "name": {
+                "modrinth": "Chunk Loaders"
+            },
+            "id": {
+                "modrinth": "t1VgucWo"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "chunkloaders-1.2.8-neoforge-mc1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/t1VgucWo/versions/xC7Vc2qa/chunkloaders-1.2.8-neoforge-mc1.21.jar",
+                    "id": "xC7Vc2qa",
+                    "parent_id": "t1VgucWo",
+                    "hashes": {
+                        "sha512": "c053e12fafcaa09ef205bdd270e844ad5b44e454bd7a1d31d9dfb6ddd331ecfed71e494301abf4fe88f2c3be25dbbbb2fbbd41ce73e8dde77658b67bd9e6b693",
+                        "sha1": "525a2763c7c1b3100c267d37c18d9842a1f00734"
+                    },
+                    "required_dependencies": [
+                        "LN9BxssP",
+                        "rOUBggPv"
+                    ],
+                    "size": 143749,
+                    "date_published": "2024-07-21T03:06:24.415321Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "EB7SNtnj73wGggvS",
             "type": "MOD",
             "side": "BOTH",
@@ -5336,6 +5381,7 @@
         {
             "pakku_id": "qKHuMEnnn0inGRT2",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "just-enough-mekanism-multiblocks"
             },
@@ -6529,6 +6575,44 @@
                     "required_dependencies": [],
                     "size": 216873,
                     "date_published": "2024-12-29T18:46:17.672305Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vbsdF9tmVIC2Utm6",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "not-enough-glyphs"
+            },
+            "name": {
+                "curseforge": "Not Enough Glyphs"
+            },
+            "id": {
+                "curseforge": "1023517"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "not_enough_glyphs-1.21.1-4.2.3.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7398/332/not_enough_glyphs-1.21.1-4.2.3.4.jar",
+                    "id": "7398332",
+                    "parent_id": "1023517",
+                    "hashes": {
+                        "sha1": "289bf348812cc87fcbcc828ddd868e9567ff973f",
+                        "md5": "85b5b8940988e166e8c333c96e207422"
+                    },
+                    "required_dependencies": [
+                        "401955"
+                    ],
+                    "size": 537940,
+                    "date_published": "2025-12-30T23:42:47.193Z"
                 }
             ]
         },
@@ -9037,6 +9121,43 @@
                     "required_dependencies": [],
                     "size": 203160,
                     "date_published": "2024-12-26T11:16:39.010890Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rVAs479Mg00zsXrF",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "spark"
+            },
+            "name": {
+                "modrinth": "spark"
+            },
+            "id": {
+                "modrinth": "l6YH9Als"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "spark-1.10.124-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+                    "id": "v5qtqRQi",
+                    "parent_id": "l6YH9Als",
+                    "hashes": {
+                        "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+                        "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
+                    },
+                    "required_dependencies": [],
+                    "size": 3642581,
+                    "date_published": "2025-02-23T11:40:14.945513Z"
                 }
             ]
         }
