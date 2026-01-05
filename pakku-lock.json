@@ -1193,51 +1193,6 @@
             ]
         },
         {
-            "pakku_id": "F9c2cUi5GxqSRIw7",
-            "pakku_links": [
-                "SG3ynpZNpaeUjp5W",
-                "f9fawziqhF3a5ffA"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "chunk-loaders"
-            },
-            "name": {
-                "modrinth": "Chunk Loaders"
-            },
-            "id": {
-                "modrinth": "t1VgucWo"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "chunkloaders-1.2.8-neoforge-mc1.21.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/t1VgucWo/versions/xC7Vc2qa/chunkloaders-1.2.8-neoforge-mc1.21.jar",
-                    "id": "xC7Vc2qa",
-                    "parent_id": "t1VgucWo",
-                    "hashes": {
-                        "sha512": "c053e12fafcaa09ef205bdd270e844ad5b44e454bd7a1d31d9dfb6ddd331ecfed71e494301abf4fe88f2c3be25dbbbb2fbbd41ce73e8dde77658b67bd9e6b693",
-                        "sha1": "525a2763c7c1b3100c267d37c18d9842a1f00734"
-                    },
-                    "required_dependencies": [
-                        "LN9BxssP",
-                        "rOUBggPv"
-                    ],
-                    "size": 143749,
-                    "date_published": "2024-07-21T03:06:24.415321Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ryR9vvBuUd1bSh9x",
             "type": "MOD",
             "side": "BOTH",
@@ -4917,6 +4872,43 @@
                     ],
                     "size": 507443,
                     "date_published": "2025-08-27T00:32:57.268286Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "RwNqIRDgPHKfN6dT",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "open-parties-and-claims"
+            },
+            "name": {
+                "modrinth": "Open Parties and Claims"
+            },
+            "id": {
+                "modrinth": "gF3BGWvG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.25.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/M6DB7Bdh/open-parties-and-claims-neoforge-1.21.1-0.25.8.jar",
+                    "id": "M6DB7Bdh",
+                    "parent_id": "gF3BGWvG",
+                    "hashes": {
+                        "sha512": "b969b2afd6d2b5e2085127399ccefaa2c6dcef9f91aada26c274f0afa633f9425a8aa6db225a48de33daefba04a9a6f48dd212f7b4487186aa861a560084982a",
+                        "sha1": "b559696138085bdcf437674f095a4201b2587ddb"
+                    },
+                    "required_dependencies": [],
+                    "size": 1311358,
+                    "date_published": "2025-10-16T09:35:29.272620Z"
                 }
             ]
         },
