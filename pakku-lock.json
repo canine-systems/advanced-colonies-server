@@ -3856,44 +3856,6 @@
             ]
         },
         {
-            "pakku_id": "6mkidXCO6vCYrAAe",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "just-enough-effect-descriptions-jeed"
-            },
-            "name": {
-                "modrinth": "Just Enough Effect Descriptions (JEED)"
-            },
-            "id": {
-                "modrinth": "EO27GKs1"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "jeed-1.21-2.3.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/HpxNIA6x/jeed-1.21-2.3.2.jar",
-                    "id": "HpxNIA6x",
-                    "parent_id": "EO27GKs1",
-                    "hashes": {
-                        "sha512": "b9a1715054bb65e5cd1ee4f2add8ea5c368f425f7b185c9ed8f94b441286741fb991fe7494d725bd76e741b4d3da842a779ec1aa6b51c0df70e4358f5ca66b24",
-                        "sha1": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
-                    },
-                    "required_dependencies": [],
-                    "size": 164003,
-                    "date_published": "2025-12-17T20:43:45.666641Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TpkXdt8tc1SApavK",
             "type": "MOD",
             "side": "BOTH",
