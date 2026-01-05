@@ -4,7 +4,8 @@
     "overrides": [
         "config",
         "maintenance",
-        "scripts"
+        "scripts",
+        "user_jvm_args.txt"
     ],
     "projects": {
         "bridging-mod": {"side": "BOTH"},
