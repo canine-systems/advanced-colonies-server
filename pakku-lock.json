@@ -4417,49 +4417,6 @@
             ]
         },
         {
-            "pakku_id": "U093GgL1mqdvyZom",
-            "pakku_links": [
-                "WIuIPiL0TyVhuNGq",
-                "HB7fv3rWzNjJu2OL"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "minecolonies-for-computercraft"
-            },
-            "name": {
-                "curseforge": "MineColonies for ComputerCraft"
-            },
-            "id": {
-                "curseforge": "445290"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Colony4ComputerCraft-1.21.1-2.8.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6045/20/Colony4ComputerCraft-1.21.1-2.8.0.jar",
-                    "id": "6045020",
-                    "parent_id": "445290",
-                    "hashes": {
-                        "sha1": "02ddf44fdc6a55bcf82de4c8f4904632a1b0ec3a",
-                        "md5": "90fcd499f411a357e60b2650993f6100"
-                    },
-                    "required_dependencies": [
-                        "282001",
-                        "245506"
-                    ],
-                    "size": 169319,
-                    "date_published": "2025-01-02T07:03:08.367Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "RNohBDnRGjMGb60M",
             "pakku_links": [
                 "cgSLGkYM7T3H5NJC",
