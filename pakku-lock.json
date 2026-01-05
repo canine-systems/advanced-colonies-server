@@ -1083,44 +1083,6 @@
             ]
         },
         {
-            "pakku_id": "8sPBYUruCVUR6dHC",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "bundle-api"
-            },
-            "name": {
-                "modrinth": "Bundle API"
-            },
-            "id": {
-                "modrinth": "n8QN6Z1a"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "bundle-api-neoforge-1.1.0.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/n8QN6Z1a/versions/w5F5wdko/bundle-api-neoforge-1.1.0.jar",
-                    "id": "w5F5wdko",
-                    "parent_id": "n8QN6Z1a",
-                    "hashes": {
-                        "sha512": "b9775122f35f84a361342b1968ba132ab627d2b253d46e2382283af57f9d3f53e6138bb9afe7b32e992f63317c84ccadb78ec28e2791b5f97dbe9c65e4a5d289",
-                        "sha1": "49ea32e2872c9738363eb76a97ce0553bd2ff756"
-                    },
-                    "required_dependencies": [],
-                    "size": 64124,
-                    "date_published": "2025-09-17T14:58:18.747610Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "faLRRwNYYsfTcqaN",
             "type": "MOD",
             "slug": {
@@ -3404,43 +3366,6 @@
                     "required_dependencies": [],
                     "size": 104654,
                     "date_published": "2025-11-12T09:00:29.651836Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "djl890RIo6yxVWHJ",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "forgified-fabric-api"
-            },
-            "name": {
-                "modrinth": "Forgified Fabric API"
-            },
-            "id": {
-                "modrinth": "Aqlf1Shp"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/9uOfdsZC/forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar",
-                    "id": "9uOfdsZC",
-                    "parent_id": "Aqlf1Shp",
-                    "hashes": {
-                        "sha512": "b412ba686f327ec501f58f2335667de02eea0f6350f78a48ca0faaec9015d0e142058c2fc25aba35485096434a01e09a3b94fa930f44977142bd200bb606a2b3",
-                        "sha1": "f98335548ab3d6592912535c5703f18ab153c10d"
-                    },
-                    "required_dependencies": [],
-                    "size": 5578066,
-                    "date_published": "2025-10-06T18:32:35.899468Z"
                 }
             ]
         },
@@ -5891,51 +5816,6 @@
                     ],
                     "size": 67386,
                     "date_published": "2025-10-17T00:07:00.159162Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "lnrRWBhZCQWbDxyu",
-            "pakku_links": [
-                "8sPBYUruCVUR6dHC",
-                "djl890RIo6yxVWHJ"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "runes"
-            },
-            "name": {
-                "modrinth": "Runes"
-            },
-            "id": {
-                "modrinth": "lP9Yrr1E"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "runes-neoforge-1.2.1+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lP9Yrr1E/versions/su7FFszF/runes-neoforge-1.2.1+1.21.1.jar",
-                    "id": "su7FFszF",
-                    "parent_id": "lP9Yrr1E",
-                    "hashes": {
-                        "sha512": "87966915f607f43ae91b3de4fae06f4b4d2a325f5a16fa1a499a6c9701efe20065d09c02326029bf6e99bfbbe65e8064e65754d82504fa5c6db95fc9b8595ffb",
-                        "sha1": "c38b440097cc48f4ff7e0e783635a90d07c40974"
-                    },
-                    "required_dependencies": [
-                        "n8QN6Z1a",
-                        "Aqlf1Shp"
-                    ],
-                    "size": 320254,
-                    "date_published": "2025-11-15T17:03:26.609220Z"
                 }
             ]
         },
