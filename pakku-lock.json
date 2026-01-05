@@ -4248,6 +4248,42 @@
             ]
         },
         {
+            "pakku_id": "F85zqXT5XUbKwHMB",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lodestone"
+            },
+            "name": {
+                "curseforge": "Lodestone"
+            },
+            "id": {
+                "curseforge": "616457"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lodestone-1.21.1-1.8.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7264/731/lodestone-1.21.1-1.8.2.jar",
+                    "id": "7264731",
+                    "parent_id": "616457",
+                    "hashes": {
+                        "sha1": "d1f7c638fac5192e01b1873f27e694a3c262ad11",
+                        "md5": "de0e38b222129dc010a7ffee59a07ea5"
+                    },
+                    "required_dependencies": [],
+                    "size": 818829,
+                    "date_published": "2025-11-26T15:33:46.263Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RzhH2OudqwwqmU0M",
             "type": "MOD",
             "side": "BOTH",
@@ -4281,82 +4317,6 @@
                     "required_dependencies": [],
                     "size": 666164,
                     "date_published": "2025-12-24T05:53:04.474694Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "QnJ0BTom7EWckpGI",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "mekanism-turrets-fences"
-            },
-            "name": {
-                "curseforge": "Mekanism Turrets & Fences"
-            },
-            "id": {
-                "curseforge": "1031448"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "mekanism_turrets-2.2.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7130/552/mekanism_turrets-2.2.1.jar",
-                    "id": "7130552",
-                    "parent_id": "1031448",
-                    "hashes": {
-                        "sha1": "d0553f9c07c364bb2ac17be036e20163b4d4e220",
-                        "md5": "cee678c8cd2ed0cf3ba27a3525fba74d"
-                    },
-                    "required_dependencies": [
-                        "268560",
-                        "388172"
-                    ],
-                    "size": 151410,
-                    "date_published": "2025-10-20T19:14:21.003Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "CTqtbX8uPUDhRcaC",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "mekanism-unleashed"
-            },
-            "name": {
-                "modrinth": "Mekanism Unleashed"
-            },
-            "id": {
-                "modrinth": "IZciqufR"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "mekanism_unleashed-0.3.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/IZciqufR/versions/jCGHoMoI/mekanism_unleashed-0.3.2.jar",
-                    "id": "jCGHoMoI",
-                    "parent_id": "IZciqufR",
-                    "hashes": {
-                        "sha512": "93c363ff5ded4a363f9feaa6f6402f72881cd471416ceb58bb902289e69915910fb99a884c48050d3e99c84ae370c9fbe327403d6195afb08d5e3ce78cb97bd6",
-                        "sha1": "d64745d83ca3b67fc6b7d067d966892850eb4e50"
-                    },
-                    "required_dependencies": [],
-                    "size": 18754,
-                    "date_published": "2025-05-02T15:51:07.347318Z"
                 }
             ]
         },
@@ -4396,44 +4356,6 @@
                     ],
                     "size": 1014172,
                     "date_published": "2025-10-19T07:20:40.070Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "4EyAsOpTfN13h3mO",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "mekanism-weapons"
-            },
-            "name": {
-                "curseforge": "Mekanism: Weapons"
-            },
-            "id": {
-                "curseforge": "929829"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "MekanismWeapons-1.21.1-3.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6918/569/MekanismWeapons-1.21.1-3.0.jar",
-                    "id": "6918569",
-                    "parent_id": "929829",
-                    "hashes": {
-                        "sha1": "9c10bf556be435595c47ea8873afeaa5485aecab",
-                        "md5": "7ec9e5148fe5ebbd3c8f05c219225f59"
-                    },
-                    "required_dependencies": [
-                        "268560"
-                    ],
-                    "size": 118152,
-                    "date_published": "2025-08-23T12:29:51.363Z"
                 }
             ]
         },
@@ -6809,42 +6731,6 @@
             ]
         },
         {
-            "pakku_id": "qQlzWJ3YMS1MmHSd",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "mc-trade-post"
-            },
-            "name": {
-                "curseforge": "Trade Post for MineColonies"
-            },
-            "id": {
-                "curseforge": "1288791"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "mctradepost-1.03.013-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7371/460/mctradepost-1.03.013-1.21.1.jar",
-                    "id": "7371460",
-                    "parent_id": "1288791",
-                    "hashes": {
-                        "sha1": "a52db75f8d11966b3c0b6f7efe441555a12a6bc6",
-                        "md5": "9e180c8d0404480d83351bb6082df23d"
-                    },
-                    "required_dependencies": [],
-                    "size": 3499856,
-                    "date_published": "2025-12-23T23:43:35.687Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "7EJFjIMsudbXM8ek",
             "type": "MOD",
             "slug": {
@@ -7366,6 +7252,44 @@
                     "required_dependencies": [],
                     "size": 1551013,
                     "date_published": "2025-12-17T17:01:22.903Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dSlDKCR4s6LTkNdl",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "playeranimator"
+            },
+            "name": {
+                "modrinth": "playerAnimator"
+            },
+            "id": {
+                "modrinth": "gedNE4y2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4+1.21.1.jar",
+                    "id": "HJZB6bmA",
+                    "parent_id": "gedNE4y2",
+                    "hashes": {
+                        "sha512": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f",
+                        "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c"
+                    },
+                    "required_dependencies": [],
+                    "size": 203149,
+                    "date_published": "2025-12-28T21:00:18.426451Z"
                 }
             ]
         },
