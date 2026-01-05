@@ -8,6 +8,42 @@
     },
     "projects": [
         {
+            "pakku_id": "v6lT0wCk0pjC5Bw8",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "alltheleaks"
+            },
+            "name": {
+                "curseforge": "AllTheLeaks (Memory Leak Fix)"
+            },
+            "id": {
+                "curseforge": "1091339"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "alltheleaks-1.1.6+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7398/946/alltheleaks-1.1.6+1.21.1-neoforge.jar",
+                    "id": "7398946",
+                    "parent_id": "1091339",
+                    "hashes": {
+                        "sha1": "1621f1bff2b96f8a20c6085ce1af52f7044f8f36",
+                        "md5": "7863cb800c23248e9131083cf4711390"
+                    },
+                    "required_dependencies": [],
+                    "size": 527501,
+                    "date_published": "2025-12-31T03:05:08.780Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oLZXwXJ2xlOu2cf6",
             "pakku_links": [
                 "WhMpn4yeqFDmVwon",
