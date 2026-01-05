@@ -5259,43 +5259,6 @@
             ]
         },
         {
-            "pakku_id": "dTTWjtxtuC3fRisM",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "patchouli"
-            },
-            "name": {
-                "modrinth": "Patchouli"
-            },
-            "id": {
-                "modrinth": "nU0bVIaL"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/h6hKI2ob/Patchouli-1.21.1-92-NEOFORGE.jar",
-                    "id": "h6hKI2ob",
-                    "parent_id": "nU0bVIaL",
-                    "hashes": {
-                        "sha512": "36cad2a2e5839fd4ee99165c4f275d1c3c0c71ed130413485e43f8506e7d2c3de2e2dbad40f90262378c6c6c5148140a473b0f7acd806e1a4bfede9c9a04600f",
-                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c"
-                    },
-                    "required_dependencies": [],
-                    "size": 646486,
-                    "date_published": "2025-08-03T09:32:32.462449Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "a8ETtOyH12YxqLaI",
             "type": "MOD",
             "side": "BOTH",
@@ -5609,48 +5572,6 @@
                     "required_dependencies": [],
                     "size": 849924,
                     "date_published": "2025-05-02T08:59:15.787301Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "2FK6oTkx4uUbygwT",
-            "pakku_links": [
-                "dTTWjtxtuC3fRisM"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "psi"
-            },
-            "name": {
-                "modrinth": "Psi"
-            },
-            "id": {
-                "modrinth": "pOeA0exL"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Psi-1.21.1-107.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/pOeA0exL/versions/evVeD5jB/Psi-1.21.1-107.jar",
-                    "id": "evVeD5jB",
-                    "parent_id": "pOeA0exL",
-                    "hashes": {
-                        "sha512": "289bfc166f4328c28173d7cdf6b256e6b65abac8abfd0be582982595758562e9d583692c123cce3df4efab978c0c14053d2cc4f85a487c71d74b66072b59e412",
-                        "sha1": "6953758f4aa29a9a162da019755b139276a13fa1"
-                    },
-                    "required_dependencies": [
-                        "nU0bVIaL"
-                    ],
-                    "size": 2355098,
-                    "date_published": "2025-12-07T14:05:56.993960Z"
                 }
             ]
         },
