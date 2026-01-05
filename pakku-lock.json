@@ -796,6 +796,140 @@
             ]
         },
         {
+            "pakku_id": "NS1kYhR6vgYCZfrD",
+            "pakku_links": [
+                "Ss6ZZ75GTgsPLNzU",
+                "Qyfy7wTHIK8ZHZc3"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "botany-pots"
+            },
+            "name": {
+                "modrinth": "Botany Pots"
+            },
+            "id": {
+                "modrinth": "U6BUTZ7K"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "botanypots-neoforge-1.21.1-21.1.41.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/U6BUTZ7K/versions/DZU8FqKS/botanypots-neoforge-1.21.1-21.1.41.jar",
+                    "id": "DZU8FqKS",
+                    "parent_id": "U6BUTZ7K",
+                    "hashes": {
+                        "sha512": "d080c53d66b8cf4cc9d8f4c30ac89ff69e89ed27bdb299474e1c6afca6bd1eb071ffb6eecdccd01d93ab6151aebe3d78e8ff7596b1d36eac3415fea4b1c06d68",
+                        "sha1": "4f216887a3b95d6abde0f2458a94487523531a1c"
+                    },
+                    "required_dependencies": [
+                        "aaRl8GiW",
+                        "uy4Cnpcm"
+                    ],
+                    "size": 1065153,
+                    "date_published": "2025-10-16T23:44:18.938679Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lIgUaTTdF1u0aBP3",
+            "pakku_links": [
+                "NS1kYhR6vgYCZfrD",
+                "Qyfy7wTHIK8ZHZc3",
+                "Ss6ZZ75GTgsPLNzU"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "botany-pots-tiers"
+            },
+            "name": {
+                "modrinth": "Botany Pots Tiers"
+            },
+            "id": {
+                "modrinth": "fvMhZPuf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "botanypotstiers-neoforge-1.21.1-7.0.10.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fvMhZPuf/versions/9jLH4F79/botanypotstiers-neoforge-1.21.1-7.0.10.jar",
+                    "id": "9jLH4F79",
+                    "parent_id": "fvMhZPuf",
+                    "hashes": {
+                        "sha512": "1820252168e9b58ead22f97e8c16aaea3a8b37a327737b4279d23a5b93603e7d51ff83d0e3ad6a1b194111fe923afcc6a6a9b927941ba86fc9b08f32f37b5f7c",
+                        "sha1": "0a437495ccedf5d78245093bfef06ce100110426"
+                    },
+                    "required_dependencies": [
+                        "U6BUTZ7K",
+                        "uy4Cnpcm",
+                        "aaRl8GiW"
+                    ],
+                    "size": 1551016,
+                    "date_published": "2025-11-11T07:50:58.697498Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HO0hO30VpawTUbR4",
+            "pakku_links": [
+                "Qyfy7wTHIK8ZHZc3",
+                "Ss6ZZ75GTgsPLNzU"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "botany-trees"
+            },
+            "name": {
+                "modrinth": "Botany Trees"
+            },
+            "id": {
+                "modrinth": "mvs7RoIW"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "botanytrees-neoforge-1.21.1-21.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mvs7RoIW/versions/FyrmWMQE/botanytrees-neoforge-1.21.1-21.1.1.jar",
+                    "id": "FyrmWMQE",
+                    "parent_id": "mvs7RoIW",
+                    "hashes": {
+                        "sha512": "459fa7a50eb6e32f3242fc6b308ce2f251d8dfe09326b3d8d3f93222b43faf4c2c9ac444b302734e901d1227165d618b38b35b52de089e0d6245ae4cfb099c60",
+                        "sha1": "35553080f0cc37ae2e446fd8faa18ef0492e4a68"
+                    },
+                    "required_dependencies": [
+                        "uy4Cnpcm",
+                        "aaRl8GiW"
+                    ],
+                    "size": 20383,
+                    "date_published": "2025-08-17T09:41:00.831816Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SCKOEHfBTdrIrGor",
             "pakku_links": [
                 "YMMHLyfjv65PZZWj"
