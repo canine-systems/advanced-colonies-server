@@ -5,7 +5,9 @@
         "config",
         "maintenance",
         "scripts",
-        "user_jvm_args.txt"
+        "user_jvm_args.txt",
+        "ops.json",
+        "whitelist.json"
     ],
     "projects": {
         "bridging-mod": {"side": "BOTH"},
