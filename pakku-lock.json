@@ -287,45 +287,6 @@
             ]
         },
         {
-            "pakku_id": "UOkKLR3GZJ1Gbvv9",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ars-morph"
-            },
-            "name": {
-                "curseforge": "Ars Morph"
-            },
-            "id": {
-                "curseforge": "1384161"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ars_morph-1.21.1-1.0.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7218/713/ars_morph-1.21.1-1.0.0.jar",
-                    "id": "7218713",
-                    "parent_id": "1384161",
-                    "hashes": {
-                        "sha1": "7a4ecb14099e28167939dfe1cde757343bf99cc8",
-                        "md5": "568552aa75241c292c0085a0933bcd1b"
-                    },
-                    "required_dependencies": [
-                        "1238155",
-                        "401955"
-                    ],
-                    "size": 52356,
-                    "date_published": "2025-11-13T19:15:17.207Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "LvQNVZUC5CiBrl4q",
             "type": "MOD",
             "side": "BOTH",
@@ -1562,48 +1523,6 @@
                     "required_dependencies": [],
                     "size": 3463082,
                     "date_published": "2025-12-05T22:14:58.276400Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "xkT1X9owZVTXH6Dw",
-            "pakku_links": [
-                "0ESuer7cOkRimkl6"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "crafttweaker-gui"
-            },
-            "name": {
-                "modrinth": "CraftTweaker GUI"
-            },
-            "id": {
-                "modrinth": "FPG0nezA"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "ctgui-neoforge-1.21.1-0.3.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/FPG0nezA/versions/rn56bLyw/ctgui-neoforge-1.21.1-0.3.0.jar",
-                    "id": "rn56bLyw",
-                    "parent_id": "FPG0nezA",
-                    "hashes": {
-                        "sha512": "f0858d683d0018fecd834f3c13f62526d672fefbba9da51e37b62d8b1afa6db889879a89c883f94200c595537a7c9e3c395938b9f9c767c26fa9fee0ab80b2a6",
-                        "sha1": "735eabab2e0181423f02991e42a2a2306702c4c1"
-                    },
-                    "required_dependencies": [
-                        "Xg35A4rS"
-                    ],
-                    "size": 346093,
-                    "date_published": "2025-05-23T20:58:45.346909Z"
                 }
             ]
         },
