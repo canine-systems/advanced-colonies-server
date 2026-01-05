@@ -8,6 +8,44 @@
     },
     "projects": [
         {
+            "pakku_id": "xlUWAjDtHsI2wV9K",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "advanced-backups"
+            },
+            "name": {
+                "modrinth": "Advanced Backups"
+            },
+            "id": {
+                "modrinth": "Jrmoreqs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "AdvancedBackups-neoforge-1.21-3.7.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Jrmoreqs/versions/ufIaRDFo/AdvancedBackups-neoforge-1.21-3.7.1.jar",
+                    "id": "ufIaRDFo",
+                    "parent_id": "Jrmoreqs",
+                    "hashes": {
+                        "sha512": "8b5daf057985f1cec4b3d6f27e202ccc91b6e0c008b4c8ea4900c33508471c0c518c9830da61f85aa100c43b4fa08857eb6ecb82ae53205ef5db0bc02f959e04",
+                        "sha1": "3d328e772b19d6d12f4b075cca2120bbcca2b09d"
+                    },
+                    "required_dependencies": [],
+                    "size": 335656,
+                    "date_published": "2025-02-02T01:35:43.447933Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "v6lT0wCk0pjC5Bw8",
             "type": "MOD",
             "slug": {
