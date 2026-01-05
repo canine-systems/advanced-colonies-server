@@ -5642,44 +5642,6 @@
             ]
         },
         {
-            "pakku_id": "N5SISmlmLLCW5yKu",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "servuxforged"
-            },
-            "name": {
-                "modrinth": "ServuxForged"
-            },
-            "id": {
-                "modrinth": "H9LzoDgA"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "ServuxForged-0.2.2-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/H9LzoDgA/versions/PnPBwpNm/ServuxForged-0.2.2-mc1.21.1.jar",
-                    "id": "PnPBwpNm",
-                    "parent_id": "H9LzoDgA",
-                    "hashes": {
-                        "sha512": "2764efd2b7cc1e17a8544f016c2420753889a4df271b0f974e00d9460a48e510e6d37394619798aee668bb573c97668e6ccef433032bd5611a3197c50c94dc68",
-                        "sha1": "2e08e37bd191d392aa8574dc657e529aad206976"
-                    },
-                    "required_dependencies": [],
-                    "size": 590182,
-                    "date_published": "2025-03-28T12:23:30.299153Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "RbZuzastX4OKZfSp",
             "type": "MOD",
             "side": "BOTH",
