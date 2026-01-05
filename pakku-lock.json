@@ -3163,6 +3163,48 @@
             ]
         },
         {
+            "pakku_id": "udFzhncL1GGqwfzI",
+            "pakku_links": [
+                "EAlmUg06ZEmmxe3n"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "forgematica"
+            },
+            "name": {
+                "modrinth": "Forgematica"
+            },
+            "id": {
+                "modrinth": "dCKRaeBC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "forgematica-0.4.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/dCKRaeBC/versions/bNQ9lJbg/forgematica-0.4.1+mc1.21.1.jar",
+                    "id": "bNQ9lJbg",
+                    "parent_id": "dCKRaeBC",
+                    "hashes": {
+                        "sha512": "3a69b9664541c2ac34f7940a031271a4d8e713288060594a5563ac079f07eba8d2d3868f0243c0a5d44f0bde50d787b32efb97a7ae7ea16075bfc6bb7f577a5d",
+                        "sha1": "5ef9d8fd67791217a10f3243ed66764e254cd470"
+                    },
+                    "required_dependencies": [
+                        "SKI34J7B"
+                    ],
+                    "size": 1383228,
+                    "date_published": "2025-10-14T14:53:22.548688Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "my8hamzId94BJpb6",
             "type": "MOD",
             "slug": {
@@ -3972,6 +4014,43 @@
                     "required_dependencies": [],
                     "size": 666164,
                     "date_published": "2025-12-24T05:53:04.474694Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EAlmUg06ZEmmxe3n",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mafglib"
+            },
+            "name": {
+                "modrinth": "MaFgLib"
+            },
+            "id": {
+                "modrinth": "SKI34J7B"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "mafglib-0.4.2+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SKI34J7B/versions/YcfOKxBv/mafglib-0.4.2+mc1.21.1.jar",
+                    "id": "YcfOKxBv",
+                    "parent_id": "SKI34J7B",
+                    "hashes": {
+                        "sha512": "43c24f8ebd2f27b3f8be33df224d59baf3c901fcaa7c01ce42e5bcf8891c4cad0a7406e0374f66107474a8b627c55cf81f7805cc15d7da2f8f1bbe052892b856",
+                        "sha1": "32e08cc76dd63d05730db4b299ecb241ea053399"
+                    },
+                    "required_dependencies": [],
+                    "size": 1113826,
+                    "date_published": "2025-12-26T13:57:17.675357Z"
                 }
             ]
         },
@@ -5559,6 +5638,44 @@
                     "required_dependencies": [],
                     "size": 77326,
                     "date_published": "2024-10-21T20:44:51.147209Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "N5SISmlmLLCW5yKu",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "servuxforged"
+            },
+            "name": {
+                "modrinth": "ServuxForged"
+            },
+            "id": {
+                "modrinth": "H9LzoDgA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ServuxForged-0.2.2-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/H9LzoDgA/versions/PnPBwpNm/ServuxForged-0.2.2-mc1.21.1.jar",
+                    "id": "PnPBwpNm",
+                    "parent_id": "H9LzoDgA",
+                    "hashes": {
+                        "sha512": "2764efd2b7cc1e17a8544f016c2420753889a4df271b0f974e00d9460a48e510e6d37394619798aee668bb573c97668e6ccef433032bd5611a3197c50c94dc68",
+                        "sha1": "2e08e37bd191d392aa8574dc657e529aad206976"
+                    },
+                    "required_dependencies": [],
+                    "size": 590182,
+                    "date_published": "2025-03-28T12:23:30.299153Z"
                 }
             ]
         },
