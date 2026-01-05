@@ -8,45 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "QkFxFeBdPR0Qfetr",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ae2-jei-integration"
-            },
-            "name": {
-                "curseforge": "AE2 JEI Integration"
-            },
-            "id": {
-                "curseforge": "1074338"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ae2jeiintegration-1.2.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5748/513/ae2jeiintegration-1.2.0.jar",
-                    "id": "5748513",
-                    "parent_id": "1074338",
-                    "hashes": {
-                        "sha1": "69bfbeca11c604a5da3be548ae582d5afbdc3d17",
-                        "md5": "5f7becaec03afd4e3455a7429e431205"
-                    },
-                    "required_dependencies": [
-                        "223794",
-                        "238222"
-                    ],
-                    "size": 101280,
-                    "date_published": "2024-09-23T03:59:44.417Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "oLZXwXJ2xlOu2cf6",
             "pakku_links": [
                 "WhMpn4yeqFDmVwon",
@@ -4121,44 +4082,6 @@
             ]
         },
         {
-            "pakku_id": "opwvDfaVX6ojaYx7",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "jei"
-            },
-            "name": {
-                "modrinth": "Just Enough Items (JEI)"
-            },
-            "id": {
-                "modrinth": "u6dRKJwZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "jei-1.21.1-neoforge-19.25.0.322.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/DFIjSzbJ/jei-1.21.1-neoforge-19.25.0.322.jar",
-                    "id": "DFIjSzbJ",
-                    "parent_id": "u6dRKJwZ",
-                    "hashes": {
-                        "sha512": "4ab0100e8025d383b13952588b2e8ed53abe01d7a9963fe20d6ff3fd7a3bfe9d18fd6e7dc98815e6164409c5c758bec80c6f83213b958d59e8145a2183560dc6",
-                        "sha1": "f42aa17f8490dd437e75b8f4abd8360e9f0265b9"
-                    },
-                    "required_dependencies": [],
-                    "size": 1505377,
-                    "date_published": "2025-10-02T11:36:15.984560Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "qKHuMEnnn0inGRT2",
             "type": "MOD",
             "side": "BOTH",
@@ -4195,49 +4118,6 @@
                     ],
                     "size": 162216,
                     "date_published": "2025-09-29T13:43:22.193Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "eA6MIldAZZh4ChEJ",
-            "pakku_links": [
-                "h6yB2Mab21NgQNnW",
-                "opwvDfaVX6ojaYx7"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "just-enough-professions-jep"
-            },
-            "name": {
-                "modrinth": "Just Enough Professions (JEP)"
-            },
-            "id": {
-                "modrinth": "kB56GtWA"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "JustEnoughProfessions-neoforge-1.21.1-4.0.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/kB56GtWA/versions/jkUvORyF/JustEnoughProfessions-neoforge-1.21.1-4.0.4.jar",
-                    "id": "jkUvORyF",
-                    "parent_id": "kB56GtWA",
-                    "hashes": {
-                        "sha512": "3b3c2f086a27ce8cd01f285acf0711a75b6fb354fa0181dbb9dc6a42771d6459b488beded5ceea59c0939dbde5401b2b3a2281bb87723745db685434c87eedac",
-                        "sha1": "dd9b9e52efd2f43ca929faf83f3f3ac6d97d3323"
-                    },
-                    "required_dependencies": [
-                        "u6dRKJwZ"
-                    ],
-                    "size": 24449,
-                    "date_published": "2025-02-24T20:39:38.442397Z"
                 }
             ]
         },
@@ -5904,6 +5784,93 @@
                     "required_dependencies": [],
                     "size": 484332,
                     "date_published": "2024-12-08T04:44:13.631452Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bBgPYSkjp9EKBSgz",
+            "pakku_links": [
+                "ryR9vvBuUd1bSh9x",
+                "pZK1iopXfuVqo6Fa"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "rei"
+            },
+            "name": {
+                "modrinth": "Roughly Enough Items (REI)"
+            },
+            "id": {
+                "modrinth": "nfn13YXA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "RoughlyEnoughItems-16.0.799-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/nfn13YXA/versions/b8gfS9Je/RoughlyEnoughItems-16.0.799-neoforge.jar",
+                    "id": "b8gfS9Je",
+                    "parent_id": "nfn13YXA",
+                    "hashes": {
+                        "sha512": "9b7fb8071813c348d07283b8651aa589ec334dc060d076422b988eae9e0f6e9598c721cbe39462daf68b93e0f88c2f70e5a655ff24bc644abfe5eb2b1099812c",
+                        "sha1": "58e3de0cd7d559a6caf924c25992382677bc03f9"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 2384445,
+                    "date_published": "2025-02-16T11:52:49.583980Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "azszw4TRHFNmXV61",
+            "pakku_links": [
+                "bBgPYSkjp9EKBSgz"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "roughly-enough-professions-rep"
+            },
+            "name": {
+                "modrinth": "Roughly Enough Professions (REP)"
+            },
+            "id": {
+                "modrinth": "V8XJ8f5f"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "RoughlyEnoughProfessions-neoforge-1.21.1-4.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/V8XJ8f5f/versions/pqsVPf02/RoughlyEnoughProfessions-neoforge-1.21.1-4.0.3.jar",
+                    "id": "pqsVPf02",
+                    "parent_id": "V8XJ8f5f",
+                    "hashes": {
+                        "sha512": "cb56314c06a2d3802e4b0c054d7f00171f19d6c29b09536f3b7e926e52157d63139fb41cf5e19c468ca143b34ec0c5148329800a00743c16e228619eb43575f4",
+                        "sha1": "07bd723c53a99b6ae23de850eb4facac90df8294"
+                    },
+                    "required_dependencies": [
+                        "nfn13YXA"
+                    ],
+                    "size": 22289,
+                    "date_published": "2024-10-12T15:24:29.842927Z"
                 }
             ]
         },
