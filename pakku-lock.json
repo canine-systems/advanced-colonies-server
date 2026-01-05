@@ -2113,51 +2113,6 @@
             ]
         },
         {
-            "pakku_id": "PHhimUJzh7A5u5gj",
-            "pakku_links": [
-                "CJU2ArnVpXR02Re3",
-                "cgSLGkYM7T3H5NJC",
-                "5gPNSy3hHb6uRyuO"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "create-food"
-            },
-            "name": {
-                "modrinth": "Create: Food"
-            },
-            "id": {
-                "modrinth": "4HnO3el1"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "createfood-neoforge-1.21.1-2.0.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/ggrcrZ0n/createfood-neoforge-1.21.1-2.0.0a.jar",
-                    "id": "ggrcrZ0n",
-                    "parent_id": "4HnO3el1",
-                    "hashes": {
-                        "sha512": "be3555e8f9c1752772691f35832ddd58425fd86006c4d1e9eed2f3cc0d55ab459021483e8b4c4c703c0a093450f1551d2bb8d411eed3b44c6a29d27cef4c5df1",
-                        "sha1": "ce3c07d3b2ffbd1582664357f8908cae215e5123"
-                    },
-                    "required_dependencies": [
-                        "LNytGWDc",
-                        "R2OftAxM"
-                    ],
-                    "size": 7994554,
-                    "date_published": "2025-12-19T23:51:36.304104Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "3UG018WviCdNq3Jg",
             "pakku_links": [
                 "CJU2ArnVpXR02Re3"
