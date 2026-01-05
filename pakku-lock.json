@@ -2449,49 +2449,6 @@
             ]
         },
         {
-            "pakku_id": "7sgo9swks7sTu07D",
-            "pakku_links": [
-                "cgSLGkYM7T3H5NJC",
-                "5gPNSy3hHb6uRyuO"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "cultural-delights"
-            },
-            "name": {
-                "modrinth": "Cultural Delights"
-            },
-            "id": {
-                "modrinth": "YttyNOFA"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "culturaldelights-0.17.7.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/YttyNOFA/versions/ymOecmAu/culturaldelights-0.17.7.jar",
-                    "id": "ymOecmAu",
-                    "parent_id": "YttyNOFA",
-                    "hashes": {
-                        "sha512": "c8c49f4371d51f9bd180796538685a73b11ebdffae218bf15fe5af355787f8c823dbbd7f2e6e3a6f4887e60ee3e34ebd6e030ce9e95491dd4a0bdd4ea2a269b5",
-                        "sha1": "fbd796af2b05456dca3b7bf3bfc03a7197bfdf84"
-                    },
-                    "required_dependencies": [
-                        "R2OftAxM"
-                    ],
-                    "size": 254063,
-                    "date_published": "2025-06-17T05:15:30.751286Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Zmw8CHXZc70rTeUQ",
             "type": "MOD",
             "side": "BOTH",
