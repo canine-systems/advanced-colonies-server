@@ -24,5 +24,7 @@ projects = data["projects"]
 mods = [name_and_link(proj) for proj in projects]
 
 print("Current mods:")
+i = 1
 for (name, url, abbr) in mods:
-    print(f"- ({abbr}) [{name}]({url})")
+    print(f"{i}. ({abbr}) [{name}]({url})")
+    i += 1
