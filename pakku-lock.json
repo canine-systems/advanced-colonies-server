@@ -5642,6 +5642,44 @@
             ]
         },
         {
+            "pakku_id": "ktmG28TP5bnOONGR",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "servuxforged"
+            },
+            "name": {
+                "modrinth": "ServuxForged"
+            },
+            "id": {
+                "modrinth": "H9LzoDgA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ServuxForged-0.2.2-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/H9LzoDgA/versions/PnPBwpNm/ServuxForged-0.2.2-mc1.21.1.jar",
+                    "id": "PnPBwpNm",
+                    "parent_id": "H9LzoDgA",
+                    "hashes": {
+                        "sha512": "2764efd2b7cc1e17a8544f016c2420753889a4df271b0f974e00d9460a48e510e6d37394619798aee668bb573c97668e6ccef433032bd5611a3197c50c94dc68",
+                        "sha1": "2e08e37bd191d392aa8574dc657e529aad206976"
+                    },
+                    "required_dependencies": [],
+                    "size": 590182,
+                    "date_published": "2025-03-28T12:23:30.299153Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RbZuzastX4OKZfSp",
             "type": "MOD",
             "side": "BOTH",
@@ -6717,6 +6755,48 @@
                     "required_dependencies": [],
                     "size": 1551013,
                     "date_published": "2025-12-17T17:01:22.903Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PgaykmOI3s7etRCX",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "badpackets"
+            },
+            "name": {
+                "modrinth": "bad packets"
+            },
+            "id": {
+                "modrinth": "ftdbN0KK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "badpackets-neo-0.8.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/RNyYl9M3/badpackets-neo-0.8.2.jar",
+                    "id": "RNyYl9M3",
+                    "parent_id": "ftdbN0KK",
+                    "hashes": {
+                        "sha512": "9f09fbb8fe9d98b3813bee81695f7eb36521deb94bd7804e6e96b130038425c7b2e1ae2072eeb8e8d70bf424a28468b63180dbf4136c0117d7cc607afc9ec421",
+                        "sha1": "6a29963a30afd7fa8993b97e4f870460b3f51323"
+                    },
+                    "required_dependencies": [],
+                    "size": 54641,
+                    "date_published": "2025-01-08T23:00:04.028518Z"
                 }
             ]
         },
