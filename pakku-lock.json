@@ -8,6 +8,87 @@
     },
     "projects": [
         {
+            "pakku_id": "GBE9dxGAnyBw7BfZ",
+            "pakku_links": [
+                "DvkuvZfnZibHrkaJ",
+                "dxUAxWHqFmAdmARf"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "almost-unified-ie"
+            },
+            "name": {
+                "modrinth": "AU: Immersive Engineering"
+            },
+            "id": {
+                "modrinth": "hCyAnqqq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "almostunified_ie-neoforge-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/hCyAnqqq/versions/QNmpHq1W/almostunified_ie-neoforge-1.21.1-1.0.1.jar",
+                    "id": "QNmpHq1W",
+                    "parent_id": "hCyAnqqq",
+                    "hashes": {
+                        "sha512": "51f6b8d3b89ed5f5a241535360d3a208e30118a95858c2e1c585bc23802320387a221e9b0f07ba536def5617e3830f3065ee46fa307a96f8880fbe8ebe2f290b",
+                        "sha1": "0940f4ac40f87ba12e6978ad80eb8eb756822aba"
+                    },
+                    "required_dependencies": [
+                        "tIm2nV03",
+                        "sdaSaQEz"
+                    ],
+                    "size": 8743,
+                    "date_published": "2025-09-29T13:30:51.178617Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dxUAxWHqFmAdmARf",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "almost-unified"
+            },
+            "name": {
+                "modrinth": "Almost Unified"
+            },
+            "id": {
+                "modrinth": "sdaSaQEz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "almostunified-neoforge-1.21.1-1.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/tzmoqF7j/almostunified-neoforge-1.21.1-1.4.0.jar",
+                    "id": "tzmoqF7j",
+                    "parent_id": "sdaSaQEz",
+                    "hashes": {
+                        "sha512": "2ff8de57a4ea53fae8fda35dc5400f36c209c169230d12d4aa4a1cac2a460f81cbf52656fe4f49e928b1d0005c25c2ed9b34d6e11f6aaf9dd1a24216d19eaeac",
+                        "sha1": "bfd995896317e4b37326900bd0c114aaefbd9822"
+                    },
+                    "required_dependencies": [],
+                    "size": 293345,
+                    "date_published": "2026-01-07T19:44:25.012252Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oLZXwXJ2xlOu2cf6",
             "pakku_links": [
                 "WhMpn4yeqFDmVwon",
@@ -3548,6 +3629,87 @@
                     "required_dependencies": [],
                     "size": 1271062,
                     "date_published": "2025-09-14T12:14:08.209155Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TanEbGMo9QHSHLqe",
+            "pakku_links": [
+                "i4YZi72X7GDiuuHM",
+                "DvkuvZfnZibHrkaJ"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "immersive-energistics"
+            },
+            "name": {
+                "modrinth": "Immersive Energistics"
+            },
+            "id": {
+                "modrinth": "ADAUe1vC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Immersive-Energistics-1.1.0-beta.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/ADAUe1vC/versions/KSggPvkO/Immersive-Energistics-1.1.0-beta.jar",
+                    "id": "KSggPvkO",
+                    "parent_id": "ADAUe1vC",
+                    "hashes": {
+                        "sha512": "cbe8971cd3d1f1f66bdaad596b0bba14ffc3ec853c6738731efb4004b40aba8cffafeca8f9ee5f947f7bc48aea1efc1fb9a967ca9a975ac770128f280a49c312",
+                        "sha1": "05aac40c5c9570946db540fabbb702898ca294d4"
+                    },
+                    "required_dependencies": [
+                        "XxWD5pD3",
+                        "tIm2nV03"
+                    ],
+                    "size": 40560,
+                    "date_published": "2025-01-27T22:29:47.365442Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DvkuvZfnZibHrkaJ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "immersiveengineering"
+            },
+            "name": {
+                "modrinth": "Immersive Engineering"
+            },
+            "id": {
+                "modrinth": "tIm2nV03"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tIm2nV03/versions/uNRARSH2/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+                    "id": "uNRARSH2",
+                    "parent_id": "tIm2nV03",
+                    "hashes": {
+                        "sha512": "862523e84747a8b7eaa65f9b3c337fa832ef9efd0545c27f68e350e01f482c7a1242d0e4bdc2caff3d7eb033508b43a353fcd7150c9b544d0c05765ca2a551b3",
+                        "sha1": "a4e90c2df8009040f6d022433c5d76635944dd59"
+                    },
+                    "required_dependencies": [],
+                    "size": 14232121,
+                    "date_published": "2025-07-05T15:42:47.124938Z"
                 }
             ]
         },
