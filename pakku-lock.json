@@ -4694,49 +4694,6 @@
             ]
         },
         {
-            "pakku_id": "tu9kDbuoCQHdSGdv",
-            "pakku_links": [
-                "cgSLGkYM7T3H5NJC",
-                "5gPNSy3hHb6uRyuO"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "my-nethers-delight"
-            },
-            "name": {
-                "modrinth": "My Nether's Delight"
-            },
-            "id": {
-                "modrinth": "O53VhQoZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "MyNethersDelight-1.21.1-1.9.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/O53VhQoZ/versions/n2vJCdff/MyNethersDelight-1.21.1-1.9.jar",
-                    "id": "n2vJCdff",
-                    "parent_id": "O53VhQoZ",
-                    "hashes": {
-                        "sha512": "0c32e35b573d9a15a1f1fdfdc3d0af8c59a38a41918ee6e6b00f6b9fd8f0997609aea8f372110caaa4d284e31583eeb9ccdbb8c29b6cd72b9fca81889ac8598f",
-                        "sha1": "146bc38650e09875c678a78014a3ed55d2fd4ca9"
-                    },
-                    "required_dependencies": [
-                        "R2OftAxM"
-                    ],
-                    "size": 798485,
-                    "date_published": "2025-08-28T18:45:04.866091Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "X5PYaetmq4orTQEw",
             "type": "MOD",
             "side": "BOTH",
