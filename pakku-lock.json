@@ -294,6 +294,43 @@
             ]
         },
         {
+            "pakku_id": "PGF5yV3h3KzjGDOE",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "aquaculture-delight"
+            },
+            "name": {
+                "modrinth": "Aquaculture Delight"
+            },
+            "id": {
+                "modrinth": "U9GJqWrI"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/U9GJqWrI/versions/VFpyJiVp/aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
+                    "id": "VFpyJiVp",
+                    "parent_id": "U9GJqWrI",
+                    "hashes": {
+                        "sha512": "ef13ec67b0af25a94015d5dcd7a549b3a7759026cd3689923b107e92700f09cc0826f0c98d22fdeef37f2f8d5f1219f6d6edabb5f026b5fec9d347b5e1c23231",
+                        "sha1": "111393c07a98f29cab1de0d91965cc1bc6d9d73f"
+                    },
+                    "required_dependencies": [],
+                    "size": 213607,
+                    "date_published": "2025-02-10T20:56:44.374819Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pZK1iopXfuVqo6Fa",
             "type": "MOD",
             "side": "BOTH",
