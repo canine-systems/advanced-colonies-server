@@ -878,6 +878,87 @@
             ]
         },
         {
+            "pakku_id": "RnpFT3juhehpHqrq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "bluelib"
+            },
+            "name": {
+                "modrinth": "BlueLib"
+            },
+            "id": {
+                "modrinth": "e4dMhzcL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "2.4.3-neoforge-1.21.1-bluelib-2.4.3.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/e4dMhzcL/versions/YFGbBo01/2.4.3-neoforge-1.21.1-bluelib-2.4.3.jar",
+                    "id": "YFGbBo01",
+                    "parent_id": "e4dMhzcL",
+                    "hashes": {
+                        "sha512": "59a29756b4d6e8ead64eb7b09f65e17009f2e7cfd1cb38a42ca6f1434c16166a3db1ad9b988fcf1f394e27eafe2cb7547e39eafffed56b01a3fb2f13fa97c235",
+                        "sha1": "37ff396587b92481644decaaf64b851cc16fc7e6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1051325,
+                    "date_published": "2026-01-04T17:54:51.456151Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qHwtEMSqWCkjh99h",
+            "pakku_links": [
+                "RnpFT3juhehpHqrq"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "bluedude-dragons"
+            },
+            "name": {
+                "modrinth": "Bluedude Dragons"
+            },
+            "id": {
+                "modrinth": "SImnmScL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "bdd-neoforge-1.21.1-1.3.0-alpha.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/SImnmScL/versions/gKRLQn5o/bdd-neoforge-1.21.1-1.3.0-alpha.jar",
+                    "id": "gKRLQn5o",
+                    "parent_id": "SImnmScL",
+                    "hashes": {
+                        "sha512": "4d51ef6a57afb039fd6c26b80b4d06ff74b75a3a7d1bded5aa7d694f3958fcb84c06934ed7e44c137197c55f47975d01b8b006b3506a440cf1df561d3f2ee598",
+                        "sha1": "492049ca32c61afa4fa7f157ad92709a480f0f34"
+                    },
+                    "required_dependencies": [
+                        "e4dMhzcL"
+                    ],
+                    "size": 21280474,
+                    "date_published": "2026-01-04T23:49:42.294657Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Qyfy7wTHIK8ZHZc3",
             "type": "MOD",
             "side": "BOTH",
@@ -3015,6 +3096,57 @@
                     ],
                     "size": 174766,
                     "date_published": "2025-04-06T15:37:09.195592Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "XBMrLNcwumG0Jp6j",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "equalsaplingrates"
+            },
+            "name": {
+                "modrinth": "Equal Sapling Rates"
+            },
+            "id": {
+                "modrinth": "1HLcP574"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "equalsaplingrates-1.1.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1HLcP574/versions/MIti90jx/equalsaplingrates-1.1.3.jar",
+                    "id": "MIti90jx",
+                    "parent_id": "1HLcP574",
+                    "hashes": {
+                        "sha512": "996731ab5dff35a3cf3bb19e33d57e196d0779ada1c66aac5a3a02a97895f4fa7345417cda824d5b3aa4a5a491e286e69abb423fababcffc2a624ae4bbe4bd91",
+                        "sha1": "a5e4ad868bcbbdb300aff42923acd22115fba26e"
+                    },
+                    "required_dependencies": [],
+                    "size": 21816,
+                    "date_published": "2025-12-12T21:12:00.666903Z"
                 }
             ]
         },
