@@ -134,6 +134,9 @@
         },
         {
             "pakku_id": "U4NmjRRMxawe09GU",
+            "pakku_links": [
+                "0LXgubQ8rMWxGDtB"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "apothic-attributes"
@@ -5382,6 +5385,42 @@
                     ],
                     "size": 39573,
                     "date_published": "2025-10-17T00:04:35.078806Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0LXgubQ8rMWxGDtB",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "placebo"
+            },
+            "name": {
+                "curseforge": "Placebo"
+            },
+            "id": {
+                "curseforge": "283644"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Placebo-1.21.1-9.9.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar",
+                    "id": "6926281",
+                    "parent_id": "283644",
+                    "hashes": {
+                        "sha1": "1c2b8c38066d6f36209c5dadee25c184ef65202e",
+                        "md5": "cc725fc5406d3af893484cfbba06f6ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 324056,
+                    "date_published": "2025-08-25T10:59:44.943Z"
                 }
             ]
         },
