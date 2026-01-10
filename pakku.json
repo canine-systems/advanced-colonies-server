@@ -9,7 +9,8 @@
         "ops.json",
         "whitelist.json",
         "server.properties",
-        "server-icon.png"
+        "server-icon.png",
+        "squaremap"
     ],
     "projects": {
         "default-options": {"side": "BOTH"},
