@@ -1782,7 +1782,7 @@
                 "PmI4kNznm5YAhxYj"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "controlling"
             },
@@ -4466,7 +4466,7 @@
         {
             "pakku_id": "EAlmUg06ZEmmxe3n",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "mafglib"
             },
@@ -5920,7 +5920,7 @@
                 "bBgPYSkjp9EKBSgz"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "roughly-enough-professions-rep"
             },
@@ -6046,7 +6046,7 @@
         {
             "pakku_id": "PmI4kNznm5YAhxYj",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "searchables"
             },
