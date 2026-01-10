@@ -9,33 +9,19 @@ export TOP_PID=$$
 START=$(date +'%d %b %Y at %H:%M:%S')
 START_TS=$(date +'%s')
 
-LOG_FILE="$HOME/backup.log"
-LAST_BACKUP_FILE="$HOME/.last-backup.txt"
+LOG_FILE="$HOME/map-upload.log"
+LAST_BACKUP_FILE="$HOME/.last-map-upload.txt"
 
 function fail() {
-    echo "$@" > ~/.backup-error.txt
     printf "\n-----------------------------" >> $LOG_FILE
     echo >> $LOG_FILE
     echo "$@" >> $LOG_FILE
-    notify-send -u critical "Backup failed!" "See $LOG_FILE for details."
     # Kill the top-level process, instead of just exiting this function.
     kill -s TERM $TOP_PID
 }
 
-function notify-log() {
-    notify-send "$1" "$2"
-    printf "\n-----------------------------" >> $LOG_FILE
-    echo >> $LOG_FILE
-    echo "$1" >> $LOG_FILE
-    printf "$2\n" >> $LOG_FILE
-}
-
 [ -f "$LOG_FILE" ] && mv "$LOG_FILE" "$LOG_FILE.1"
-printf "Backup started on $START\n\n" > $LOG_FILE
-
-if [ -z "${HOSTNAME}" ]; then
-    fail '$HOSTNAME is empty.'
-fi
+printf "Upload started on $START\n\n" > $LOG_FILE
 
 # -a:   "Archive mode."
 # -z:   Compress file data during transfer
@@ -49,11 +35,6 @@ END_TS=$(date +'%s')
 
 DURATION=$[$END_TS - $START_TS]
 
-rm -f ~/.backup-error.txt
-
 echo "$END_TS" > $LAST_BACKUP_FILE
 
-echo | tee -a $LOG_FILE
-ssh "${BACKUP_REMOTE}" df -h / | tee -a $LOG_FILE
-
-notify-log "Backup complete." "Started on $START.\\nTook $DURATION seconds."
+printf "Backup complete." "Started on $START.\nTook $DURATION seconds." >> $LOG_FILE
