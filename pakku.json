@@ -12,6 +12,10 @@
         "server-icon.png"
     ],
     "projects": {
+        "controlling": {"side": "BOTH"},
+        "mafglib": {"side": "BOTH"},
+        "roughly-enough-professions-rep": {"side": "BOTH"},
+        "searchables": {"side": "BOTH"},
         "bridging-mod": {"side": "BOTH"},
         "colorful-hearts": {"side": "BOTH"},
         "crafttweaker-gui": {"side": "BOTH"},
