@@ -2599,6 +2599,56 @@
             ]
         },
         {
+            "pakku_id": "KOp2A6zIu1E3kVjF",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "Zmw8CHXZc70rTeUQ",
+                "AeUeU0wZE1MQJYGg",
+                "Bi4KNTkSoHXfZkwb",
+                "dSlDKCR4s6LTkNdl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-wizardry"
+            },
+            "name": {
+                "modrinth": "Create: Wizardry"
+            },
+            "id": {
+                "modrinth": "OeGdeWEj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_wizardry-0.3.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OeGdeWEj/versions/PhsfUFXT/create_wizardry-0.3.5.jar",
+                    "id": "PhsfUFXT",
+                    "parent_id": "OeGdeWEj",
+                    "hashes": {
+                        "sha512": "498d3ecd790d2474e691f5edb6023c793b41b098a9cc7e681a9881c679610f1b8ebe5f54fb99f6fd25442d8ff5ce401fdc3d04fd722dbe33fb36bcfaf07aceed",
+                        "sha1": "b71a4df626992792aafd3b2350f638cc1cda411f"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "vvuO3ImH",
+                        "8BmcQJ2H",
+                        "s4OWxYQQ",
+                        "gedNE4y2"
+                    ],
+                    "size": 184183,
+                    "date_published": "2025-12-10T06:09:09.011154Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DNfyh23tmVU7RzLx",
             "pakku_links": [
                 "9MyLv4zmkTWtump5"
@@ -2724,7 +2774,7 @@
                 "WSH1maVNFXHl0hIW"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "default-options"
             },
