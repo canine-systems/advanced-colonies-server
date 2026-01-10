@@ -2719,6 +2719,48 @@
             ]
         },
         {
+            "pakku_id": "QeQePYJZQLGFmciG",
+            "pakku_links": [
+                "WSH1maVNFXHl0hIW"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "default-options"
+            },
+            "name": {
+                "modrinth": "Default Options"
+            },
+            "id": {
+                "modrinth": "WEg59z5b"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "defaultoptions-neoforge-1.21.1-21.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WEg59z5b/versions/akQv5d1t/defaultoptions-neoforge-1.21.1-21.1.5.jar",
+                    "id": "akQv5d1t",
+                    "parent_id": "WEg59z5b",
+                    "hashes": {
+                        "sha512": "bef82a4a4340a82771ada80c483677b544f8295cdb8c8ec63953fcc4e67aae281e6d68bdaff55647a1908ff68788203d6b45d0d28229eaeaac8000a7a3f36acf",
+                        "sha1": "7104cd59707a13e36f6e113dc17faa0a8ee496e3"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 95656,
+                    "date_published": "2025-09-07T12:29:32.721176Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PbWKuic65AfFQOGi",
             "pakku_links": [
                 "ARCkKF9ksgTYmPEh"

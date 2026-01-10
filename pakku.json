@@ -12,6 +12,7 @@
         "server-icon.png"
     ],
     "projects": {
+        "default-options": {"side": "BOTH"},
         "controlling": {"side": "BOTH"},
         "mafglib": {"side": "BOTH"},
         "roughly-enough-professions-rep": {"side": "BOTH"},
