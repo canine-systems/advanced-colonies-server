@@ -36,5 +36,9 @@ echo "eula=true" > eula.txt
 
 run mkdir -p "$SYSTEMD_DIR"
 run cp "$INSTALL_DIR/maintenance/systemd/"* "$SYSTEMD_DIR"
+
+export XDG_RUNTIME_DIR=/run/user/$(id -u minecraft)
+export DBUS_SESSION_BUS_ADDRESS=/run/user/$(id -u minecraft)/bus
+
 run systemctl --user enable minecraft
 run systemctl --user enable sync-map.timer
