@@ -22,10 +22,11 @@ function run() {
 run rm -rf "$TMPDIR"
 run mkdir "$TMPDIR"
 
+run mkdir -p "$INSTALL_DIR"
+cd "$INSTALL_DIR" || exit $?
+
 run wget -O "$INSTALLER" "https://maven.neoforged.net/releases/net/neoforged/neoforge/$NEOFORGE_VERSION/neoforge-$NEOFORGE_VERSION-installer.jar"
 run java -jar "$INSTALLER" "$INSTALL_DIR"
-
-cd "$INSTALL_DIR"
 
 run wget -O "$MODPACK" "https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-serverpack.zip"
 run unzip -o "$MODPACK"
