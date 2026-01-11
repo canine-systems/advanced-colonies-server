@@ -33,8 +33,6 @@ run unzip -o "$MODPACK"
 echo "> echo eula=true > eula.txt"
 echo "eula=true" > eula.txt
 
-run crontab "$INSTALL_DIR/server/maintenance/crontab.default"
-
 run mkdir -p "$SYSTEMD_DIR"
 run cp "$INSTALL_DIR/maintenance/systemd/"* "$SYSTEMD_DIR"
 run systemctl --user enable minecraft
