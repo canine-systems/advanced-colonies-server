@@ -15,7 +15,10 @@ run useradd -r -m -U -d /opt/minecraft -s /bin/bash minecraft
 echo "3. Enable lingering for minecraft user."
 run loginctl enable-linger minecraft
 
-echo "4. Fetching and running bootstrap-minecraft.sh"
+echo "4. Add minecraft user to systemd-journal group"
+run gpasswd -a minecraft systemd-journal
+
+echo "5. Fetching and running bootstrap-minecraft.sh"
 run wget -O /tmp/bootstrap-minecraft.sh https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/bootstrap-minecraft.sh
 run su -l minecraft -c '/usr/bin/bash /tmp/bootstrap-minecraft.sh'
 run rm /tmp/bootstrap-minecraft.sh
