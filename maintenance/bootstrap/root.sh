@@ -8,7 +8,7 @@ function run() {
 echo "=== Advanced Colonies Minecraft Server Setup ==="
 
 echo "1. Installing Java, tmux, and htop."
-run apt install default-jre tmux htop
+run apt install -y default-jre tmux htop
 echo "2. Creating Minecraft user."
 run useradd -r -m -U -d /opt/minecraft -s /bin/bash minecraft
 
