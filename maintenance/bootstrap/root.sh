@@ -14,5 +14,5 @@ run useradd -r -m -U -d /opt/minecraft -s /bin/bash minecraft
 
 echo "3. Fetching and running bootstrap/minecraft.sh"
 run wget -O /tmp/bootstrap-minecraft.sh https://github.com/canine-systems/advanced-colonies-server/raw/refs/heads/main/maintenance/bootstrap/minecraft.sh
-run su -l minecraft bash /tmp/bootstrap-minecraft.sh
+run su -l minecraft -c /usr/bin/bash /tmp/bootstrap-minecraft.sh
 run rm /tmp/bootstrap-minecraft.sh
