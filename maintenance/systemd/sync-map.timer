@@ -1,0 +1,9 @@
+[Unit]
+Description=Sync Map Periodically
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

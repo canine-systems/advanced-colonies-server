@@ -8,7 +8,13 @@ Latest Release: https://github.com/canine-systems/advanced-colonies-server/relea
 
 ## Server Config
 
-??? TODO
+Assuming you have a Debian 13 installation.
+
+As root, run:
+
+```
+wget -O- https://raw.github.com/canine-systems/advanced-colonies/blob/main/maintenance/bootstrap/root.sh | bash
+```
 
 ## Development
 
