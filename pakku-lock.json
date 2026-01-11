@@ -771,6 +771,43 @@
             ]
         },
         {
+            "pakku_id": "3ccU8hJDyOkOBmQt",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "baguettelib"
+            },
+            "name": {
+                "modrinth": "BaguetteLib"
+            },
+            "id": {
+                "modrinth": "OfKzpbRU"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "baguettelib-1.21.1-NeoForge-1.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OfKzpbRU/versions/EhQs2skr/baguettelib-1.21.1-NeoForge-1.1.5.jar",
+                    "id": "EhQs2skr",
+                    "parent_id": "OfKzpbRU",
+                    "hashes": {
+                        "sha512": "a3c71420f36b627a49ee894fc7dd294e82304107d402449f3db638a5a38678fe974d07429eed5183ef4b7f872f664ffcfebfcbdd0264f5ee26725b1914fbed24",
+                        "sha1": "f4dc59ccb7767daa4ff22a7e8b59cf937efb9cdd"
+                    },
+                    "required_dependencies": [],
+                    "size": 66286,
+                    "date_published": "2025-12-19T20:10:03.313234Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WSH1maVNFXHl0hIW",
             "type": "MOD",
             "side": "BOTH",
@@ -3814,6 +3851,86 @@
                     ],
                     "size": 462245,
                     "date_published": "2025-04-16T00:02:40.980Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6Sa3MXXgikQfsxDA",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "gravestone-mod"
+            },
+            "name": {
+                "modrinth": "GraveStone Mod"
+            },
+            "id": {
+                "modrinth": "RYtXKJPr"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "gravestone-neoforge-1.21.1-1.0.35.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RYtXKJPr/versions/AZm51eX1/gravestone-neoforge-1.21.1-1.0.35.jar",
+                    "id": "AZm51eX1",
+                    "parent_id": "RYtXKJPr",
+                    "hashes": {
+                        "sha512": "4fac4b141df81161177fb0882335e27d1259d05ffd3f3795a0258e3471f4e72840cfa5b73fb1bc1ad8cdca255b83dc46f713f81fea533e4fb1e72834e1724886",
+                        "sha1": "91f5e2395081ac5f5034ce05f83bcbfca1e3fd5c"
+                    },
+                    "required_dependencies": [],
+                    "size": 318685,
+                    "date_published": "2025-10-12T17:07:37.958958Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "SIu5cdGrLje2xBHu",
+            "pakku_links": [
+                "3ccU8hJDyOkOBmQt"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "gravestone-x-curios-api-compat"
+            },
+            "name": {
+                "modrinth": "Gravestone x Curios API Compat"
+            },
+            "id": {
+                "modrinth": "NaiL8bPN"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "gravestonecurioscompat-1.21.1-NeoForge-3.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NaiL8bPN/versions/HwlTVmVu/gravestonecurioscompat-1.21.1-NeoForge-3.0.1.jar",
+                    "id": "HwlTVmVu",
+                    "parent_id": "NaiL8bPN",
+                    "hashes": {
+                        "sha512": "61e97e1af9b3439f66c8f79e68f9c8b0feec8ac6bf21f8f2e2d5c888534c4420b96e3067c7937accb42889e3146eadb90ee3a3daae3e89e41441849386805f4c",
+                        "sha1": "6af464b8bc270c8d21fca7022051d42b6f736484"
+                    },
+                    "required_dependencies": [
+                        "OfKzpbRU"
+                    ],
+                    "size": 14841,
+                    "date_published": "2025-07-11T09:33:15.224183Z"
                 }
             ]
         },
