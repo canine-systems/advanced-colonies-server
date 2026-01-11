@@ -1,6 +1,6 @@
 {
     "name": "Advanced Colonies",
-    "version": "2.0",
+    "version": "3.0",
     "overrides": [
         "config",
         "maintenance",
