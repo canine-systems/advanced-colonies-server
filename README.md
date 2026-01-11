@@ -11,7 +11,7 @@ Latest Release: https://github.com/canine-systems/advanced-colonies-server/relea
 This has only been tested on a fresh Debian 13 installation.
 
 ```
-wget -O- https://github.com/canine-systems/advanced-colonies-server/raw/refs/heads/main/maintenance/bootstrap/root.sh | sudo bash
+wget -O- https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/bootstrap-root.sh | sudo bash
 ```
 
 ## Development

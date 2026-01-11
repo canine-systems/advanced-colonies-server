@@ -10,7 +10,13 @@ dist/advanced-colonies-serverpack.zip:
 	./bin/pakku export
 	mv "build/serverpack/Advanced Colonies-3.0.zip" "dist/advanced-colonies-serverpack.zip"
 
-dist: dist/advanced-colonies-serverpack.zip dist/mods.md
+dist/bootstrap-root.sh:
+	cp bootstrap/bootstrap-root.sh dist/
+
+dist/bootstrap-minecraft.sh:
+	cp bootstrap/bootstrap-minecraft.sh dist/
+
+dist: dist/advanced-colonies-serverpack.zip dist/mods.md dist/bootstrap-root.sh dist/bootstrap-minecraft.sh
 
 clean:
 	rm -rf build dist
