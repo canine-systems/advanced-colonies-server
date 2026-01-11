@@ -3,10 +3,10 @@ Description=Minecraft Server
 After=network.target
 
 [Service]
-User=minecraft
-Group=minecraft
+WorkingDirectory=/opt/minecraft/server
 
 Restart=always
+RestartSec=10
 
 ExecStart=/opt/minecraft/server/run.sh
 
