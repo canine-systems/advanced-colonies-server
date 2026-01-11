@@ -4052,6 +4052,63 @@
             ]
         },
         {
+            "pakku_id": "blPdOFE61DuHgxR8",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "ie-reimmersed"
+            },
+            "name": {
+                "modrinth": "IE: Reimmersed"
+            },
+            "id": {
+                "modrinth": "Ah9dJFtY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "IE Reimmersed v1.0 Forge.zip",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ah9dJFtY/versions/5fqawpCo/IE Reimmersed v1.0 Forge.zip",
+                    "id": "5fqawpCo",
+                    "parent_id": "Ah9dJFtY",
+                    "hashes": {
+                        "sha512": "f45ed82a45a218ef6cfde5def6b30d301590fa5c35de3c7dde6355784848e73fc8e5e9378894cad8988f8aec780a6bf68a82b06889067a72be8df69416b344e4",
+                        "sha1": "7f2dfa57fa0abd5484cf53835f2de43ac2d4ef0a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1447726,
+                    "date_published": "2025-09-28T13:23:57.292744Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Eax0a5YRBrK0Hlrv",
             "type": "MOD",
             "side": "BOTH",
