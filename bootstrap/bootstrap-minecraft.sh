@@ -38,3 +38,4 @@ run crontab "$INSTALL_DIR/server/maintenance/crontab.default"
 run mkdir -p "$SYSTEMD_DIR"
 run cp "$INSTALL_DIR/maintenance/systemd/"* "$SYSTEMD_DIR"
 run systemctl --user enable minecraft
+run systemctl --user enable sync-map.timer
