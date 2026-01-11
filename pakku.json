@@ -1,12 +1,23 @@
 {
     "name": "Advanced Colonies",
-    "version": "2.0",
+    "version": "3.0",
     "overrides": [
         "config",
         "maintenance",
-        "scripts"
+        "scripts",
+        "user_jvm_args.txt",
+        "ops.json",
+        "whitelist.json",
+        "server.properties",
+        "server-icon.png",
+        "squaremap"
     ],
     "projects": {
+        "default-options": {"side": "BOTH"},
+        "controlling": {"side": "BOTH"},
+        "mafglib": {"side": "BOTH"},
+        "roughly-enough-professions-rep": {"side": "BOTH"},
+        "searchables": {"side": "BOTH"},
         "bridging-mod": {"side": "BOTH"},
         "colorful-hearts": {"side": "BOTH"},
         "crafttweaker-gui": {"side": "BOTH"},

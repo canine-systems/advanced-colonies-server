@@ -1,0 +1,16 @@
+# This file is from https://github.com/canine-systems/advanced-colonies-server
+
+# Use Generational Z Garbage Collector (ZGC)
+-XX:+UseZGC -XX:+ZGenerational
+
+# Set max heap size to ~2GB less than what the system has.
+-Xmx15G
+
+# Set min heap size to the same as max, to avoid dealloc/alloc overhead.
+-Xms15G
+
+# Pre-allocate the heap before starting.
+-XX:+AlwaysPreTouch
+
+# Deduplicate strings on the heap.
+-XX:+UseStringDeduplication

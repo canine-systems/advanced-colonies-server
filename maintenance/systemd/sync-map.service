@@ -1,0 +1,9 @@
+[Unit]
+Description=Map Sync
+
+[Service]
+Type=oneshot
+ExecStart=/opt/minecraft/server/maintenance/sync-map.sh
+
+NoNewPrivileges=true
+PrivateTmp=true
