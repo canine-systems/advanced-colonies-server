@@ -8,7 +8,7 @@ dist/advanced-colonies-serverpack.zip:
 	mkdir -p dist
 	./bin/pakku fetch
 	./bin/pakku export
-	mv "build/serverpack/Advanced Colonies-2.0.zip" "dist/advanced-colonies-serverpack.zip"
+	mv "build/serverpack/Advanced Colonies-3.0.zip" "dist/advanced-colonies-serverpack.zip"
 
 dist: dist/advanced-colonies-serverpack.zip dist/mods.md
 
