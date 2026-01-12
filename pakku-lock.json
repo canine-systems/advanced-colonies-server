@@ -133,6 +133,119 @@
             ]
         },
         {
+            "pakku_id": "dZSbRlhSOleNidfk",
+            "pakku_links": [
+                "7Ue4CsaapyYbw1r7"
+            ],
+            "type": "DATA_PACK",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "animated-doors"
+            },
+            "name": {
+                "modrinth": "Animated Doors"
+            },
+            "id": {
+                "modrinth": "EuloLapn"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "AnimatedDoors-1.21.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EuloLapn/versions/EgGuqWmR/AnimatedDoors-1.21.zip",
+                    "id": "EgGuqWmR",
+                    "parent_id": "EuloLapn",
+                    "hashes": {
+                        "sha512": "c73303611b1f482cf17aefc33881c71bc7a7db2b00bbe0ca51175556b4ee9ebf38bbb23e3db8f2c0568458c9fe80d41efbf9b21132d4ab0633796c8670da820b",
+                        "sha1": "cba628e941ce2d2d689dacc9d5b626856df733ec"
+                    },
+                    "required_dependencies": [
+                        "SFrRaocz"
+                    ],
+                    "size": 93266,
+                    "date_published": "2024-06-28T09:56:27.279221Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7Ue4CsaapyYbw1r7",
+            "pakku_links": [
+                "dZSbRlhSOleNidfk"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "animated-door"
+            },
+            "name": {
+                "modrinth": "Animated Doors RP"
+            },
+            "id": {
+                "modrinth": "SFrRaocz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "AnimatedDoors-RPv1.2.zip",
+                    "mc_versions": [
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SFrRaocz/versions/Qp0kN5Uh/AnimatedDoors-RPv1.2.zip",
+                    "id": "Qp0kN5Uh",
+                    "parent_id": "SFrRaocz",
+                    "hashes": {
+                        "sha512": "488e153b2c92c3933a7e21b5c4f03fe8ddb6aa09e8f20901b35aadafdb2e4408376e1f2e5719aee744dffa5bbc158abd90b589e1ec3911245a88b5c0883b39b0",
+                        "sha1": "c21b5424eb0bd269b8f77e62981d43713434beea"
+                    },
+                    "required_dependencies": [
+                        "EuloLapn"
+                    ],
+                    "size": 78123,
+                    "date_published": "2024-06-28T09:54:42.428819Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "U4NmjRRMxawe09GU",
             "pakku_links": [
                 "0LXgubQ8rMWxGDtB"
@@ -3088,6 +3201,55 @@
                     "required_dependencies": [],
                     "size": 24859622,
                     "date_published": "2024-09-29T20:19:43.373Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vaaiAAQwPoieUe0L",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "dynamic-light"
+            },
+            "name": {
+                "modrinth": "Dynamic light"
+            },
+            "id": {
+                "modrinth": "DJ1ZClf3"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "dynamic-light-0.6.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DJ1ZClf3/versions/MhLShKkT/dynamic-light-0.6.2.jar",
+                    "id": "MhLShKkT",
+                    "parent_id": "DJ1ZClf3",
+                    "hashes": {
+                        "sha512": "0dc787deadca5b06431f977d33569d8747cf0e3cd7ff04c0ab55840959c051c041a99c4b1051735ac1c9a2f4bd9bfb5f0605733c4f2492bb0e97458d7a9b6e85",
+                        "sha1": "dce4b729e1ad38b8577b0f7a1db1ac97fe632d82"
+                    },
+                    "required_dependencies": [],
+                    "size": 13294,
+                    "date_published": "2025-07-16T13:58:06.925589Z"
                 }
             ]
         },
@@ -6425,6 +6587,57 @@
             ]
         },
         {
+            "pakku_id": "Y9N5HRTxmscZMfPe",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "sit-anywhere!"
+            },
+            "name": {
+                "modrinth": "Sit Anywhere!"
+            },
+            "id": {
+                "modrinth": "gNPj0UDg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sit-anywhere!-2.3.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gNPj0UDg/versions/IzxDgWFY/sit-anywhere!-2.3.4.jar",
+                    "id": "IzxDgWFY",
+                    "parent_id": "gNPj0UDg",
+                    "hashes": {
+                        "sha512": "4f5a98b75c6edbe6d2a4166b9290dca90a0e9860104d6f13d0e91cb6e3bf2a393c70b943d648bad23fc3f56bbb247adf1d7c86d3fd63cb98738ef19663ff275a",
+                        "sha1": "53996d3b3b90c046f5fc07a3e7c79383c2f94ba6"
+                    },
+                    "required_dependencies": [],
+                    "size": 44145,
+                    "date_published": "2025-09-04T21:01:15.193412Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IwaUVBgZs0ysPk3L",
             "pakku_links": [
                 "lFGsB9Mv7BW7F1bK",
@@ -6466,6 +6679,44 @@
                     ],
                     "size": 1759462,
                     "date_published": "2025-11-02T21:18:00.707Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "At1T9TWgRugWFjvh",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "smelting-plus"
+            },
+            "name": {
+                "modrinth": "Smelting Plus"
+            },
+            "id": {
+                "modrinth": "xDvYGZrH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Smelting_Plus_DataPack-V1.0.7.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/xDvYGZrH/versions/Sa0UoKJj/Smelting_Plus_DataPack-V1.0.7.zip",
+                    "id": "Sa0UoKJj",
+                    "parent_id": "xDvYGZrH",
+                    "hashes": {
+                        "sha512": "b6682f4b28c93efa44fb027e032b2595ca6fdd738df2c5bcb047f0f4b373838e43de249df6defbbd2035d327bba00c2c5e04b7bd2ab6328a35de3de36d53e0d1",
+                        "sha1": "7677de0dd958fe88dd81b3d2228d4ececb875a3f"
+                    },
+                    "required_dependencies": [],
+                    "size": 125772,
+                    "date_published": "2024-07-10T23:25:36.839887Z"
                 }
             ]
         },
@@ -6730,6 +6981,381 @@
                     ],
                     "size": 131918,
                     "date_published": "2025-10-30T21:20:27.882468Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "llDAumMwXULD9HVf",
+            "type": "DATA_PACK",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "spawn-animations"
+            },
+            "name": {
+                "modrinth": "Spawn Animations"
+            },
+            "id": {
+                "modrinth": "zrzYrlm0"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "spawnanimations-v1.11.3-mc1.17-1.21.11-datapack.zip",
+                    "mc_versions": [
+                        "1.17",
+                        "1.17.1-pre1",
+                        "1.17.1-pre2",
+                        "1.17.1-pre3",
+                        "1.17.1-rc1",
+                        "1.17.1-rc2",
+                        "1.17.1",
+                        "21w37a",
+                        "21w38a",
+                        "21w39a",
+                        "21w40a",
+                        "21w41a",
+                        "21w42a",
+                        "21w43a",
+                        "21w44a",
+                        "1.18-pre1",
+                        "1.18-pre2",
+                        "1.18-pre3",
+                        "1.18-pre4",
+                        "1.18-pre5",
+                        "1.18-pre6",
+                        "1.18-pre7",
+                        "1.18-pre8",
+                        "1.18-rc1",
+                        "1.18-rc2",
+                        "1.18-rc3",
+                        "1.18-rc4",
+                        "1.18",
+                        "1.18.1-pre1",
+                        "1.18.1-rc1",
+                        "1.18.1-rc2",
+                        "1.18.1-rc3",
+                        "1.18.1",
+                        "22w03a",
+                        "22w05a",
+                        "22w06a",
+                        "22w07a",
+                        "1.18.2-pre1",
+                        "1.18.2-pre2",
+                        "1.18.2-pre3",
+                        "1.18.2-rc1",
+                        "1.18.2",
+                        "22w11a",
+                        "22w12a",
+                        "22w13a",
+                        "22w13oneblockatatime",
+                        "22w14a",
+                        "22w15a",
+                        "22w16a",
+                        "22w16b",
+                        "22w17a",
+                        "22w18a",
+                        "22w19a",
+                        "1.19-pre1",
+                        "1.19-pre2",
+                        "1.19-pre3",
+                        "1.19-pre4",
+                        "1.19-pre5",
+                        "1.19-rc1",
+                        "1.19-rc2",
+                        "1.19",
+                        "22w24a",
+                        "1.19.1-pre1",
+                        "1.19.1-rc1",
+                        "1.19.1-pre2",
+                        "1.19.1-pre3",
+                        "1.19.1-pre4",
+                        "1.19.1-pre5",
+                        "1.19.1-pre6",
+                        "1.19.1-rc2",
+                        "1.19.1-rc3",
+                        "1.19.1",
+                        "1.19.2-rc1",
+                        "1.19.2-rc2",
+                        "1.19.2",
+                        "22w42a",
+                        "22w43a",
+                        "22w44a",
+                        "22w45a",
+                        "22w46a",
+                        "1.19.3-pre1",
+                        "1.19.3-pre2",
+                        "1.19.3-pre3",
+                        "1.19.3-rc1",
+                        "1.19.3-rc2",
+                        "1.19.3-rc3",
+                        "1.19.3",
+                        "23w03a",
+                        "23w04a",
+                        "23w05a",
+                        "23w06a",
+                        "23w07a",
+                        "1.19.4-pre1",
+                        "1.19.4-pre2",
+                        "1.19.4-pre3",
+                        "1.19.4-pre4",
+                        "1.19.4-rc1",
+                        "1.19.4-rc2",
+                        "1.19.4-rc3",
+                        "1.19.4",
+                        "23w12a",
+                        "23w13a",
+                        "23w13a_or_b",
+                        "23w14a",
+                        "23w16a",
+                        "23w17a",
+                        "23w18a",
+                        "1.20-pre1",
+                        "1.20-pre2",
+                        "1.20-pre3",
+                        "1.20-pre4",
+                        "1.20-pre5",
+                        "1.20-pre6",
+                        "1.20-pre7",
+                        "1.20-rc1",
+                        "1.20",
+                        "1.20.1-rc1",
+                        "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
+                        "1.20.2-pre2",
+                        "1.20.2-pre3",
+                        "1.20.2-pre4",
+                        "1.20.2-rc1",
+                        "1.20.2-rc2",
+                        "1.20.2",
+                        "23w40a",
+                        "23w41a",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
+                        "1.20.3-pre1",
+                        "1.20.3-pre2",
+                        "1.20.3-pre3",
+                        "1.20.3-pre4",
+                        "1.20.3-rc1",
+                        "1.20.3",
+                        "1.20.4-rc1",
+                        "1.20.4",
+                        "23w51a",
+                        "23w51b",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
+                        "1.20.5-pre4",
+                        "1.20.5-rc1",
+                        "1.20.5-rc2",
+                        "1.20.5-rc3",
+                        "1.20.5",
+                        "1.20.6-rc1",
+                        "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
+                        "24w21a",
+                        "24w21b",
+                        "1.21-pre1",
+                        "1.21-pre2",
+                        "1.21-pre3",
+                        "1.21-pre4",
+                        "1.21-rc1",
+                        "1.21",
+                        "1.21.1-rc1",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
+                        "1.21.2-pre3",
+                        "1.21.2-pre4",
+                        "1.21.2-pre5",
+                        "1.21.2-rc1",
+                        "1.21.2-rc2",
+                        "1.21.2",
+                        "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
+                        "1.21.4-pre1",
+                        "1.21.4-pre2",
+                        "1.21.4-pre3",
+                        "1.21.4-rc1",
+                        "1.21.4-rc2",
+                        "1.21.4-rc3",
+                        "1.21.4",
+                        "25w02a",
+                        "25w03a",
+                        "25w04a",
+                        "25w05a",
+                        "25w06a",
+                        "25w07a",
+                        "25w08a",
+                        "25w09a",
+                        "25w09b",
+                        "25w10a",
+                        "1.21.5-pre1",
+                        "1.21.5-pre2",
+                        "1.21.5-pre3",
+                        "1.21.5-rc1",
+                        "1.21.5-rc2",
+                        "1.21.5",
+                        "25w14craftmine",
+                        "25w15a",
+                        "25w16a",
+                        "25w17a",
+                        "25w18a",
+                        "25w19a",
+                        "25w20a",
+                        "25w21a",
+                        "1.21.6-pre1",
+                        "1.21.6-pre2",
+                        "1.21.6-pre3",
+                        "1.21.6-pre4",
+                        "1.21.6-rc1",
+                        "1.21.6",
+                        "1.21.7-rc1",
+                        "1.21.7-rc2",
+                        "1.21.7",
+                        "1.21.8-rc1",
+                        "1.21.8",
+                        "25w31a",
+                        "25w32a",
+                        "25w33a",
+                        "25w34a",
+                        "25w34b",
+                        "25w35a",
+                        "25w36a",
+                        "25w36b",
+                        "25w37a",
+                        "1.21.9-pre1",
+                        "1.21.9-pre2",
+                        "1.21.9-pre3",
+                        "1.21.9-pre4",
+                        "1.21.9-rc1",
+                        "1.21.9",
+                        "1.21.10-rc1",
+                        "1.21.10",
+                        "25w41a",
+                        "25w42a",
+                        "25w43a",
+                        "25w44a",
+                        "25w45a",
+                        "25w46a",
+                        "1.21.11-pre1",
+                        "1.21.11-pre2",
+                        "1.21.11-pre3",
+                        "1.21.11-pre4",
+                        "1.21.11-pre5",
+                        "1.21.11-rc1",
+                        "1.21.11-rc2",
+                        "1.21.11-rc3",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/zrzYrlm0/versions/oYntcV2q/spawnanimations-v1.11.3-mc1.17-1.21.11-datapack.zip",
+                    "id": "oYntcV2q",
+                    "parent_id": "zrzYrlm0",
+                    "hashes": {
+                        "sha512": "fd8c98a823f5c0b59b5c79ac884356ea2512ef75b4cbfb731879df30f50868650ebed00d8aa3abb32c227d18cb008f5d454e9af38071a2eb5b15c4a915598fe8",
+                        "sha1": "ce14ff0150549fe22ad3b317a93bfcbbac4d2e48"
+                    },
+                    "required_dependencies": [],
+                    "size": 194140,
+                    "date_published": "2025-12-09T17:50:32.586552Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wTPYTsYQfJZS2Fc1",
+            "pakku_links": [
+                "llDAumMwXULD9HVf"
+            ],
+            "type": "DATA_PACK",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "spawn-animations-compats"
+            },
+            "name": {
+                "modrinth": "Spawn Animations Compats"
+            },
+            "id": {
+                "modrinth": "ofDka6PS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Spawn Animations Compats.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ofDka6PS/versions/pIxwOQN7/Spawn Animations Compats.zip",
+                    "id": "pIxwOQN7",
+                    "parent_id": "ofDka6PS",
+                    "hashes": {
+                        "sha512": "65c1b1c2f69596a5ee119a35e271f6aace360896acfb2779ff67032f92c4854b37b941922f161631aa71e06fd49e0d55fa22aa9403b07490c3f2eade4d68cb77",
+                        "sha1": "639364e0aaf065385c9359cb9859d26d8d9d7538"
+                    },
+                    "required_dependencies": [
+                        "zrzYrlm0"
+                    ],
+                    "size": 16213,
+                    "date_published": "2025-12-26T09:42:14.269028Z"
                 }
             ]
         },
