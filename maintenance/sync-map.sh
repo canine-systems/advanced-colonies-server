@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BACKUP_REMOTE="puppy@map.canine.systems"
+BACKUP_REMOTE="map.canine.systems"
 
 # Configure it so the TERM process calls `exit 1` at the top level.
 trap "exit 1" TERM
