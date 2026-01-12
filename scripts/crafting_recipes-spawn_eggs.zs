@@ -36,9 +36,11 @@ craftingTable.addShaped("ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.ite
     [<item:minecraft:prismarine_crystals>, <item:minecraft:egg>, <item:minecraft:prismarine_crystals>],
     [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>]]);
 
+/*
 craftingTable.addShaped("ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.hoglin_spawn_egg_0", <item:minecraft:hoglin_spawn_egg>, [
     [IIngredientEmpty.getInstance(), <item:mynethersdelight:hoglin_hide>, IIngredientEmpty.getInstance()],
     [<item:mynethersdelight:hoglin_loin>, <item:minecraft:egg>, <item:mynethersdelight:hoglin_loin>]]);
+*/
 
 craftingTable.addShaped("ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.vindicator_spawn_egg_0", <item:minecraft:vindicator_spawn_egg>, [
     [<item:minecraft:emerald>, <item:minecraft:iron_axe>, <item:minecraft:emerald>],

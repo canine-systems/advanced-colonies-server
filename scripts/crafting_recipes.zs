@@ -6,7 +6,7 @@ craftingTable.addShaped("minecolonies_ancient_tome_without_raiders", <item:minec
 ]);
 
 // paper + paper + string => nametag
-craftingTable.addShaped("custom/nametag", <item:minecraft:nametag>, [
+craftingTable.addShaped("custom/name_tag", <item:minecraft:name_tag>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:miencraft:string>],
     [<item:miencraft:air>, <item:minecraft:paper>, <item:minecraft:air>],
     [<item:minecraft:paper>, <item:minecraft:air>, <item:minecraft:air>]
