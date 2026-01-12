@@ -6,4 +6,3 @@ Type=oneshot
 ExecStart=/usr/bin/bash /opt/minecraft/server/maintenance/sync-map.sh
 
 NoNewPrivileges=true
-PrivateTmp=true
