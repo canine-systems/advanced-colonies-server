@@ -6602,44 +6602,6 @@
             ]
         },
         {
-            "pakku_id": "At1T9TWgRugWFjvh",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "smelting-plus"
-            },
-            "name": {
-                "modrinth": "Smelting Plus"
-            },
-            "id": {
-                "modrinth": "xDvYGZrH"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Smelting_Plus_DataPack-V1.0.7.zip",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "datapack"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/xDvYGZrH/versions/Sa0UoKJj/Smelting_Plus_DataPack-V1.0.7.zip",
-                    "id": "Sa0UoKJj",
-                    "parent_id": "xDvYGZrH",
-                    "hashes": {
-                        "sha512": "b6682f4b28c93efa44fb027e032b2595ca6fdd738df2c5bcb047f0f4b373838e43de249df6defbbd2035d327bba00c2c5e04b7bd2ab6328a35de3de36d53e0d1",
-                        "sha1": "7677de0dd958fe88dd81b3d2228d4ececb875a3f"
-                    },
-                    "required_dependencies": [],
-                    "size": 125772,
-                    "date_published": "2024-07-10T23:25:36.839887Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "2lJ42Gsh5rvz7CBz",
             "pakku_links": [
                 "iKgaxYIDbWiFtLPo"
