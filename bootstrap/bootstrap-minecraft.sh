@@ -35,7 +35,11 @@ echo "> echo eula=true > eula.txt"
 echo "eula=true" > eula.txt
 
 run mkdir -p "$SYSTEMD_DIR"
-run cp "$INSTALL_DIR/maintenance/systemd/"* "$SYSTEMD_DIR"
+
+cd "$INSTALL_DIR/maintenance/systemd"
+for FILE in *.service *.timer; do
+    run ln -s "$PWD/$FILE" "/opt/minecraft/.config/systemd/user/$FILE"
+done
 
 export XDG_RUNTIME_DIR=/run/user/$(id -u minecraft)
 export DBUS_SESSION_BUS_ADDRESS=/run/user/$(id -u minecraft)/bus
