@@ -15,6 +15,13 @@
         "squaremap"
     ],
     "projects": {
+        "animated-door": {"side": "BOTH"},
+        "extra-mod-integrations": {"side": "BOTH"},
+        "emi-enchanting": {"side": "BOTH"},
+        "emi-professions-(emip)": {"side": "BOTH"},
+        "emi-create-schematics": {"side": "BOTH"},
+        "ie-reimmersed": {"side": "BOTH"},
+        "tmrv": {"side": "BOTH"},
         "default-options": {"side": "BOTH"},
         "controlling": {"side": "BOTH"},
         "mafglib": {"side": "BOTH"},
