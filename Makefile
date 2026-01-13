@@ -17,6 +17,10 @@ server: ${SERVER_DIR}
 	@echo "(Theoretically) functional server is available at:"
 	@echo "  $<"
 
+run: ${SERVER_DIR}
+	echo eula=true > ${SERVER_DIR}/eula.txt
+	cd ${SERVER_DIR} && java @user_jvm_args.txt -Xmx8G -Xms8G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui
+
 dist: dist/advanced-colonies-serverpack.zip dist/mods.md dist/bootstrap-root.sh dist/bootstrap-minecraft.sh
 
 build/cache/neoforge-installer.jar:
