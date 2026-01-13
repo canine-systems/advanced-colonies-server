@@ -127,13 +127,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "jadecolonies": {
     "colony.citizens": true,
     "colony.visitor_cost": true,
