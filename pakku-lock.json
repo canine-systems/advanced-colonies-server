@@ -1961,6 +1961,43 @@
             ]
         },
         {
+            "pakku_id": "L14RA3it5AjLdkw6",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "crafting-station-jei-edition-updated"
+            },
+            "name": {
+                "modrinth": "Crafting Station: J/EMI Edition Updated"
+            },
+            "id": {
+                "modrinth": "rc8HlDUK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "craftingstation-jei-neoforge-1.21.1-1.6.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rc8HlDUK/versions/5SywrpuC/craftingstation-jei-neoforge-1.21.1-1.6.5.jar",
+                    "id": "5SywrpuC",
+                    "parent_id": "rc8HlDUK",
+                    "hashes": {
+                        "sha512": "ef2ebe49d049aa511269779379febaeda2ba7d8b69243cce30eaa55c2bec43b93b70c4747f33d5d78d3f2e8dd6d92dd1b341718aa4820aa36afc067420ae963a",
+                        "sha1": "a18ee6eb280e52c98e49fa0ec000b86092c0acc7"
+                    },
+                    "required_dependencies": [],
+                    "size": 104465,
+                    "date_published": "2025-12-31T12:31:30.418672Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GBFWFdfvVxteQiD0",
             "pakku_links": [
                 "WSH1maVNFXHl0hIW"
@@ -3173,6 +3210,310 @@
             ]
         },
         {
+            "pakku_id": "M1DMIX6Cw6X74qzI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "emi"
+            },
+            "name": {
+                "modrinth": "EMI"
+            },
+            "id": {
+                "modrinth": "fRiHVvU7"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi-1.1.22+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/ouSj7NfF/emi-1.1.22+1.21.1+neoforge.jar",
+                    "id": "ouSj7NfF",
+                    "parent_id": "fRiHVvU7",
+                    "hashes": {
+                        "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca",
+                        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3"
+                    },
+                    "required_dependencies": [],
+                    "size": 1038248,
+                    "date_published": "2025-04-14T03:34:26.836424Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Ooq937dhHj0ar9IU",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "extra-mod-integrations"
+            },
+            "name": {
+                "modrinth": "EMI Addon: Extra Mod Integrations"
+            },
+            "id": {
+                "modrinth": "bpRHnWUb"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/bpRHnWUb/versions/bxgGyUjY/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
+                    "id": "bxgGyUjY",
+                    "parent_id": "bpRHnWUb",
+                    "hashes": {
+                        "sha512": "9267359eefc56bdb1eca2992cba12363f54f974f27ca2031ecb0677ba4c3bcd1d563db94dd569bbdf085a8b890cd7aa681ae6f485859051565b6a2cf50adc4c8",
+                        "sha1": "70429571ccf7faa4c1811092739fb7d645829eef"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 316330,
+                    "date_published": "2025-08-29T02:42:35.795825Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DKHtHE39mZUWAXLL",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "emi-enchanting"
+            },
+            "name": {
+                "modrinth": "EMI Enchanting"
+            },
+            "id": {
+                "modrinth": "wbWoo11W"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi_enchanting-0.1.2+1.21+neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wbWoo11W/versions/ZyJ6TKvh/emi_enchanting-0.1.2+1.21+neoforge.jar",
+                    "id": "ZyJ6TKvh",
+                    "parent_id": "wbWoo11W",
+                    "hashes": {
+                        "sha512": "90944c8ff897fa98d0323fe94e4053fb89f43cbaf4fd28d6ad58134cea1469c9398e0c0edd4328a5530e1578ad2286ec5822292bf9c587182e5606dbfff218be",
+                        "sha1": "02ad74769ffcec259fd9bb14a1760593f6182b5c"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 15680,
+                    "date_published": "2024-09-18T02:20:17.475071Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "AiFe4MRVpuSLJdhl",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI",
+                "fpvkUguZqU0jYjiS"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "emi-loot"
+            },
+            "name": {
+                "modrinth": "EMI Loot"
+            },
+            "id": {
+                "modrinth": "qbbO7Jns"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi_loot-0.7.9+1.21+neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qbbO7Jns/versions/QXkODMCT/emi_loot-0.7.9+1.21+neoforge.jar",
+                    "id": "QXkODMCT",
+                    "parent_id": "qbbO7Jns",
+                    "hashes": {
+                        "sha512": "9c67ff502da7a94ef7707c144deb4ec6472f445e99cc8eab30b77f22d886a86b8793338452fe394296f3132ed4d37271d475af184e3a9519ddebdad1a82eecf7",
+                        "sha1": "bd0326eeda721c87a29efd78f9a52f46d572392c"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7",
+                        "hYykXjDp"
+                    ],
+                    "size": 465870,
+                    "date_published": "2026-01-04T16:33:12.673648Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dJ6Bga83qgQ5D6d5",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "emi-ores"
+            },
+            "name": {
+                "modrinth": "EMI Ores"
+            },
+            "id": {
+                "modrinth": "sG4TqDb8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi_ores-1.2+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sG4TqDb8/versions/1jY6MIrK/emi_ores-1.2+1.21.1+neoforge.jar",
+                    "id": "1jY6MIrK",
+                    "parent_id": "sG4TqDb8",
+                    "hashes": {
+                        "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7",
+                        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 111317,
+                    "date_published": "2025-01-06T18:49:44.897801Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dinz31dfGKnBF9zI",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "emi-professions-(emip)"
+            },
+            "name": {
+                "modrinth": "EMI professions (EMIP)"
+            },
+            "id": {
+                "modrinth": "LGVihYcz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "EMIProfessions-neoforge-1.21.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/LGVihYcz/versions/wGOa5uxT/EMIProfessions-neoforge-1.21.1-1.0.3.jar",
+                    "id": "wGOa5uxT",
+                    "parent_id": "LGVihYcz",
+                    "hashes": {
+                        "sha512": "f720f58590e3098459c27e3579f36a00b66443b7c089e3fa9ef1399ed17587d51b046c69e2f07f6e21089fc85d58881a5b224d94a1b2f4738a0c6cbb2dd9c798",
+                        "sha1": "db869b08e5d86188a259b2dfeeece6f94ea17630"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 23543,
+                    "date_published": "2025-02-24T21:20:23.976915Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UVikYDsQA5XSeBhd",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "emi-create-schematics"
+            },
+            "name": {
+                "modrinth": "EMI: Create Schematics"
+            },
+            "id": {
+                "modrinth": "5bgqgixq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi_create_schematics-1.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5bgqgixq/versions/lTjSdvox/emi_create_schematics-1.0.3.jar",
+                    "id": "lTjSdvox",
+                    "parent_id": "5bgqgixq",
+                    "hashes": {
+                        "sha512": "b3396493522b486a9265f20792a81157d04defec03bf4288c440ec89e30dcbf17de2168e7d085bdf31143c8e7875a894e746b4594e232051a623a819abc24ac6",
+                        "sha1": "5df932609b494ef16222250fb50fbbda19b721f5"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "fRiHVvU7"
+                    ],
+                    "size": 48530,
+                    "date_published": "2025-11-25T12:44:12.666518Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QQQmABIrPJufK3w5",
             "pakku_links": [
                 "a4ysORfwoDQi1nmo"
@@ -3854,6 +4195,49 @@
                     ],
                     "size": 1908733,
                     "date_published": "2025-09-28T07:58:11.705539Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fpvkUguZqU0jYjiS",
+            "pakku_links": [
+                "TpkXdt8tc1SApavK"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "fzzy-config"
+            },
+            "name": {
+                "modrinth": "Fzzy Config"
+            },
+            "id": {
+                "modrinth": "hYykXjDp"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fzzy_config-0.7.4+1.21+neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/Mo5GSG4l/fzzy_config-0.7.4+1.21+neoforge.jar",
+                    "id": "Mo5GSG4l",
+                    "parent_id": "hYykXjDp",
+                    "hashes": {
+                        "sha512": "b689aa793cfa63598cbad6fa137f91376e039c8abbc64acdc53fe26da75574b88214a313eaa6f40f72262a999c254c0cecea3be84f086ec4416a52dd56bc002f",
+                        "sha1": "2c6651f0563a4f800e0857e424ac01c1e42f80f7"
+                    },
+                    "required_dependencies": [
+                        "ordsPcFz"
+                    ],
+                    "size": 2348703,
+                    "date_published": "2025-12-14T05:55:48.903641Z"
                 }
             ]
         },
@@ -4687,6 +5071,87 @@
                     "required_dependencies": [],
                     "size": 134388,
                     "date_published": "2025-07-27T07:05:16.663618Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oRCBgr0L2cQgPpp4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "just-enough-effect-descriptions-jeed"
+            },
+            "name": {
+                "modrinth": "Just Enough Effect Descriptions (JEED)"
+            },
+            "id": {
+                "modrinth": "EO27GKs1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "jeed-1.21-2.3.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/HpxNIA6x/jeed-1.21-2.3.2.jar",
+                    "id": "HpxNIA6x",
+                    "parent_id": "EO27GKs1",
+                    "hashes": {
+                        "sha512": "b9a1715054bb65e5cd1ee4f2add8ea5c368f425f7b185c9ed8f94b441286741fb991fe7494d725bd76e741b4d3da842a779ec1aa6b51c0df70e4358f5ca66b24",
+                        "sha1": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
+                    },
+                    "required_dependencies": [],
+                    "size": 164003,
+                    "date_published": "2025-12-17T20:43:45.666641Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NGClYza4Bf0hmyb0",
+            "pakku_links": [
+                "DvkuvZfnZibHrkaJ"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "jei-multiblocks"
+            },
+            "name": {
+                "modrinth": "Just Enough Immersive Multiblocks"
+            },
+            "id": {
+                "modrinth": "ffLYPaWN"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "jeimultiblocks-1.21.1-1.0.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ffLYPaWN/versions/kLhFXG0T/jeimultiblocks-1.21.1-1.0.6.jar",
+                    "id": "kLhFXG0T",
+                    "parent_id": "ffLYPaWN",
+                    "hashes": {
+                        "sha512": "711ce793348d9cf8662bf7e13ed39c2b9d025f9eb3f3c90d7240de2fe2c38ee8c7abf654840e1c945ba66c1739bf77dfe8571a6186cca42cf472b4eaa74a416a",
+                        "sha1": "3c0a8b4823083151572656c702e5a2b45720ab4f"
+                    },
+                    "required_dependencies": [
+                        "u6dRKJwZ",
+                        "tIm2nV03"
+                    ],
+                    "size": 16964,
+                    "date_published": "2025-10-20T22:19:41.509791Z"
                 }
             ]
         },
@@ -6217,93 +6682,6 @@
             ]
         },
         {
-            "pakku_id": "bBgPYSkjp9EKBSgz",
-            "pakku_links": [
-                "ryR9vvBuUd1bSh9x",
-                "pZK1iopXfuVqo6Fa"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "rei"
-            },
-            "name": {
-                "modrinth": "Roughly Enough Items (REI)"
-            },
-            "id": {
-                "modrinth": "nfn13YXA"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "RoughlyEnoughItems-16.0.799-neoforge.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/nfn13YXA/versions/b8gfS9Je/RoughlyEnoughItems-16.0.799-neoforge.jar",
-                    "id": "b8gfS9Je",
-                    "parent_id": "nfn13YXA",
-                    "hashes": {
-                        "sha512": "9b7fb8071813c348d07283b8651aa589ec334dc060d076422b988eae9e0f6e9598c721cbe39462daf68b93e0f88c2f70e5a655ff24bc644abfe5eb2b1099812c",
-                        "sha1": "58e3de0cd7d559a6caf924c25992382677bc03f9"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g",
-                        "lhGA9TYQ"
-                    ],
-                    "size": 2384445,
-                    "date_published": "2025-02-16T11:52:49.583980Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "azszw4TRHFNmXV61",
-            "pakku_links": [
-                "bBgPYSkjp9EKBSgz"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "roughly-enough-professions-rep"
-            },
-            "name": {
-                "modrinth": "Roughly Enough Professions (REP)"
-            },
-            "id": {
-                "modrinth": "V8XJ8f5f"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "RoughlyEnoughProfessions-neoforge-1.21.1-4.0.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/V8XJ8f5f/versions/pqsVPf02/RoughlyEnoughProfessions-neoforge-1.21.1-4.0.3.jar",
-                    "id": "pqsVPf02",
-                    "parent_id": "V8XJ8f5f",
-                    "hashes": {
-                        "sha512": "cb56314c06a2d3802e4b0c054d7f00171f19d6c29b09536f3b7e926e52157d63139fb41cf5e19c468ca143b34ec0c5148329800a00743c16e228619eb43575f4",
-                        "sha1": "07bd723c53a99b6ae23de850eb4facac90df8294"
-                    },
-                    "required_dependencies": [
-                        "nfn13YXA"
-                    ],
-                    "size": 22289,
-                    "date_published": "2024-10-12T15:24:29.842927Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "pR84BaKQftb3fSwX",
             "pakku_links": [
                 "Qyfy7wTHIK8ZHZc3",
@@ -7068,6 +7446,48 @@
                     "required_dependencies": [],
                     "size": 120365,
                     "date_published": "2025-01-05T04:27:50.603937Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8LSvWk3uhYrwD2PQ",
+            "pakku_links": [
+                "M1DMIX6Cw6X74qzI"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "tmrv"
+            },
+            "name": {
+                "modrinth": "TooManyRecipeViewers"
+            },
+            "id": {
+                "modrinth": "yFypjcfd"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yFypjcfd/versions/suVw5sTT/toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "id": "suVw5sTT",
+                    "parent_id": "yFypjcfd",
+                    "hashes": {
+                        "sha512": "9b005dadd055d4755fc4028a3bcdda085e31f535da68178b170624689570fc3f847dac5697a640c74bbbdcc3e0ca633be26115005774dd71727e2d7ec76addca",
+                        "sha1": "a13279348d76bb3ecf8ff1b978ebd5bf8b7e3d52"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 1156564,
+                    "date_published": "2026-01-03T00:51:48.664488Z"
                 }
             ]
         },
