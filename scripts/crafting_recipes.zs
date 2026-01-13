@@ -59,7 +59,7 @@ craftingTable.addShaped("ctgui/new/crafting/nether_star_0", <item:minecraft:neth
     [<item:minecraft:netherite_ingot>, <item:minecraft:diamond_block>, <item:minecraft:netherite_ingot>],
     [<item:minecraft:quartz_block>, <item:minecraft:lapis_block>, <item:minecraft:quartz_block>]]);
 
-ccraftingTable.addShaped("custom/gilded_blackstone", <item:minecraft:gilded_blackstone>, [
+craftingTable.addShaped("custom/gilded_blackstone", <item:minecraft:gilded_blackstone>, [
     [<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:minecraft:air>],
     [<item:minecraft:gold_nugget>, <item:minecraft:blackstone>, <item:minecraft:gold_nugget>],
     [<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:minecraft:air>]]);
