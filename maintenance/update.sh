@@ -29,3 +29,6 @@ run unzip "$FILE"
 FILES=$(/usr/bin/ls -1 | grep -v squaremap)
 
 run rsync $DRYRUN -avhc --progress --delete $FILES squaremap/*.* "$HOME/server/"
+
+# Make sure the replacement of this script is executable.
+chmod +x "$HOME/server/maintenance/update.sh"
