@@ -21,7 +21,7 @@ def format_release(current, previous):
     return dedent(f"""\
     advanced-colonies-server ({current_tag}) UNRELEASED;
 
-     {"\n     ".join(changes)}
+      {"\n      ".join(changes)}
 
      -- Ellen Dash <ellen@duckinator.net> {date}
     """)
