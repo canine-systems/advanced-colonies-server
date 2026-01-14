@@ -4,3 +4,4 @@ build/
 dist/
 datapacks/
 resourcepacks/
+.cache/

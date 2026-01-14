@@ -23,13 +23,13 @@ run: ${SERVER_DIR}
 
 dist: dist/advanced-colonies-serverpack.zip dist/mods.md dist/bootstrap-root.sh dist/bootstrap-minecraft.sh
 
-build/cache/neoforge-installer.jar:
-	mkdir -p build/cache/
+.cache/neoforge-installer.jar:
+	mkdir -p $(@D)
 	wget -O $@ "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
 
-${SERVER_DIR}/run.sh: build/cache/neoforge-installer.jar
+${SERVER_DIR}/run.sh: .cache/neoforge-installer.jar
 	mkdir -p $(@D)
-	java -jar build/cache/neoforge-installer.jar --install-server $(@D)
+	java -jar $< --install-server $(@D)
 
 ${SERVER_DIR}/maintenance: dist/advanced-colonies-serverpack.zip
 	mkdir -p $(@D)
@@ -62,10 +62,9 @@ dist/bootstrap-minecraft.sh:
 	cp bootstrap/bootstrap-minecraft.sh dist/
 
 clean:
-	# Remove everything but caches.
-	rm -rf build/deb build/modrinth build/serverpack dist
-
-veryclean:
 	rm -rf build dist
+
+veryclean: clean
+	rm -rf .cache
 
 .PHONY: all build clean systemd-units server
