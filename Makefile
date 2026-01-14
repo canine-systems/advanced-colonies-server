@@ -62,6 +62,10 @@ dist/bootstrap-minecraft.sh:
 	cp bootstrap/bootstrap-minecraft.sh dist/
 
 clean:
+	# Remove everything but caches.
+	rm -rf build/deb build/modrinth build/serverpack dist
+
+veryclean:
 	rm -rf build dist
 
 .PHONY: all build clean systemd-units server
