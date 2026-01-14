@@ -4,7 +4,7 @@ REVISION := 1
 
 NEOFORGE_VERSION := 21.1.218
 
-PROFILE_SYSTEMD_FIXES := build/deb/etc/profile.d/99-user-systemd-fixes.sh
+SYSTEMD_FILES := build/deb/etc/systemd/system/
 
 SERVER_DIR := build/deb/opt/minecraft/server
 DEB_FILE := dist/advanced_colonies-${VERSION}-${REVISION}.deb
@@ -27,23 +27,24 @@ dist: dist/advanced-colonies-serverpack.zip dist/mods.md dist/bootstrap-root.sh 
 	mkdir -p $(@D)
 	wget -O $@ "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
 
+${SYSTEMD_FILES}: packaging/systemd/minecraft.service packaging/systemd/sync-map.service packaging/systemd/sync-map.timer
+	mkdir -p $@
+	cp $^ $@
+
 ${SERVER_DIR}/run.sh: .cache/neoforge-installer.jar
 	mkdir -p $(@D)
 	java -jar $< --install-server $(@D)
 
-${SERVER_DIR}/maintenance: dist/advanced-colonies-serverpack.zip
+${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 	mkdir -p $(@D)
 	unzip -o dist/advanced-colonies-serverpack.zip -d $(@D)
 
-${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/maintenance
+${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
-${PROFILE_SYSTEMD_FIXES}:
-	mkdir -p $(@D)
-	echo 'test -z "$$XDG_RUNTIME_DIR" && export XDG_RUNTIME_DIR=/run/user/$$UID' > $@
-	echo 'test -z "$$XDG_RUNTIME_DIR" && export DBUS_SESSION_BUS_ADDRESS=/run/user/$$UID/bus' >> $@
-
-deb ${DEB_FILE}: ${SERVER_DIR} ${PROFILE_SYSTEMD_FIXES}
-	echo "TODO -- finish generating the .deb file"
+deb ${DEB_FILE}: ${SERVER_DIR}
+	rm -rf ${SERVER_DIR}/debian
+	cp -r packaging/debian ${SERVER_DIR}/debian
+	cd build/deb && dh_make -f
 
 dist/mods.md:
 	mkdir -p dist

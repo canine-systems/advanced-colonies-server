@@ -1,0 +1,10 @@
+# Example file for upstream/metadata.
+# See https://wiki.debian.org/UpstreamMetadata for more info/fields.
+# Below an example based on a github project.
+
+Bug-Database: https://github.com/canine-systems/advanced-colonies/issues
+Bug-Submit: https://github.com/canine-systems/advanced-colonies/issues/new
+# Changelog: https://github.com/canine-systems/advanced-colonies/blob/master/CHANGES
+# Documentation: https://github.com/canine-systems/advanced-colonies/wiki
+Repository-Browse: https://github.com/canine-systems/advanced-colonies
+Repository: https://github.com/canine-systems/advanced-colonies.git

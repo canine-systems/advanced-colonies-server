@@ -1,0 +1,22 @@
+Source: advanced-colonies-server
+Section: unknown
+Priority: optional
+Maintainer: Ellen Dash <ellen@duckinator.net>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ default-jre,
+ unzip
+Standards-Version: 4.7.2
+Homepage: https://github.com/canine-systems/advanced-colonies-server
+#Vcs-Browser: https://salsa.debian.org/debian/advanced-colonies
+Vcs-Git: https://github.com/canine-systems/advanced-colonies-server.git
+
+Package: advanced-colonies-server
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ default-jre,
+ rsync
+Description: Advanced Colonies server modpack for Minecraft.
