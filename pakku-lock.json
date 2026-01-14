@@ -5203,6 +5203,43 @@
             ]
         },
         {
+            "pakku_id": "6xFGn4ocLNB1MHX0",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "libx"
+            },
+            "name": {
+                "modrinth": "LibX"
+            },
+            "id": {
+                "modrinth": "qEH6GYul"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "LibX-1.21.1-6.0.9.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qEH6GYul/versions/CLe8cTHs/LibX-1.21.1-6.0.9.jar",
+                    "id": "CLe8cTHs",
+                    "parent_id": "qEH6GYul",
+                    "hashes": {
+                        "sha512": "6d80cb2457454c9b4177bc0ce71769332e8da953c87eac1d86ee3b8c1a21fd5bf02e704ca70b1d7a5057800a278112d663d3384ce420240ba0833a5db45b7056",
+                        "sha1": "06a144a41aa7affca17f30a28c0e9effdddc3f4e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1259776,
+                    "date_published": "2026-01-11T13:08:07.921069Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "F85zqXT5XUbKwHMB",
             "type": "MOD",
             "slug": {
@@ -6880,6 +6917,48 @@
                     "required_dependencies": [],
                     "size": 65294,
                     "date_published": "2025-12-09T18:41:16.442192Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZLvg2APflCiYXyOq",
+            "pakku_links": [
+                "6xFGn4ocLNB1MHX0"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "simply-tools"
+            },
+            "name": {
+                "modrinth": "Simply Tools"
+            },
+            "id": {
+                "modrinth": "v7uAVl86"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "SimplyTools-21.1.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/v7uAVl86/versions/atmziQQo/SimplyTools-21.1.3.jar",
+                    "id": "atmziQQo",
+                    "parent_id": "v7uAVl86",
+                    "hashes": {
+                        "sha512": "24c366cd2ca810dd30cab0ca5303b5407f79c51016baa3c0506901a1f70f6124e418fd2552d96837514c21866b40d961d0d4ecc2facf5ea9b8b5bc264d0d1fcf",
+                        "sha1": "23b9b4125ea2ea778920f17e08304db677e631c7"
+                    },
+                    "required_dependencies": [
+                        "qEH6GYul"
+                    ],
+                    "size": 260621,
+                    "date_published": "2025-04-24T03:35:02.725091Z"
                 }
             ]
         },
