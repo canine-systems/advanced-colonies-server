@@ -42,9 +42,9 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
 deb ${DEB_FILE}: ${SERVER_DIR}
-	rm -rf ${SERVER_DIR}/debian
-	cp -r packaging/debian ${SERVER_DIR}/debian
-	cd build/deb && dh_make -f
+	rm -rf build/deb/debian
+	cp -r packaging/debian build/deb/debian
+	cd build/deb && debuild
 
 dist/mods.md:
 	mkdir -p dist
