@@ -28,7 +28,7 @@ run: ${SERVER_DIR}
 	echo eula=true > ${SERVER_DIR}/eula.txt
 	cd ${SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui
 
-dist: dist/advanced-colonies-serverpack.zip dist/mods.md dist/bootstrap-root.sh dist/bootstrap-minecraft.sh
+dist: dist/advanced-colonies-serverpack.zip dist/mods.md ${DEB_FILE}
 
 .cache/neoforge-installer.jar:
 	mkdir -p $(@D)
