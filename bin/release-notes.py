@@ -5,7 +5,6 @@ from itertools import pairwise
 import json
 import sys
 from time import sleep
-from textwrap import dedent
 from urllib.request import urlopen
 
 url = "https://api.github.com/repos/canine-systems/advanced-colonies-server/releases"
@@ -18,20 +17,20 @@ def format_release(current, previous):
 
     date = datetime.strptime(current["published_at"], "%Y-%m-%dT%H:%M:%SZ").strftime("%a, %d %b %Y %H:%M:%S %z")
 
-    return dedent(f"""\
-    advanced-colonies-server ({current_tag}) UNRELEASED;
+    return f"""\
+advanced-colonies-server ({current_tag}) UNRELEASED; urgency=medium
 
-      {"\n      ".join(changes)}
+{"\n\n".join(changes)}
 
-     -- Ellen Dash <ellen@duckinator.net> {date}
-    """)
+ -- Ellen Dash <ellen@duckinator.net>  {date}
+"""
 
 def commits_between(old, new):
     url = f"https://api.github.com/repos/canine-systems/advanced-colonies-server/compare/{old}...{new}"
     with urlopen(url) as f:
         data = json.load(f)
     commits = data["commits"]
-    return [f"* {commit["commit"]["message"]}" for commit in commits]
+    return [f"  * {commit["commit"]["message"]}" for commit in commits]
 
 
 with urlopen(url) as f:
