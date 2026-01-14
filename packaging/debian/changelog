@@ -1,5 +1,5 @@
-advanced-colonies-server (3.0-1) UNRELEASED; urgency=medium
+advanced-colonies-server ({VERSION}-{REVISION}) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * No details kept here.
 
- -- puppy <puppy@cerberus.fox>  Tue, 13 Jan 2026 19:59:47 -0500
+ -- Ellen Dash <ellen@duckinator.net>  Tue, 13 Jan 2026 19:59:47 -0500
