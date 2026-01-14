@@ -4,12 +4,17 @@ REVISION := 1
 
 NEOFORGE_VERSION := 21.1.218
 
-DEB_PKG_FOLDER := build/deb/advanced-colonies-server_${VERSION}-${REVISION}
+PKG_NAME := advanced-colonies-server_${VERSION}
 
-SYSTEMD_FILES := ${DEB_PKG_FOLDER}/etc/systemd/system/
+TAR_PKG_FOLDER := build/tar/${PKG_NAME}
+DEB_PKG_FOLDER := build/deb/${PKG_NAME}-${REVISION}
+TAR_PKG_FILE_NAME := ${PKG_NAME}.tar.gz
+TAR_PKG_FILE_PATH := build/tar/${TAR_PKG_FILE_NAME}
 
-SERVER_DIR := ${DEB_PKG_FOLDER}/opt/minecraft/server
-DEB_FILE := dist/advanced_colonies-${VERSION}-${REVISION}.deb
+SYSTEMD_FILES := ${TAR_PKG_FOLDER}/etc/systemd/system/
+
+SERVER_DIR := ${TAR_PKG_FOLDER}/opt/minecraft/server
+DEB_FILE := dist/${PKG_NAME}-${REVISION}.deb
 
 all: dist
 
@@ -43,10 +48,17 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
-deb ${DEB_FILE}: ${SERVER_DIR}
-	rm -rf ${DEB_PKG_FOLDER}/debian
+${TAR_PKG_FILE_PATH}: ${SERVER_DIR}
+	cd build/tar && tar czvf ${TAR_PKG_FILE_NAME} ${PKG_NAME}/
+
+deb ${DEB_FILE}: ${TAR_PKG_FILE_PATH}
+	mkdir -p build/deb
+	cp ${TAR_PKG_FILE_PATH} build/deb/${PKG_NAME}.orig.tar.gz
+	cd build/deb && tar xzf ${PKG_NAME}.orig.tar.gz
+	mv build/deb/advanced-colonies-server_${VERSION} ${DEB_PKG_FOLDER}
 	cp -r packaging/debian ${DEB_PKG_FOLDER}/debian
 	cd ${DEB_PKG_FOLDER} && debuild
+	cp build/deb/${PKG_NAME}-${REVISION}_*.deb ${DEB_FILE}
 
 dist/mods.md:
 	mkdir -p dist
