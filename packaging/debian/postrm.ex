@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for advanced-colonies.
+# postrm script for advanced-colonies-server.
 #
 # See: dh_installdeb(1).
 

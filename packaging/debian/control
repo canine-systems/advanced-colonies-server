@@ -9,7 +9,7 @@ Build-Depends:
  unzip
 Standards-Version: 4.7.2
 Homepage: https://github.com/canine-systems/advanced-colonies-server
-#Vcs-Browser: https://salsa.debian.org/debian/advanced-colonies
+#Vcs-Browser: https://github.com/canine-systems/advanced-colonies-server
 Vcs-Git: https://github.com/canine-systems/advanced-colonies-server.git
 
 Package: advanced-colonies-server

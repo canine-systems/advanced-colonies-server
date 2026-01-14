@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for advanced-colonies.
+# preinst script for advanced-colonies-server.
 #
 # See: dh_installdeb(1).
 

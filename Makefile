@@ -1,4 +1,4 @@
-# advanced-colonies-$VERSION-$REVISION.deb
+# advanced-colonies-server-$VERSION-$REVISION.deb
 VERSION != jq -r '.version' pakku.json
 REVISION := 1
 

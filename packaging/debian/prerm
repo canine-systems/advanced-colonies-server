@@ -1,5 +1,5 @@
 #!/bin/sh
-# prerm script for advanced-colonies.
+# prerm script for advanced-colonies-server.
 #
 # See: dh_installdeb(1).
 
