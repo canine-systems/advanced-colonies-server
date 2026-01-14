@@ -1,5 +1,5 @@
 # advanced-colonies-server-$VERSION-$REVISION.deb
-VERSION != jq -r '.version' pakku.json
+VERSION ?= $(shell jq -r '.version' pakku.json)
 REVISION := 1
 
 NEOFORGE_VERSION := 21.1.218
