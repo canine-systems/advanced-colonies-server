@@ -14,6 +14,6 @@
 
 	[performance.saving]
 		#The thread count used during saving and compressing of data from chiseled block entity.
-		# Default: 2
-		# Range: 1 ~ 4
+		# Default: 6
+		# Range: 1 ~ 12
 		thread-count = 4
