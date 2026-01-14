@@ -27,7 +27,7 @@ jobs:
         with:
           persist-credentials: false
       - id: info
-        run: echo "version=$(grep version pakku.json | cut -d'"' -f 4).${TAG}" >> "$GITHUB_OUTPUT"
+        run: echo "version=3.${TAG}" >> "$GITHUB_OUTPUT"
       - run: sudo apt install -y devscripts build-essential debhelper-compat default-jre unzip python3
       - run: make VERSION=${{ steps.info.outputs.version }} dist
       - run: gh release create --title "Build ${{ steps.info.outputs.version }}" ${{ steps.info.outputs.version }} dist/*

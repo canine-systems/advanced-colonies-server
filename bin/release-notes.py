@@ -7,24 +7,6 @@ import sys
 from time import sleep
 from urllib.request import urlopen
 
-url = "https://api.github.com/repos/canine-systems/advanced-colonies-server/releases"
-
-def format_release(current, previous):
-    url = current["html_url"]
-    current_tag = current["tag_name"]
-
-    changes = commits_between(previous["tag_name"], current_tag)
-
-    date = datetime.strptime(current["published_at"], "%Y-%m-%dT%H:%M:%SZ").strftime("%a, %d %b %Y %H:%M:%S %z")
-
-    return f"""\
-advanced-colonies-server ({current_tag}) UNRELEASED; urgency=medium
-
-{"\n\n".join(changes)}
-
- -- Ellen Dash <ellen@duckinator.net>  {date}
-"""
-
 def commits_between(old, new):
     url = f"https://api.github.com/repos/canine-systems/advanced-colonies-server/compare/{old}...{new}"
     with urlopen(url) as f:
@@ -32,10 +14,21 @@ def commits_between(old, new):
     commits = data["commits"]
     return [f"  * {commit["commit"]["message"]}" for commit in commits]
 
+def last_tag():
+    with urlopen("https://api.github.com/repos/canine-systems/advanced-colonies-server/releases") as f:
+        return json.load(f)[0]["tag_name"]
 
-with urlopen(url) as f:
-    data = json.load(f)
+if sys.argv[1].split(".")[1] == 0:
+    changes = ["  * not with this changelog"]
+else:
+    version = sys.argv[1]
+    date = datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")
+    changes = commits_between(last_tag(), version)
 
-releases = [format_release(curr, prev) for curr, prev in pairwise(data)]
+print(f"""\
+advanced-colonies-server ({version}) UNRELEASED; urgency=medium
 
-print("\n\n".join(releases))
+{"\n\n".join(changes)}
+
+ -- Ellen Dash <ellen@duckinator.net>  {date}
+""")
