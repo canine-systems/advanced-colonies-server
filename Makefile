@@ -57,6 +57,7 @@ deb ${DEB_FILE}: ${TAR_PKG_FILE_PATH}
 	cd build/deb && tar xzf ${PKG_NAME}.orig.tar.gz
 	mv build/deb/advanced-colonies-server_${VERSION} ${DEB_PKG_FOLDER}
 	cp -r packaging/debian ${DEB_PKG_FOLDER}/debian
+	python3 ./bin/release-notes.py > ${DEB_PKG_FOLDER}/debian/changelog
 	cd ${DEB_PKG_FOLDER} && debuild
 	cp build/deb/${PKG_NAME}-${REVISION}_*.deb ${DEB_FILE}
 
