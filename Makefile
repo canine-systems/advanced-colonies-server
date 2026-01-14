@@ -4,9 +4,11 @@ REVISION := 1
 
 NEOFORGE_VERSION := 21.1.218
 
-SYSTEMD_FILES := build/deb/etc/systemd/system/
+DEB_PKG_FOLDER := build/deb/advanced-colonies-server_${VERSION}-${REVISION}
 
-SERVER_DIR := build/deb/opt/minecraft/server
+SYSTEMD_FILES := ${DEB_PKG_FOLDER}/etc/systemd/system/
+
+SERVER_DIR := ${DEB_PKG_FOLDER}/opt/minecraft/server
 DEB_FILE := dist/advanced_colonies-${VERSION}-${REVISION}.deb
 
 all: dist
@@ -42,9 +44,9 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
 deb ${DEB_FILE}: ${SERVER_DIR}
-	rm -rf build/deb/debian
-	cp -r packaging/debian build/deb/debian
-	cd build/deb && debuild
+	rm -rf ${DEB_PKG_FOLDER}/debian
+	cp -r packaging/debian ${DEB_PKG_FOLDER}/debian
+	cd ${DEB_PKG_FOLDER} && debuild
 
 dist/mods.md:
 	mkdir -p dist
