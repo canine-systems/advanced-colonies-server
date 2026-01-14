@@ -26,6 +26,8 @@ jobs:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+      - id: info
+        run: echo "version=$(grep version pakku.json | cut -d'"' -f 4).${TAG}" >> "$GITHUB_OUTPUT"
       - run: sudo apt install -y devscripts
       - run: make dist
-      - run: gh release create --title "Build ${TAG}" ${TAG} dist/*
+      - run: gh release create --title "Build ${{ steps.info.outputs.version }}" ${{ steps.info.outputs.version }} dist/*
