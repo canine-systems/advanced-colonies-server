@@ -3461,50 +3461,6 @@
             ]
         },
         {
-            "pakku_id": "09ImCeCqcDyuYM1E",
-            "pakku_links": [
-                "M1DMIX6Cw6X74qzI",
-                "TpkXdt8tc1SApavK"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "emixx"
-            },
-            "name": {
-                "modrinth": "EMI++"
-            },
-            "id": {
-                "modrinth": "AWMWYMwC"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "emixx-neoforge-1.2.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/AWMWYMwC/versions/sdRUQHCL/emixx-neoforge-1.2.3.jar",
-                    "id": "sdRUQHCL",
-                    "parent_id": "AWMWYMwC",
-                    "hashes": {
-                        "sha512": "15eb94d5c2be00f06a96a45a68fc2fe3171f60c87c26d2ebf4ef359271f8b0ee3995f281af17e2b228ab543770ec2d8b486c98f0fe4b511c168a4c0c0e30db40",
-                        "sha1": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79"
-                    },
-                    "required_dependencies": [
-                        "fRiHVvU7",
-                        "ordsPcFz"
-                    ],
-                    "size": 207208,
-                    "date_published": "2025-08-29T11:33:57.071643Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "UVikYDsQA5XSeBhd",
             "pakku_links": [
                 "CJU2ArnVpXR02Re3",
