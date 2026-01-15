@@ -20,7 +20,7 @@ set -e
 case "$1" in
     remove|upgrade|deconfigure)
         systemctl disable minecraft
-        systemctl disable sync-map
+        systemctl disable sync-map.timer
     ;;
 
     failed-upgrade)
