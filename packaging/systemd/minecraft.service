@@ -12,7 +12,8 @@ WorkingDirectory=/opt/minecraft/server
 Restart=always
 RestartSec=30
 
-ExecStart=/opt/minecraft/server/run.sh
+ExecStart=java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt
+ExecStop=timeout 60 bash -c "kill -INT $MAINPID && tail --pid=$MAINPID -f /dev/null"
 
 NoNewPrivileges=true
 
