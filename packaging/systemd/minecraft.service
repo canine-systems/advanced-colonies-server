@@ -11,7 +11,8 @@ WorkingDirectory=/opt/minecraft/server
 Restart=always
 RestartSec=30
 
-ExecStart=bash -c "[ -f /opt/minecraft/server/no-restart ] && echo 'Waiting for no-restart condition to end...' || exec /opt/minecraft/server/run.sh"
+ConditionPathExists=|/opt/minecraft/server/no-start
+ExecStart=/opt/minecraft/server/run.sh
 
 NoNewPrivileges=true
 
