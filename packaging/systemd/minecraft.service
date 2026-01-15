@@ -11,7 +11,7 @@ WorkingDirectory=/opt/minecraft/server
 Restart=always
 RestartSec=10
 
-ExecStartPre=bash -c "while [ -f /opt/minecraft/no-restart ]; do sleep 1; done"
+ExecStartPre=bash -c "while [ -f /opt/minecraft/server/no-restart ]; do sleep 1; done"
 ExecStart=/opt/minecraft/server/run.sh
 
 NoNewPrivileges=true
