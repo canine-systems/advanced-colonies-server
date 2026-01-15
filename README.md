@@ -6,12 +6,12 @@ Client repo: [canine-systems/advanced-colonies](https://github.com/canine-system
 
 Latest Release: https://github.com/canine-systems/advanced-colonies-server/releases/latest
 
-## Server Config
+## Server Setup
 
 This has only been tested on a fresh Debian 13 installation.
 
 ```
-wget -O- https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/bootstrap-root.sh | sudo bash
+wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb
 ```
 
 ## Development
