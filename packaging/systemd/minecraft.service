@@ -11,7 +11,7 @@ WorkingDirectory=/opt/minecraft/server
 Restart=always
 RestartSec=30
 
-ConditionPathExists=|/opt/minecraft/server/no-start
+ConditionPathExists=|/opt/minecraft/server/minecraft.disable
 ExecStart=/opt/minecraft/server/run.sh
 
 NoNewPrivileges=true
