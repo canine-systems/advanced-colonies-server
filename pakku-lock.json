@@ -1318,43 +1318,6 @@
             ]
         },
         {
-            "pakku_id": "93Cd4H0LlD5nQHIG",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "buildersaddition"
-            },
-            "name": {
-                "modrinth": "Builders Crafts & Additions"
-            },
-            "id": {
-                "modrinth": "jA6GVA7Y"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "buildersaddition2-neoforge-1.21.1-2.1.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/jA6GVA7Y/versions/4Vfyt6yg/buildersaddition2-neoforge-1.21.1-2.1.1.jar",
-                    "id": "4Vfyt6yg",
-                    "parent_id": "jA6GVA7Y",
-                    "hashes": {
-                        "sha512": "cb55e1ce66133314f66a4b42f70881e9b41ca38f153396860f4d82a38b15383fa35faabbf9accaaf76ea6fe80f0507a46e85bd24ae08b23d98d965ac54cd6777",
-                        "sha1": "06c40b8d6208d30f9eb80be799d1766934227c80"
-                    },
-                    "required_dependencies": [],
-                    "size": 1301917,
-                    "date_published": "2025-03-22T16:16:12.394267Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "faLRRwNYYsfTcqaN",
             "type": "MOD",
             "slug": {
