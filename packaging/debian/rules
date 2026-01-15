@@ -18,6 +18,9 @@
 %:
 	dh $@
 
+override_dh_install:
+	dh_install opt/ /opt
+	dh_install etc/ /etc
 
 # dh_make generated override targets.
 # This is an example for Cmake (see <https://bugs.debian.org/641051>).

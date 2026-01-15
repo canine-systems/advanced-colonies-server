@@ -53,12 +53,11 @@ ${TAR_PKG_FILE_PATH}: ${SERVER_DIR}
 
 deb ${DEB_FILE}: ${TAR_PKG_FILE_PATH}
 	mkdir -p build/deb
-	cp ${TAR_PKG_FILE_PATH} build/deb/${PKG_NAME}.orig.tar.gz
-	cd build/deb && tar xzf ${PKG_NAME}.orig.tar.gz
+	cd build/deb && tar xzf ../../${TAR_PKG_FILE_PATH}
 	mv build/deb/advanced-colonies-server_${VERSION} ${DEB_PKG_FOLDER}
 	cp -r packaging/debian ${DEB_PKG_FOLDER}/debian
 	sed -i -e "s/{VERSION}/${VERSION}/" -e "s/{REVISION}/${REVISION}/" ${DEB_PKG_FOLDER}/debian/changelog
-	cd ${DEB_PKG_FOLDER} && debuild
+	cd ${DEB_PKG_FOLDER} && debuild --no-tgz-check --no-lintian -- binary
 	cp build/deb/${PKG_NAME}-${REVISION}_*.deb ${DEB_FILE}
 
 dist/mods.md:
