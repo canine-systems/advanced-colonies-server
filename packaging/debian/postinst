@@ -20,6 +20,7 @@ set -e
 
 case "$1" in
     configure)
+        chown -R minecraft:minecraft /opt/minecraft
         systemctl daemon-reload
         systemctl enable minecraft
         systemctl enable sync-map.timer
