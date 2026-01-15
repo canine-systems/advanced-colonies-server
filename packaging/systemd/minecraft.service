@@ -9,10 +9,9 @@ Group=minecraft
 WorkingDirectory=/opt/minecraft/server
 
 Restart=always
-RestartSec=10
+RestartSec=30
 
-ExecStartPre=bash -c "while [ -f /opt/minecraft/server/no-restart ]; do sleep 1; done"
-ExecStart=/opt/minecraft/server/run.sh
+ExecStart=bash -c "[ -f /opt/minecraft/server/no-restart ] && echo 'Waiting for no-restart condition to end...' || exec /opt/minecraft/server/run.sh"
 
 NoNewPrivileges=true
 
