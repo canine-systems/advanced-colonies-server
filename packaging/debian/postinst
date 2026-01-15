@@ -20,8 +20,12 @@ set -e
 
 case "$1" in
     configure)
+        systemctl daemon-reload
         systemctl enable minecraft
         systemctl enable sync-map.timer
+
+        # Restart the service if it was already running.
+        systemctl try-restart minecraft
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
