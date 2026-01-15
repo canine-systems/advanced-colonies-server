@@ -15,7 +15,7 @@ SYSTEMD_FILES := ${TAR_PKG_FOLDER}/etc/systemd/system/
 
 SERVER_DIR := ${TAR_PKG_FOLDER}/opt/minecraft/server
 #DEB_FILE := dist/${PKG_NAME}-${REVISION}.deb
-DEB_FILE := advanced-colonies-server.deb
+DEB_FILE := dist/advanced-colonies-server.deb
 
 all: dist
 
