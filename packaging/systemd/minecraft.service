@@ -3,11 +3,15 @@ Description=Minecraft Server
 After=network.target
 
 [Service]
+User=minecraft
+Group=minecraft
+
 WorkingDirectory=/opt/minecraft/server
 
 Restart=always
 RestartSec=10
 
+ExecStartPre=bash -c "while [ -f $HOME/mc-no-restart ]; do sleep 1; done"
 ExecStart=/opt/minecraft/server/run.sh
 
 NoNewPrivileges=true
