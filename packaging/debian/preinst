@@ -18,6 +18,7 @@ case "$1" in
     install|upgrade)
         echo "Creating minecraft user, if needed..."
         getent passwd minecraft || useradd -r -m -U -d /opt/minecraft -s /bin/bash minecraft || exit $?
+        chmod -R 755 /opt/minecraft
     ;;
 
     abort-upgrade)
