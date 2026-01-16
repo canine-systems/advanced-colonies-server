@@ -4697,48 +4697,6 @@
             ]
         },
         {
-            "pakku_id": "LvMcw6qjORHcueoh",
-            "pakku_links": [
-                "ryR9vvBuUd1bSh9x"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "immersive-portals-neoforge"
-            },
-            "name": {
-                "modrinth": "Immersive Portals for (Neo)Forge"
-            },
-            "id": {
-                "modrinth": "zf4Szzx2"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "immersive_portals-6.0.7-all.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/HbBv6YVB/immersive_portals-6.0.7-all.jar",
-                    "id": "HbBv6YVB",
-                    "parent_id": "zf4Szzx2",
-                    "hashes": {
-                        "sha512": "c4b5ce9f5b3f9030cf836adef613e073036b04bbe77f07978872165c142ec88fb8d726ba6e90afd8907b8f5e868b00e0a0efa7613f32c402fcb93ed082a0f828",
-                        "sha1": "cfbeca890b281fec20a5c94d6673effb37127129"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 1864746,
-                    "date_published": "2025-06-18T19:28:37.963588Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "iXQmPwLA5FIc0HMx",
             "type": "MOD",
             "side": "BOTH",
