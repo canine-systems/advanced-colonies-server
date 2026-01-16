@@ -15,9 +15,9 @@ Vcs-Git: https://github.com/canine-systems/advanced-colonies-server.git
 Package: advanced-colonies-server
 Architecture: any
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
  default-jre,
  rsync,
- unzip
+ unzip,
+ python3
 Description: Advanced Colonies server modpack for Minecraft.
