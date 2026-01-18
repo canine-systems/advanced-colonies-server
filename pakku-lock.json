@@ -4829,6 +4829,52 @@
             ]
         },
         {
+            "pakku_id": "r7IkzsKyiZKUQMrp",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "inventory-mending"
+            },
+            "name": {
+                "modrinth": "Inventory Mending"
+            },
+            "id": {
+                "modrinth": "y6Ryy40D"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "inventorymending-1.21.1-1.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/y6Ryy40D/versions/VeOSd0k4/inventorymending-1.21.1-1.2.jar",
+                    "id": "VeOSd0k4",
+                    "parent_id": "y6Ryy40D",
+                    "hashes": {
+                        "sha512": "23a9fc9a48d0be75203a8f98f68439971bf5e984890956e7bbd9fc401e15ed77ae543b71f047ba8a182a6b0f29745eec5c27d5dd5cd6f6f682d92f67d57440ef",
+                        "sha1": "fedd198238933c4133d4d52d4bc74087b079709d"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 39472,
+                    "date_published": "2025-03-09T10:22:24.835003Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Bi4KNTkSoHXfZkwb",
             "type": "MOD",
             "side": "BOTH",
