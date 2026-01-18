@@ -12,6 +12,7 @@ TAR_PKG_FILE_NAME := ${PKG_NAME}.tar.gz
 TAR_PKG_FILE_PATH := build/tar/${TAR_PKG_FILE_NAME}
 
 LEGO_FILE := ${TAR_PKG_FOLDER}/opt/bin/lego
+LEGO_VERSION := v4.31.0
 
 SYSTEMD_FILES := ${TAR_PKG_FOLDER}/etc/systemd/system/
 
