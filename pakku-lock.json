@@ -2291,6 +2291,48 @@
             ]
         },
         {
+            "pakku_id": "XPxG5MgL8iKdyJ9X",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-aquatic-ambitions"
+            },
+            "name": {
+                "modrinth": "Create: Aquatic Ambitions"
+            },
+            "id": {
+                "modrinth": "9SyaPzp7"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9SyaPzp7/versions/cgOQIktB/create_aquatic_ambitions-1.21.1-2.0.2.jar",
+                    "id": "cgOQIktB",
+                    "parent_id": "9SyaPzp7",
+                    "hashes": {
+                        "sha512": "0abb46b82f323055c9579feda4d6e63a0f3d0905e31a349bd19f9e4b843f6e6ba6a25c98ea76154fe060f975ace49b3a0fdc3d609eec91384b9550de99977745",
+                        "sha1": "39945d25188f3cb8feb74d09b78d7f7f7a74aaa7"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 1041906,
+                    "date_published": "2025-11-06T13:22:41.947086Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sIUjaI5YHVhF8DDK",
             "type": "MOD",
             "slug": {
