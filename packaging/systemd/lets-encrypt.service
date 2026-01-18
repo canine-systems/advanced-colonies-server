@@ -9,7 +9,7 @@ Type=oneshot
 User=minecraft
 Group=minecraft
 
-ExecStart=lego --dns digitalocean -d minecraft.canine.systems run
+ExecStart=lego --dns digitalocean -d minecraft.canine.systems --accept-tos --email ellen@duckinator.net --path /opt/minecraft/lego run
 
 Environment=DO_AUTH_TOKEN_FILE=/etc/advanced-colonies/digital-ocean-token.txt
 
