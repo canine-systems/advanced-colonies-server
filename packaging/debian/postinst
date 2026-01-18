@@ -25,10 +25,12 @@ case "$1" in
         systemctl enable minecraft
         systemctl enable sync-map.timer
         systemctl enable lan-broadcast.service
+        systemctl enable lets-encrypt.service
 
         # Restart the service if it was already running.
         systemctl try-restart minecraft
         systemctl try-restart lan-broadcast
+        systemctl try-restart lets-encrypt
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
