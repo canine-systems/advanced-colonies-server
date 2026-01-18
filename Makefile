@@ -27,7 +27,15 @@ server: ${SERVER_DIR}
 
 run: ${SERVER_DIR}
 	echo eula=true > ${SERVER_DIR}/eula.txt
-	cd ${SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui
+	cd ${SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui ||:
+
+run-offline: ${SERVER_DIR}
+	echo eula=true > ${SERVER_DIR}/eula.txt
+	sed -i.bak -e 's/online-mode=.*$$/online-mode=false/' \
+		-e 's/white-list=.*$$/white-list=false/' \
+		-e 's/enforce-whitelist=.*$$/enforce-whitelist=false/' ${SERVER_DIR}/server.properties
+	cd ${SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui ||:
+	mv ${SERVER_DIR}/server.properties.bak ${SERVER_DIR}/server.properties
 
 dist: dist/advanced-colonies-serverpack.zip dist/mods.md ${DEB_FILE}
 
