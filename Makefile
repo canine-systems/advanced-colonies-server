@@ -43,7 +43,7 @@ dist: dist/advanced-colonies-serverpack.zip dist/mods.md ${DEB_FILE}
 	mkdir -p $(@D)
 	wget -O $@ "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
 
-${SYSTEMD_FILES}: packaging/systemd/minecraft.service packaging/systemd/sync-map.service packaging/systemd/sync-map.timer packaging/systemd/lan-broadcast.service
+${SYSTEMD_FILES}: packaging/systemd/minecraft.service packaging/systemd/sync-map.service packaging/systemd/sync-map.timer packaging/systemd/lan-broadcast.service packaging/systemd/lets-encrypt.service
 	mkdir -p $@
 	cp $^ $@
 
