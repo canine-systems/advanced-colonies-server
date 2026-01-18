@@ -11,6 +11,8 @@ DEB_PKG_FOLDER := build/deb/${PKG_NAME}-${REVISION}
 TAR_PKG_FILE_NAME := ${PKG_NAME}.tar.gz
 TAR_PKG_FILE_PATH := build/tar/${TAR_PKG_FILE_NAME}
 
+LEGO_FILE := ${TAR_PKG_FOLDER}/opt/bin/lego
+
 SYSTEMD_FILES := ${TAR_PKG_FOLDER}/etc/systemd/system/
 
 SERVER_DIR := ${TAR_PKG_FOLDER}/opt/minecraft/server
@@ -57,7 +59,15 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
-${TAR_PKG_FILE_PATH}: ${SERVER_DIR}
+.cache/lego:
+	mkdir -p $(@D)
+	wget -O $@ "https://github.com/go-acme/lego/releases/download/${LEGO_VERSION}/lego_${LEGO_VERSION}_linux_amd64.tar.gz"
+
+${LEGO_FILE}: .cache/lego
+	mkdir -p $(@D)
+	cp $< $@
+
+${TAR_PKG_FILE_PATH}: ${SERVER_DIR} ${LEGO_FILE}
 	cd build/tar && tar czvf ${TAR_PKG_FILE_NAME} ${PKG_NAME}/
 
 deb ${DEB_FILE}: ${TAR_PKG_FILE_PATH}

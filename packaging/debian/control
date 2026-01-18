@@ -19,6 +19,5 @@ Depends:
  default-jre,
  rsync,
  unzip,
- python3,
- lego
+ python3
 Description: Advanced Colonies server modpack for Minecraft.
