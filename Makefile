@@ -67,6 +67,7 @@ ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 ${LEGO_FILE}: .cache/lego
 	mkdir -p $(@D)
 	cp $< $@
+	chmod +x $@
 
 ${TAR_PKG_FILE_PATH}: ${SERVER_DIR} ${LEGO_FILE}
 	cd build/tar && tar czvf ${TAR_PKG_FILE_NAME} ${PKG_NAME}/
