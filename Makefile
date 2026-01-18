@@ -60,9 +60,12 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SYSTEMD_FILES}
 
-.cache/lego:
+.cache/lego.tar.gz:
 	mkdir -p $(@D)
 	wget -O $@ "https://github.com/go-acme/lego/releases/download/${LEGO_VERSION}/lego_${LEGO_VERSION}_linux_amd64.tar.gz"
+
+.cache/lego: .cache/lego.tar.gz
+	tar xzf $< $@
 
 ${LEGO_FILE}: .cache/lego
 	mkdir -p $(@D)
