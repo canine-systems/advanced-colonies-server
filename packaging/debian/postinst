@@ -20,7 +20,19 @@ set -e
 
 case "$1" in
     configure)
+        AUTOMODPACK=/opt/minecraft/server/automodpack/.private
+        LEGO=/opt/minecraft/lego/certificates
+        # If the automodpack cert and/or key aren't symlinks, fix that.
+        if [ ! -s $AUTOMODPACK/cert.crt ] || [ ! -s $AUTOMODPACK/key.pem ]; then
+            rm -f $AUTOMODPACK/cert.crt $AUTOMODPACK/key.pem
+            mkdir -p $AUTOMODPACK
+            chmod -R 700 $AUTOMODPACK
+            ln -s $LEGO/minecraft.canine.systems.crt $AUTOMODPACK/cert.crt
+            ln -s $LEGO/minecraft.canine.systems.key $AUTOMODPACK/key.pem
+        fi
+
         chown -R minecraft:minecraft /opt/minecraft
+
         systemctl daemon-reload
         systemctl enable minecraft
         systemctl enable sync-map.timer
