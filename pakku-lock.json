@@ -3613,6 +3613,52 @@
             ]
         },
         {
+            "pakku_id": "7c13Gr3KNa1qds2N",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "easy-elytra-takeoff"
+            },
+            "name": {
+                "modrinth": "Easy Elytra Takeoff"
+            },
+            "id": {
+                "modrinth": "3hqwGCUB"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "easyelytratakeoff-1.21.1-4.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/3hqwGCUB/versions/7JjYvNu3/easyelytratakeoff-1.21.1-4.5.jar",
+                    "id": "7JjYvNu3",
+                    "parent_id": "3hqwGCUB",
+                    "hashes": {
+                        "sha512": "af9f857201d552e2bad771e8fad60140a5b6fb54c9f8e7b209fe92579a03287442f07e9f920707090780e6c0e17cfefb837eab82e77317a8d60646e4b330fd64",
+                        "sha1": "717ee26a9d872fdd8ba382a830efb1e0aa1756b3"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 41900,
+                    "date_published": "2025-02-12T17:46:27.090735Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QQQmABIrPJufK3w5",
             "pakku_links": [
                 "a4ysORfwoDQi1nmo"
