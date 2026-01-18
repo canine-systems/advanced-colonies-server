@@ -1,0 +1,16 @@
+[Unit]
+Description=Map Sync
+After=network.target
+ConditionPathExists=/etc/advanced-colonies/digital-ocean-token.txt
+
+[Service]
+Type=oneshot
+
+User=minecraft
+Group=minecraft
+
+ExecStart=lego --dns digitalocean -d minecraft.canine.systems run
+
+Environment=DO_AUTH_TOKEN_FILE=/etc/advanced-colonies/digital-ocean-token.txt
+
+NoNewPrivileges=true
