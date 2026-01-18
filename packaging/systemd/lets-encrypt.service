@@ -1,5 +1,5 @@
 [Unit]
-Description=Map Sync
+Description=Lets Encrypt Certificate
 After=network.target
 ConditionPathExists=/etc/advanced-colonies/digital-ocean-token.txt
 
