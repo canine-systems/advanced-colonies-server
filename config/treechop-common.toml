@@ -137,7 +137,7 @@
 			blacklistOrWhitelist = "BLACKLIST"
 			#List of item registry names (mod:item), tags (#mod:tag), and namespaces (@mod) for items that should not chop when used to break a log
 			#- Items in this list that have special support for TreeChop will not be blacklisted; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#blacklist
-			items = ["botania:terra_axe", "@lumberjack", "mekanism:atomic_disassembler", "practicaltools:diamond_greataxe", "practicaltools:golden_greataxe", "practicaltools:iron_greataxe", "practicaltools:netherite_greataxe", "twilightforest:giant_pickaxe"]
+			items = ["botania:terra_axe", "@lumberjack", "mekanism:atomic_disassembler", "practicaltools:diamond_greataxe", "practicaltools:golden_greataxe", "practicaltools:iron_greataxe", "practicaltools:netherite_greataxe", "twilightforest:giant_pickaxe", "@ars_nouveau"]
 
 		#The chop settings used by non-player entities, such as robots and machine blocks
 		[compatibility.general.fakePlayerChopSettings]
