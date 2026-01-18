@@ -1700,6 +1700,52 @@
             ]
         },
         {
+            "pakku_id": "L1DfkoiXHvLlsx2F",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "compact-help-command"
+            },
+            "name": {
+                "modrinth": "Compact Help Command"
+            },
+            "id": {
+                "modrinth": "XdiGl7ZL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "compacthelpcommand-1.21.1-2.8.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XdiGl7ZL/versions/pWrEKMmV/compacthelpcommand-1.21.1-2.8.jar",
+                    "id": "pWrEKMmV",
+                    "parent_id": "XdiGl7ZL",
+                    "hashes": {
+                        "sha512": "ce3033f58d9c45506a7310096174f0634e26d51d0585215d0fd8a3651a8d714353df53e4438bb70ba1103b48ca6222bca384ebac1115402ec1e08af838534b47",
+                        "sha1": "e4d5afc6fce89ba01ada5a7dd7effdcd7f68d775"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 40684,
+                    "date_published": "2025-02-12T18:35:50.581638Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "E4UuVU3Sg0gO2Mw8",
             "pakku_links": [
                 "tCTTV2srU4vKaZbE"
