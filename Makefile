@@ -95,6 +95,7 @@ mods: pakku.json pakku-lock.json config/* config/*/* config/*/*/* scripts/* squa
 
 dist/advanced-colonies-serverpack.zip: mods
 	./bin/pakku export
+	mkdir -p dist
 	mv "build/serverpack/Advanced Colonies-3.zip" "dist/advanced-colonies-serverpack.zip"
 
 dist: dist/mods.md ${DEB_FILE}
