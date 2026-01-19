@@ -14,11 +14,3 @@
 
 # Deduplicate strings on the heap.
 -XX:+UseStringDeduplication
-
-# Use custom auth servers.
--Dminecraft.api.env=custom
--Dminecraft.api.auth.host=https://auth.canine.systems/auth
--Dminecraft.api.account.host=https://auth.canine.systems/account
--Dminecraft.api.profiles.host=https://auth.canine.systems/account
--Dminecraft.api.session.host=https://auth.canine.systems/session
--Dminecraft.api.services.host=https://auth.canine.systems/services
