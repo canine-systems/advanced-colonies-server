@@ -2300,6 +2300,50 @@
             ]
         },
         {
+            "pakku_id": "tQqlNtPf9oNO3fur",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "i4YZi72X7GDiuuHM"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-stock-bridge"
+            },
+            "name": {
+                "modrinth": "Create Stock Bridge"
+            },
+            "id": {
+                "modrinth": "V7mbOBO4"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createstockbridge-1.21.1-0.1.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/V7mbOBO4/versions/U2VU3fJ5/createstockbridge-1.21.1-0.1.6.jar",
+                    "id": "U2VU3fJ5",
+                    "parent_id": "V7mbOBO4",
+                    "hashes": {
+                        "sha512": "bdc3247e2f361018eb15dbd1008a672f37830066cafae9ddb99c75ca33e0ae962d1292a7c4706adb06872fb4687b2ad9046aa6f5d2b5127359b6bd517201d713",
+                        "sha1": "3ba1d0ca05211bfd28a03ce6492f9e66d08e430a"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "XxWD5pD3"
+                    ],
+                    "size": 173051,
+                    "date_published": "2025-07-18T17:47:42.969632Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XPxG5MgL8iKdyJ9X",
             "pakku_links": [
                 "CJU2ArnVpXR02Re3"
