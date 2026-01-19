@@ -81,7 +81,7 @@ build/deb: ${PRISTINE} packaging/debian/*
 	sed -i -e "s/{VERSION}/${VERSION}/" -e "s/{REVISION}/${REVISION}/" ${DEB_PKG_FOLDER}/debian/changelog
 
 ${DEB_FILE}: build/deb
-	cd ${DEB_PKG_FOLDER} && debuild --no-tgz-check --no-lintian -- binary
+	cd ${DEB_PKG_FOLDER} && env DEB_BUILD_OPTIONS=nostrip debuild --no-tgz-check --no-lintian -- binary
 	cp build/deb/${PKG_NAME}-${REVISION}_*.deb ${DEB_FILE}
 
 deb: ${DEB_FILE}
