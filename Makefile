@@ -62,7 +62,7 @@ run-offline: ${LIVE_DIR}
 	mkdir -p $(@D)
 	wget -O $@ "https://github.com/go-acme/lego/releases/download/${LEGO_VERSION}/lego_${LEGO_VERSION}_linux_amd64.tar.gz"
 
-.cache/lego:
+.cache/lego: .cache/lego.tar.gz
 	cd .cache && tar xzf lego.tar.gz lego
 
 ${LEGO_FILE}: .cache/lego
