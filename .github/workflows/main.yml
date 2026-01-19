@@ -29,5 +29,21 @@ jobs:
       - id: info
         run: echo "version=3.${TAG}" >> "$GITHUB_OUTPUT"
       - run: sudo apt install -y devscripts build-essential debhelper-compat default-jre unzip python3
+
+      # Download neoforge, lego, etc.
+      - run: make VERSION=${{ steps.info.outputs.version }} cache
+
+      # Fetch mods.
+      - run: make VERSION=${{ steps.info.outputs.version }} mods
+
+      # Build build/pristine/ (install neoforge, extract mods from zip file, etc)
+      - run: make VERSION=${{ steps.info.outputs.version }} pristine
+
+      # Prepare build/deb/
+      - run: make VERSION=${{ steps.info.outputs.version }} build/deb
+
+      # Actually run debuild and such.
       - run: make VERSION=${{ steps.info.outputs.version }} dist
+
+      # Push to GitHub Releases.
       - run: gh release create --title "Build ${{ steps.info.outputs.version }}" ${{ steps.info.outputs.version }} dist/*

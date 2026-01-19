@@ -40,6 +40,8 @@ ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods
 
 ${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE}
 
+pristine: ${PRISTINE}
+
 ${LIVE_DIR}: ${PRISTINE}
 	cp -r $< $@
 
@@ -64,6 +66,8 @@ run-offline: ${LIVE_DIR}
 
 .cache/lego: .cache/lego.tar.gz
 	cd .cache && tar xzf lego.tar.gz lego
+
+cache: .cache/neoforge-installer.jar .cache/lego
 
 ${LEGO_FILE}: .cache/lego
 	mkdir -p $(@D)
@@ -106,4 +110,4 @@ clean:
 veryclean: clean
 	rm -rf .cache mods
 
-.PHONY: all build clean deb server run run-offline
+.PHONY: all build cache clean deb pristine server run run-offline
