@@ -38,7 +38,7 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES}
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE}
 
 ${LIVE_DIR}: ${PRISTINE}
 	cp -r $< $@
