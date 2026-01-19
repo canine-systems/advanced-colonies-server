@@ -23,11 +23,6 @@ case "$1" in
         systemctl disable sync-map.timer
         systemctl disable lan-broadcast.service
         systemctl disable lets-encrypt.timer
-
-        AUTOMODPACK=/opt/minecraft/server/automodpack/.private
-        # If the automodpack cert and/or key are symlinks, remove them.
-        [ -s $AUTOMODPACK/cert.crt ] && rm $AUTOMODPACK/cert.crt
-        [ -s $AUTOMODPACK/key.pem ] && rm $AUTOMODPACK/key.pem
     ;;
 
     failed-upgrade)
