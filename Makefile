@@ -2,7 +2,7 @@
 VERSION ?= $(shell jq -r '.version' pakku.json).0
 REVISION := 1
 
-NEOFORGE_VERSION := 21.1.218
+NEOFORGE_VERSION := 21.1.216
 LEGO_VERSION := v4.31.0
 
 # -----------------------------------------------
