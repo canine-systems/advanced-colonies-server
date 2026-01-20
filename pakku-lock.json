@@ -7717,6 +7717,52 @@
             ]
         },
         {
+            "pakku_id": "XSygyqTDQTNF8Qro",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "starter-kit"
+            },
+            "name": {
+                "modrinth": "Starter Kit"
+            },
+            "id": {
+                "modrinth": "6L3ydNi8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "starterkit-1.21.1-7.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/RQxn2aC4/starterkit-1.21.1-7.4.jar",
+                    "id": "RQxn2aC4",
+                    "parent_id": "6L3ydNi8",
+                    "hashes": {
+                        "sha512": "302e822e83a50369a508de6b69f4153eea7b8015e0b78fa554425ea031f449f77f4c2d96c8f1aa892f8f747a24e77b60753cf0a3bf7d27887d056440e5712301",
+                        "sha1": "3b858e9298c6d01e9aaeb97025eeaec80c25a2c7"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 272899,
+                    "date_published": "2025-04-16T18:03:38.263957Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pVD2Wyml7iBOQ2kJ",
             "type": "MOD",
             "slug": {
