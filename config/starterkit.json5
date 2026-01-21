@@ -9,7 +9,7 @@
 	"formatKitNames": true,
 	"chooseKitText": "%s, you can choose a starter kit!",
 	// Whether an announcement should be broadcasted to the server whenever a new player makes a kit choice. 'randomizeMultipleKitsToggle' must be disabled, and there must be at least 2 starter kits available.
-	"announcePlayerKitChoiceInDedicatedServer": true,
+	"announcePlayerKitChoiceInDedicatedServer": false,
 	// Whether the starter kit should be re-set after the '/ftbteamislands create' command from FTB Team Islands. Does nothing when it's not installed.
-	"enableFTBIslandCreateCompatibility": true
+	"enableFTBIslandCreateCompatibility": false
 }
