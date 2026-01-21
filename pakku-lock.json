@@ -8386,7 +8386,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xaeromaps_waystones-1.0.7+1.21.x-neoforge.jar",
+                    "file_name": "xmxw-2.2.0+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -8398,28 +8398,27 @@
                         "1.21.7",
                         "1.21.8",
                         "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
+                        "1.21.10"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/XCnYShF9/xaeromaps_waystones-1.0.7+1.21.x-neoforge.jar",
-                    "id": "XCnYShF9",
+                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/ZNLnKh62/xmxw-2.2.0+1.21.1-neoforge.jar",
+                    "id": "ZNLnKh62",
                     "parent_id": "iv2jCzkP",
                     "hashes": {
-                        "sha512": "d5f93e6a3de6abd1a03c0cdea1383826fc474a924a5903e1e014eb4388305f6462eeeb603d2c840dce2d72318ddab44a232044dc50560295aef0c5b42a845a37",
-                        "sha1": "f4898bb753885ff2d94d56bb0d68332e7566b92d"
+                        "sha512": "d41efa53a0e26f92a5e6ed357e996107f61f4d1748c69e441a48e106b14d811ac0341923b16efd50274fa04c3c279fc9b66f7cb39dca4ca10117e297fa96d757",
+                        "sha1": "1dda0074a7c990552966192d36621c6a5890d6d8"
                     },
                     "required_dependencies": [
-                        "ordsPcFz",
                         "1bokaNcj",
+                        "ordsPcFz",
                         "LOpKHB2A",
                         "1eAoo2KR"
                     ],
-                    "size": 83608,
-                    "date_published": "2025-12-11T03:58:13.340158Z"
+                    "size": 73411,
+                    "date_published": "2026-01-20T13:09:43.154082Z"
                 }
             ]
         },
@@ -8439,7 +8438,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Xaeros_Minimap_25.2.10_NeoForge_1.21.jar",
+                    "file_name": "xaerominimap-neoforge-1.21.1-25.3.5.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -8448,16 +8447,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/DyuxZXfy/Xaeros_Minimap_25.2.10_NeoForge_1.21.jar",
-                    "id": "DyuxZXfy",
+                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/puXrtfcK/xaerominimap-neoforge-1.21.1-25.3.5.jar",
+                    "id": "puXrtfcK",
                     "parent_id": "1bokaNcj",
                     "hashes": {
-                        "sha512": "8c39668792ea4053e0dfd52f7045819dde26b18dddf2deae2a76b1873c9593f4c4c1b5c51c7134e288732ce35cd360fd01904354334e8320cb35634090e74988",
-                        "sha1": "c671bd1d33e551c74f0157c9678549e566c5368e"
+                        "sha512": "b9e261eff2987e12244a70ccc1c65688da73343f182f5c59afcfce58cd61f2c930a4920a139bea62c5c5915f9b99bf9b624c09535901f5dd679b7998f7701f17",
+                        "sha1": "b662f97a58d88d56780487a89bf65d9d0330869d"
                     },
                     "required_dependencies": [],
-                    "size": 1710781,
-                    "date_published": "2025-07-17T09:15:39.637959Z"
+                    "size": 2120271,
+                    "date_published": "2026-01-03T14:07:22.690168Z"
                 }
             ]
         },
@@ -8477,7 +8476,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "XaerosWorldMap_1.39.12_NeoForge_1.21.jar",
+                    "file_name": "xaeroworldmap-neoforge-1.21.1-1.40.6.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -8486,16 +8485,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3WghnUq9/XaerosWorldMap_1.39.12_NeoForge_1.21.jar",
-                    "id": "3WghnUq9",
+                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/xUpTkg0V/xaeroworldmap-neoforge-1.21.1-1.40.6.jar",
+                    "id": "xUpTkg0V",
                     "parent_id": "NcUtCpym",
                     "hashes": {
-                        "sha512": "1753332e797230f81865607e8e90ddb97c8093154974de02f0b3dc00e7a4bc62ff268314260bc6b215aaea17c0cef3f78ea9e8c66f5c97179496b8bc42cf0ebd",
-                        "sha1": "afae070bb33f28696336e804333544f819d9a88c"
+                        "sha512": "b16d1c0c53303e2081bb95a29ae4f994fee377e6ee47e95ab13d0a22109c59aa53701c61eb8ef55da0413fa9ce4ba8ec1320518b5cbe707cd0c8a7906c2052a3",
+                        "sha1": "3001fb25d05142b3c35cccf5d6d52e662e303d66"
                     },
                     "required_dependencies": [],
-                    "size": 955196,
-                    "date_published": "2025-07-17T08:59:38.586257Z"
+                    "size": 1378685,
+                    "date_published": "2026-01-04T15:50:03.471922Z"
                 }
             ]
         },
