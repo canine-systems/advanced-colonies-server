@@ -39,6 +39,7 @@
         "just-enough-resources-jer": {"side": "BOTH"},
         "justenoughbreeding": {"side": "BOTH"},
         "mouse-tweaks": {"side": "BOTH"},
+        "starter-kit": {"side": "BOTH"},
         "xaeros-minimap": {"side": "BOTH"},
         "xaeros-world-map": {"side": "BOTH"}
     }
