@@ -5712,7 +5712,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "moonlight-1.21-2.28.2-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.11-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -5721,16 +5721,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/FW12WzQ3/moonlight-1.21-2.28.2-neoforge.jar",
-                    "id": "FW12WzQ3",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/z4AJuNxo/moonlight-1.21-2.29.11-neoforge.jar",
+                    "id": "z4AJuNxo",
                     "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha512": "7e0ef6a67d99c63126c12e0c13303f167b4b609a831aad9cde029b8b3dc56de380a26599f84e1b060ed3201a1df8adc3ddbb78c09fb8d361e4219cfd28f7633d",
-                        "sha1": "100339839fce7009fa646562cd9ae0438c64cb1c"
+                        "sha512": "133c22835d1745303e5f083ce580a0479cc92b7f4da5eac4fe78ce0b6158da0bf59586dee7fed2835f5f11b377eb260aabe4ecec68de102f8e1d90b5821df822",
+                        "sha1": "b5deaf117d5d0401053b28329e4d942a814177ad"
                     },
                     "required_dependencies": [],
-                    "size": 1479333,
-                    "date_published": "2025-12-16T16:58:12.095291Z"
+                    "size": 1550831,
+                    "date_published": "2026-01-17T11:55:16.900581Z"
                 }
             ]
         },
