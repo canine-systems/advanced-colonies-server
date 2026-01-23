@@ -1081,24 +1081,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "blockui-1.0.205-1.21.1.jar",
+                    "file_name": "blockui-1.0.208-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6646/615/blockui-1.0.205-1.21.1.jar",
-                    "id": "6646615",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7387/809/blockui-1.0.208-1.21.1-snapshot.jar",
+                    "id": "7387809",
                     "parent_id": "522992",
                     "hashes": {
-                        "sha1": "3f50eb92b60dbfcb76c7d83f9093c471c5b74200",
-                        "md5": "77e9a0ec4a6b05e946ace10ac4cf82ba"
+                        "sha1": "7a47aebb5aab02913eb71c4ea18cc69addebcc27",
+                        "md5": "856d116099826251932c389c3bb403ea"
                     },
                     "required_dependencies": [],
-                    "size": 468281,
-                    "date_published": "2025-06-13T10:51:53.100Z"
+                    "size": 468012,
+                    "date_published": "2025-12-28T10:07:00.333Z"
                 }
             ]
         },
