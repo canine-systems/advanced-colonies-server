@@ -1725,7 +1725,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Compatibility-1.21.1-3.16.jar",
+                    "file_name": "MineColonies_Compatibility-1.21.1-3.22.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1733,19 +1733,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7320/817/MineColonies_Compatibility-1.21.1-3.16.jar",
-                    "id": "7320817",
+                    "url": "https://edge.forgecdn.net/files/7480/95/MineColonies_Compatibility-1.21.1-3.22.jar",
+                    "id": "7480095",
                     "parent_id": "1006214",
                     "hashes": {
-                        "sha1": "11af20fb0e674d33290a37fd163313a8eedbea0c",
-                        "md5": "ba765f9d30d80a8c1f96dff1b04809cd"
+                        "sha1": "6db95d332a0d2f000df229c88a814fb36cd71d84",
+                        "md5": "b16b79ccdf14dad3a1bdaa843e137b1a"
                     },
                     "required_dependencies": [
                         "245506",
                         "975812"
                     ],
-                    "size": 1205280,
-                    "date_published": "2025-12-11T15:08:36.507Z"
+                    "size": 1261497,
+                    "date_published": "2026-01-18T11:37:11.073Z"
                 }
             ]
         },
@@ -5549,7 +5549,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minecolonies-1.1.1230-1.21.1-snapshot.jar",
+                    "file_name": "minecolonies-1.1.1242-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -5558,22 +5558,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7368/801/minecolonies-1.1.1230-1.21.1-snapshot.jar",
-                    "id": "7368801",
+                    "url": "https://edge.forgecdn.net/files/7450/523/minecolonies-1.1.1242-1.21.1-snapshot.jar",
+                    "id": "7450523",
                     "parent_id": "245506",
                     "hashes": {
-                        "sha1": "c59916d6bca7572e9b3753e411de1fd33361bb39",
-                        "md5": "7e8025a9997736d77d91d65006429df1"
+                        "sha1": "6799c5a0e5cc525b62b0b6e42384fa846baf8354",
+                        "md5": "de6c3405c20e0f8c711e6b20811141b2"
                     },
                     "required_dependencies": [
                         "527361",
-                        "900364",
-                        "522992",
+                        "303278",
                         "298744",
-                        "303278"
+                        "900364",
+                        "522992"
                     ],
-                    "size": 76932859,
-                    "date_published": "2025-12-23T10:07:27.527Z"
+                    "size": 77155175,
+                    "date_published": "2026-01-12T13:46:01.110Z"
                 }
             ]
         },
@@ -8232,7 +8232,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Tweaks-1.21.1-3.16.jar",
+                    "file_name": "MineColonies_Tweaks-1.21.1-3.22.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8240,18 +8240,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7308/68/MineColonies_Tweaks-1.21.1-3.16.jar",
-                    "id": "7308068",
+                    "url": "https://edge.forgecdn.net/files/7480/92/MineColonies_Tweaks-1.21.1-3.22.jar",
+                    "id": "7480092",
                     "parent_id": "975812",
                     "hashes": {
-                        "sha1": "b79e6f03346aae0a0b0721c151807aaf36862269",
-                        "md5": "d6c8afd6f68dcc5af365c35cac078b4a"
+                        "sha1": "701654d24800a56fa0ae32306e72f79d5fc5fd04",
+                        "md5": "7d574958b3e1b87559793e8be89145eb"
                     },
                     "required_dependencies": [
                         "245506"
                     ],
-                    "size": 781258,
-                    "date_published": "2025-12-08T14:05:33.430Z"
+                    "size": 786959,
+                    "date_published": "2026-01-18T11:36:43.130Z"
                 }
             ]
         },
