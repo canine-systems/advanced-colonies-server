@@ -3798,49 +3798,6 @@
             ]
         },
         {
-            "pakku_id": "HYamLg0xQVgTF7Qc",
-            "pakku_links": [
-                "cgSLGkYM7T3H5NJC",
-                "5gPNSy3hHb6uRyuO"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "enders-delight"
-            },
-            "name": {
-                "modrinth": "Ender's Delight"
-            },
-            "id": {
-                "modrinth": "2uEhdGKt"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "endersdelight-neoforge-1.21.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/2uEhdGKt/versions/eCFhgqVV/endersdelight-neoforge-1.21.1-1.1.0.jar",
-                    "id": "eCFhgqVV",
-                    "parent_id": "2uEhdGKt",
-                    "hashes": {
-                        "sha512": "1e8f0f585bcddaa2c1194a28dc4af1285ceb9c72cfe7bda841a7d7d0ad2ff2903a82f6dca614e097d5b0212d0dfb2dcf1f07c9a89273003ec4eedc3b911bce86",
-                        "sha1": "9f2762e0d871eb0b0cae7d83807d06be0917cc14"
-                    },
-                    "required_dependencies": [
-                        "R2OftAxM"
-                    ],
-                    "size": 174766,
-                    "date_published": "2025-04-06T15:37:09.195592Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "XBMrLNcwumG0Jp6j",
             "type": "MOD",
             "side": "SERVER",
