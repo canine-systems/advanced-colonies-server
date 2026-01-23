@@ -782,7 +782,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "artifacts-neoforge-13.1.0.jar",
+                    "file_name": "artifacts-neoforge-13.2.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -790,16 +790,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/uOlFeZbS/artifacts-neoforge-13.1.0.jar",
-                    "id": "uOlFeZbS",
+                    "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/bYbUZqGA/artifacts-neoforge-13.2.0.jar",
+                    "id": "bYbUZqGA",
                     "parent_id": "P0Mu4wcQ",
                     "hashes": {
-                        "sha512": "32cdb6df0ed2a9d2fe500c0bc548b116e8b8e444c51df95f535656b7a08a2e7327f9751705f814669299e90843d2966dfae66c4fc1589c756e67dbb0812ce292",
-                        "sha1": "2f3fb112b836415d3128b1888779b8b93323a871"
+                        "sha512": "cd7132ed680ee73cc08b4058e3e1cb658eec8df9236780bf8315f2400ec3e5c8c734e0b7ae20cf08385f074599ffc93283152926aad5231220805144526f3801",
+                        "sha1": "01e4df6f6a0d8d73190c0fc4a5493db79fa5386c"
                     },
                     "required_dependencies": [],
-                    "size": 1003578,
-                    "date_published": "2025-10-16T13:30:23.560521Z"
+                    "size": 1022570,
+                    "date_published": "2026-01-16T16:04:16.291431Z"
                 }
             ]
         },
@@ -822,7 +822,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "artifactscrafting-1.1.0-neoforge-1.21.1.jar",
+                    "file_name": "artifactscrafting-1.1.1-neoforge-1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -830,18 +830,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/GFqBpmHU/versions/7uDzmQVC/artifactscrafting-1.1.0-neoforge-1.21.1.jar",
-                    "id": "7uDzmQVC",
+                    "url": "https://cdn.modrinth.com/data/GFqBpmHU/versions/MtmdYref/artifactscrafting-1.1.1-neoforge-1.21.1.jar",
+                    "id": "MtmdYref",
                     "parent_id": "GFqBpmHU",
                     "hashes": {
-                        "sha512": "09b989ba9c87584e2ca75a6d858f13945063e0b20929e3cdb11e43f06ef7249b676f8138036ba49f5355ede670b093dcbba754e978dd2b3fce9f11af01bcf609",
-                        "sha1": "13fcfda0fdbe1fa1e566f3a56af4eb6f2a581a17"
+                        "sha512": "74c47a56c05eae7bc09f2a604618a3e9bb5bad921a3e7875540674e15ed5668174615ff040afeb4c0f4c34b712a9f3ef5cd9442b5006414f7dcf01ead0649ca5",
+                        "sha1": "5c809d79a15d72b14aa3d2123f331c2d592bd34d"
                     },
-                    "required_dependencies": [
-                        "P0Mu4wcQ"
-                    ],
-                    "size": 328680,
-                    "date_published": "2025-05-02T08:46:18.257374Z"
+                    "required_dependencies": [],
+                    "size": 328546,
+                    "date_published": "2026-01-18T10:20:27.536455Z"
                 }
             ]
         },
