@@ -7739,7 +7739,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "structurize-1.0.802-1.21.1-snapshot.jar",
+                    "file_name": "structurize-1.0.796-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -7748,19 +7748,19 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7427/254/structurize-1.0.802-1.21.1-snapshot.jar",
-                    "id": "7427254",
+                    "url": "https://edge.forgecdn.net/files/7277/275/structurize-1.0.796-1.21.1-snapshot.jar",
+                    "id": "7277275",
                     "parent_id": "298744",
                     "hashes": {
-                        "sha1": "71dd4af36ee719202a7a114770b20642929041b5",
-                        "md5": "8d971051546db5748a753b652515dc95"
+                        "sha1": "127fae769932aa0829931bd96971611a1e1f4906",
+                        "md5": "1476f61aec161a4471a15d47d6a17163"
                     },
                     "required_dependencies": [
                         "527361",
                         "522992"
                     ],
-                    "size": 1047189,
-                    "date_published": "2026-01-06T21:58:51.797Z"
+                    "size": 1028305,
+                    "date_published": "2025-11-30T07:57:16.117Z"
                 }
             ]
         },
@@ -8185,7 +8185,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Tweaks-1.21.1-3.22.jar",
+                    "file_name": "MineColonies_Tweaks-1.21.1-3.16.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8193,18 +8193,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7480/92/MineColonies_Tweaks-1.21.1-3.22.jar",
-                    "id": "7480092",
+                    "url": "https://edge.forgecdn.net/files/7308/68/MineColonies_Tweaks-1.21.1-3.16.jar",
+                    "id": "7308068",
                     "parent_id": "975812",
                     "hashes": {
-                        "sha1": "701654d24800a56fa0ae32306e72f79d5fc5fd04",
-                        "md5": "7d574958b3e1b87559793e8be89145eb"
+                        "sha1": "b79e6f03346aae0a0b0721c151807aaf36862269",
+                        "md5": "d6c8afd6f68dcc5af365c35cac078b4a"
                     },
                     "required_dependencies": [
                         "245506"
                     ],
-                    "size": 786959,
-                    "date_published": "2026-01-18T11:36:43.130Z"
+                    "size": 781258,
+                    "date_published": "2025-12-08T14:05:33.430Z"
                 }
             ]
         },
