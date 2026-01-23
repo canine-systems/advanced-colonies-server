@@ -263,7 +263,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ApothicAttributes-1.21.1-2.9.0.jar",
+                    "file_name": "ApothicAttributes-1.21.1-2.9.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -271,18 +271,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6751/650/ApothicAttributes-1.21.1-2.9.0.jar",
-                    "id": "6751650",
+                    "url": "https://edge.forgecdn.net/files/7445/79/ApothicAttributes-1.21.1-2.9.1.jar",
+                    "id": "7445079",
                     "parent_id": "898963",
                     "hashes": {
-                        "sha1": "eed5808509eb279fd342cafebadd5b95accb4ef8",
-                        "md5": "29023454c5afb47b4031f5073adcbfa3"
+                        "sha1": "e7f669e1b45d75076200436f37c40a6dd3b6a6ff",
+                        "md5": "a3eeb5df11aaf5d5a661c498f76b8133"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 311113,
-                    "date_published": "2025-07-10T08:40:20.720Z"
+                    "size": 314269,
+                    "date_published": "2026-01-11T05:28:10.443Z"
                 }
             ]
         },
