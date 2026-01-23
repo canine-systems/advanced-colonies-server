@@ -1725,7 +1725,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Compatibility-1.21.1-3.22.jar",
+                    "file_name": "MineColonies_Compatibility-1.21.1-3.16.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1733,19 +1733,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7480/95/MineColonies_Compatibility-1.21.1-3.22.jar",
-                    "id": "7480095",
+                    "url": "https://edge.forgecdn.net/files/7320/817/MineColonies_Compatibility-1.21.1-3.16.jar",
+                    "id": "7320817",
                     "parent_id": "1006214",
                     "hashes": {
-                        "sha1": "6db95d332a0d2f000df229c88a814fb36cd71d84",
-                        "md5": "b16b79ccdf14dad3a1bdaa843e137b1a"
+                        "sha1": "11af20fb0e674d33290a37fd163313a8eedbea0c",
+                        "md5": "ba765f9d30d80a8c1f96dff1b04809cd"
                     },
                     "required_dependencies": [
                         "245506",
                         "975812"
                     ],
-                    "size": 1261497,
-                    "date_published": "2026-01-18T11:37:11.073Z"
+                    "size": 1205280,
+                    "date_published": "2025-12-11T15:08:36.507Z"
                 }
             ]
         },
