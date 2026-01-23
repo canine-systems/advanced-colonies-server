@@ -12,6 +12,20 @@ craftingTable.addShaped("custom/name_tag", <item:minecraft:name_tag>, [
     [<item:minecraft:paper>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
+// saddle recipe added in 1.21.6
+craftingTable.addShaped("custom/saddle_newer_vanilla", <item:minecraft:saddle>, [
+    [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>],
+    [<item:minecraft:leather>, <item:minecraft:iron_ingot>, <item:minecraft:leather>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+// custom saddle recipe that doesn't use iron for no reason
+craftingTable.addShaped("custom/saddle", <item:minecraft:saddle>, [
+    [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>],
+    [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
+    [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>]
+]);
+
 /*
 craftingTable.addShaped("ctgui/new/create_compat_core/crafting_totem_of_undying_0", <item:minecraft:totem_of_undying>, [
     [<item:minecraft:emerald>, <item:minecraft:diamond>, <item:minecraft:emerald>],
