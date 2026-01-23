@@ -7298,7 +7298,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "SimpleBackups-1.21-4.0.24.jar",
+                    "file_name": "SimpleBackups-1.21-4.0.28.jar",
                     "mc_versions": [
                         "1.21.1",
                         "1.21.2",
@@ -7309,16 +7309,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/fzSKSXVK/versions/knGLaWzP/SimpleBackups-1.21-4.0.24.jar",
-                    "id": "knGLaWzP",
+                    "url": "https://cdn.modrinth.com/data/fzSKSXVK/versions/Gnrgy4Uh/SimpleBackups-1.21-4.0.28.jar",
+                    "id": "Gnrgy4Uh",
                     "parent_id": "fzSKSXVK",
                     "hashes": {
-                        "sha512": "53133d141a5697d69c1f7b00ba9aeb59784d31c229315344b08e628c12bbd278d070be3c2c0463acfc5272e48674b55dfd481d28f10384c2bdb4fc9fe49aaff9",
-                        "sha1": "80023f9768324befefacf2ce0614abeead86ac38"
+                        "sha512": "e2e68c397711e3f127682d3e89434299e537265526034ddeb99e536fa67d953fe19d795c9073e26b46437631f8c275b34a4457f911d8027d3698748b9b1cf8a3",
+                        "sha1": "041e1504af1a4d6c44f9015530aaf5c0bd0258cd"
                     },
                     "required_dependencies": [],
-                    "size": 65294,
-                    "date_published": "2025-12-09T18:41:16.442192Z"
+                    "size": 66992,
+                    "date_published": "2026-01-12T19:02:38.303366Z"
                 }
             ]
         },
