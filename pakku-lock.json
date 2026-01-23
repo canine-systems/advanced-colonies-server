@@ -7828,7 +7828,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "stylecolonies-1.15.43-1.21.1.jar",
+                    "file_name": "stylecolonies-1.15.45-1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -7837,18 +7837,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7252/614/stylecolonies-1.15.43-1.21.1.jar",
-                    "id": "7252614",
+                    "url": "https://edge.forgecdn.net/files/7395/933/stylecolonies-1.15.45-1.21.1.jar",
+                    "id": "7395933",
                     "parent_id": "827507",
                     "hashes": {
-                        "sha1": "72d43c22a9c884c2cba8b02db65cebe4c53cf2d7",
-                        "md5": "96621a9bffd7ab6fbf28d8bc197c7379"
+                        "sha1": "444990cc3f8cf196d5fe788e34af3f7817c3c91d",
+                        "md5": "053872c41b6ed1681ee02cc9a6dbb5fc"
                     },
                     "required_dependencies": [
                         "245506"
                     ],
-                    "size": 26675060,
-                    "date_published": "2025-11-23T09:05:20.057Z"
+                    "size": 31199538,
+                    "date_published": "2025-12-30T10:51:31.030Z"
                 }
             ]
         },
