@@ -572,7 +572,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ars_elemental-1.21.1-0.7.6.10.jar",
+                    "file_name": "ars_elemental-1.21.1-0.7.6.13.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -580,18 +580,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7299/976/ars_elemental-1.21.1-0.7.6.10.jar",
-                    "id": "7299976",
+                    "url": "https://edge.forgecdn.net/files/7442/370/ars_elemental-1.21.1-0.7.6.13.jar",
+                    "id": "7442370",
                     "parent_id": "561470",
                     "hashes": {
-                        "sha1": "9e96d9894450efd52f61c86136136bf25936a285",
-                        "md5": "7f437b281ab676f0884571a5bed0cc60"
+                        "sha1": "0b552963301ae60b130983461cf3c82495cbce5f",
+                        "md5": "57079a6e1880d24b522e3d4f6c9da734"
                     },
                     "required_dependencies": [
                         "401955"
                     ],
-                    "size": 1909926,
-                    "date_published": "2025-12-06T11:14:36.177Z"
+                    "size": 1911286,
+                    "date_published": "2026-01-10T16:13:50.057Z"
                 }
             ]
         },
@@ -611,7 +611,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ars_nouveau-1.21.1-5.10.6.jar",
+                    "file_name": "ars_nouveau-1.21.1-5.11.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -620,16 +620,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/pFwdTxwL/ars_nouveau-1.21.1-5.10.6.jar",
-                    "id": "pFwdTxwL",
+                    "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/iZimtaF0/ars_nouveau-1.21.1-5.11.1.jar",
+                    "id": "iZimtaF0",
                     "parent_id": "TKB6INcv",
                     "hashes": {
-                        "sha512": "9177ea8f3ad743a6de82bab83bd4e9e82c937442c7f093c29ce2a109c71d79fb5c1e93c3f07de72636dba272034f35711357300683413995034028a4cd55d56d",
-                        "sha1": "45d88e93b74f1cf8bab5941460a8194083ed7382"
+                        "sha512": "a6c2cb525943d506705f84a140dfc60e319eb72608847a7d368e2d2fe72d926f8f3ca2b9b22de24aa74d722745589f65158cd767965a4552003cf6168e56876e",
+                        "sha1": "faa47006e3791deba966d8fe888d58194a962b82"
                     },
                     "required_dependencies": [],
-                    "size": 20456608,
-                    "date_published": "2025-10-12T18:19:26.163582Z"
+                    "size": 20622680,
+                    "date_published": "2026-01-04T18:43:07.922579Z"
                 }
             ]
         },
