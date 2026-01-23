@@ -934,7 +934,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "balm-neoforge-1.21.1-21.0.55.jar",
+                    "file_name": "balm-neoforge-1.21.1-21.0.56.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -942,16 +942,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/rrxxIYvJ/balm-neoforge-1.21.1-21.0.55.jar",
-                    "id": "rrxxIYvJ",
+                    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/Yoii3Xj6/balm-neoforge-1.21.1-21.0.56.jar",
+                    "id": "Yoii3Xj6",
                     "parent_id": "MBAkmtvl",
                     "hashes": {
-                        "sha512": "c73c2bf311c4799528bb436a1c16f22386d1c357e2836d8568800d9c7a0da30a18adbd134cd1dac856aba05081291cb54fa343abd8c71b6e668ee917cac98310",
-                        "sha1": "0a134aee7ca0a43a5396923e849ff84ec34f7efd"
+                        "sha512": "08ab4483999bee8f4a13b0069e09565255336375542af498188219e1509e2b58eaf281bfe75c7e135c8d5e2804c0982538cbf5d7cf02a5dec1bd8be8f9b075e6",
+                        "sha1": "635e706136bb228e6a72d41d86dec495f812ccb5"
                     },
                     "required_dependencies": [],
-                    "size": 727272,
-                    "date_published": "2025-11-26T15:47:34.694797Z"
+                    "size": 739709,
+                    "date_published": "2026-01-05T13:50:25.814457Z"
                 }
             ]
         },
