@@ -3024,45 +3024,6 @@
             ]
         },
         {
-            "pakku_id": "jFWylvh5k39NhAzD",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "dwm"
-            },
-            "name": {
-                "curseforge": "Doctor Who - TARDIS - Reborn"
-            },
-            "id": {
-                "curseforge": "884515"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "DoctorWhoMod-1.21.1-neoforge-1.0.16.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7332/995/DoctorWhoMod-1.21.1-neoforge-1.0.16.jar",
-                    "id": "7332995",
-                    "parent_id": "884515",
-                    "hashes": {
-                        "sha1": "441b2cd12c2c5be50dab9746ba8c9ecd45ba4102",
-                        "md5": "3bc8991da51e0ca9f23911a9c4f4ca2c"
-                    },
-                    "required_dependencies": [
-                        "547434",
-                        "419699"
-                    ],
-                    "size": 5592974,
-                    "date_published": "2025-12-14T16:18:40.033Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Cwxx2a1oaD2z1Dno",
             "type": "MOD",
             "slug": {
