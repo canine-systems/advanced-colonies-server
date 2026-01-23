@@ -5164,7 +5164,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Jade-1.21.1-NeoForge-15.10.3.jar",
+                    "file_name": "Jade-1.21.1-NeoForge-15.10.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5172,16 +5172,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/43sRR8f6/Jade-1.21.1-NeoForge-15.10.3.jar",
-                    "id": "43sRR8f6",
+                    "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/VGRMP69T/Jade-1.21.1-NeoForge-15.10.4.jar",
+                    "id": "VGRMP69T",
                     "parent_id": "nvQzSEkH",
                     "hashes": {
-                        "sha512": "351926187c564d1f2bae2f084c77f80fe850dc90837153ef01506c049f16b02307196ed383ae25cd334530106aa741b12dd90f5e1b205439fde2b74d09274bc0",
-                        "sha1": "0c7e9b04e2481d26c9080dd5d32351490d1fed3a"
+                        "sha512": "2b5bada9a4ac58804c571e33f5c98c93e9903edffd92c4a870dd5f37eb12d901ed9fb854f69749fec256dd5f0c3c1fdbd3b8576aa5f6900e0857ebf3c517a66a",
+                        "sha1": "7d23a1dd515872bd6498b8edd06bb84e61f2c4e7"
                     },
                     "required_dependencies": [],
-                    "size": 725736,
-                    "date_published": "2025-08-06T00:53:03.569038Z"
+                    "size": 725725,
+                    "date_published": "2026-01-07T09:07:19.933157Z"
                 }
             ]
         },
