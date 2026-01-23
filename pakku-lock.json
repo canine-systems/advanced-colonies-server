@@ -2032,7 +2032,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "create-1.21.1-6.0.8.jar",
+                    "file_name": "create-1.21.1-6.0.9.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2040,16 +2040,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/88L641Un/create-1.21.1-6.0.8.jar",
-                    "id": "88L641Un",
+                    "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/n7NADxiG/create-1.21.1-6.0.9.jar",
+                    "id": "n7NADxiG",
                     "parent_id": "LNytGWDc",
                     "hashes": {
-                        "sha512": "cb3ffee35ee2b2ab212fb4649e75ccfcb8e99ae954cf0b0251591062e3f200e5e639e8f40d7af7c79b7dc71164a027b0e6fbcd5c0bafe2da88f888fc3ffd254c",
-                        "sha1": "eee603ac7b083c9cd3a8ded4d4e3ed1a9a836f96"
+                        "sha512": "8b3b3d9b6874f31a538add81390dff26b5f9475da6349dc52fc20dbde802edfc32ead511e12291198591574d42605f916f1acbadc2437056eea615d8586bf7cf",
+                        "sha1": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9"
                     },
                     "required_dependencies": [],
-                    "size": 19001557,
-                    "date_published": "2025-11-02T16:12:53.110793Z"
+                    "size": 19019888,
+                    "date_published": "2026-01-02T16:55:33.705214Z"
                 }
             ]
         },
@@ -2156,7 +2156,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Create Encased-1.21.1-1.7.2-fix2.jar",
+                    "file_name": "Create Encased-1.21.1-1.8-ht2.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2165,18 +2165,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/hSSqdyU1/versions/KQsWJIIJ/Create Encased-1.21.1-1.7.2-fix2.jar",
-                    "id": "KQsWJIIJ",
+                    "url": "https://cdn.modrinth.com/data/hSSqdyU1/versions/sjCAxK2s/Create Encased-1.21.1-1.8-ht2.jar",
+                    "id": "sjCAxK2s",
                     "parent_id": "hSSqdyU1",
                     "hashes": {
-                        "sha512": "e80d59899f9dd2d4042552862d8d248a9b81991071a6265ce6bfddcff8de05ebaf4852fdb7b45281668979af21814d2274a967219ec0091788f73496f83a888e",
-                        "sha1": "170c8da8e95e7d61dc223dbdd850e00c877f3c00"
+                        "sha512": "5a390e43fd0ef0cedf277ca985199bcd7dd3f83ce3a132774436808191ef24611541c3349ddbea7c82a5a3cde11ed87c72173a46498c7555947436b51894f24e",
+                        "sha1": "957a7ee1741c7a8536bedd401a923d7fb73a7092"
                     },
                     "required_dependencies": [
                         "LNytGWDc"
                     ],
-                    "size": 1974433,
-                    "date_published": "2025-10-28T13:33:23.147876Z"
+                    "size": 2410332,
+                    "date_published": "2026-01-14T18:14:05.967348Z"
                 }
             ]
         },
@@ -2491,7 +2491,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "create-dragons-plus-1.8.5.jar",
+                    "file_name": "create-dragons-plus-1.8.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2499,18 +2499,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/SzMfOokp/create-dragons-plus-1.8.5.jar",
-                    "id": "SzMfOokp",
+                    "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/SVTlUqYg/create-dragons-plus-1.8.6.jar",
+                    "id": "SVTlUqYg",
                     "parent_id": "dzb1a5WV",
                     "hashes": {
-                        "sha512": "59bafc422073a2928b59e5d39d5011f0d9aac22d790c475e5795219560f22a99916e0126b842864335a959dbaa238ee2e9bdaae32862b6a971919d04b19d1949",
-                        "sha1": "5c1495b201f9f20af75d35b65be652ce8b68cdf7"
+                        "sha512": "c8ee9a46aea4281840eb9a99fa6973c7a6c7c25a0e0b2263a971b239d246271d5b34f1c77e42f735eb7241504ab3014c225006769cc38f2ce9886206a182c0a3",
+                        "sha1": "1a77a871b15b3ec57fe5f7f3fcf1b9b0b2dd1518"
                     },
                     "required_dependencies": [
                         "LNytGWDc"
                     ],
-                    "size": 642543,
-                    "date_published": "2025-11-17T05:02:32.411245Z"
+                    "size": 644837,
+                    "date_published": "2026-01-22T03:31:35.666736Z"
                 }
             ]
         },
@@ -2571,7 +2571,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "escalated-1.2.0-create.6.0.8-mc.1.21.1-neoforge.jar",
+                    "file_name": "escalated-1.2.1-create.6.0.8-mc.1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2579,19 +2579,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7254/44/escalated-1.2.0-create.6.0.8-mc.1.21.1-neoforge.jar",
-                    "id": "7254044",
+                    "url": "https://edge.forgecdn.net/files/7430/7/escalated-1.2.1-create.6.0.8-mc.1.21.1-neoforge.jar",
+                    "id": "7430007",
                     "parent_id": "1260145",
                     "hashes": {
-                        "sha1": "1677d1e1f0b1ecd35c8bdfa6fd576a4cf7f7b246",
-                        "md5": "1bb280f3cf07e5537160b54b88f067a9"
+                        "sha1": "c0c2a66ecf4204972920bfd4d62314aea83dc64e",
+                        "md5": "9a9a083d801ed01ecc8cb609120bd209"
                     },
                     "required_dependencies": [
-                        "624165",
-                        "328085"
+                        "328085",
+                        "624165"
                     ],
-                    "size": 517808,
-                    "date_published": "2025-11-23T16:14:01.080Z"
+                    "size": 517830,
+                    "date_published": "2026-01-07T15:25:47.307Z"
                 }
             ]
         },
