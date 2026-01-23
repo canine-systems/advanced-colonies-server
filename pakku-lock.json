@@ -4168,7 +4168,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "framework-neoforge-1.21.1-0.13.6.jar",
+                    "file_name": "framework-neoforge-1.21.1-0.13.10.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4176,16 +4176,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7339/258/framework-neoforge-1.21.1-0.13.6.jar",
-                    "id": "7339258",
+                    "url": "https://edge.forgecdn.net/files/7462/477/framework-neoforge-1.21.1-0.13.10.jar",
+                    "id": "7462477",
                     "parent_id": "549225",
                     "hashes": {
-                        "sha1": "5df5319a739c7dbdc62b77b6e0ed44c6728107ea",
-                        "md5": "a6d50156394978e8fc108f45631c17f9"
+                        "sha1": "26e7ff80783db0e11021a710236cc474a6532c27",
+                        "md5": "28043a3fde038f4c164ca465d89bb803"
                     },
                     "required_dependencies": [],
-                    "size": 377864,
-                    "date_published": "2025-12-16T04:25:15.100Z"
+                    "size": 387332,
+                    "date_published": "2026-01-15T07:10:11.110Z"
                 }
             ]
         },
@@ -4250,7 +4250,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "fzzy_config-0.7.4+1.21+neoforge.jar",
+                    "file_name": "fzzy_config-0.7.5+1.21+neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4259,18 +4259,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/Mo5GSG4l/fzzy_config-0.7.4+1.21+neoforge.jar",
-                    "id": "Mo5GSG4l",
+                    "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/D9zI6UFX/fzzy_config-0.7.5+1.21+neoforge.jar",
+                    "id": "D9zI6UFX",
                     "parent_id": "hYykXjDp",
                     "hashes": {
-                        "sha512": "b689aa793cfa63598cbad6fa137f91376e039c8abbc64acdc53fe26da75574b88214a313eaa6f40f72262a999c254c0cecea3be84f086ec4416a52dd56bc002f",
-                        "sha1": "2c6651f0563a4f800e0857e424ac01c1e42f80f7"
+                        "sha512": "7caa441d98e90cde0780b69c73552d8cf2db0f883febd1eb35bd0f66f105cd5052ca07da3ad4359fa3b5e3f4bd18969bd7d4b1a5967fb17be5c8dd9ddc50c9ab",
+                        "sha1": "81b9e4796cc40a04a6fa0cdf2682b326de726133"
                     },
                     "required_dependencies": [
                         "ordsPcFz"
                     ],
-                    "size": 2348703,
-                    "date_published": "2025-12-14T05:55:48.903641Z"
+                    "size": 2367696,
+                    "date_published": "2026-01-19T17:34:13.650970Z"
                 }
             ]
         },
@@ -4290,7 +4290,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "geckolib-neoforge-1.21.1-4.8.2.jar",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.3.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4298,16 +4298,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/RVIo5f6E/geckolib-neoforge-1.21.1-4.8.2.jar",
-                    "id": "RVIo5f6E",
+                    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/lWsXauBN/geckolib-neoforge-1.21.1-4.8.3.jar",
+                    "id": "lWsXauBN",
                     "parent_id": "8BmcQJ2H",
                     "hashes": {
-                        "sha512": "6b70d7dc11adb68cd590110c6b29de39eaae40b55f934026288a2018f6d529a2579124d0596825126db4a499f0dfc26248e4005a452bc1b0d4d05c0279e33602",
-                        "sha1": "b2d84a5ea8b8944be66dbf817f0d4aa3f494db7a"
+                        "sha512": "4b8f3bcdc04450aa97af136353341f136921259f16f2363f3cfe77956860455f27c38f9701b3f0e8a78ea86067411ecd35d391803b753276934057481e770556",
+                        "sha1": "fb0ac6ad63dc5f401c15c66a037c08e9709d1c42"
                     },
                     "required_dependencies": [],
-                    "size": 621848,
-                    "date_published": "2025-09-22T19:52:43.235896Z"
+                    "size": 622121,
+                    "date_published": "2026-01-04T07:23:41.319169Z"
                 }
             ]
         },
@@ -4657,44 +4657,97 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "IE Reimmersed v1.0 Forge.zip",
+                    "file_name": "[Forge] IE Reimmersed v1.1.zip",
                     "mc_versions": [
                         "1.19",
                         "1.19.1",
                         "1.19.2",
+                        "22w42a",
+                        "22w43a",
+                        "22w44a",
                         "1.19.3",
                         "1.19.4",
+                        "23w14a",
+                        "23w16a",
                         "1.20",
                         "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
                         "1.20.2",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
                         "1.20.3",
                         "1.20.4",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
                         "1.20.5",
                         "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
                         "1.21",
                         "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
                         "1.21.2",
                         "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
                         "1.21.4",
                         "1.21.5",
                         "1.21.6",
                         "1.21.7",
-                        "1.21.8"
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
                     ],
                     "loaders": [
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Ah9dJFtY/versions/5fqawpCo/IE Reimmersed v1.0 Forge.zip",
-                    "id": "5fqawpCo",
+                    "url": "https://cdn.modrinth.com/data/Ah9dJFtY/versions/iVXojUsS/[Forge] IE Reimmersed v1.1.zip",
+                    "id": "iVXojUsS",
                     "parent_id": "Ah9dJFtY",
                     "hashes": {
-                        "sha512": "f45ed82a45a218ef6cfde5def6b30d301590fa5c35de3c7dde6355784848e73fc8e5e9378894cad8988f8aec780a6bf68a82b06889067a72be8df69416b344e4",
-                        "sha1": "7f2dfa57fa0abd5484cf53835f2de43ac2d4ef0a"
+                        "sha512": "1dcf59f5856eaac071468ac45fd87757e91ac15c9eba24b69240ec7d11feef00f3c98d4485cdca0daa34dcea48d4eddddd82bd3e1f728b47783840bd7079baa7",
+                        "sha1": "20e08025713abd3d3a4f4b047aef1852cfc993cf"
                     },
                     "required_dependencies": [],
-                    "size": 1447726,
-                    "date_published": "2025-09-28T13:23:57.292744Z"
+                    "size": 1740528,
+                    "date_published": "2026-01-15T19:30:19.706206Z"
                 }
             ]
         },
