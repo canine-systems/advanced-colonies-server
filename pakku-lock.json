@@ -2901,6 +2901,47 @@
             ]
         },
         {
+            "pakku_id": "XVci4fjixSIklRhd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cupboard"
+            },
+            "name": {
+                "curseforge": "Cupboard"
+            },
+            "id": {
+                "curseforge": "326652"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cupboard-1.21-2.9.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6078/150/cupboard-1.21-2.9.jar",
+                    "id": "6078150",
+                    "parent_id": "326652",
+                    "hashes": {
+                        "sha1": "8f6eb497f60fb6a2cf2b276113d33e61b9a5c2a5",
+                        "md5": "9cc5caf701898ba7236ca1e841d9049b"
+                    },
+                    "required_dependencies": [],
+                    "size": 23509,
+                    "date_published": "2025-01-11T21:41:38.277Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Zmw8CHXZc70rTeUQ",
             "type": "MOD",
             "side": "BOTH",
@@ -7121,6 +7162,43 @@
                     "required_dependencies": [],
                     "size": 77326,
                     "date_published": "2024-10-21T20:44:51.147209Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DYAxyPGWfE6eL9xW",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "smooth-chunk-save"
+            },
+            "name": {
+                "curseforge": "Server Performance - Smooth Chunk Save[Forge/Fabric]"
+            },
+            "id": {
+                "curseforge": "582327"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "smoothchunk-1.21-4.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6296/628/smoothchunk-1.21-4.1.jar",
+                    "id": "6296628",
+                    "parent_id": "582327",
+                    "hashes": {
+                        "sha1": "f54d5d352e15560240f151a7d054096a33a58f4a",
+                        "md5": "a3c55088f5e9b228e8e94ae20e639a7a"
+                    },
+                    "required_dependencies": [],
+                    "size": 12852,
+                    "date_published": "2025-03-12T16:48:47.343Z"
                 }
             ]
         },
