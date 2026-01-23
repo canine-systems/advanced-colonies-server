@@ -5539,7 +5539,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minecolonies-1.1.1230-1.21.1-snapshot.jar",
+                    "file_name": "minecolonies-1.1.1242-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -5548,22 +5548,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7368/801/minecolonies-1.1.1230-1.21.1-snapshot.jar",
-                    "id": "7368801",
+                    "url": "https://edge.forgecdn.net/files/7450/523/minecolonies-1.1.1242-1.21.1-snapshot.jar",
+                    "id": "7450523",
                     "parent_id": "245506",
                     "hashes": {
-                        "sha1": "c59916d6bca7572e9b3753e411de1fd33361bb39",
-                        "md5": "7e8025a9997736d77d91d65006429df1"
+                        "sha1": "6799c5a0e5cc525b62b0b6e42384fa846baf8354",
+                        "md5": "de6c3405c20e0f8c711e6b20811141b2"
                     },
                     "required_dependencies": [
                         "527361",
-                        "900364",
-                        "522992",
+                        "303278",
                         "298744",
-                        "303278"
+                        "900364",
+                        "522992"
                     ],
-                    "size": 76932859,
-                    "date_published": "2025-12-23T10:07:27.527Z"
+                    "size": 77155175,
+                    "date_published": "2026-01-12T13:46:01.110Z"
                 }
             ]
         },
