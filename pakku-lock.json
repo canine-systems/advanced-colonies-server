@@ -5510,7 +5510,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "mafglib-0.4.2+mc1.21.1.jar",
+                    "file_name": "mafglib-0.4.3+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5518,16 +5518,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/SKI34J7B/versions/YcfOKxBv/mafglib-0.4.2+mc1.21.1.jar",
-                    "id": "YcfOKxBv",
+                    "url": "https://cdn.modrinth.com/data/SKI34J7B/versions/CgDQ0u0Q/mafglib-0.4.3+mc1.21.1.jar",
+                    "id": "CgDQ0u0Q",
                     "parent_id": "SKI34J7B",
                     "hashes": {
-                        "sha512": "43c24f8ebd2f27b3f8be33df224d59baf3c901fcaa7c01ce42e5bcf8891c4cad0a7406e0374f66107474a8b627c55cf81f7805cc15d7da2f8f1bbe052892b856",
-                        "sha1": "32e08cc76dd63d05730db4b299ecb241ea053399"
+                        "sha512": "b28b0552022ba22a729c917b848d119b84236689b550b99ba1fe11f2353551abcd2d9e23b190689be82376a9b2a47ffc22cdb116f413d6f76a5d19f075a9e78d",
+                        "sha1": "9f62df832b1d5c9fe1aead873bd65cb8defacac7"
                     },
                     "required_dependencies": [],
-                    "size": 1113826,
-                    "date_published": "2025-12-26T13:57:17.675357Z"
+                    "size": 1314767,
+                    "date_published": "2026-01-20T10:47:52.273736Z"
                 }
             ]
         },
