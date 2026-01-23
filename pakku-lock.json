@@ -8430,39 +8430,34 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xmxw-2.2.0+1.21.1-neoforge.jar",
+                    "file_name": "xmxw-2.2.1+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
                         "1.21.2",
                         "1.21.3",
                         "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10"
+                        "1.21.5"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/ZNLnKh62/xmxw-2.2.0+1.21.1-neoforge.jar",
-                    "id": "ZNLnKh62",
+                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/xSZV5wUL/xmxw-2.2.1+1.21.1-neoforge.jar",
+                    "id": "xSZV5wUL",
                     "parent_id": "iv2jCzkP",
                     "hashes": {
-                        "sha512": "d41efa53a0e26f92a5e6ed357e996107f61f4d1748c69e441a48e106b14d811ac0341923b16efd50274fa04c3c279fc9b66f7cb39dca4ca10117e297fa96d757",
-                        "sha1": "1dda0074a7c990552966192d36621c6a5890d6d8"
+                        "sha512": "d708a8475b1030d26829836d5069b6bb0a74fab03dccb27927e0e12ab6acf306d0ee5b59ff4d8ace2e7fbb04adf83fafda8c8f7a28941d969ac6b2d51c0931d1",
+                        "sha1": "a71c011952f2427831f7a426a9d3422d597d324d"
                     },
                     "required_dependencies": [
-                        "1bokaNcj",
                         "ordsPcFz",
                         "LOpKHB2A",
-                        "1eAoo2KR"
+                        "1eAoo2KR",
+                        "1bokaNcj"
                     ],
-                    "size": 73411,
-                    "date_published": "2026-01-20T13:09:43.154082Z"
+                    "size": 73327,
+                    "date_published": "2026-01-22T08:34:23.683881Z"
                 }
             ]
         },
