@@ -3038,24 +3038,25 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "domum-ornamentum-1.0.223-snapshot-main.jar",
+                    "file_name": "domum-ornamentum-1.0.227-snapshot-main.jar",
                     "mc_versions": [
+                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7231/908/domum-ornamentum-1.0.223-snapshot-main.jar",
-                    "id": "7231908",
+                    "url": "https://edge.forgecdn.net/files/7422/835/domum-ornamentum-1.0.227-snapshot-main.jar",
+                    "id": "7422835",
                     "parent_id": "527361",
                     "hashes": {
-                        "sha1": "c7adb80a1363834008cfce3022dba77e38a6f7fa",
-                        "md5": "0bbb4edea1a81e94506f5048b1da2b76"
+                        "sha1": "36b9f33777a4a458248a34f523bd3d9a2831b5e0",
+                        "md5": "812ed2d42abae876c06d7c72ac55b6da"
                     },
                     "required_dependencies": [],
-                    "size": 1124673,
-                    "date_published": "2025-11-17T09:12:28.363Z"
+                    "size": 1124995,
+                    "date_published": "2026-01-05T21:53:57.823Z"
                 }
             ]
         },
