@@ -46,7 +46,8 @@ ${BIN_DIR}/%: packaging/bin/%
 	chmod +x $@
 
 ${PROFILE_OPT_BIN}:
-	echo '[[ ":$PATH:" == *":/opt/bin:"* ]] || export PATH=$PATH:/opt/bin' > $@
+	mkdir -p $(@D)
+	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
 ${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/update-server ${PROFILE_OPT_BIN}
 
