@@ -77,3 +77,15 @@ craftingTable.addShaped("custom/gilded_blackstone", <item:minecraft:gilded_black
     [<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:minecraft:air>],
     [<item:minecraft:gold_nugget>, <item:minecraft:blackstone>, <item:minecraft:gold_nugget>],
     [<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("custom/budding_amethyst", <item:minecraft:budding_amethyst>, [
+  [<item:minecraft:amethyst_shard>, <item:minecraft:calcite>, <item:minecraft:amethyst_shard>],
+  [<item:minecraft:calcite>, <item:minecraft:amethyst_block>, <item:minecraft:calcite>],
+  [<item:minecraft:smooth_basalt>, <item:minecraft:smooth_basalt>, <item:minecraft:smooth_basalt>]]);
+
+craftingTable.addShaped("custom/echo_shard", <item:minecraft:echo_shard>, [
+  [<item:minecraft:sculk>, <item:minecraft:sculk>, <item:minecraft:sculk>],
+  [<item:minecraft:sculk>, <item:minecraft:amethyst_shard>, <item:minecraft:sculk>],
+  [<item:minecraft:sculk>, <item:minecraft:sculk>, <item:minecraft:sculk>]]);
+
+
