@@ -13,6 +13,7 @@ PRISTINE := build/pristine
 LEGO_FILE := ${PRISTINE}/opt/bin/lego
 SYSTEMD_FILES := ${PRISTINE}/etc/systemd/system/
 SERVER_DIR := ${PRISTINE}/opt/minecraft/server
+BIN_DIR := ${PRISTINE}/opt/bin
 
 LIVE_DIR := build/live
 LIVE_SERVER_DIR := ${LIVE_DIR}/opt/minecraft/server
@@ -38,7 +39,12 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE}
+${BIN_DIR}/%: packaging/bin/%
+	mkdir -p ${BIN_DIR}
+	cp $< $@
+	chmod +x $@
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/update-server
 
 pristine: ${PRISTINE}
 

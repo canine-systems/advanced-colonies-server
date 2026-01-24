@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+if [ "$UID" -eq 0 ]; then
+    echo "$0 must be run as root."
+    exit 1
+fi
+
+DIR=$(mktemp -d)
+cd $DIR
+
+wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb
+STATUS=$?
+
+if [ "$STATUS" -eq 0]; then
+    apt install ./advanced-colonies-server.deb
+    STATUS=$?
+fi
+
+rm -rf "$DIR"
+
+exit $STATUS
