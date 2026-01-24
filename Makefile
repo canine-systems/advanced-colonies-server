@@ -14,6 +14,7 @@ LEGO_FILE := ${PRISTINE}/opt/bin/lego
 SYSTEMD_FILES := ${PRISTINE}/etc/systemd/system/
 SERVER_DIR := ${PRISTINE}/opt/minecraft/server
 BIN_DIR := ${PRISTINE}/opt/bin
+PROFILE_OPT_BIN := ${PRISTINE}/etc/profile.d/99-opt-bin.sh
 
 LIVE_DIR := build/live
 LIVE_SERVER_DIR := ${LIVE_DIR}/opt/minecraft/server
@@ -44,7 +45,10 @@ ${BIN_DIR}/%: packaging/bin/%
 	cp $< $@
 	chmod +x $@
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/update-server
+${PROFILE_OPT_BIN}:
+	echo '[[ ":$PATH:" == *":/opt/bin:"* ]] || export PATH=$PATH:/opt/bin' > $@
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/update-server ${PROFILE_OPT_BIN}
 
 pristine: ${PRISTINE}
 
