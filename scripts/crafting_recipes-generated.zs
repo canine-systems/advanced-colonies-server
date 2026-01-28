@@ -46,46 +46,36 @@ craftingTable.addShaped("custom/archmage_glove", <item:reliquified_ars_nouveau:a
     [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]
 ]);
 
-/*
-craftingTable.addShaped("custom/ominous_bottle_(bad_omen_1)", <item:minecraft:ominous_bottle_(bad_omen_1)>, [
+craftingTable.addShaped("custom/ominous_bottle", <item:minecraft:ominous_bottle>, [
     [<item:minecraft:air>, <item:minecraft:emerald>],
-    [<item:minecraft:air>, <item:minecraft:ominous_banner>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:water_bottle>]
+    [<item:minecraft:air>, <item:minecraft:white_banner>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:potion>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:water"})]
 ]);
 
-*/
-/*
-craftingTable.addShaped("custom/ominous_bottle_(bad_omen_2)", <item:minecraft:ominous_bottle_(bad_omen_2)>, [
+craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_2", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 1), [
     [<item:minecraft:air>, <item:minecraft:emerald>],
-    [<item:minecraft:air>, <item:minecraft:ominous_bottle_(bad_omen_1)>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:ominous_bottle>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:emerald>]
 ]);
 
-*/
-/*
-craftingTable.addShaped("custom/ominous_bottle_(bad_omen_3)", <item:minecraft:ominous_bottle_(bad_omen_3)>, [
+craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_3", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 2), [
     [<item:minecraft:air>, <item:minecraft:emerald>],
-    [<item:minecraft:ominous_banner>, <item:minecraft:ominous_bottle_(bad_omen_2)>, <item:minecraft:air>],
+    [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 1), <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:emerald>]
 ]);
 
-*/
-/*
-craftingTable.addShaped("custom/ominous_bottle_(bad_omen_4)", <item:minecraft:ominous_bottle_(bad_omen_4)>, [
+craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_4", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 3), [
     [<item:minecraft:air>, <item:minecraft:emerald>],
-    [<item:minecraft:ominous_banner>, <item:minecraft:ominous_bottle_(bad_omen_3)>, <item:minecraft:emerald>],
+    [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 2), <item:minecraft:emerald>],
     [<item:minecraft:air>, <item:minecraft:emerald>]
 ]);
 
-*/
-/*
-craftingTable.addShaped("custom/ominous_bottle_(bad_omen_5)", <item:minecraft:ominous_bottle_(bad_omen_5)>, [
-    [<item:minecraft:air>, <item:minecraft:emerald>, <item:minecraft:ominous_banner>],
-    [<item:minecraft:ominous_banner>, <item:minecraft:ominous_bottle_(bad_omen_4)>, <item:minecraft:emerald>],
-    [<item:minecraft:ominous_banner>, <item:minecraft:emerald>]
+craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_5", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 4), [
+    [<item:minecraft:air>, <item:minecraft:emerald>, <item:minecraft:white_banner>],
+    [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, 3), <item:minecraft:emerald>],
+    [<item:minecraft:white_banner>, <item:minecraft:emerald>]
 ]);
 
-*/
 craftingTable.addShaped("custom/dragon_head", <item:minecraft:dragon_head>, [
     [<item:irons_spellbooks:dragonskin>, <item:minecraft:air>, <item:irons_spellbooks:dragonskin>],
     [<item:minecraft:air>, <item:minecraft:skeleton_skull>, <item:minecraft:air>],

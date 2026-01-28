@@ -3,10 +3,24 @@
 def normalize(name)
   name = name.strip.gsub("'", '')
   multiplier = ""
+  modifier = ""
 
   if name =~ /(.*) \(X(\d)\)$/
     name = $1
     multiplier = " * #$2"
+  end
+
+  if name =~ /(ominous bottle) \(bad omen (\d)\)$/
+    name = $1
+    amplifier = $2.to_i
+    if amplifier > 1
+      modifier = ".withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>, #{amplifier - 1})"
+    end
+  end
+
+  if name == 'water bottle'
+    name = "potion"
+    modifier = ".withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: \"minecraft:water\"})"
   end
 
   name =
@@ -19,6 +33,8 @@ def normalize(name)
       "whirling broom"
     when "dragons breath"
       "dragon breath"
+    when "ominous banner"
+      "white banner"
     when /whirlsprig/
       name.sub('whirlsprig', 'whirlisprig')
     when /block of (.*)/
@@ -41,7 +57,7 @@ def normalize(name)
 
   name = name.gsub(' ', '_')
 
-  "<item:#{category}:#{name}>#{multiplier}"
+  "<item:#{category}:#{name}>#{modifier}#{multiplier}"
 end
 
 def parse_line(line)
@@ -72,10 +88,11 @@ File.open(File.join(__dir__, "..", "scripts", "crafting_recipes-generated.zs"), 
     recipe = recipe.map {|parts| "  [#{parts.join(", ")}]" }
 
     output_name = output.split(":").last.split(">").first
+    if output =~ /.withJsonComponent\(<componenttype:minecraft:ominous_bottle_amplifier>, (\d)\)/
+      output_name += "/bad_omen_#{$1.to_i + 1}"
+    end
 
     comment = output_name.include?('bad_omen')
-
-    f.puts "/*" if comment
 
     f.puts <<~EOF
   craftingTable.addShaped("custom/#{output_name}", #{output}, [
@@ -83,8 +100,6 @@ File.open(File.join(__dir__, "..", "scripts", "crafting_recipes-generated.zs"), 
   ]);
 
     EOF
-
-    f.puts "*/" if comment
   end
 end
 
