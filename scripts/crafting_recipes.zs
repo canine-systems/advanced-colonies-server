@@ -88,4 +88,43 @@ craftingTable.addShaped("custom/echo_shard", <item:minecraft:echo_shard>, [
   [<item:minecraft:sculk>, <item:minecraft:amethyst_shard>, <item:minecraft:sculk>],
   [<item:minecraft:sculk>, <item:minecraft:sculk>, <item:minecraft:sculk>]]);
 
+craftingTable.addShaped("custom/ancient_knowledge_fragment", <item:irons_spellbooks:ancient_knowledge_fragment>, [
+  [<item:irons_spellbooks:epic_ink>, <item:minecraft:echo_shard>, <item:irons_spellbooks:arcane_ingot>],
+  [<item:minecraft:echo_shard>, <item:minecraft:paper>, <item:minecraft:echo_shard>],
+  [<item:irons_spellbooks:magic_cloth>, <item:minecraft:echo_shard>, <item:irons_spellbooks:legendary_ink>]]);
 
+craftingTable.addShapeless("custom/wilden_wing_to_miners_delight_bat_wing", <item:minersdelight:bat_wing> * 2, [
+  <item:ars_nouveau:wilden_wing>
+]);
+
+craftingTable.addShapeless("custom/miners_delight_bat_wing_to_reliquary_bat_wing", <item:reliquary:bat_wing>, [
+  <item:minersdelight:bat_wing>
+]);
+craftingTable.addShapeless("custom/reliquary_bat_wing_to_miners_delight_bat_wing", <item:minersdelight:bat_wing>, [
+  <item:reliquary:bat_wing>
+]);
+
+// This recipe works, but doesn't show up in EMI for some reason.
+craftingTable.addShaped("custom/bundle", <item:minecraft:bundle>, [
+  [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
+  [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
+  [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("custom/monster_spawner", <item:minecraft:spawner>, [
+  [<item:minecraft:iron_bars>, <item:minecraft:iron_ingot>, <item:minecraft:iron_bars>],
+  [<item:minecraft:iron_ingot>, <item:minecraft:diamond>, <item:minecraft:iron_ingot>],
+  [<item:minecraft:iron_bars>, <item:minecraft:iron_ingot>, <item:minecraft:iron_bars>]
+]);
+
+craftingTable.addShaped("custom/trial_spawner", <item:minecraft:trial_spawner>, [
+  [<item:minecraft:copper_block>, <item:minecraft:iron_ingot>, <item:minecraft:copper_block>],
+  [<item:minecraft:iron_ingot>, <item:minecraft:spawner>, <item:minecraft:iron_ingot>],
+  [<item:minecraft:copper_block>, <item:minecraft:iron_ingot>, <item:minecraft:copper_block>],
+]);
+
+craftingTable.addShaped("custom/crying_obsidian_x4", <item:minecraft:crying_obsidian> * 4, [
+  [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
+  [<item:minecraft:obsidian>, <item:minecraft:water_bucket>, <item:minecraft:obsidian>],
+  [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
+]);

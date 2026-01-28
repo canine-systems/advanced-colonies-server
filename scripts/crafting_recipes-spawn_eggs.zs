@@ -201,3 +201,9 @@ craftingTable.addShaped("custom/spawn_egg/warden", <item:minecraft:warden_spawn_
   [sculk, sculk, sculk],
   [sculk_sensor, egg, sculk_shrieker],
   [sculk, sculk_catalyst, sculk]]);
+
+craftingTable.addShaped("custom/spawn_egg/squid", <item:minecraft:squid_spawn_egg>, [
+  [<item:minecraft:ink_sac>, <item:minecraft:ink_sac>, <item:minecraft:ink_sac>],
+  [<item:minecraft:water_bucket>, <item:minecraft:egg>, <item:minecraft:water_bucket>],
+  [<item:minecraft:ink_sac>, <item:minecraft:ink_sac>, <item:minecraft:ink_sac>],
+]);
