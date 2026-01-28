@@ -29,6 +29,7 @@ craftingTable.addShaped("ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.ite
     [<item:minecraft:prismarine_crystals>, <item:minecraft:egg>, <item:minecraft:prismarine_crystals>],
     [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>]]);
 
+// we don't have mynethersdelight anymore, so this recipe can't work.
 /*
 craftingTable.addShaped("ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.hoglin_spawn_egg_0", <item:minecraft:hoglin_spawn_egg>, [
     [IIngredientEmpty.getInstance(), <item:mynethersdelight:hoglin_hide>, IIngredientEmpty.getInstance()],
@@ -87,7 +88,7 @@ var breeze_powder = <item:create_compat_core:breeze_powder>;
 craftingTable.addShaped("custom/spawn_egg/breeze", <item:minecraft:breeze_spawn_egg>, [
   [wind_charge, breeze_rod, wind_charge],
   [wind_charge, egg, wind_charge],
-  [wind_charge, breeze_rod, wind_charge]])
+  [wind_charge, breeze_rod, wind_charge]]);
 
 craftingTable.addShaped("custom/spawn_egg/breeze_alt", <item:minecraft:breeze_spawn_egg>, [
   [breeze_powder, breeze_rod, breeze_powder],
@@ -103,19 +104,18 @@ var gold_ingot = <tag:item:c:ingots/gold>;
 var gold_nugget = <tag:item:c:nuggets/gold>;
 var ender_pearl = <tag:item:c:ender_pearls>;
 var fox_food = <tag:item:minecraft:fox_food>;
-var rabbit_food = <tag:item:minecraft:rabbit_food>
+var rabbit_food = <tag:item:minecraft:rabbit_food>;
 var golden_carrot = <item:minecraft:golden_carrot>;
 var sand = <tag:item:c:sands>;
 var crossbow = <item:minecraft:crossbow>;
 var bow = <tag:item:c:tools/bow>;
 var bone = <tag:item:c:bones>;
-var arrow_slowness = [
-  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}),
-  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:long_slowness"}),
-  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_slowness"}),
-<item:reliquary:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {custom_effects: [{duration: 62, id: "minecraft:slowness", show_icon: 1, "neoforge:cures": ["protected_by_totem", "milk"]}]}),
-  <item:reliquary:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {custom_effects: [{duration: 125, amplifier: 1, id: "minecraft:slowness", show_icon: 1, "neoforge:cures": ["protected_by_totem", "milk"]}]})
-  ];
+var arrow_slowness =
+  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}) |
+  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:long_slowness"}) |
+  <item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_slowness"}) |
+  <item:reliquary:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {custom_effects: [{duration: 62, id: "minecraft:slowness", show_icon: true, "neoforge:cures": ["protected_by_totem", "milk"]}]}) |
+  <item:reliquary:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {custom_effects: [{duration: 125, amplifier: 1, id: "minecraft:slowness", show_icon: true, "neoforge:cures": ["protected_by_totem", "milk"]}]});
 var bread = <tag:item:c:foods/bread>;
 var lead = <item:minecraft:lead>;
 var redstone_dust = <tag:item:c:dusts/redstone>;
@@ -132,7 +132,7 @@ var sculk_catalyst = <item:minecraft:sculk_catalyst>;
 
 var zombie_spawn_egg = <item:minecraft:zombie_spawn_egg>;
 
-craftingTable.addShaped("custom/spawn_egg/creeper", <item:minecraft:creeper_spawn:egg>, [
+craftingTable.addShaped("custom/spawn_egg/creeper", <item:minecraft:creeper_spawn_egg>, [
   [gunpowder, gunpowder, gunpowder],
   [tnt, egg, tnt],
   [gunpowder, gunpowder, gunpowder]]);
@@ -155,7 +155,7 @@ craftingTable.addShaped("custom/spawn_egg/zombie_husk", <item:minecraft:husk_spa
 craftingTable.addShapedMirrored("custom/spawn_egg/endermite", MirrorAxis.ALL, <item:minecraft:endermite_spawn_egg>, [
   [ender_pearl],
   [egg],
-  [ender_pearl]);
+  [ender_pearl]]);
 
 craftingTable.addShaped("custom/spawn_egg/fox", <item:minecraft:fox_spawn_egg>, [
   [IIngredientEmpty.getInstance(), fox_food, IIngredientEmpty.getInstance()],
@@ -199,6 +199,5 @@ craftingTable.addShaped("custom/spawn_egg/dead_king_corpse", <item:irons_spellbo
 
 craftingTable.addShaped("custom/spawn_egg/warden", <item:minecraft:warden_spawn_egg>, [
   [sculk, sculk, sculk],
-  [sculk_sensor, egg, scult_shrieker],
+  [sculk_sensor, egg, sculk_shrieker],
   [sculk, sculk_catalyst, sculk]]);
-
