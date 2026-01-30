@@ -107,7 +107,7 @@ dist/mods.md:
 	mkdir -p $(@D)
 	./bin/mod-list.py > $@
 
-mods: pakku.json pakku-lock.json config/* config/*/* config/*/*/* scripts/* squaremap/* maintenance/
+mods: pakku.json pakku-lock.json config/* config/*/* config/*/*/* scripts/* squaremap/*
 	./bin/pakku fetch
 
 dist/advanced-colonies-serverpack.zip: mods
