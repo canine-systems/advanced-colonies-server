@@ -49,7 +49,7 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-scripts: ${BIN}/ac-update ${BIN}/ac-sync-map
+scripts: ${BIN}/ac-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast
 
 ${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} scripts
 
