@@ -13,7 +13,7 @@ PRISTINE := build/pristine
 LEGO_FILE := ${PRISTINE}/opt/bin/lego
 SYSTEMD_FILES := ${PRISTINE}/etc/systemd/system/
 SERVER_DIR := ${PRISTINE}/opt/minecraft/server
-BIN_DIR := ${PRISTINE}/opt/bin
+BIN := ${PRISTINE}/opt/bin
 PROFILE_OPT_BIN := ${PRISTINE}/etc/profile.d/99-opt-bin.sh
 
 LIVE_DIR := build/live
@@ -40,8 +40,8 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 
 ${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods
 
-${BIN_DIR}/%: packaging/bin/%
-	mkdir -p ${BIN_DIR}
+${BIN}/%: packaging/bin/%
+	mkdir -p ${BIN}
 	cp $< $@
 	chmod +x $@
 
@@ -49,7 +49,9 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/ac-update ${PROFILE_OPT_BIN}
+scripts: ${BIN}/ac-update ${BIN}/ac-sync-map
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} scripts
 
 pristine: ${PRISTINE}
 
@@ -121,4 +123,4 @@ clean:
 veryclean: clean
 	rm -rf .cache mods
 
-.PHONY: all build cache clean deb pristine server run run-offline
+.PHONY: all build cache clean deb pristine server run run-offline scripts
