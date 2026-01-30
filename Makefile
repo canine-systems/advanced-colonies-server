@@ -49,7 +49,7 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/update-server ${PROFILE_OPT_BIN}
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${BIN_DIR}/ac-update ${PROFILE_OPT_BIN}
 
 pristine: ${PRISTINE}
 
