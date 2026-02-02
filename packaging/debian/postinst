@@ -32,6 +32,9 @@ case "$1" in
 
         # Restart the service if it was already running.
         systemctl try-restart minecraft
+        systemctl try-restart sync-map.timer
+        systemctl try-restart lets-encrypt.timer
+        systemctl try-restart ac-update-server.timer
 
         rm -f /opt/minecraft/server/minecraft.needs-update
         rm -f /opt/minecraft/server/minecraft.disable
