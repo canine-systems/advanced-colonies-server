@@ -12,7 +12,7 @@ wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/
 STATUS=$?
 
 if [ "$STATUS" -eq 0 ]; then
-    apt install ./advanced-colonies-server.deb
+    apt install "$@" ./advanced-colonies-server.deb
     STATUS=$?
 fi
 

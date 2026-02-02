@@ -1,0 +1,9 @@
+[Unit]
+Description=Update Minecraft modpack
+After=network.target
+ConditionPathExists=/opt/minecraft/server/minecraft.needs-update
+
+[Service]
+Type=oneshot
+
+ExecStart=/opt/bin/ac-update -y
