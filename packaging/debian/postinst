@@ -21,6 +21,8 @@ set -e
 case "$1" in
     configure)
         chown -R minecraft:minecraft /opt/minecraft
+        chmod -R 700 /opt/minecraft/.ssh
+        chmod 600 /opt/minecraft/.ssh/*
 
         systemctl daemon-reload
         systemctl enable minecraft
