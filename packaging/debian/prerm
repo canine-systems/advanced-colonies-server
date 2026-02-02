@@ -23,6 +23,7 @@ case "$1" in
         systemctl disable sync-map.timer
         systemctl disable lan-broadcast.service
         systemctl disable lets-encrypt.timer
+        systemctl disable ac-server-update.timer
     ;;
 
     failed-upgrade)

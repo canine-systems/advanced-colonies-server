@@ -26,9 +26,13 @@ case "$1" in
         systemctl enable minecraft
         systemctl enable sync-map.timer
         systemctl enable lets-encrypt.timer
+        systemctl enable ac-update-server.timer
 
         # Restart the service if it was already running.
         systemctl try-restart minecraft
+
+        rm -f /opt/minecraft/server/minecraft.needs-update
+        rm -f /opt/minecraft/server/minecraft.disable
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
