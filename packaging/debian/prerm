@@ -21,7 +21,6 @@ case "$1" in
     remove|upgrade|deconfigure)
         systemctl disable minecraft
         systemctl disable sync-map.timer
-        systemctl disable lan-broadcast.service
         systemctl disable lets-encrypt.timer
         systemctl disable ac-server-update.timer
     ;;
