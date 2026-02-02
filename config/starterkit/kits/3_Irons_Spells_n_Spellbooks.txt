@@ -10,7 +10,7 @@
 4 : '{count:1,id:"minecraft:stone_axe"}',
 5 : '{count:1,id:"minecraft:stone_shovel"}',
 6 : '{count:1,id:"irons_spellbooks:inscription_table"}',
-7 : '',
+7 : '{count:1,id:"ars_nouveau:worn_notebook"}',
 8 : '{count:1,id:"sophisticatedbackpacks:backpack"}',
 9 : '',
 10 : '',
