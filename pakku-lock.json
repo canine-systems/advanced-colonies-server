@@ -6368,6 +6368,52 @@
             ]
         },
         {
+            "pakku_id": "3Gl7tECb96u0oXYU",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "passive-shield"
+            },
+            "name": {
+                "modrinth": "Passive Shield"
+            },
+            "id": {
+                "modrinth": "iQBrasyH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "passiveshield-1.21.1-3.7.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iQBrasyH/versions/qCIUvQPR/passiveshield-1.21.1-3.7.jar",
+                    "id": "qCIUvQPR",
+                    "parent_id": "iQBrasyH",
+                    "hashes": {
+                        "sha512": "91e142851d14fe35b80fb6ba16e06076241cbef87a1fb74e2c02f6a4bd7d1eb0f5a905da5852f79f52768f72aebee6aafe6453d024c4601d2ef7b8cfab28d1d8",
+                        "sha1": "1dc83de117b2adb3d2f8e3e758704de0345bbfdf"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 45461,
+                    "date_published": "2025-02-12T14:49:04.091233Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Vu3Ah5m4b9wpgCKa",
             "type": "MOD",
             "side": "BOTH",
