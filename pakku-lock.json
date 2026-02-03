@@ -8565,7 +8565,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xmxw-2.4.0+1.21.1-neoforge.jar",
+                    "file_name": "xmxw-2.5.0+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -8578,21 +8578,21 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/LSJxHJ1h/xmxw-2.4.0+1.21.1-neoforge.jar",
-                    "id": "LSJxHJ1h",
+                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/fUGDCnQr/xmxw-2.5.0+1.21.1-neoforge.jar",
+                    "id": "fUGDCnQr",
                     "parent_id": "iv2jCzkP",
                     "hashes": {
-                        "sha512": "e634403c3c59d5a9083076aa116dc0d7a95dbd6afe487ac9a0608f43b823fc1e9df7fcfbd4d20a691201b170f6260fd672fc75783d54fbb7d02bd7c85bb50d5b",
-                        "sha1": "39a49e5324459b10aa7ab1bad94729c582e6dc1c"
+                        "sha512": "70d714f15a2f68d65712e7840736f21340a7df969686c6efc192d94a36f45c7145ec71b0d7f2462976e54ffb226ad2c94df79489149b94b2d6f2db05c97873f2",
+                        "sha1": "008d8ecb9d71c05a9d199cb48ba2cdfd4b3d80a3"
                     },
                     "required_dependencies": [
-                        "1eAoo2KR",
-                        "1bokaNcj",
+                        "LOpKHB2A",
                         "ordsPcFz",
-                        "LOpKHB2A"
+                        "1bokaNcj",
+                        "1eAoo2KR"
                     ],
-                    "size": 89469,
-                    "date_published": "2026-01-30T06:07:26.761597Z"
+                    "size": 89761,
+                    "date_published": "2026-02-03T06:47:11.048815Z"
                 }
             ]
         },
