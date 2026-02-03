@@ -4357,6 +4357,52 @@
             ]
         },
         {
+            "pakku_id": "968kpVfVnxKpVJeU",
+            "pakku_links": [
+                "iKgaxYIDbWiFtLPo"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "giant-spawn"
+            },
+            "name": {
+                "modrinth": "Giant Spawn"
+            },
+            "id": {
+                "modrinth": "iWwn7s9U"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "giantspawn-1.21.1-5.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iWwn7s9U/versions/zgSwmV99/giantspawn-1.21.1-5.3.jar",
+                    "id": "zgSwmV99",
+                    "parent_id": "iWwn7s9U",
+                    "hashes": {
+                        "sha512": "d358a80d6f0162a94fa5be773bde68884bbdd86dde6f943744d4f878d91f528fbb2b3cf7a51b66395ad3fd481f2b64f0a223f9cdb9d998a78d6fdfebcd22184f",
+                        "sha1": "1efd92ce74c64e2ad6d024ed16e779b1b8707109"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 53668,
+                    "date_published": "2025-02-12T17:03:24.843245Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "G3ielNZ8q0wzTMsv",
             "pakku_links": [
                 "my8hamzId94BJpb6"
