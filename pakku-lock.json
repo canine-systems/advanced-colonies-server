@@ -2350,47 +2350,6 @@
             ]
         },
         {
-            "pakku_id": "sIUjaI5YHVhF8DDK",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-ars-nouveau-compat"
-            },
-            "name": {
-                "curseforge": "Create: Ars Nouveau Compat"
-            },
-            "id": {
-                "curseforge": "1285569"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_ars_nouveau_compat-1.21.1-1.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6973/534/create_ars_nouveau_compat-1.21.1-1.1.jar",
-                    "id": "6973534",
-                    "parent_id": "1285569",
-                    "hashes": {
-                        "sha1": "1210c5a2584c248ffe487a511f763db0646d74d4",
-                        "md5": "db51fac0b265ffcd1bc20f84f9f6c22e"
-                    },
-                    "required_dependencies": [
-                        "401955",
-                        "1338699",
-                        "328085"
-                    ],
-                    "size": 801901,
-                    "date_published": "2025-09-07T17:43:21.417Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "pyqTIRMJ1vLiFNXK",
             "pakku_links": [
                 "CJU2ArnVpXR02Re3"
