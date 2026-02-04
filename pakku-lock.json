@@ -5472,6 +5472,50 @@
             ]
         },
         {
+            "pakku_id": "x4d4rfc3GwGwqIIa",
+            "pakku_links": [
+                "ryR9vvBuUd1bSh9x",
+                "pZK1iopXfuVqo6Fa"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "llo"
+            },
+            "name": {
+                "modrinth": "Light Level Overlay"
+            },
+            "id": {
+                "modrinth": "wtejCXCP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "lightleveloverlay-neoforge-1.3.0+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wtejCXCP/versions/VIrCF31o/lightleveloverlay-neoforge-1.3.0+mc1.21.1.jar",
+                    "id": "VIrCF31o",
+                    "parent_id": "wtejCXCP",
+                    "hashes": {
+                        "sha512": "16b6a17889b9154f67aa87bd1a0f91afb903e3e3d9d634d7dcc60afc3c9c9db4cf65ecaad8df459ef15135411741b028c696e3d03b58eead5c1da588ebbb1aed",
+                        "sha1": "c7b06269876a9988e83e5911d75d41bbc639ad21"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 22592,
+                    "date_published": "2026-01-09T01:39:09.142456Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "F85zqXT5XUbKwHMB",
             "type": "MOD",
             "slug": {
@@ -5818,44 +5862,6 @@
                     "required_dependencies": [],
                     "size": 6389,
                     "date_published": "2024-09-22T12:56:31.790Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "7EkxnLJIZpSIjLxu",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "more-overlays-updated"
-            },
-            "name": {
-                "curseforge": "More Overlays Updated"
-            },
-            "id": {
-                "curseforge": "391382"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6981/252/moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
-                    "id": "6981252",
-                    "parent_id": "391382",
-                    "hashes": {
-                        "sha1": "21e8bd61c5e146a9574266015d3f64621c2d9e18",
-                        "md5": "3b586d041a18cd227f97ac5ecd0d3d88"
-                    },
-                    "required_dependencies": [],
-                    "size": 112984,
-                    "date_published": "2025-09-09T22:40:53.220Z"
                 }
             ]
         },
