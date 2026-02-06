@@ -6,4 +6,4 @@ ConditionPathExists=/opt/minecraft/server/minecraft.needs-update
 [Service]
 Type=oneshot
 
-ExecStart=/opt/bin/ac-update -y
+ExecStart=/opt/bin/ac-do-update -y
