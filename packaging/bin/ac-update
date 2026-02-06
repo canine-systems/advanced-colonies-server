@@ -1,3 +1,60 @@
-#!/bin/sh
+#!/usr/bin/env python3
 
-touch /opt/minecraft/server/minecraft.needs-update
+from functools import cache
+from pathlib import Path
+from subprocess import check_output
+from urllib.request import urlopen
+import json
+import time
+
+def installed_version():
+    package = "advanced-colonies-server"
+    for line in check_output(["dpkg", "-l", package]).decode().split("\n"):
+        if line.startswith(f"ii  {package} "):
+            version = list(filter(len, line.split(" ")))[2]
+            return version.split("-")[0]
+
+def latest_version():
+    @cache
+    def lv_inner(ttl):
+        with urlopen("https://api.github.com/repos/canine-systems/advanced-colonies-server/releases/latest") as req:
+            data = json.load(req)
+        return data["tag_name"]
+
+    ttl = int(time.time() / 10) # 10 seconds
+    return lv_inner(ttl)
+
+def wait_for_new_version():
+    prefixes = ["-", "\\", "|", "/"]
+
+    while True:
+        for pfx in prefixes:
+            print(f"\r{pfx} Waiting for new version...", end="", flush=True)
+            if latest_version() > installed_version():
+                print(f"\r! New version is available: {latest_version()}")
+                return
+            time.sleep(1)
+
+def request_update():
+    print("\nRequesting update.", end="", flush=True)
+    Path("/tmp/minecraft.needs-update").touch(exist_ok=True)
+    print("\rUpdate requested.")
+
+def wait_for_update(old_version, new_version):
+    prefixes = ["-", "\\", "|", "/"]
+
+    while True:
+        for pfx in prefixes:
+            print(f"\r{pfx} Waiting for update to finish...", end="", flush=True)
+            if installed_version() == new_version:
+                print(f"\rUpdated from version {old_version} to {new_version}")
+                return
+            time.sleep(1)
+
+old_version = installed_version()
+
+wait_for_new_version()
+request_update()
+
+new_version = latest_version()
+wait_for_update(old_version, new_version)
