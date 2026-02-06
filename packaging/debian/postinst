@@ -38,6 +38,8 @@ case "$1" in
 
         rm -f /opt/minecraft/server/minecraft.needs-update
         rm -f /opt/minecraft/server/minecraft.disable
+        rm -f /tmp/minecraft.needs-update
+        rm -f /tmp/minecraft.disable
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
