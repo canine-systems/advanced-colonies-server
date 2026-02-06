@@ -28,6 +28,7 @@ jobs:
           persist-credentials: false
       - id: info
         run: echo "version=3.${TAG}" >> "$GITHUB_OUTPUT"
+      - run: sudo apt update
       - run: sudo apt install -y devscripts build-essential debhelper-compat default-jre unzip python3
 
       # Download neoforge, lego, etc.
