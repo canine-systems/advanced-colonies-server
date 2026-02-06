@@ -118,9 +118,9 @@ dist/advanced-colonies-serverpack.zip: mods
 dist: dist/mods.md ${DEB_FILE}
 
 clean:
-	rm -rf build dist
+	rm -rf build dist *.log
 
 veryclean: clean
-	rm -rf .cache mods
+	rm -rf .cache mods datapacks resourcepacks
 
 .PHONY: all build cache clean deb pristine server run run-offline scripts
