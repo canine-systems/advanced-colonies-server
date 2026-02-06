@@ -14,14 +14,14 @@ def installed_version():
             version = list(filter(len, line.split(" ")))[2]
             return version.split("-")[0]
 
-def latest_version():
-    @cache
-    def lv_inner(ttl):
-        with urlopen("https://api.github.com/repos/canine-systems/advanced-colonies-server/releases/latest") as req:
-            data = json.load(req)
-        return data["tag_name"]
+@cache
+def lv_inner(ttl):
+    with urlopen("https://api.github.com/repos/canine-systems/advanced-colonies-server/releases/latest") as req:
+        data = json.load(req)
+    return data["tag_name"]
 
-    ttl = int(time.time() / 10) # 10 seconds
+def latest_version():
+    ttl = int(time.time() / 60) # 60 seconds
     return lv_inner(ttl)
 
 def wait_for_new_version():
