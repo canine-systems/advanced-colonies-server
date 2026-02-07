@@ -31,12 +31,12 @@ case "$1" in
         systemctl enable ac-update-server.timer
         systemctl enable ac-restarter.timer
 
-        # Restart the service if it was already running.
-        systemctl try-restart minecraft
-        systemctl try-restart sync-map.timer
-        systemctl try-restart lets-encrypt.timer
-        systemctl try-restart ac-update-server.timer
-        systemctl try-restart ac-restarter.timer
+        # Start or restart the services.
+        systemctl restart minecraft
+        systemctl restart sync-map.timer
+        systemctl restart lets-encrypt.timer
+        systemctl restart ac-update-server.timer
+        systemctl restart ac-restarter.timer
 
         rm -f /opt/minecraft/server/minecraft.needs-update
         rm -f /opt/minecraft/server/minecraft.disable
