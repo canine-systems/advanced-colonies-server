@@ -1,5 +1,5 @@
 [Unit]
-Description=Update Minecraft modpack periodically
+Description=Periodically check if Minecraft needs updated
 
 [Timer]
 OnBootSec=1min
