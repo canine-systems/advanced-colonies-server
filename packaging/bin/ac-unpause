@@ -2,5 +2,5 @@
 
 from pathlib import Path
 
-Path("/tmp/minecraft.disable").unlink()
-Path("/tmp/minecraft.needs-restart").unlink()
+Path("/tmp/minecraft.disable").unlink(missing_ok=True)
+Path("/tmp/minecraft.needs-restart").unlink(missing_ok=True)
