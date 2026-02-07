@@ -1,8 +1,8 @@
 [Unit]
 Description=Minecraft Server
 After=network.target
-ConditionPathExists=|!/opt/minecraft/server/minecraft.disable
-ConditionPathExists=|!/tmp/minecraft.disable
+ConditionPathExists=!/opt/minecraft/server/minecraft.disable
+ConditionPathExists=!/tmp/minecraft.disable
 
 [Service]
 User=minecraft
