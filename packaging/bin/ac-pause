@@ -19,10 +19,4 @@ def wait_for(fn, wait_msg, done_msg, delay_sec=1):
                 return
             time.sleep(delay_sec)
 
-
 wait_for(lambda: not restarter.exists, "Stopping server...", "Minecraft server is stopped.")
-input("Press enter to start server.")
-
-disabler.unlink()
-
-print("Server is starting.")
