@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart Minecraft server if needed
+After=minecraft.service
+ConditionPathExists=/tmp/minecraft.needs-restart
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/bin/systemctl restart minecraft.service
+ExecStart=/usr/bin/rm /tmp/minecraft.needs-restart
