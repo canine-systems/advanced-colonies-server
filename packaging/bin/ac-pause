@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+import time
+
+disabler = Path("/tmp/minecraft.disable")
+restarter = Path("/tmp/minecraft.needs-restart")
+
+disabler.touch(exist_ok=True)
+restarter.touch(exist_ok=True)
+
+def wait_for(fn, wait_msg, done_msg, delay_sec=1):
+    prefixes = ["-", "\\", "|", "/"]
+    while True:
+        for pfx in prefixes:
+            print(f"\r{pfx} {wait_msg}")
+            if fn():
+                print(f"\r! {done_msg}")
+                return
+            time.sleep(delay_sec)
+
+
+wait_for(lambda: not restarter.exists, "Stopping server...", "Minecraft server is stopped.")
+input("Press enter to start server.")
+
+disabler.unlink()
+
+print("Server is starting.")
