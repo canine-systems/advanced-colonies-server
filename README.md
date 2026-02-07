@@ -14,7 +14,7 @@ Initial setup:
 wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb
 ```
 
-Updating: `/upgrade` from inside of Minecraft, or `ac-update` from the command line.
+Upgrading: `ac-update` will wait for a new version to become available, then trigger an automatic entire upgrade process.
 
 ## Development
 
