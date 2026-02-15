@@ -60,7 +60,7 @@ ${LIVE_DIR}: ${PRISTINE}
 
 run: ${LIVE_DIR}
 	echo eula=true > ${LIVE_SERVER_DIR}/eula.txt
-	cd ${LIVE_SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt nogui ||:
+	cd ${LIVE_SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt nogui ||:
 
 run-offline: ${LIVE_DIR}
 	sed -i.bak -e 's/online-mode=.*$$/online-mode=false/' \
