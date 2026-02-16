@@ -20,6 +20,15 @@ Maintenance:
 - `ac-pause`: Stop the Minecraft server (e.g. for maintenance)
 - `ac-unpause`: Allow the Minecraft server to start as normal (e.g. after maintenance is done)
 
+## Manual In-Game Steps
+
+Currently, you have to manually place the spawn building by doing the following:
+
+1. get a empty schematic + schematic table
+2. use table to load `elisium_spawn.nbt` to the schematic
+3. position schematic so you're at -197, 65, 303 when standing on the corner of the pier
+
+
 ## Development
 
 `./bin/pakku` is your friend.
