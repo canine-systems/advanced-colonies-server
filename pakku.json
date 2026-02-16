@@ -9,6 +9,7 @@
         "whitelist.json",
         "datapacks",
         "resourcepacks",
+        "schematics",
         "server.properties",
         "server-icon.png",
         "squaremap"
