@@ -26,7 +26,8 @@ Currently, you have to manually place the spawn building by doing the following:
 
 1. get a empty schematic + schematic table
 2. use table to load `elisium_spawn.nbt` to the schematic
-3. position schematic so you're at -197, 65, 303 when standing on the corner of the pier
+3. position schematic so you're at -197, 65, 303 when standing on the corner of the bridge
+4. extend the bridge + support pillars as needed
 
 
 ## Development
