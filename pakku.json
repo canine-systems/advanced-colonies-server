@@ -16,6 +16,7 @@
     ],
     "projects": {
         "animated-door": {"side": "BOTH"},
+        "athena-ctm": {"side": "BOTH"},
         "extra-mod-integrations": {"side": "BOTH"},
         "emi-enchanting": {"side": "BOTH"},
         "emi-professions-(emip)": {"side": "BOTH"},

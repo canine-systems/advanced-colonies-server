@@ -926,6 +926,44 @@
             ]
         },
         {
+            "pakku_id": "ehY16Pg4zus8ENFA",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "athena-ctm"
+            },
+            "name": {
+                "modrinth": "Athena"
+            },
+            "id": {
+                "modrinth": "b1ZV3DIJ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "athena-neoforge-1.21-4.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/SVhR1m5N/athena-neoforge-1.21-4.0.2.jar",
+                    "id": "SVhR1m5N",
+                    "parent_id": "b1ZV3DIJ",
+                    "hashes": {
+                        "sha512": "c1756365b28d4c6c62416f0332a0e2d591142ae9ea5e5c1e0ae640eb9ae172565c08ef6c11e29c062f4db78a3dd187dba6837fbca1e0f38e12a2b4e48ec5ed88",
+                        "sha1": "069f397f1b3a30b3d5f5a98cac76304dfe345d76"
+                    },
+                    "required_dependencies": [],
+                    "size": 92698,
+                    "date_published": "2025-06-19T03:54:10.282958Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dLDSxsSvDzw30gzZ",
             "type": "MOD",
             "side": "BOTH",
@@ -6478,6 +6516,55 @@
             ]
         },
         {
+            "pakku_id": "xM43uKZvFGg17MYQ",
+            "pakku_links": [
+                "tJBlRPeqD3AwFLJ3",
+                "pZK1iopXfuVqo6Fa",
+                "AeUeU0wZE1MQJYGg",
+                "ehY16Pg4zus8ENFA"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "oritech"
+            },
+            "name": {
+                "modrinth": "Oritech"
+            },
+            "id": {
+                "modrinth": "4sYI62kA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "oritech-neoforge-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/K6Ux9VOd/oritech-neoforge-1.21.1-1.0.1.jar",
+                    "id": "K6Ux9VOd",
+                    "parent_id": "4sYI62kA",
+                    "hashes": {
+                        "sha512": "f47dacda9808c69e005f2888e5323ac859b6c043ef250d7feb110353ab95dc8a2ea56422a83dcd9c8f8650ffa4828ec6d0fba21e71f6c752614f9be575ce010f",
+                        "sha1": "72227bb7da23200da439c52633efc664de81de09"
+                    },
+                    "required_dependencies": [
+                        "ccKDOlHs",
+                        "lhGA9TYQ",
+                        "8BmcQJ2H",
+                        "b1ZV3DIJ"
+                    ],
+                    "size": 10622940,
+                    "date_published": "2026-02-08T17:25:33.538463Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3Gl7tECb96u0oXYU",
             "pakku_links": [
                 "iKgaxYIDbWiFtLPo"
@@ -8895,6 +8982,43 @@
                     "required_dependencies": [],
                     "size": 54641,
                     "date_published": "2025-01-08T23:00:04.028518Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tJBlRPeqD3AwFLJ3",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "owo-lib"
+            },
+            "name": {
+                "modrinth": "oωo (owo-lib)"
+            },
+            "id": {
+                "modrinth": "ccKDOlHs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "id": "NMCHU6DZ",
+                    "parent_id": "ccKDOlHs",
+                    "hashes": {
+                        "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
+                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 1221583,
+                    "date_published": "2025-07-19T00:45:19.909132Z"
                 }
             ]
         },
