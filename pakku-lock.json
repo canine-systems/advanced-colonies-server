@@ -764,6 +764,45 @@
             ]
         },
         {
+            "pakku_id": "N067vXUkJNXahHXy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ars-zero"
+            },
+            "name": {
+                "curseforge": "Ars Zero"
+            },
+            "id": {
+                "curseforge": "1377482"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ars_zero-1.21.1-1.11.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7642/824/ars_zero-1.21.1-1.11.1.jar",
+                    "id": "7642824",
+                    "parent_id": "1377482",
+                    "hashes": {
+                        "sha1": "2a8bf7b6ceecf4f6dd6eef8e9c693c4a32cbcafc",
+                        "md5": "f207ac78aaca45b910bbbfe614c9ea15"
+                    },
+                    "required_dependencies": [
+                        "401955",
+                        "561470"
+                    ],
+                    "size": 2258360,
+                    "date_published": "2026-02-18T07:41:25.647Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "CE8crmyTiCNacrQe",
             "pakku_links": [
                 "LvQNVZUC5CiBrl4q",
