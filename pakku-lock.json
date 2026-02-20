@@ -5609,6 +5609,43 @@
             ]
         },
         {
+            "pakku_id": "iSaULJ5vO8f5YRyj",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "magic-vibe-decorations"
+            },
+            "name": {
+                "modrinth": "Magic Vibe Decorations (Crystals, Halloween)"
+            },
+            "id": {
+                "modrinth": "MPAgKQOE"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/MPAgKQOE/versions/8h6DJypO/magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar",
+                    "id": "8h6DJypO",
+                    "parent_id": "MPAgKQOE",
+                    "hashes": {
+                        "sha512": "05766f7dd779654aca7046c2a3ee3cd3808c3b4d3befc858091b56e9b46c12c41c728d0dac1519e09e53806138b70f764a62f5d49b5a803dd3c7bb92d978e559",
+                        "sha1": "a4024cf9f17fbcbf09075d41e1af48323a4a3497"
+                    },
+                    "required_dependencies": [],
+                    "size": 1856768,
+                    "date_published": "2025-03-24T08:48:32.405095Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HB7fv3rWzNjJu2OL",
             "pakku_links": [
                 "pVD2Wyml7iBOQ2kJ"
