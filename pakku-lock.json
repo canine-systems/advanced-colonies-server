@@ -1517,6 +1517,44 @@
             ]
         },
         {
+            "pakku_id": "DKNjgKVoZ6irxXit",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "cluttered"
+            },
+            "name": {
+                "modrinth": "Cluttered"
+            },
+            "id": {
+                "modrinth": "UnAEo77V"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "cluttered-[NeoForge]-3.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UnAEo77V/versions/xzERbfOO/cluttered-[NeoForge]-3.0.3-1.21.1.jar",
+                    "id": "xzERbfOO",
+                    "parent_id": "UnAEo77V",
+                    "hashes": {
+                        "sha512": "90f88b9fe70bc37d6d36b574fc5bd90d13e3b440717c1a468104bc8d6a3b55a221e117a8273620ecfc3d90dd5f2f9fc182acb1021995bb5cb54e47217919d32e",
+                        "sha1": "ae644104c83cdce103f536fb42d500c282cf1b35"
+                    },
+                    "required_dependencies": [],
+                    "size": 5404861,
+                    "date_published": "2025-12-27T19:25:32.019458Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fyzt0F4y9z2Izyx5",
             "type": "MOD",
             "side": "BOTH",
