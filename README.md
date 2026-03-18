@@ -29,6 +29,7 @@ Currently, you have to manually place the spawn building by doing the following:
 3. position schematic so you're at -197, 65, 303 when standing on the corner of the bridge
 4. extend the bridge + support pillars as needed
 
+Then, you need to disable insomnia/phantoms with `/gamerule doInsomnia false`.
 
 ## Development
 
