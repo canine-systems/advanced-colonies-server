@@ -51,7 +51,10 @@ ${PROFILE_OPT_BIN}:
 
 bins: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} bins
+I_AM_IMPATIENT: ${SERVER_DIR}/mods
+	wget https://github.com/canine-systems/deathwatch/releases/download/1.2/deathwatch-1.2.jar -O ${SERVER_DIR}/mods/deathwatch-1.2.jar
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} bins I_AM_IMPATIENT
 
 pristine: ${PRISTINE}
 
