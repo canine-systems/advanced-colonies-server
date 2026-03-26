@@ -31,6 +31,12 @@ printf "Upload started on $START\n\n" > $LOG_FILE
 # --delete: Delete extraneous files from dest dirs.
 { rsync -avzPh --delete "$HOME/server/squaremap/web/" "${BACKUP_REMOTE}:/usr/share/caddy/" 2>&1 || fail "Error running rsync ($?)."; } | tee -a $LOG_FILE
 
+printf "\n\n\n---- ^ MAP ^ / v DEATHWATCH v ----\n\n\n\n" | tee -a $LOG_FILE
+
+if [ -d "$HOME/server/deathwatch/" ]; then
+    { rsync -avzPh --delete "$HOME/server/deathwatch/" "${BACKUP_REMOTE}:/usr/share/deathwatch/" 2>&1 || fail "Error running rsync for deathwatch ($?)."; } | tee -a $LOG_FILE
+fi
+
 END_TS=$(date +'%s')
 
 DURATION=$[$END_TS - $START_TS]
