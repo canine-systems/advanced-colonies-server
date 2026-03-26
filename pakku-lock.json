@@ -613,7 +613,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ars_elemental-1.21.1-0.7.8.3.jar",
+                    "file_name": "ars_elemental-1.21.1-0.7.8.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -621,18 +621,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7624/822/ars_elemental-1.21.1-0.7.8.3.jar",
-                    "id": "7624822",
+                    "url": "https://edge.forgecdn.net/files/7710/618/ars_elemental-1.21.1-0.7.8.6.jar",
+                    "id": "7710618",
                     "parent_id": "561470",
                     "hashes": {
-                        "sha1": "9a5c35546e132ab162d7e31c58432ddf8d89b96c",
-                        "md5": "b70fbedfd347aa4f03457dc2506bf242"
+                        "sha1": "3d0aaed63c870d64e062d8d11a4303c2dd588ac7",
+                        "md5": "3b89542827ca42c977e612fd5c37d40e"
                     },
                     "required_dependencies": [
                         "401955"
                     ],
-                    "size": 2099347,
-                    "date_published": "2026-02-14T18:25:09.290Z"
+                    "size": 2125317,
+                    "date_published": "2026-03-04T15:53:43.833Z"
                 }
             ]
         },
@@ -652,7 +652,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ars_nouveau-1.21.1-5.11.1.jar",
+                    "file_name": "ars_nouveau-1.21.1-5.11.3.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -661,16 +661,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/iZimtaF0/ars_nouveau-1.21.1-5.11.1.jar",
-                    "id": "iZimtaF0",
+                    "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/BmGGrC9A/ars_nouveau-1.21.1-5.11.3.jar",
+                    "id": "BmGGrC9A",
                     "parent_id": "TKB6INcv",
                     "hashes": {
-                        "sha512": "a6c2cb525943d506705f84a140dfc60e319eb72608847a7d368e2d2fe72d926f8f3ca2b9b22de24aa74d722745589f65158cd767965a4552003cf6168e56876e",
-                        "sha1": "faa47006e3791deba966d8fe888d58194a962b82"
+                        "sha512": "2f764a1ecade4a287afa251e1e340c9985e7f4521fd666e5760f61260a0860c8bdab23cba068be21c94c6a6a87223d9a8ed4342cf6c5604ec2c3ad1717bc3836",
+                        "sha1": "0af12dd7fda63a4261ceb302c9bb57fc235641c6"
                     },
                     "required_dependencies": [],
-                    "size": 20622680,
-                    "date_published": "2026-01-04T18:43:07.922579Z"
+                    "size": 20689115,
+                    "date_published": "2026-03-15T22:08:16.641988Z"
                 }
             ]
         },
@@ -778,27 +778,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ars_zero-1.21.1-1.11.1.jar",
+                    "file_name": "ars_zero-1.21.1-2.0.0-beta2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7642/824/ars_zero-1.21.1-1.11.1.jar",
-                    "id": "7642824",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7794/897/ars_zero-1.21.1-2.0.0-beta2.jar",
+                    "id": "7794897",
                     "parent_id": "1377482",
                     "hashes": {
-                        "sha1": "2a8bf7b6ceecf4f6dd6eef8e9c693c4a32cbcafc",
-                        "md5": "f207ac78aaca45b910bbbfe614c9ea15"
+                        "sha1": "0120c878eecfe5436a58cca4486b03a6d89cec31",
+                        "md5": "332823e31c5612844cd7083ed8d615b0"
                     },
                     "required_dependencies": [
-                        "401955",
-                        "561470"
+                        "561470",
+                        "401955"
                     ],
-                    "size": 2258360,
-                    "date_published": "2026-02-18T07:41:25.647Z"
+                    "size": 6701696,
+                    "date_published": "2026-03-22T14:28:53.250Z"
                 }
             ]
         },
@@ -1846,7 +1846,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Compatibility-1.21.1-3.27.jar",
+                    "file_name": "MineColonies_Compatibility-1.21.1-3.40.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1854,19 +1854,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7599/161/MineColonies_Compatibility-1.21.1-3.27.jar",
-                    "id": "7599161",
+                    "url": "https://edge.forgecdn.net/files/7810/541/MineColonies_Compatibility-1.21.1-3.40.jar",
+                    "id": "7810541",
                     "parent_id": "1006214",
                     "hashes": {
-                        "sha1": "b446b9c13435c9d698b05057863add95a91a9152",
-                        "md5": "daf249c04d63d419a09cb8455762d07e"
+                        "sha1": "ee0a00d823daf649019deb37f52c7c5de409a2ea",
+                        "md5": "6a01f003bc8380fe2f76544ff8d96584"
                     },
                     "required_dependencies": [
                         "975812",
                         "245506"
                     ],
-                    "size": 1337187,
-                    "date_published": "2026-02-09T12:29:52.983Z"
+                    "size": 1419088,
+                    "date_published": "2026-03-25T11:23:43.103Z"
                 }
             ]
         },
@@ -5739,7 +5739,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minecolonies-1.1.1265-1.21.1-snapshot.jar",
+                    "file_name": "minecolonies-1.1.1290-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -5748,22 +5748,22 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7611/249/minecolonies-1.1.1265-1.21.1-snapshot.jar",
-                    "id": "7611249",
+                    "url": "https://edge.forgecdn.net/files/7800/326/minecolonies-1.1.1290-1.21.1-snapshot.jar",
+                    "id": "7800326",
                     "parent_id": "245506",
                     "hashes": {
-                        "sha1": "d9c68d7e40a86e47464cd7b82a15d15f91b1aa2b",
-                        "md5": "7cce600a1caea1600682eac17aeb76ab"
+                        "sha1": "1fed67ebf457c42db9efa480d1c1ec31286f8298",
+                        "md5": "02d0ea91abf4323149a8da0d69bc94c7"
                     },
                     "required_dependencies": [
-                        "900364",
-                        "298744",
                         "527361",
                         "522992",
-                        "303278"
+                        "303278",
+                        "900364",
+                        "298744"
                     ],
-                    "size": 77322839,
-                    "date_published": "2026-02-11T21:21:42.343Z"
+                    "size": 77383390,
+                    "date_published": "2026-03-23T15:50:07.217Z"
                 }
             ]
         },
@@ -7987,7 +7987,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "structurize-1.0.807-1.21.1-snapshot.jar",
+                    "file_name": "structurize-1.0.818-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -7996,19 +7996,19 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7601/243/structurize-1.0.807-1.21.1-snapshot.jar",
-                    "id": "7601243",
+                    "url": "https://edge.forgecdn.net/files/7795/167/structurize-1.0.818-1.21.1-snapshot.jar",
+                    "id": "7795167",
                     "parent_id": "298744",
                     "hashes": {
-                        "sha1": "253c76518f2ca5cd1e836cd982f463b75922b314",
-                        "md5": "8dca051413e11b89dbdc97fce1292d61"
+                        "sha1": "cb7d4d6bf1e40981ce5ceaa367db4b83ce51074a",
+                        "md5": "50e8e494f90546f9ce04047e160d19bc"
                     },
                     "required_dependencies": [
                         "522992",
                         "527361"
                     ],
-                    "size": 1047157,
-                    "date_published": "2026-02-09T21:13:50.407Z"
+                    "size": 1060941,
+                    "date_published": "2026-03-22T15:29:44.643Z"
                 }
             ]
         },
@@ -8469,7 +8469,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Tweaks-1.21.1-3.26.jar",
+                    "file_name": "MineColonies_Tweaks-1.21.1-3.28.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8477,18 +8477,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7569/191/MineColonies_Tweaks-1.21.1-3.26.jar",
-                    "id": "7569191",
+                    "url": "https://edge.forgecdn.net/files/7793/95/MineColonies_Tweaks-1.21.1-3.28.jar",
+                    "id": "7793095",
                     "parent_id": "975812",
                     "hashes": {
-                        "sha1": "3add0fcd0978500cfbe04a620485f1b253ec816a",
-                        "md5": "81a800fd5a701a7cd15d1d126ef779b3"
+                        "sha1": "cea73dd95fbd0125785473137f710ccd398fb5a3",
+                        "md5": "a5a260a05df700ee89ee4527311efb4e"
                     },
                     "required_dependencies": [
                         "245506"
                     ],
-                    "size": 785067,
-                    "date_published": "2026-02-03T03:36:36.213Z"
+                    "size": 785949,
+                    "date_published": "2026-03-22T04:52:15.267Z"
                 }
             ]
         },
