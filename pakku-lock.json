@@ -928,7 +928,7 @@
         {
             "pakku_id": "ehY16Pg4zus8ENFA",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "athena-ctm"
             },
@@ -7162,50 +7162,6 @@
                     "required_dependencies": [],
                     "size": 2214535,
                     "date_published": "2025-12-20T20:44:01.764679Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "vi5AfX653RwpHZSA",
-            "pakku_links": [
-                "2dvvkyXvj6dR7UcT",
-                "LvQNVZUC5CiBrl4q"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "reliquified-ars-nouveau"
-            },
-            "name": {
-                "modrinth": "Reliquified Ars Nouveau"
-            },
-            "id": {
-                "modrinth": "qNOCEdeg"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "reliquified_ars_nouveau-1.21.1-0.6.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/qNOCEdeg/versions/8L8DPUF0/reliquified_ars_nouveau-1.21.1-0.6.1.jar",
-                    "id": "8L8DPUF0",
-                    "parent_id": "qNOCEdeg",
-                    "hashes": {
-                        "sha512": "670fc306ca5b6c9741908d35c11d5b471c4e0aa4a4379819024898f21c69cc7743ea4f13c4b9095cf1831597e5c5b559613c257cb1ccdcf09392c5ae9461fd16",
-                        "sha1": "882aba237860441a7ad2943775ffa3cc4d6324a9"
-                    },
-                    "required_dependencies": [
-                        "OCJRPujW",
-                        "TKB6INcv"
-                    ],
-                    "size": 1079396,
-                    "date_published": "2025-08-13T13:36:09.367468Z"
                 }
             ]
         },
