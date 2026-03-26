@@ -49,12 +49,16 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-bins: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
+${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
 
-I_AM_IMPATIENT: ${SERVER_DIR}/mods
-	wget https://github.com/canine-systems/deathwatch/releases/download/1.5/deathwatch-1.5.jar -O ${SERVER_DIR}/mods/deathwatch-1.5.jar
+# TODO: Remove me once Modrinth FINALLY reviews deathwatch.
+DEATHWATCH_VERSION := 1.5
+DEATHWATCH_JAR := ${SERVER_DIR}/mods/deathwatch-${DEATHWATCH_VERSION}.jar
+${DEATHWATCH_JAR}:
+	mkdir -p ${SERVER_DIR}/mods
+	wget https://github.com/canine-systems/deathwatch/releases/download/${DEATHWATCH_VERSION}/deathwatch-${DEATHWATCH_VERSION}.jar -O $@
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} bins I_AM_IMPATIENT
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR}
 
 pristine: ${PRISTINE}
 
@@ -81,7 +85,7 @@ run-offline: ${LIVE_DIR}
 	wget -O $@ "https://github.com/go-acme/lego/releases/download/${LEGO_VERSION}/lego_${LEGO_VERSION}_linux_amd64.tar.gz"
 
 .cache/lego: .cache/lego.tar.gz
-	cd .cache && tar xzf lego.tar.gz lego
+	cd .cache && tar xzf lego.tar.gz lego && touch lego
 
 cache: .cache/neoforge-installer.jar .cache/lego
 
@@ -126,4 +130,4 @@ clean:
 veryclean: clean
 	rm -rf .cache mods datapacks resourcepacks
 
-.PHONY: all build cache clean deb pristine server run run-offline bins
+.PHONY: all build cache clean deb pristine server run run-offline
