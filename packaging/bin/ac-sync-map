@@ -43,4 +43,4 @@ DURATION=$[$END_TS - $START_TS]
 
 echo "$END_TS" > $LAST_BACKUP_FILE
 
-printf "Backup complete." "Started on $START.\nTook $DURATION seconds." >> $LOG_FILE
+printf "Backup complete.\n\nStarted on $START.\nTook $DURATION seconds." >> $LOG_FILE
