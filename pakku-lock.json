@@ -613,26 +613,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ars_elemental-1.21.1-0.7.8.6.jar",
+                    "file_name": "ars_elemental-1.21.1-0.7.9_beta.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7710/618/ars_elemental-1.21.1-0.7.8.6.jar",
-                    "id": "7710618",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7816/774/ars_elemental-1.21.1-0.7.9_beta.jar",
+                    "id": "7816774",
                     "parent_id": "561470",
                     "hashes": {
-                        "sha1": "3d0aaed63c870d64e062d8d11a4303c2dd588ac7",
-                        "md5": "3b89542827ca42c977e612fd5c37d40e"
+                        "sha1": "b638d30435cabbee63d5e54c6323a51b3bcc6d8a",
+                        "md5": "8825aa0ebd96956683fdc6a8388b14f1"
                     },
                     "required_dependencies": [
                         "401955"
                     ],
-                    "size": 2125317,
-                    "date_published": "2026-03-04T15:53:43.833Z"
+                    "size": 2293304,
+                    "date_published": "2026-03-26T13:12:37.087Z"
                 }
             ]
         },
@@ -1413,7 +1413,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Byzantine-1.21.1-47.1.jar",
+                    "file_name": "Byzantine-1.21.1-48.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -1423,16 +1423,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7538/315/Byzantine-1.21.1-47.1.jar",
-                    "id": "7538315",
+                    "url": "https://edge.forgecdn.net/files/7820/56/Byzantine-1.21.1-48.jar",
+                    "id": "7820056",
                     "parent_id": "974855",
                     "hashes": {
-                        "sha1": "5885308a5e98d8034da3a52fb9753213b2bbce58",
-                        "md5": "261ab556916e002249ad1894653c4aaa"
+                        "sha1": "d0d45e9bbed5b0a9af4e7551a39f2b819457c284",
+                        "md5": "7850fded075b81cecfe5b856cb40e960"
                     },
                     "required_dependencies": [],
-                    "size": 15191920,
-                    "date_published": "2026-01-27T23:10:10.470Z"
+                    "size": 15366705,
+                    "date_published": "2026-03-26T23:49:50.190Z"
                 }
             ]
         },
@@ -7993,7 +7993,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "stylecolonies-1.15.50-1.21.1.jar",
+                    "file_name": "stylecolonies-1.15.51-1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -8002,18 +8002,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7680/274/stylecolonies-1.15.50-1.21.1.jar",
-                    "id": "7680274",
+                    "url": "https://edge.forgecdn.net/files/7816/9/stylecolonies-1.15.51-1.21.1.jar",
+                    "id": "7816009",
                     "parent_id": "827507",
                     "hashes": {
-                        "sha1": "4f0865fe23aedb5709cb491507db12cc039aa311",
-                        "md5": "7191d8fd9e23415f0e58fe41158ec356"
+                        "sha1": "9928075c2ab0069118e75bbecd828a8105cbea98",
+                        "md5": "c9892aebb2402e6401f9b672b2b70e8b"
                     },
                     "required_dependencies": [
                         "245506"
                     ],
-                    "size": 31220344,
-                    "date_published": "2026-02-26T07:49:21.560Z"
+                    "size": 31220431,
+                    "date_published": "2026-03-26T09:27:52.303Z"
                 }
             ]
         },
