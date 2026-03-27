@@ -4939,43 +4939,6 @@
             ]
         },
         {
-            "pakku_id": "6TYARdTh7L1aMgoP",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "immersive-armors"
-            },
-            "name": {
-                "modrinth": "Immersive Armors"
-            },
-            "id": {
-                "modrinth": "eE2Db4YU"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "immersive_armors-1.7.5+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/eE2Db4YU/versions/J8fqZZG7/immersive_armors-1.7.5+1.21.1-neoforge.jar",
-                    "id": "J8fqZZG7",
-                    "parent_id": "eE2Db4YU",
-                    "hashes": {
-                        "sha512": "dfd314bf5b5d52d7b07c5583b5e4f42aed2fd5217bccdd57fdd48f8af2c86dd5a21d76a638587b6e988e83040d6915b81094e9eb6d6ea1e51fb373c824803884",
-                        "sha1": "dde4c77eeb832968d79fb650e60e741598d59adc"
-                    },
-                    "required_dependencies": [],
-                    "size": 1271062,
-                    "date_published": "2025-09-14T12:14:08.209155Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TanEbGMo9QHSHLqe",
             "pakku_links": [
                 "i4YZi72X7GDiuuHM",
