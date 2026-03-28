@@ -4026,43 +4026,6 @@
             ]
         },
         {
-            "pakku_id": "KjQTqmR5X3cE5p7B",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "extra-weapons"
-            },
-            "name": {
-                "curseforge": "Extra Weapons"
-            },
-            "id": {
-                "curseforge": "387153"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "extraweapons-1.21.1-3.0-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6565/981/extraweapons-1.21.1-3.0-neoforge.jar",
-                    "id": "6565981",
-                    "parent_id": "387153",
-                    "hashes": {
-                        "sha1": "4bcf84317248d260c194b6ea3743f395b8399d00",
-                        "md5": "6e7dbf1ff3b43e3f9f0def1a8eb3524c"
-                    },
-                    "required_dependencies": [],
-                    "size": 1291428,
-                    "date_published": "2025-05-25T22:57:27.253Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "zeCaYJd56DFvH0ig",
             "pakku_links": [
                 "ihDFRJuX0jiN8QKx"
