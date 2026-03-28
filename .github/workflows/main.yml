@@ -1,18 +1,42 @@
-name: Test
+name: Main
 
 on:
   push:
-  pull_request:
+
+# We duplicate most of the steps because if we used artifacts,
+# we'd accumulate half a gigabyte of artifact usage on each CI run.
+#
+# This is completely unacceptable, but GitHub still wants to pretend
+# storage is infinite, and I'd rather not git bit in the ass when they
+# finally realize it's not in half a year.
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
     steps:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
-      - run: ./bin/update-pakku.sh
-      - run: ./bin/pakku export
+      - id: info
+        run: echo "version=3.${TAG}" >> "$GITHUB_OUTPUT"
+      - run: sudo apt update
+      - run: sudo apt install -y devscripts build-essential debhelper-compat default-jre unzip python3
+
+      # Download neoforge, lego, etc.
+      - run: make VERSION=${{ steps.info.outputs.version }} cache
+
+      # Fetch mods.
+      - run: make VERSION=${{ steps.info.outputs.version }} mods
+
+      # Build build/pristine/ (install neoforge, extract mods from zip file, etc)
+      - run: make VERSION=${{ steps.info.outputs.version }} pristine
+
+      # Prepare build/deb/
+      - run: make VERSION=${{ steps.info.outputs.version }} build/deb
+
+      # Actually run debuild and such.
+      - run: make VERSION=${{ steps.info.outputs.version }} dist
 
   release:
     runs-on: ubuntu-latest
