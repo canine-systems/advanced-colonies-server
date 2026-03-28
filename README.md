@@ -17,6 +17,10 @@ wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/
 Then:
 1. edit `/opt/minecraft/server/eula.txt` to approve Minecraft's EULA.
 2. copy the generated ssh key for the `minecraft` user to map.canine.systems.
+3. Create a DigitalOcean API key with the following scopes, and put it in `/etc/advanced-colonies/digital-ocean-token.txt`:
+  - Create Access: domain
+  - Read Access: domain
+  - Update Access: domain
 
 Maintenance:
 
