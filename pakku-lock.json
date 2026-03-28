@@ -7950,7 +7950,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "structurize-1.0.818-1.21.1-snapshot.jar",
+                    "file_name": "structurize-1.0.820-1.21.1-snapshot.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -7959,19 +7959,19 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7795/167/structurize-1.0.818-1.21.1-snapshot.jar",
-                    "id": "7795167",
+                    "url": "https://edge.forgecdn.net/files/7822/250/structurize-1.0.820-1.21.1-snapshot.jar",
+                    "id": "7822250",
                     "parent_id": "298744",
                     "hashes": {
-                        "sha1": "cb7d4d6bf1e40981ce5ceaa367db4b83ce51074a",
-                        "md5": "50e8e494f90546f9ce04047e160d19bc"
+                        "sha1": "f55a66b57179b4c8a5ef7ebad6cfc2761a737923",
+                        "md5": "1792b161ccf4af0cbd7b1cf538011eaf"
                     },
                     "required_dependencies": [
-                        "522992",
-                        "527361"
+                        "527361",
+                        "522992"
                     ],
-                    "size": 1060941,
-                    "date_published": "2026-03-22T15:29:44.643Z"
+                    "size": 1060892,
+                    "date_published": "2026-03-27T11:32:30.353Z"
                 }
             ]
         },
