@@ -49,7 +49,7 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
+${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause ${BIN}/ac-minecraft-user-setup
 
 # TODO: Remove me once Modrinth FINALLY reviews deathwatch.
 DEATHWATCH_VERSION := 1.5

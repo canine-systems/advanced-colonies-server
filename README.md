@@ -11,7 +11,7 @@ This has only been tested on a fresh Debian 13 installation.
 Initial setup:
 
 ```
-wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb
+wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb && su -c /opt/bin/ac-minecraft-user-setup minecraft
 ```
 
 Maintenance:
