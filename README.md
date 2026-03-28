@@ -14,7 +14,9 @@ Initial setup:
 wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb
 ```
 
-Then, copy the generated ssh key for the `minecraft` user to map.canine.systems.
+Then:
+1. edit `/opt/minecraft/server/eula.txt` to approve Minecraft's EULA.
+2. copy the generated ssh key for the `minecraft` user to map.canine.systems.
 
 Maintenance:
 
