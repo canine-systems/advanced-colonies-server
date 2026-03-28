@@ -11,8 +11,10 @@ This has only been tested on a fresh Debian 13 installation.
 Initial setup:
 
 ```
-wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb && su -c 'ssh-copy-id map.canine.systems' minecraft
+wget https://github.com/canine-systems/advanced-colonies-server/releases/latest/download/advanced-colonies-server.deb && apt install ./advanced-colonies-server.deb
 ```
+
+Then, copy the generated ssh key for the `minecraft` user to map.canine.systems.
 
 Maintenance:
 
