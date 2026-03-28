@@ -21,6 +21,7 @@ set -e
 case "$1" in
     configure)
         chown -R minecraft:minecraft /opt/minecraft
+        [ -d /opt/minecraft/.ssh ] || su -c 'ssh-keygen -t ed25519 -C "minecraft@$HOSTNAME"' minecraft
         chmod -R 700 /opt/minecraft/.ssh
         chmod 600 /opt/minecraft/.ssh/*
 
