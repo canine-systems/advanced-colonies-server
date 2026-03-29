@@ -10,42 +10,6 @@ craftingTable.addShaped("custom/mana_ring", <item:irons_spellbooks:mana_ring>, [
     [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]
 ]);
 
-craftingTable.addShaped("custom/ring_of_thrift", <item:reliquified_ars_nouveau:ring_of_thrift>, [
-    [<item:minecraft:gold_ingot>, <item:ars_nouveau:source_gem>, <item:minecraft:gold_ingot>],
-    [<item:ars_nouveau:source_gem>, <item:minecraft:air>, <item:ars_nouveau:source_gem>],
-    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]
-]);
-
-craftingTable.addShaped("custom/ballistarian_bracer", <item:reliquified_ars_nouveau:ballistarian_bracer>, [
-    [<item:minecraft:gold_block>, <item:minecraft:crossbow>],
-    [<item:ars_nouveau:source_gem>, <item:minecraft:bow>],
-    [<item:minecraft:bow>, <item:minecraft:gold_ingot>]
-]);
-
-craftingTable.addShaped("custom/horn_of_the_wild_hunter", <item:reliquified_ars_nouveau:horn_of_the_wild_hunter>, [
-    [<item:ars_nouveau:wilden_horn>, <item:ars_nouveau:wilden_horn>, <item:ars_nouveau:wilden_horn>],
-    [<item:ars_nouveau:wilden_horn>, <item:ars_nouveau:source_gem>, <item:ars_nouveau:wilden_horn>],
-    [<item:ars_nouveau:wilden_horn>, <item:ars_nouveau:wilden_horn>, <item:ars_nouveau:wilden_horn>]
-]);
-
-craftingTable.addShaped("custom/wing_of_the_wild_stalker", <item:reliquified_ars_nouveau:wing_of_the_wild_stalker>, [
-    [<item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>],
-    [<item:minecraft:phantom_membrane>, <item:ars_nouveau:source_gem_block>, <item:minecraft:phantom_membrane>],
-    [<item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>]
-]);
-
-craftingTable.addShaped("custom/whirling_broom", <item:reliquified_ars_nouveau:whirling_broom>, [
-    [<item:ars_nouveau:source_gem>, <item:minecraft:stick>, <item:ars_nouveau:source_gem>],
-    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
-    [<item:ars_nouveau:source_gem>, <item:minecraft:brush>, <item:ars_nouveau:source_gem>]
-]);
-
-craftingTable.addShaped("custom/archmage_glove", <item:reliquified_ars_nouveau:archmage_glove>, [
-    [<item:minecraft:leather>, <item:ars_nouveau:source_gem_block>, <item:minecraft:leather>],
-    [<item:minecraft:leather>, <item:ars_nouveau:source_gem_block>, <item:minecraft:leather>],
-    [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]
-]);
-
 craftingTable.addShaped("custom/ominous_bottle", <item:minecraft:ominous_bottle>, [
     [<item:minecraft:air>, <item:minecraft:emerald>],
     [<item:minecraft:air>, <item:minecraft:white_banner>, <item:minecraft:air>],
