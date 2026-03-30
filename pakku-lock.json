@@ -8818,6 +8818,43 @@
             ]
         },
         {
+            "pakku_id": "QbYlltMyMN6faQnv",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "deathwatch"
+            },
+            "name": {
+                "modrinth": "deathwatch"
+            },
+            "id": {
+                "modrinth": "yavAcMCy"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "deathwatch-1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yavAcMCy/versions/vq90vcwV/deathwatch-1.5.jar",
+                    "id": "vq90vcwV",
+                    "parent_id": "yavAcMCy",
+                    "hashes": {
+                        "sha512": "5465b36f742679fefe1b6c4b4fde83c31374794559d945c4c2badf106dbb3c85bd13c4d607fea7bd1c6719b40b2a0de1ce40f9c52210ad2e671cec3b4ec9d04d",
+                        "sha1": "777a88c8ca33766b080f195a5a1dcc130f7f8aec"
+                    },
+                    "required_dependencies": [],
+                    "size": 2428260,
+                    "date_published": "2026-03-26T02:33:28.812133Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tJBlRPeqD3AwFLJ3",
             "type": "MOD",
             "side": "BOTH",

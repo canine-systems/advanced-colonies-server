@@ -51,13 +51,6 @@ ${PROFILE_OPT_BIN}:
 
 ${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync-map ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
 
-# TODO: Remove me once Modrinth FINALLY reviews deathwatch.
-DEATHWATCH_VERSION := 1.5
-DEATHWATCH_JAR := ${SERVER_DIR}/mods/deathwatch-${DEATHWATCH_VERSION}.jar
-${DEATHWATCH_JAR}:
-	mkdir -p ${SERVER_DIR}/mods
-	wget https://github.com/canine-systems/deathwatch/releases/download/${DEATHWATCH_VERSION}/deathwatch-${DEATHWATCH_VERSION}.jar -O $@
-
 ${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR}
 
 pristine: ${PRISTINE}
