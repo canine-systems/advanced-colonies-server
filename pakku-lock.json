@@ -7002,6 +7002,44 @@
             ]
         },
         {
+            "pakku_id": "C8EQx8S3XWi3izOy",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "repeatable-trial-vaults"
+            },
+            "name": {
+                "modrinth": "Repeatable Trial Vaults"
+            },
+            "id": {
+                "modrinth": "5RO5CdUY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "repeatable_trial_vaults-neoforge-1.21-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/5RO5CdUY/versions/U1U8o9Qf/repeatable_trial_vaults-neoforge-1.21-1.0.2.jar",
+                    "id": "U1U8o9Qf",
+                    "parent_id": "5RO5CdUY",
+                    "hashes": {
+                        "sha512": "fe9fa045949f5929704c97a1b91bc21917a4b6b929e791233967ae4b5eb4f96015c949fbf68a18ab76c8f944d7147e6f2eb55809086991b2173a3cdb1e8639c7",
+                        "sha1": "6559a203e264afacc40af5010ad6a85b21e20a17"
+                    },
+                    "required_dependencies": [],
+                    "size": 12734,
+                    "date_published": "2024-08-19T13:22:42.376107Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mg1SE7FIy0TNr6mh",
             "type": "MOD",
             "side": "BOTH",
