@@ -2,6 +2,7 @@
     "name": "Advanced Colonies",
     "version": "3",
     "overrides": [
+        "automodpack",
         "config",
         "scripts",
         "user_jvm_args.txt",
