@@ -3,11 +3,11 @@
 # Use Generational Z Garbage Collector (ZGC)
 -XX:+UseZGC -XX:+ZGenerational
 
-# Set max heap size to ~2GB less than what the system has.
--Xmx15G
+# Set max heap size to ~7GB less than what the system has.
+-Xmx23G
 
 # Set min heap size to the same as max, to avoid dealloc/alloc overhead.
--Xms15G
+-Xms23G
 
 # Pre-allocate the heap before starting.
 -XX:+AlwaysPreTouch
