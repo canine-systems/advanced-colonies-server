@@ -1,5 +1,5 @@
 [Unit]
-Description=Sync Map Periodically
+Description=Sync Map and Deathwatch Periodically
 
 [Timer]
 OnBootSec=1min

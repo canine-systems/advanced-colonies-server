@@ -27,14 +27,14 @@ case "$1" in
 
         systemctl daemon-reload
         systemctl enable minecraft
-        systemctl enable sync-map.timer
+        systemctl enable ac-sync.timer
         systemctl enable lets-encrypt.timer
         systemctl enable ac-update-server.timer
         systemctl enable ac-restarter.timer
 
         # Start or restart the services.
         systemctl restart minecraft
-        systemctl restart sync-map.timer
+        systemctl restart ac-sync.timer
         systemctl restart lets-encrypt.timer
         systemctl restart ac-update-server.timer
         systemctl restart ac-restarter.timer

@@ -7,6 +7,6 @@ Type=oneshot
 User=minecraft
 Group=minecraft
 
-ExecStart=/opt/bin/ac-sync-map
+ExecStart=/opt/bin/ac-sync
 
 NoNewPrivileges=true
