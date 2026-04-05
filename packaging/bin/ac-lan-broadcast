@@ -2,14 +2,21 @@
 
 import socket
 import time
+from pathlib import Path
 
 motd = "Canine Colonies (local)"
+
+motd_file = Path("/opt/minecraft/motd.txt")
+if motd_file.exists():
+    motd = motd_file.read_text().strip()
+
 port = "25565"
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
-print("Broadcasting Minecraft servers to LAN")
+print("Broadcasting Minecraft server to LAN")
+print(f"MOTD: {motd}")
 
 while 1:
     sock.sendto(f"[MOTD]{motd}[/MOTD][AD]{port}[/AD]".encode('UTF-8'),
