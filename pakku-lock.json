@@ -8965,43 +8965,6 @@
                     "date_published": "2025-02-23T11:40:14.945513Z"
                 }
             ]
-        },
-        {
-            "pakku_id": "5T3T6zLLyA5RoCeR",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "squaremap"
-            },
-            "name": {
-                "modrinth": "squaremap"
-            },
-            "id": {
-                "modrinth": "PFb7ZqK6"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "squaremap-neoforge-mc1.21.1-1.3.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/PFb7ZqK6/versions/z5esjXfR/squaremap-neoforge-mc1.21.1-1.3.2.jar",
-                    "id": "z5esjXfR",
-                    "parent_id": "PFb7ZqK6",
-                    "hashes": {
-                        "sha512": "1290fde871b635b0482f9e223b62c9766a28fa0e7be0f623f27e55f7882c651bfe7a8e4b04fd2675c36a504f92d9435a19f4e6c8153a1be2785f025c499106ac",
-                        "sha1": "813bb501bd8af9540acb80ee3b4d29379f9eb6d6"
-                    },
-                    "required_dependencies": [],
-                    "size": 8001707,
-                    "date_published": "2024-10-24T18:25:54.969096Z"
-                }
-            ]
         }
     ],
     "lockfile_version": 1
