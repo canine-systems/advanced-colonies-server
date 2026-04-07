@@ -29,7 +29,7 @@ settings:
         - map
     render-progress-logging:
         enabled: true
-        interval-seconds: 1
+        interval-seconds: 10
 world-settings:
     default:
         map:
@@ -56,7 +56,12 @@ world-settings:
                 extra: 2
             background-render:
                 enabled: true
-                max-chunks-per-interval: 1024
+                # The maximum amount of chunks to render from the queue at
+                # time. Setting this too high may cause lag on your main
+                # thread if the queue gets too large
+                #
+                # default=1024, changing to 256 to reduce lag
+                max-chunks-per-interval: 256
                 interval-seconds: 15
                 max-render-threads: -1
             markers:
@@ -78,7 +83,9 @@ world-settings:
                 enabled: 'false'
         player-tracker:
             enabled: true
-            update-interval-seconds: 10
+            # update-interval-seconds defaults 1s (yikes), but we go with 30s
+            # because we only update the map each minute
+            update-interval-seconds: 30
             show-controls: true
             default-hidden: false
             layer-priority: 2
