@@ -7,6 +7,7 @@
     "!/kubejs/server_scripts/**",
     "/mods/*.jar",
     "!/mods/squaremap-*.jar",
+    "!/mods/lithium-*.jar",
     "/kubejs/**",
     "/emotes/*"
   ],
