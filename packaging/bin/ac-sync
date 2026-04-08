@@ -29,7 +29,9 @@ printf "Upload started on $START\n\n" > $LOG_FILE
 # -P:   --partial (keep partially-transferred files), --progress (show progress during transfer)
 # -h:   Use human-readable numbers.
 # --delete: Delete extraneous files from dest dirs.
-{ rsync -avzPh --delete "$HOME/server/squaremap/web/" "${BACKUP_REMOTE}:/usr/share/caddy/" 2>&1 || fail "Error running rsync ($?)."; } | tee -a $LOG_FILE
+if [ -d "$HOME/server/squaremap/web/" ]; then
+    { rsync -avzPh --delete "$HOME/server/squaremap/web/" "${BACKUP_REMOTE}:/usr/share/caddy/" 2>&1 || fail "Error running rsync ($?)."; } | tee -a $LOG_FILE
+fi
 
 printf "\n\n\n---- ^ MAP ^ / v DEATHWATCH v ----\n\n\n\n" | tee -a $LOG_FILE
 
