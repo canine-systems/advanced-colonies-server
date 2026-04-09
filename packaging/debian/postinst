@@ -27,6 +27,7 @@ case "$1" in
 
         systemctl daemon-reload
         systemctl enable minecraft
+        systemctl enable ac-lan-broadcast
         systemctl enable ac-sync.timer
         systemctl enable lets-encrypt.timer
         systemctl enable ac-update-server.timer
@@ -34,6 +35,7 @@ case "$1" in
 
         # Start or restart the services.
         systemctl restart minecraft
+        systemctl restart ac-lan-broadcast
         systemctl restart ac-sync.timer
         systemctl restart lets-encrypt.timer
         systemctl restart ac-update-server.timer
