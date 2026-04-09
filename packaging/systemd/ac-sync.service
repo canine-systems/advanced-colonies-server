@@ -1,5 +1,6 @@
 [Unit]
 Description=Map Sync
+ConditionHost=minecraft
 
 [Service]
 Type=oneshot
