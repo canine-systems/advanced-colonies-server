@@ -38,7 +38,10 @@ ${SERVER_DIR}/mods: dist/advanced-colonies-serverpack.zip
 	mkdir -p $(@D)
 	unzip -o dist/advanced-colonies-serverpack.zip -d $(@D)
 
-${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods
+${SERVER_DIR}/build-info.txt:
+	echo "COMMIT=$(git rev-parse --short HEAD)" > $@
+
+${SERVER_DIR}: ${SERVER_DIR}/run.sh ${SERVER_DIR}/mods ${SERVER_DIR}/build-info.txt
 
 ${BIN}/%: packaging/bin/%
 	mkdir -p ${BIN}
