@@ -9,9 +9,9 @@ Type=oneshot
 User=minecraft
 Group=minecraft
 
-ExecStart=/opt/bin/lego --dns digitalocean -d $HOSTNAME.canine.systems --accept-tos --email ellen@duckinator.net --path /opt/minecraft/lego --dns.propagation-disable-ans=true run
-ExecStart=cp /opt/minecraft/lego/certificates/$HOSTNAME.canine.systems.crt /opt/minecraft/server/automodpack/.private/cert.crt
-ExecStart=openssl pkcs8 -topk8 -nocrypt -in /opt/minecraft/lego/certificates/$HOSTNAME.canine.systems.key -out /opt/minecraft/server/automodpack/.private/key.pem
+ExecStart=/opt/bin/lego --dns digitalocean -d ${HOSTNAME}.canine.systems --accept-tos --email ellen@duckinator.net --path /opt/minecraft/lego --dns.propagation-disable-ans=true run
+ExecStart=cp /opt/minecraft/lego/certificates/${HOSTNAME}.canine.systems.crt /opt/minecraft/server/automodpack/.private/cert.crt
+ExecStart=openssl pkcs8 -topk8 -nocrypt -in /opt/minecraft/lego/certificates/${HOSTNAME}.canine.systems.key -out /opt/minecraft/server/automodpack/.private/key.pem
 
 Environment=DO_AUTH_TOKEN_FILE=/etc/advanced-colonies/digital-ocean-token.txt
 
