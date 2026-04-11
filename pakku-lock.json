@@ -8152,43 +8152,6 @@
             ]
         },
         {
-            "pakku_id": "CZClQrmdqp8ooInY",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "tabtps"
-            },
-            "name": {
-                "modrinth": "TabTPS"
-            },
-            "id": {
-                "modrinth": "cUhi3iB2"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "tabtps-neoforge-mc1.21.1-1.3.25.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/cUhi3iB2/versions/JkFbz8lE/tabtps-neoforge-mc1.21.1-1.3.25.jar",
-                    "id": "JkFbz8lE",
-                    "parent_id": "cUhi3iB2",
-                    "hashes": {
-                        "sha512": "fa38198aedea225ec6aa83cf45b9a6080a7fb96765686f9350b8a46d76a06feac8b9ef47401acc0ffd2c8a965bcc4f5f64e6f3b48bc98c4e63e296877ce90785",
-                        "sha1": "230eeb9a43249aa2df98ba2a0208a204ef25eeee"
-                    },
-                    "required_dependencies": [],
-                    "size": 2408478,
-                    "date_published": "2024-09-10T04:14:42.242447Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "8TsFouFQQpyiv7e3",
             "type": "MOD",
             "side": "BOTH",
