@@ -52,7 +52,7 @@ ${PROFILE_OPT_BIN}:
 	mkdir -p $(@D)
 	echo '[[ ":$$PATH:" == *":/opt/bin:"* ]] || export PATH=$$PATH:/opt/bin' > $@
 
-${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync ${BIN}/ac-lan-broadcast ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
+${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause
 
 ${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR}
 
