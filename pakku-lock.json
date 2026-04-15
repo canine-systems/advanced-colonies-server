@@ -5122,7 +5122,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "irons_spellbooks-1.21.1-3.15.2.jar",
+                    "file_name": "irons_spellbooks-1.21.1-3.15.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5130,16 +5130,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/Cu7ovsnN/irons_spellbooks-1.21.1-3.15.2.jar",
-                    "id": "Cu7ovsnN",
+                    "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/GpAw0Y4D/irons_spellbooks-1.21.1-3.15.6.jar",
+                    "id": "GpAw0Y4D",
                     "parent_id": "s4OWxYQQ",
                     "hashes": {
-                        "sha512": "73e9d978fd64da167c902ca4bcc2a7ac1ab004aeb0dd3092da75f59eb963574037534ec516de5776ad4de1e9447ab0656111afd1d84c12e190f06d011829a318",
-                        "sha1": "2bd487eda649c1a5cfff10b14a0d9258a12a47fc"
+                        "sha512": "8832eba72342c85db7463021ebe8514c2221512cd10592cd09784b9090bbd73af1d90dfa684b38a1ee458f11f40ca87cc182e6ce32052099c32e51608b1f9fc0",
+                        "sha1": "c9fea9c9b38376af74b7a7da68dc8a7671f4b961"
                     },
                     "required_dependencies": [],
-                    "size": 12609331,
-                    "date_published": "2026-01-30T23:39:49.652601Z"
+                    "size": 13559913,
+                    "date_published": "2026-04-12T15:59:58.224850Z"
                 }
             ]
         },
