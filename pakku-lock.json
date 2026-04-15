@@ -6497,7 +6497,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.25.10.jar",
+                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.26.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6506,16 +6506,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/g5OOSal5/open-parties-and-claims-neoforge-1.21.1-0.25.10.jar",
-                    "id": "g5OOSal5",
+                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/c2oTZgsF/open-parties-and-claims-neoforge-1.21.1-0.26.1.jar",
+                    "id": "c2oTZgsF",
                     "parent_id": "gF3BGWvG",
                     "hashes": {
-                        "sha512": "d0e3b63599ce245fecf960ceb0f298760be0bda84d2dd5fb551a268d340ab83628c970761b576393ed573cb1b16ac5211018bfdc4bdec9ec2134145670bf8da7",
-                        "sha1": "bbd78fbeb076473bc19b247491490c4ac0139dd3"
+                        "sha512": "d6532e7dde6ca414b6468521779347b74a7b78bfb664ecbafecf1a3a9b1d8beadc8dcb32c50766742bb37fb1f81a481d3a338c7319cc86f18b2eb17278f8260a",
+                        "sha1": "2f6121ad9a041cb192133bb7c1ab75d7d34436e1"
                     },
                     "required_dependencies": [],
-                    "size": 1315074,
-                    "date_published": "2026-02-20T11:21:02.721601Z"
+                    "size": 1577014,
+                    "date_published": "2026-04-12T09:00:38.290988Z"
                 }
             ]
         },
