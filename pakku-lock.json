@@ -2114,7 +2114,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "craftingstation-neoforge-1.21.1-1.6.6.jar",
+                    "file_name": "craftingstationjei-1.21.1-NeoForge-2.1.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2122,18 +2122,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/rc8HlDUK/versions/aGr8MCiC/craftingstation-neoforge-1.21.1-1.6.6.jar",
-                    "id": "aGr8MCiC",
+                    "url": "https://cdn.modrinth.com/data/rc8HlDUK/versions/XBqcaip5/craftingstationjei-1.21.1-NeoForge-2.1.1.jar",
+                    "id": "XBqcaip5",
                     "parent_id": "rc8HlDUK",
                     "hashes": {
-                        "sha512": "41017199ee830f2b67c3686366c59bc8750f6e5a7ff62bbcb8df932ddbbb5e956724ce2fcfceb8e9ae979781630f1394660f0083877793ebe910753afc09e0bd",
-                        "sha1": "f19b471edd31ca43a82880161f0f2079b074139b"
+                        "sha512": "fd4cabc65c4fd85e3b44fe5e7d515e63c8cf62c376373fbe03c55b671075476b541e60fde5d8256c1328e6ea6bcc9a29fc9ed77742f885f11e0c91bb49789862",
+                        "sha1": "5262f76ddb2ebb23241c60dc627efbf0cae9461c"
                     },
-                    "required_dependencies": [
-                        "u6dRKJwZ"
-                    ],
-                    "size": 105459,
-                    "date_published": "2026-02-12T14:04:18.803576Z"
+                    "required_dependencies": [],
+                    "size": 78757,
+                    "date_published": "2026-04-15T19:22:53.086543Z"
                 }
             ]
         },
