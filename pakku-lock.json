@@ -463,7 +463,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Aquaculture-1.21.1-2.7.19.jar",
+                    "file_name": "Aquaculture-1.21.1-2.7.21.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -471,16 +471,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Vl1uNAuy/versions/tAo4dqd8/Aquaculture-1.21.1-2.7.19.jar",
-                    "id": "tAo4dqd8",
+                    "url": "https://cdn.modrinth.com/data/Vl1uNAuy/versions/5pbz0ETj/Aquaculture-1.21.1-2.7.21.jar",
+                    "id": "5pbz0ETj",
                     "parent_id": "Vl1uNAuy",
                     "hashes": {
-                        "sha512": "f0b50af35f2957ad3c50b74df1c89c590bee350008d0880eb41b1ca4897bf31a9ff8e04a6079ca6d96c3f675d6427b12690794000e5b7f12e3dca439f916070d",
-                        "sha1": "9f9236653ea4b3a129ced594053c13379eb24817"
+                        "sha512": "532571f9a9d336d7da4b175f482c2d99c31f440841f9d20dd58137e1df3218180badd54d178559fdc0ac3e08ff94eaf3f1c4d133b9e60c66775971c0a557386d",
+                        "sha1": "93c2043c6a5cfbfbfba93321d044bc61d8a6547b"
                     },
                     "required_dependencies": [],
-                    "size": 605954,
-                    "date_published": "2026-03-15T11:26:59.300950Z"
+                    "size": 605949,
+                    "date_published": "2026-04-09T21:20:17.665063Z"
                 }
             ]
         },
