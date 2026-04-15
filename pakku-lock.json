@@ -340,7 +340,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "appleskin-neoforge-mc1.21-3.0.8.jar",
+                    "file_name": "appleskin-neoforge-mc1.21-3.0.9.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -350,16 +350,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/8X2x5cPC/appleskin-neoforge-mc1.21-3.0.8.jar",
-                    "id": "8X2x5cPC",
+                    "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+                    "id": "uAKA6Laj",
                     "parent_id": "EsAfCjCV",
                     "hashes": {
-                        "sha512": "f47c7228cb06693f118abfbd545c2cbacbe3ac4c779281d4464380dc4310de8a47e1ba73df3c7c6b8b670cca6ef49d9c14ccb93ba5a6705da9e3cf651eb63486",
-                        "sha1": "32be58815905e472016b6413175a27e6cbf05b90"
+                        "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937",
+                        "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246"
                     },
                     "required_dependencies": [],
-                    "size": 75595,
-                    "date_published": "2026-01-24T11:32:28.726630Z"
+                    "size": 75804,
+                    "date_published": "2026-04-01T04:50:54.655459Z"
                 }
             ]
         },
@@ -862,7 +862,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "artifacts-neoforge-13.2.0.jar",
+                    "file_name": "artifacts-neoforge-13.2.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -870,16 +870,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/bYbUZqGA/artifacts-neoforge-13.2.0.jar",
-                    "id": "bYbUZqGA",
+                    "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/rGPw090r/artifacts-neoforge-13.2.1.jar",
+                    "id": "rGPw090r",
                     "parent_id": "P0Mu4wcQ",
                     "hashes": {
-                        "sha512": "cd7132ed680ee73cc08b4058e3e1cb658eec8df9236780bf8315f2400ec3e5c8c734e0b7ae20cf08385f074599ffc93283152926aad5231220805144526f3801",
-                        "sha1": "01e4df6f6a0d8d73190c0fc4a5493db79fa5386c"
+                        "sha512": "4e5ccc2733e2ede833e6c4ae6b44751eab5ac48857055b61fdcbb6434c7d867c17b438eea9f226f6af652ee397f3fb4d7583f263a5d706d730ff7243ace865dc",
+                        "sha1": "3fe4d52cc0b11d91c75005030e83e3f675e62383"
                     },
                     "required_dependencies": [],
-                    "size": 1022570,
-                    "date_published": "2026-01-16T16:04:16.291431Z"
+                    "size": 1030252,
+                    "date_published": "2026-04-04T18:57:09.432475Z"
                 }
             ]
         },
@@ -8966,7 +8966,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "deathwatch-1.5.jar",
+                    "file_name": "deathwatch-1.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8974,16 +8974,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yavAcMCy/versions/vq90vcwV/deathwatch-1.5.jar",
-                    "id": "vq90vcwV",
+                    "url": "https://cdn.modrinth.com/data/yavAcMCy/versions/vMEeaQgi/deathwatch-1.6.jar",
+                    "id": "vMEeaQgi",
                     "parent_id": "yavAcMCy",
                     "hashes": {
-                        "sha512": "5465b36f742679fefe1b6c4b4fde83c31374794559d945c4c2badf106dbb3c85bd13c4d607fea7bd1c6719b40b2a0de1ce40f9c52210ad2e671cec3b4ec9d04d",
-                        "sha1": "777a88c8ca33766b080f195a5a1dcc130f7f8aec"
+                        "sha512": "6ddf863727994e3d89904056dde82eb77d2d1f689ada5ef64e945f2ffd293aea131f1065b2d11225dc879e4ae7c7a03add6fd44fda293973b3392045dad36604",
+                        "sha1": "1139c46a62a658e5f5291e081b25610b4e13e20d"
                     },
                     "required_dependencies": [],
                     "size": 2428260,
-                    "date_published": "2026-03-26T02:33:28.812133Z"
+                    "date_published": "2026-04-01T00:19:25.397649Z"
                 }
             ]
         },
