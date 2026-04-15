@@ -6523,7 +6523,6 @@
         {
             "pakku_id": "xM43uKZvFGg17MYQ",
             "pakku_links": [
-                "tJBlRPeqD3AwFLJ3",
                 "pZK1iopXfuVqo6Fa",
                 "AeUeU0wZE1MQJYGg",
                 "ehY16Pg4zus8ENFA"
@@ -8983,43 +8982,6 @@
                     "required_dependencies": [],
                     "size": 2428260,
                     "date_published": "2026-04-01T00:19:25.397649Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "tJBlRPeqD3AwFLJ3",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "owo-lib"
-            },
-            "name": {
-                "modrinth": "oωo (owo-lib)"
-            },
-            "id": {
-                "modrinth": "ccKDOlHs"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-                    "id": "NMCHU6DZ",
-                    "parent_id": "ccKDOlHs",
-                    "hashes": {
-                        "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
-                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
-                    },
-                    "required_dependencies": [],
-                    "size": 1221583,
-                    "date_published": "2025-07-19T00:45:19.909132Z"
                 }
             ]
         },
