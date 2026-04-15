@@ -67,24 +67,24 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "almostunified-neoforge-1.21.1-1.4.0.jar",
+                    "file_name": "almostunified-neoforge-1.21.1-1.4.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/tzmoqF7j/almostunified-neoforge-1.21.1-1.4.0.jar",
-                    "id": "tzmoqF7j",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/vvzNMESp/almostunified-neoforge-1.21.1-1.4.1.jar",
+                    "id": "vvzNMESp",
                     "parent_id": "sdaSaQEz",
                     "hashes": {
-                        "sha512": "2ff8de57a4ea53fae8fda35dc5400f36c209c169230d12d4aa4a1cac2a460f81cbf52656fe4f49e928b1d0005c25c2ed9b34d6e11f6aaf9dd1a24216d19eaeac",
-                        "sha1": "bfd995896317e4b37326900bd0c114aaefbd9822"
+                        "sha512": "cb96a81a3bd4291113655097f66f5b0944b0fcf049bac663b0116b639b0989dbf5701d3ffa191df2735bd9af18bd66bca5e206bd2367b2b2dd143ee989284a81",
+                        "sha1": "69913ae6d63f2e10603b272bb8a957c7d0f3f0e4"
                     },
                     "required_dependencies": [],
-                    "size": 293345,
-                    "date_published": "2026-01-07T19:44:25.012252Z"
+                    "size": 295072,
+                    "date_published": "2026-04-04T15:18:59.965972Z"
                 }
             ]
         },
