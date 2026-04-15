@@ -613,26 +613,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ars_elemental-1.21.1-0.7.9_beta.jar",
+                    "file_name": "ars_elemental-1.21.1-0.7.9.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7816/774/ars_elemental-1.21.1-0.7.9_beta.jar",
-                    "id": "7816774",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7925/324/ars_elemental-1.21.1-0.7.9.2.jar",
+                    "id": "7925324",
                     "parent_id": "561470",
                     "hashes": {
-                        "sha1": "b638d30435cabbee63d5e54c6323a51b3bcc6d8a",
-                        "md5": "8825aa0ebd96956683fdc6a8388b14f1"
+                        "sha1": "7454a00b27356ce13d0a8be9664df46d47331633",
+                        "md5": "1b0f1dfc16f316b0447b9dd793b59c82"
                     },
                     "required_dependencies": [
                         "401955"
                     ],
-                    "size": 2293304,
-                    "date_published": "2026-03-26T13:12:37.087Z"
+                    "size": 2298625,
+                    "date_published": "2026-04-14T11:41:22Z"
                 }
             ]
         },
