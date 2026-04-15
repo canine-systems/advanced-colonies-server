@@ -6542,7 +6542,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "oritech-neoforge-1.21.1-1.1.0.jar",
+                    "file_name": "oritech-neoforge-1.21.1-1.2.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6551,21 +6551,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/bhUtMn9S/oritech-neoforge-1.21.1-1.1.0.jar",
-                    "id": "bhUtMn9S",
+                    "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/PjH7L4cM/oritech-neoforge-1.21.1-1.2.1.jar",
+                    "id": "PjH7L4cM",
                     "parent_id": "4sYI62kA",
                     "hashes": {
-                        "sha512": "08a36c543b617510010dc65205ebec498c59a2b32f0265d842c568fc5cf8154863a5a315fcc756876068c44a1d98ce466e92e94c0465427128a9670590f69c9c",
-                        "sha1": "fe04966ff230c307dd2ea2259f90468b77147e8d"
+                        "sha512": "f98d30cbd9dbcd133ceede2accfd0433498a52d243c581fbd2370b1094a4d0b6efcb4fa921da59ceede1f7bebef2f0c464a2f88f3423bad1f3603a894ef2aaa0",
+                        "sha1": "a56f93e1dc740efe9892797ddb68768d267b7042"
                     },
                     "required_dependencies": [
                         "lhGA9TYQ",
                         "8BmcQJ2H",
-                        "b1ZV3DIJ",
-                        "ccKDOlHs"
+                        "b1ZV3DIJ"
                     ],
-                    "size": 10747980,
-                    "date_published": "2026-03-20T18:43:22.354085Z"
+                    "size": 10675134,
+                    "date_published": "2026-04-15T20:06:52.580780Z"
                 }
             ]
         },
