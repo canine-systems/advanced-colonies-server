@@ -5993,24 +5993,25 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "moonlight-1.21-2.29.32-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.16-neoforge.jar",
                     "mc_versions": [
+                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/zriEmRKo/moonlight-1.21-2.29.32-neoforge.jar",
-                    "id": "zriEmRKo",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/xnc12XKg/moonlight-1.21-2.29.16-neoforge.jar",
+                    "id": "xnc12XKg",
                     "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha512": "c304ad28568cf842ebfe538de4a0e42b2fa53e26f48fd586ccd6fda51774e52223bde66b05462570f8a0615bda65bc797882e03aaec5b584aeb4b7f459d8533f",
-                        "sha1": "fb8ae5e70483bd936cb75ba9880e82d6277d48af"
+                        "sha512": "563f277c5876cc9e0e4ddf04658c130efe257dba2ac827c37f530d746c9033b9e75a799ebf1b65076c65dbc2d33eab225fd54fd123c9fa84a8a7fffa9ea4569c",
+                        "sha1": "1d183ee2695e19a461b50ac7801dd17230e66094"
                     },
                     "required_dependencies": [],
-                    "size": 1596771,
-                    "date_published": "2026-04-14T23:21:31.341913Z"
+                    "size": 1575809,
+                    "date_published": "2026-01-25T04:21:19.841856Z"
                 }
             ]
         },
@@ -8257,7 +8258,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "supplementaries-1.21-3.5.34-neoforge.jar",
+                    "file_name": "supplementaries-1.21-3.5.27-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8265,18 +8266,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/NuQNqCLy/supplementaries-1.21-3.5.34-neoforge.jar",
-                    "id": "NuQNqCLy",
+                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/B4k8qIJB/supplementaries-1.21-3.5.27-neoforge.jar",
+                    "id": "B4k8qIJB",
                     "parent_id": "fFEIiSDQ",
                     "hashes": {
-                        "sha512": "914057d5b4a1a6a1fe5413ee1a3e92867bb34dc877a934a3691b9c3b7e4aee00cb74ccae709d60353ec3db1d586f7e55583e3b71a6b5e949cfaeb950563f018a",
-                        "sha1": "9fa5889f7669d1f5f20e658f96cbf31a17c52171"
+                        "sha512": "0060b8a7225858bb9134c803a33f3fbcf8448e1ea1eaf12225928305041539c1d38a4319be4d6b6bf35142eb09f37e5fb79960a8014a182d4747403bc15d8e7c",
+                        "sha1": "ddc7007ca224ec367d9ffe0516d0f9978c0e6d18"
                     },
                     "required_dependencies": [
                         "twkfQtEc"
                     ],
-                    "size": 13366044,
-                    "date_published": "2026-04-07T22:52:20.121999Z"
+                    "size": 13354405,
+                    "date_published": "2026-03-05T18:32:09.636556Z"
                 }
             ]
         },
