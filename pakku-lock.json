@@ -3173,55 +3173,39 @@
             ]
         },
         {
-            "pakku_id": "d2xg78hoDK4ewwQb",
+            "pakku_id": "Dht1BaHnsk7Ihi8L",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                "modrinth": "discord-statusbot"
+                "modrinth": "discord-chat-connect"
             },
             "name": {
-                "modrinth": "Discord Statusbot"
+                "modrinth": "Discord & Chat Images"
             },
             "id": {
-                "modrinth": "G9ZpI0bU"
+                "modrinth": "yIWYj2mo"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Statusbot-20.0-NeoForge-1.20.2+.jar",
+                    "file_name": "discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
                     "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/G9ZpI0bU/versions/o7C6cmWi/Statusbot-20.0-NeoForge-1.20.2+.jar",
-                    "id": "o7C6cmWi",
-                    "parent_id": "G9ZpI0bU",
+                    "url": "https://cdn.modrinth.com/data/yIWYj2mo/versions/GQi04Aka/discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+                    "id": "GQi04Aka",
+                    "parent_id": "yIWYj2mo",
                     "hashes": {
-                        "sha512": "531037b6020e40fc69276b346615825223ac560866abc1cb24f6bf864ac5e3d448077c383a04a1bae56973880d61ec20a9d896fb9d6794b35c598d83682221e7",
-                        "sha1": "d301f4f8165def05fa88470f494fffa415975779"
+                        "sha512": "9845b1e9c5dba4135071e5a0934969a3d2ba55ede6f23d26c5f0df3806b18b933c7f63650ec87c467cfbe1e3c15594386e1f4cec8f7c1844989193ecf0fb9bfa",
+                        "sha1": "f9d0ef0105211799676c0e3fd6f145dbe77d5f96"
                     },
                     "required_dependencies": [],
-                    "size": 11579945,
-                    "date_published": "2025-04-29T13:25:27.139849Z"
+                    "size": 19073879,
+                    "date_published": "2025-12-24T20:56:22.383894Z"
                 }
             ]
         },
