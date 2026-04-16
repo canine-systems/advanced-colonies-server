@@ -1871,6 +1871,46 @@
             ]
         },
         {
+            "pakku_id": "tqGe9iDTM8oKruAa",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "configurable"
+            },
+            "name": {
+                "modrinth": "Configurable"
+            },
+            "id": {
+                "modrinth": "lGffrQ3O"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "configurable-3.3.2+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/lGffrQ3O/versions/orsct6Yu/configurable-3.3.2+1.21.1-neoforge.jar",
+                    "id": "orsct6Yu",
+                    "parent_id": "lGffrQ3O",
+                    "hashes": {
+                        "sha512": "48867d26b3b03b69ccfb14ddc0bad3b0c6536b9e78be788b7f01376b0c8ee86824d00d6012f88e19ab2c89cc98c2f679c34251f3f7b2a06206c29b6e7b0dbb14",
+                        "sha1": "929a459057de433809c3251c102401d2985a79d8"
+                    },
+                    "required_dependencies": [],
+                    "size": 145792,
+                    "date_published": "2025-12-20T11:23:48.558830Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iwbCRqcyrsJlwLuE",
             "type": "MOD",
             "slug": {
@@ -6173,6 +6213,51 @@
                     "required_dependencies": [],
                     "size": 216873,
                     "date_published": "2024-12-29T18:46:17.672305Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NsFJjNRJNWUGSAG1",
+            "pakku_links": [
+                "tqGe9iDTM8oKruAa"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "neruina"
+            },
+            "name": {
+                "modrinth": "Neruina - Ticking Entity Fixer"
+            },
+            "id": {
+                "modrinth": "1s5x833P"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "neruina-3.2.2+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/1s5x833P/versions/OxKKVPvK/neruina-3.2.2+1.21.1-neoforge.jar",
+                    "id": "OxKKVPvK",
+                    "parent_id": "1s5x833P",
+                    "hashes": {
+                        "sha512": "54956b529e1a535f7f73983f6e9bc6a26fcb7ee43d2c4ed4b5e4799ecbdcc69936dfcda021401750b3ea0629e8921cbc2fc566b190f75a5c20b2fad7c2b2cc1c",
+                        "sha1": "a1283af4abda12fe8e455a9cf480008ad554f88f"
+                    },
+                    "required_dependencies": [
+                        "lGffrQ3O"
+                    ],
+                    "size": 839880,
+                    "date_published": "2026-03-01T11:25:24.802961Z"
                 }
             ]
         },
