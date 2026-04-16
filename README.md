@@ -21,6 +21,10 @@ Then:
   - Create Access: domain
   - Read Access: domain
   - Update Access: domain
+4. Create a Discord bot according to the docs for the [Discord & Chat Images](https://modrinth.com/mod/discord-chat-connect) mod, then:
+  - put the Discord bot token in: `/etc/advanced-colonies/discord-bot-token.txt`
+  - put the Discord channel ID in: `/etc/advanced-colonies/discord-channel-id.txt`
+  - put the Minecraft server name in `/etc/advanced-colonies/discord-mc-server-name.txt`
 
 Maintenance:
 
