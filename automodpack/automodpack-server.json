@@ -8,6 +8,7 @@
     "/mods/*.jar",
     "!/mods/squaremap-*.jar",
     "!/mods/lithium-*.jar",
+    "!/mods/neruina-*.jar",
     "/kubejs/**",
     "/emotes/*"
   ],
