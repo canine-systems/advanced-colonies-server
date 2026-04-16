@@ -2838,6 +2838,50 @@
             ]
         },
         {
+            "pakku_id": "5x435utA157WX8z0",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "pZK1iopXfuVqo6Fa"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "power-grid"
+            },
+            "name": {
+                "modrinth": "Create: Power Grid"
+            },
+            "id": {
+                "modrinth": "eWiBLJ9R"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "powergrid-mc1.21.1-0.5.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/eWiBLJ9R/versions/bli22EIb/powergrid-mc1.21.1-0.5.4.jar",
+                    "id": "bli22EIb",
+                    "parent_id": "eWiBLJ9R",
+                    "hashes": {
+                        "sha512": "abae023220fe1a11a80a110e28a830ad253f598a795edd09bfbc4a5c8fcbdd1b1eb29e89f7166fa3255213b54164d5d1f70739857d6ba27c2be481f6f84402f8",
+                        "sha1": "7ffcaa416b5e5e8dcbb70bc6909e0b1775811da7"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 6117871,
+                    "date_published": "2026-03-05T13:34:05.695569Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xMxU6kuyeQDlhJh5",
             "pakku_links": [
                 "YCpOOlZMQeBcVMdK",
@@ -6593,6 +6637,50 @@
             ]
         },
         {
+            "pakku_id": "omeyRvHGkUJtnJEh",
+            "pakku_links": [
+                "nHnt4WMYThz51HSf",
+                "pZK1iopXfuVqo6Fa"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "oracle-index"
+            },
+            "name": {
+                "modrinth": "Oracle Index"
+            },
+            "id": {
+                "modrinth": "J8MMsNrL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "oracle_index-neoforge-1.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/J8MMsNrL/versions/oLlcvBIs/oracle_index-neoforge-1.1.1.jar",
+                    "id": "oLlcvBIs",
+                    "parent_id": "J8MMsNrL",
+                    "hashes": {
+                        "sha512": "bcaf851dd9f8c9e85a2b7bbb659e6a662ef6db1eca79ccbf6fb95e9601614727377d0cc4734eb7c4caacdf22dca73fb4f2ea2fdf4d68a2d47cd45dcbfb9974f4",
+                        "sha1": "49c7c260aae8b3478621174ad83115c59d58ef5b"
+                    },
+                    "required_dependencies": [
+                        "ccKDOlHs",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 29779727,
+                    "date_published": "2026-03-17T19:31:34.674049Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xM43uKZvFGg17MYQ",
             "pakku_links": [
                 "pZK1iopXfuVqo6Fa",
@@ -8142,6 +8230,43 @@
             ]
         },
         {
+            "pakku_id": "GnAsZXmF0qdNbgMK",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-steam-n-rails-1.21.1"
+            },
+            "name": {
+                "modrinth": "Steam 'n' Rails Neoforge"
+            },
+            "id": {
+                "modrinth": "L3Jv0QZI"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "railways-0.2.0-beta.2+neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/L3Jv0QZI/versions/dZa50kut/railways-0.2.0-beta.2+neoforge-mc1.21.1.jar",
+                    "id": "dZa50kut",
+                    "parent_id": "L3Jv0QZI",
+                    "hashes": {
+                        "sha512": "e5ee20903fed9894a5d7d197fd0c1c8aabc3ff024f13e24a71777257ec20b2703ee2a7c1e091bd88f0878f3821afb6e08e0094d74208e3bd74d244d0401e4095",
+                        "sha1": "2767bb73a33358b7796239310416b13db476f0b4"
+                    },
+                    "required_dependencies": [],
+                    "size": 11904503,
+                    "date_published": "2026-04-13T03:50:00.298655Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pVD2Wyml7iBOQ2kJ",
             "type": "MOD",
             "slug": {
@@ -9057,6 +9182,43 @@
                     "required_dependencies": [],
                     "size": 2428260,
                     "date_published": "2026-04-01T00:19:25.397649Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nHnt4WMYThz51HSf",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "owo-lib"
+            },
+            "name": {
+                "modrinth": "oωo (owo-lib)"
+            },
+            "id": {
+                "modrinth": "ccKDOlHs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "id": "NMCHU6DZ",
+                    "parent_id": "ccKDOlHs",
+                    "hashes": {
+                        "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
+                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 1221583,
+                    "date_published": "2025-07-19T00:45:19.909132Z"
                 }
             ]
         },
