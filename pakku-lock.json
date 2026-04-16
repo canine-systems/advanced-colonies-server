@@ -5158,6 +5158,43 @@
             ]
         },
         {
+            "pakku_id": "CISzAvWQGKKcP0NX",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "irons-lib"
+            },
+            "name": {
+                "modrinth": "Iron's Lib"
+            },
+            "id": {
+                "modrinth": "9nfaJPtX"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "irons_lib-1.21.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/sRMMFgei/irons_lib-1.21.1-1.0.2.jar",
+                    "id": "sRMMFgei",
+                    "parent_id": "9nfaJPtX",
+                    "hashes": {
+                        "sha512": "41aaf569abdfa6947ce72c076242b7d794307f37696350a3967e46a7d7390fc3569ce41335497d92e897d555be02c8b878ca43a0a7de039d262d26aedafd013e",
+                        "sha1": "ef92f362a352a30f927c30c2be72a2d843c41342"
+                    },
+                    "required_dependencies": [],
+                    "size": 374610,
+                    "date_published": "2026-04-12T15:57:24.438892Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Bi4KNTkSoHXfZkwb",
             "type": "MOD",
             "side": "BOTH",
