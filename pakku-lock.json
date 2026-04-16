@@ -3173,6 +3173,59 @@
             ]
         },
         {
+            "pakku_id": "d2xg78hoDK4ewwQb",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "discord-statusbot"
+            },
+            "name": {
+                "modrinth": "Discord Statusbot"
+            },
+            "id": {
+                "modrinth": "G9ZpI0bU"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Statusbot-20.0-NeoForge-1.20.2+.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/G9ZpI0bU/versions/o7C6cmWi/Statusbot-20.0-NeoForge-1.20.2+.jar",
+                    "id": "o7C6cmWi",
+                    "parent_id": "G9ZpI0bU",
+                    "hashes": {
+                        "sha512": "531037b6020e40fc69276b346615825223ac560866abc1cb24f6bf864ac5e3d448077c383a04a1bae56973880d61ec20a9d896fb9d6794b35c598d83682221e7",
+                        "sha1": "d301f4f8165def05fa88470f494fffa415975779"
+                    },
+                    "required_dependencies": [],
+                    "size": 11579945,
+                    "date_published": "2025-04-29T13:25:27.139849Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Cwxx2a1oaD2z1Dno",
             "type": "MOD",
             "slug": {
