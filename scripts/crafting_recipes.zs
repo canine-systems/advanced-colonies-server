@@ -1,3 +1,10 @@
+// Remove 2x iron ingot => 1x iron rod in favor of the 2x iron ingot => 4x iron rod recipe
+craftingTable.removeShaped(<item:immersiveengineering:stick_iron>, [
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
 // Add a shaped crafting recipe for a minecolonies ancient tome
 craftingTable.addShaped("minecolonies_ancient_tome_without_raiders", <item:minecolonies:ancienttome>, [
     [<item:minecraft:experience_bottle>, <item:minecraft:air>, <item:minecraft:experience_bottle>],
