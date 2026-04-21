@@ -43,6 +43,7 @@
         "mouse-tweaks": {"side": "BOTH"},
         "starter-kit": {"side": "BOTH"},
         "xaeros-minimap": {"side": "BOTH"},
-        "xaeros-world-map": {"side": "BOTH"}
+        "xaeros-world-map": {"side": "BOTH"},
+        "oracle-index": {"side": "BOTH"}
     }
 }
