@@ -44,7 +44,7 @@ craftingTable.addShaped("ctgui/new/crafting/experience_bottle_0", <item:minecraf
 
 furnace.addRecipe("ctgui/new/smelting/leather_0", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 0.0, 200);
 
-furnace.addRecipe("ctgui/new/smelting/coal_0", <item:minecraft:coal>, <item:minecraft:charcoal>, 0.0, 200);
+craftingTable.addShapeless("ctgui/new/crafting/coal_0", <item:minecraft:coal>, [<item:minecraft:charcoal>]);
 
 blastFurnace.addRecipe("ctgui/new/blasting/diamond_0", <item:minecraft:diamond>, <item:minecraft:coal_block>, 0.0, 100);
 
