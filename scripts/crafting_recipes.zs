@@ -46,7 +46,7 @@ furnace.addRecipe("ctgui/new/smelting/leather_0", <item:minecraft:leather>, <ite
 
 craftingTable.addShapeless("ctgui/new/crafting/coal_0", <item:minecraft:coal>, [<item:minecraft:charcoal>]);
 
-blastFurnace.addRecipe("ctgui/new/blasting/diamond_0", <item:minecraft:diamond>, <item:minecraft:coal_block>, 0.0, 100);
+blastFurnace.addRecipe("ctgui/new/blasting/diamond_0", <item:minecraft:diamond>, <item:bigreactors:graphite_block>, 0.0, 100);
 
 craftingTable.addShaped("ctgui/new/crafting/netherite_ingot_0", <item:minecraft:netherite_ingot>, [
     [<item:minecraft:diamond>, <item:minecraft:coal_block>, <item:minecraft:diamond>],
