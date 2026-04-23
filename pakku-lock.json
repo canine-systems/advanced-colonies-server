@@ -3131,6 +3131,43 @@
             ]
         },
         {
+            "pakku_id": "resFAGKeZ9D4URuw",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "custom-music-disc-mod"
+            },
+            "name": {
+                "modrinth": "Dash's Custom Music Discs Mod"
+            },
+            "id": {
+                "modrinth": "sfdki9HV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "custom_music_discs-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sfdki9HV/versions/KxMJWKzU/custom_music_discs-1.0.2.jar",
+                    "id": "KxMJWKzU",
+                    "parent_id": "sfdki9HV",
+                    "hashes": {
+                        "sha512": "bec78d778799b0482024160854a0d749d82975c9fce8e5224efb8a8b76c04878a4d4bf7a91666ce2efeeacdc17f37f1ce05482be4f7f34acdca3e76cd3e9e29f",
+                        "sha1": "d30c1e189ee4795ac5e680424bd70f20ae6c85d4"
+                    },
+                    "required_dependencies": [],
+                    "size": 172273,
+                    "date_published": "2026-04-07T16:24:20.611454Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QeQePYJZQLGFmciG",
             "pakku_links": [
                 "WSH1maVNFXHl0hIW"
@@ -6643,7 +6680,7 @@
                 "pZK1iopXfuVqo6Fa"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "oracle-index"
             },
