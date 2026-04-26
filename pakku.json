@@ -4,6 +4,7 @@
     "overrides": [
         "automodpack",
         "config",
+        "kubejs",
         "scripts",
         "user_jvm_args.txt",
         "ops.json",
