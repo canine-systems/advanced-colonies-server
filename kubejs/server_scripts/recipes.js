@@ -161,6 +161,7 @@ ServerEvents.recipes(recipes => {
             S: 'minecraft:prismarine_shard',
             D: 'minecraft:diamond',
             C: 'minecraft:prismarine_crystals',
+            I: 'minecraft:iron_ingot',
         }
     );
 
@@ -202,6 +203,7 @@ ServerEvents.recipes(recipes => {
         {
             G: 'minecraft:gold_block',
             L: 'minecraft:lapis_block',
+            N: 'minecraft:netherite_ingot',
             Q: 'minecraft:quartz_block',
         }
     );
@@ -229,6 +231,7 @@ ServerEvents.recipes(recipes => {
         ],
         {
             a: 'minecraft:amethyst_shard',
+            A: 'minecraft:amethyst_block',
             C: 'minecraft:calcite',
             B: 'minecraft:smooth_basalt',
         }
