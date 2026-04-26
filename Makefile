@@ -120,6 +120,10 @@ dist/advanced-colonies-serverpack.zip: mods
 
 dist: dist/mods.md ${DEB_FILE}
 
+dev: ${DEB_FILE}
+	scp ${DEB_FILE} mc-dev:~/advanced-colonies-server.deb
+	ssh -t mc-dev sudo apt install ~/advanced-colonies-server.deb
+
 clean:
 	rm -rf build dist *.log
 
