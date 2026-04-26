@@ -82,7 +82,7 @@ ServerEvents.recipes(recipes => {
 
     // custom saddle recipe that doesn't use iron for no reason
     recipes.shaped(
-        Item.of('minecraft:saddle>', 1),
+        Item.of('minecraft:saddle', 1),
         [
             ' L ',
             'L L',
@@ -180,7 +180,7 @@ ServerEvents.recipes(recipes => {
     );
 
     recipes.shaped(
-        Item.of('minecraft:prismarine_crystals>', 4),
+        Item.of('minecraft:prismarine_crystals', 4),
         [
             'NDN',
             'PDP',
