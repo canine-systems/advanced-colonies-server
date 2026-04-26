@@ -122,7 +122,8 @@ dist: dist/mods.md ${DEB_FILE}
 
 dev: ${DEB_FILE}
 	scp ${DEB_FILE} mc-dev:~/advanced-colonies-server.deb
-	ssh -t mc-dev sudo apt install ~/advanced-colonies-server.deb
+	# --reinstall is needed because local builds default to always being 3.0.
+	ssh -t mc-dev sudo apt install --reinstall ~/advanced-colonies-server.deb
 
 clean:
 	rm -rf build dist *.log
