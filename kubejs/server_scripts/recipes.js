@@ -204,6 +204,7 @@ ServerEvents.recipes(recipes => {
             G: 'minecraft:gold_block',
             L: 'minecraft:lapis_block',
             N: 'minecraft:netherite_ingot',
+            D: 'minecraft:diamond_block',
             Q: 'minecraft:quartz_block',
         }
     );
