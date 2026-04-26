@@ -5619,6 +5619,51 @@
             ]
         },
         {
+            "pakku_id": "dXgLF2cweBBQfQmb",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "9ozhvaNtHLhLHyAR"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "kubejs-create"
+            },
+            "name": {
+                "modrinth": "KubeJS Create"
+            },
+            "id": {
+                "modrinth": "T38eAZQC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "id": "1qmcLagN",
+                    "parent_id": "T38eAZQC",
+                    "hashes": {
+                        "sha512": "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fcab09a1e5d6fed88b289941f9ecf3f71ba9a7b8b84397cab2b8d9801d",
+                        "sha1": "f54d9ff53909771d27e4d9d135c3707cd5d5f855"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "umyGl7zF"
+                    ],
+                    "size": 38629,
+                    "date_published": "2025-11-12T09:22:05.119602Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6xFGn4ocLNB1MHX0",
             "type": "MOD",
             "side": "BOTH",
