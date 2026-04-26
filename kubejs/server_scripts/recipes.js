@@ -14,7 +14,7 @@ ServerEvents.recipes(recipes => {
     //// SHAPELESS CRAFTING ////
 
     // 1x charcoal => 1x coal
-    recipe.shapeless(
+    recipes.shapeless(
         Item.of('minecraft:coal', 1),
         ['minecraft:charcoal']
     );
