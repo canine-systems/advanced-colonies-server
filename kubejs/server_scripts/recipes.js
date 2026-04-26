@@ -19,6 +19,12 @@ ServerEvents.recipes(recipes => {
         ['minecraft:charcoal']
     );
 
+    // Remove 1x wilden wing => 1x leather, since we're replacing that below.
+    recipes.remove({
+        output: 'minecraft:leather',
+        input: 'ars_nouveau:wilden_wing',
+    });
+
     // 1x wilden wing => 2x miners delight bat wing
     recipes.shapeless(
         Item.of('minersdelight:bat_wing', 2),
