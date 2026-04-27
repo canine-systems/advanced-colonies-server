@@ -42,6 +42,9 @@ def item_to_name(item)
     $1
   elsif item =~ /^\<tag:item:(.*)\>$/
     "##{$1}"
+  elsif item =~ /^\<item:([^>]+)\>.transformReplace\(.*\)$/
+    # Sorry, your input items (e.g. buckets) might get eaten when they shouldn't.
+    $1
   else
     item
   end
@@ -67,6 +70,10 @@ def convert_part(part, vars)
     "#$1<item:#{vars[$2]}>#$3"
   }
 
+  part = part.sub(/(craftingTable.addShaped)Mirrored(\("[^"]+",\s)MirrorAxis.ALL,\s(.*)/) {
+    "#$1#$2#$3"
+  }
+
   if part.empty?
     ''
   elsif (part.start_with?('/*') || part.start_with?('//')) && part.end_with?('*/')
@@ -83,6 +90,7 @@ def convert_part(part, vars)
     output = $1
     quantity = $2 || 1
     inputs = $3.
+      sub(/\[(.*)\]/, '\1').
       split(",").
       map(&method(:item_to_name)).
       map { |item| vars.fetch(item, item) }.
