@@ -63,6 +63,10 @@ require 'pp'
 def convert_part(part, vars)
   part = part.strip
 
+  part = part.sub(/(craftingTable.addShaped\("[^"]+",\s)([a-z_]+)(,\s\[)/) {
+    "#$1<item:#{vars[$2]}>#$3"
+  }
+
   if part.empty?
     ''
   elsif (part.start_with?('/*') || part.start_with?('//')) && part.end_with?('*/')
