@@ -41,7 +41,7 @@ def item_to_name(item)
   if item =~ /^\<item:(.*)\>$/
     $1
   elsif item =~ /^\<tag:item:(.*)\>$/
-    "#$1"
+    "##{$1}"
   else
     item
   end
@@ -150,7 +150,7 @@ recipes.shapeless(
         if EMPTY_ITEMS.include?(item)
           ' '
         else
-          input_map.key(item)
+          input_map.key(vars.fetch(item, item))
         end
       }.join('')
     }
