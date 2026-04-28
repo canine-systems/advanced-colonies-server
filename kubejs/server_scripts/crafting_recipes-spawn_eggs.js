@@ -37,7 +37,7 @@ ServerEvents.recipes(recipes => {
           "pwp"
         ],
         {
-          "p": "minecraft:potion",
+          "p": 'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
           "z": "minecraft:zombie_spawn_egg",
           "w": "minecraft:water_bucket"
         }
