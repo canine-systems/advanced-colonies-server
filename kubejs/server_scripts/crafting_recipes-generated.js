@@ -69,8 +69,8 @@ ServerEvents.recipes(recipes => {
         ],
         {
             "e": "minecraft:emerald",
-            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=1]"
             "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=1]"
         }
     );
 
@@ -84,8 +84,8 @@ ServerEvents.recipes(recipes => {
         ],
         {
             "e": "minecraft:emerald",
-            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=2]"
             "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=2]"
         }
     );
 
@@ -99,8 +99,8 @@ ServerEvents.recipes(recipes => {
         ],
         {
             "e": "minecraft:emerald",
-            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=3]"
             "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=3]"
         }
     );
 
