@@ -27,8 +27,6 @@ ServerEvents.recipes(recipes => {
     );
 
 
-    
-
     recipes.shaped(
         Item.of('minecraft:drowned_spawn_egg', 1),
         [
