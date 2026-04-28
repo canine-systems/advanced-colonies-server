@@ -2062,43 +2062,6 @@
             ]
         },
         {
-            "pakku_id": "0ESuer7cOkRimkl6",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "crafttweaker"
-            },
-            "name": {
-                "modrinth": "CraftTweaker"
-            },
-            "id": {
-                "modrinth": "Xg35A4rS"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "CraftTweaker-neoforge-1.21.1-21.0.38.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Xg35A4rS/versions/BVOSHJwc/CraftTweaker-neoforge-1.21.1-21.0.38.jar",
-                    "id": "BVOSHJwc",
-                    "parent_id": "Xg35A4rS",
-                    "hashes": {
-                        "sha512": "2534b0914b3323799410dc246c10376e8172f4f01694094831f9beacd202d4244e6cf788a5dfcad09608977df2afdacd2704bdd96e49eb36c9cc0d75ea42fef1",
-                        "sha1": "dba530a29e0dd26333c1a1a82ae33942483306df"
-                    },
-                    "required_dependencies": [],
-                    "size": 3465718,
-                    "date_published": "2026-03-17T18:29:57.242033Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "L14RA3it5AjLdkw6",
             "type": "MOD",
             "side": "BOTH",
