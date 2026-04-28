@@ -237,7 +237,9 @@ def migrate(infile)
   end
 
   File.open(outfile, 'w') { |f|
-    f.puts parts.join("\n\n")
+    f.puts "ServerEvents.recipes(recipes => {"
+    f.puts parts.map {|p| p.gsub(/^/, '    ') }.join("\n\n")
+    f.puts "});"
   }
 end
 
