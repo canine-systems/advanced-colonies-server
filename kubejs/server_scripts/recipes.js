@@ -41,6 +41,11 @@ ServerEvents.recipes(recipes => {
         ['reliquary:bat_wing']
     );
 
+    // 1x quartz bricks => 1x quartz block
+    recipes.shapeless(
+        Item.of('minecraft:quartz_block', 1),
+        ['minecraft:quartz_bricks']
+    );
 
     //// SHAPED CRAFTING ////
 
