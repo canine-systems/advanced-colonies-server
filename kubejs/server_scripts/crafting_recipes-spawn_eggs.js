@@ -317,9 +317,9 @@ ServerEvents.recipes(recipes => {
     recipes.shaped(
         Item.of('minecraft:endermite_spawn_egg', 1),
         [
-          "e",
-          "E",
-          "e"
+          "e  ",
+          "E  ",
+          "e  "
         ],
         {
           "e": "#c:ender_pearls",

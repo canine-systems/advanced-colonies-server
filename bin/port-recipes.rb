@@ -185,7 +185,7 @@ recipes.shapeless(
         else
           input_map.key(vars.fetch(item, item))
         end
-      }.join('')
+      }.join('').ljust(3)
     }
 
     recipe = JSON.pretty_generate(recipe)

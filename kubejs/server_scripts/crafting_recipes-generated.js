@@ -34,9 +34,9 @@ ServerEvents.recipes(recipes => {
     recipes.shaped(
         Item.of('minecraft:ominous_bottle', 1),
         [
-          " e",
+          " e ",
           " w ",
-          " W"
+          " W "
         ],
         {
           "e": "minecraft:emerald",
