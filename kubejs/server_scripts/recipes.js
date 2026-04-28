@@ -44,6 +44,25 @@ ServerEvents.recipes(recipes => {
 
     //// SHAPED CRAFTING ////
 
+    // Remove iron ingots => iron rod recipes
+    recipes.remove({
+        output: 'immersiveengineering:stick_iron',
+        input: 'minecraft:iron_ingot',
+    });
+
+    // Add 2x iron ingots => 4x iron rod
+    recipes.shaped(
+        Item.of('immersiveengineering:stick_iron', 4),
+        [
+            ' i ',
+            ' i ',
+            '   '
+        ],
+        {
+            i: 'minecraft:iron_ingot'
+        }
+    );
+
     // Shaped crafting recipe for MineColonies Ancient Tome
     recipes.shaped(
         Item.of('minecolonies:ancienttome', 1),
