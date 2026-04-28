@@ -195,7 +195,11 @@ ServerEvents.recipes(recipes => {
           "bbb"
         ],
         {
-          "t": "minecraft:tipped_arrow",
+          "t": [
+              'minecraft:tipped_arrow[potion_contents={potion:"minecraft:poison"}]',
+              'minecraft:tipped_arrow[potion_contents={potion:"minecraft:poison"}]',
+              'minecraft:tipped_arrow[potion_contents={potion:"minecraft:strong_poison"}]',
+          ],
           "e": "minecraft:egg",
           "b": "minecraft:bone"
         }
