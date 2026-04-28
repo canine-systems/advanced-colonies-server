@@ -111,7 +111,7 @@ ServerEvents.recipes(recipes => {
           "e": "minecraft:egg",
           "r": "minecraft:redstone",
           "S": "minecraft:sugar",
-          "p": "minecraft:potion"
+          "p": 'minecraft:potion[potion_contents={potion:"minecraft:water"}]'
         }
     );
 
