@@ -45,6 +45,8 @@ def item_to_name(item)
   elsif item =~ /^\<item:([^>]+)\>.transformReplace\(.*\)$/
     # Sorry, your input items (e.g. buckets) might get eaten when they shouldn't.
     $1
+  elsif item =~ /^\<item:([^>]+)\>.withJsonComponent\(\<componenttype:minecraft:([^>]+)\>, ?(.+)\)$/
+    "#$1[#$2=#$3]"
   else
     item
   end
@@ -52,9 +54,25 @@ end
 
 def process_vars(part, vars)
   lines = part.split("\n").map(&:strip)
+
+  in_arrow_slowness = false
+  arrow_slowness = []
   lines.map { |line|
     if line =~ /^var\s+([^\s]+)\s+=\s+([^;]+);/
       vars[$1] = item_to_name($2);
+      nil
+    elsif line.start_with?('var arrow_slowness =')
+      in_arrow_slowness = true
+      nil
+    elsif in_arrow_slowness
+      arrow_slowness.push(line)
+      if line.end_with?(';')
+        in_arrow_slowness = false
+
+        vars["arrow_slowness"] = arrow_slowness.
+            map {|l| l.sub(/ \|$|;$/, '') }.
+            map {|item| item_to_name(item) }
+      end
       nil
     else
       "// #{line}"
@@ -74,18 +92,14 @@ def convert_part(part, vars)
     "#$1#$2#$3"
   }
 
+  part = part.gsub(/(withJsonComponent\([^,]+),\s([^)]+\))/, '\1,\2')
+
   if part.empty?
     ''
   elsif (part.start_with?('/*') || part.start_with?('//')) && part.end_with?('*/')
     part
   elsif part =~ /^var .* = .*;/
     process_vars(part, vars)
-  elsif part.start_with?('craftingTable.') && part.include?('.withJsonComponent')
-    <<~EOF
-    /* FIXME: Not converted because of .withJsonComponent()
-    #{part}
-    */
-    EOF
   elsif part =~ CRAFTING_TABLE_SHAPELESS
     output = $1
     quantity = $2 || 1
@@ -109,7 +123,9 @@ recipes.shapeless(
     output = $1
     quantity = $2 || 1
     input_lines = $3.split(",\n").map { |l|
-      l.sub(/\[(.*)\]/, '\1').split(',').map(&method(:item_to_name))
+      l.sub(/\[(.*)\]/, '\1').
+        split(', ').
+        map(&method(:item_to_name))
     }
 
     inputs = input_lines.
@@ -123,7 +139,12 @@ recipes.shapeless(
 
     input_map = {}
     inputs.each do |item|
-      name = item.split(':').last
+      name =
+        if item.is_a?(Array)
+          vars.key(item)
+        else
+          item.split(':').last
+        end
       name_chunks = name.split('_')
 
       candidates = [
