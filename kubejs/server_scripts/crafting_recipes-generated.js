@@ -30,7 +30,7 @@ ServerEvents.recipes(recipes => {
         }
     );
 
-
+    // Bad Omen
     recipes.shaped(
         Item.of('minecraft:ominous_bottle', 1),
         [
@@ -40,47 +40,69 @@ ServerEvents.recipes(recipes => {
         ],
         {
           "e": "minecraft:emerald",
-          "w": "minecraft:white_banner",
+          "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
           "W": "minecraft:potion[potion_contents={potion: \"minecraft:water\"}]"
         }
     );
 
+    // Bad Omen II
+    recipes.shaped(
+        Item.of('minecraft:ominous_bottle[ominous_bottle_amplifier=1]', 1),
+        [
+            " e ",
+            " b ",
+            " e "
+        ],
+        {
+            "e": "minecraft:emerald",
+            "b": "minecraft:ominous_bottle"
+        }
+    );
 
-    /* FIXME: Not converted.
-    craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_2", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,1), [
-        [<item:minecraft:air>, <item:minecraft:emerald>],
-        [<item:minecraft:air>, <item:minecraft:ominous_bottle>, <item:minecraft:air>],
-        [<item:minecraft:air>, <item:minecraft:emerald>]
-    ]);
-    */
+    // Bad Omen III
+    recipes.shaped(
+    Item.of('minecraft:ominous_bottle[ominous_bottle_amplifier=2]', 1),
+        [
+            " e ",
+            "wb ",
+            " e "
+        ],
+        {
+            "e": "minecraft:emerald",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=1]"
+            "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+        }
+    );
 
+    // Bad Omen IV
+    recipes.shaped(
+        Item.of('minecraft:ominous_bottle[ominous_bottle_amplifier=3]', 1),
+        [
+            " e ",
+            "wbe",
+            " e "
+        ],
+        {
+            "e": "minecraft:emerald",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=2]"
+            "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+        }
+    );
 
-    /* FIXME: Not converted.
-    craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_3", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,2), [
-        [<item:minecraft:air>, <item:minecraft:emerald>],
-        [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,1), <item:minecraft:air>],
-        [<item:minecraft:air>, <item:minecraft:emerald>]
-    ]);
-    */
-
-
-    /* FIXME: Not converted.
-    craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_4", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,3), [
-        [<item:minecraft:air>, <item:minecraft:emerald>],
-        [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,2), <item:minecraft:emerald>],
-        [<item:minecraft:air>, <item:minecraft:emerald>]
-    ]);
-    */
-
-
-    /* FIXME: Not converted.
-    craftingTable.addShaped("custom/ominous_bottle_amplifier/bad_omen_5", <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,4), [
-        [<item:minecraft:air>, <item:minecraft:emerald>, <item:minecraft:white_banner>],
-        [<item:minecraft:white_banner>, <item:minecraft:ominous_bottle>.withJsonComponent(<componenttype:minecraft:ominous_bottle_amplifier>,3), <item:minecraft:emerald>],
-        [<item:minecraft:white_banner>, <item:minecraft:emerald>]
-    ]);
-    */
-
+    // Bad Omen V
+    recipes.shaped(
+        Item.of('minecraft:ominous_bottle[ominous_bottle_amplifier=4]', 1),
+        [
+            " ew",
+            "wbe",
+            "we "
+        ],
+        {
+            "e": "minecraft:emerald",
+            "b": "minecraft:ominous_bottle[ominous_bottle_amplifier=3]"
+            "w": "minecraft:white_banner[banner_patterns=[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],hide_additional_tooltip={},item_name='{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}']",
+        }
+    );
 
     recipes.shaped(
         Item.of('minecraft:dragon_head', 1),
