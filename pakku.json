@@ -17,34 +17,93 @@
         "squaremap"
     ],
     "projects": {
-        "animated-door": {"side": "BOTH"},
-        "athena-ctm": {"side": "BOTH"},
-        "extra-mod-integrations": {"side": "BOTH"},
-        "emi-enchanting": {"side": "BOTH"},
-        "emi-professions-(emip)": {"side": "BOTH"},
-        "emi-create-schematics": {"side": "BOTH"},
-        "ie-reimmersed": {"side": "BOTH"},
-        "tmrv": {"side": "BOTH"},
-        "default-options": {"side": "BOTH"},
-        "controlling": {"side": "BOTH"},
-        "mafglib": {"side": "BOTH"},
-        "roughly-enough-professions-rep": {"side": "BOTH"},
-        "searchables": {"side": "BOTH"},
-        "bridging-mod": {"side": "BOTH"},
-        "colorful-hearts": {"side": "BOTH"},
-        "crafttweaker-gui": {"side": "BOTH"},
-        "enchantment-descriptions": {"side": "BOTH"},
-        "extra-weapons": {"side": "BOTH"},
-        "fusion-connected-textures": {"side": "BOTH"},
-        "geckolib": {"side": "BOTH"},
-        "jei-multiblocks": {"side": "BOTH"},
-        "just-enough-effect-descriptions-jeed": {"side": "BOTH"},
-        "just-enough-resources-jer": {"side": "BOTH"},
-        "justenoughbreeding": {"side": "BOTH"},
-        "mouse-tweaks": {"side": "BOTH"},
-        "starter-kit": {"side": "BOTH"},
-        "xaeros-minimap": {"side": "BOTH"},
-        "xaeros-world-map": {"side": "BOTH"},
-        "oracle-index": {"side": "BOTH"}
-    }
+        "animated-door": {
+            "side": "BOTH"
+        },
+        "athena-ctm": {
+            "side": "BOTH"
+        },
+        "extra-mod-integrations": {
+            "side": "BOTH"
+        },
+        "emi-enchanting": {
+            "side": "BOTH"
+        },
+        "emi-professions-(emip)": {
+            "side": "BOTH"
+        },
+        "emi-create-schematics": {
+            "side": "BOTH"
+        },
+        "ie-reimmersed": {
+            "side": "BOTH"
+        },
+        "tmrv": {
+            "side": "BOTH"
+        },
+        "default-options": {
+            "side": "BOTH"
+        },
+        "controlling": {
+            "side": "BOTH"
+        },
+        "mafglib": {
+            "side": "BOTH"
+        },
+        "roughly-enough-professions-rep": {
+            "side": "BOTH"
+        },
+        "searchables": {
+            "side": "BOTH"
+        },
+        "bridging-mod": {
+            "side": "BOTH"
+        },
+        "colorful-hearts": {
+            "side": "BOTH"
+        },
+        "crafttweaker-gui": {
+            "side": "BOTH"
+        },
+        "enchantment-descriptions": {
+            "side": "BOTH"
+        },
+        "extra-weapons": {
+            "side": "BOTH"
+        },
+        "fusion-connected-textures": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "jei-multiblocks": {
+            "side": "BOTH"
+        },
+        "just-enough-effect-descriptions-jeed": {
+            "side": "BOTH"
+        },
+        "just-enough-resources-jer": {
+            "side": "BOTH"
+        },
+        "justenoughbreeding": {
+            "side": "BOTH"
+        },
+        "mouse-tweaks": {
+            "side": "BOTH"
+        },
+        "starter-kit": {
+            "side": "BOTH"
+        },
+        "xaeros-minimap": {
+            "side": "BOTH"
+        },
+        "xaeros-world-map": {
+            "side": "BOTH"
+        },
+        "oracle-index": {
+            "side": "BOTH"
+        }
+    },
+    "export_server_side_projects_to_client": true
 }
