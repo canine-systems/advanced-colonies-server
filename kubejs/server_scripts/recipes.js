@@ -41,6 +41,18 @@ ServerEvents.recipes(recipes => {
         ['reliquary:bat_wing']
     );
 
+    // 1x oritech:silicon => 1x ae2:silicon
+    recipes.shapeless(
+        Item.of('ae2:silicon', 1),
+        ['oritech:silicon']
+    );
+
+    // 1x ae2:silicon => 1x oritech:silicon
+    recipes.shapeless(
+        Item.of('oritech:silicon', 1),
+        ['ae2:silicon']
+    );
+
     // 1x quartz bricks => 1x quartz block
     recipes.shapeless(
         Item.of('minecraft:quartz_block', 1),
