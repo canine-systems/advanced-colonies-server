@@ -9,12 +9,12 @@
     "uuid": "c4e2f105-613d-4a43-a988-6c7386323e4b",
     "name": "Kayila",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   },
   {
     "uuid": "6e931ab5-444f-4b2f-88ea-21c015688495",
     "name": "duckinator",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   }
 ]
