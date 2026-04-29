@@ -54,7 +54,12 @@ ${PROFILE_OPT_BIN}:
 
 ${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause ${BIN}/_ac-apply-discord-config-template
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR}
+SMM_VERSION = 1.7
+SMM_JAR := ${SERVER_DIR}/mods/server_maintenance_mode-${SMM_VERSION}.jar
+${SMM_JAR}:
+	wget -O $@ https://github.com/canine-systems/server-maintenance-mode/releases/download/${SMM_VERSION}/server_maintenance_mode-${SMM_VERSION}.jar
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR} ${SMM_JAR}
 
 pristine: ${PRISTINE}
 
@@ -110,7 +115,7 @@ dist/mods.md:
 	mkdir -p $(@D)
 	./bin/mod-list.py > $@
 
-mods: pakku.json pakku-lock.json config/* config/*/* config/*/*/* scripts/* squaremap/*
+mods: pakku.json pakku-lock.json config/* config/*/* config/*/*/* kubejs/* squaremap/*
 	./bin/pakku fetch
 
 dist/advanced-colonies-serverpack.zip: mods
@@ -119,6 +124,11 @@ dist/advanced-colonies-serverpack.zip: mods
 	mv "build/serverpack/Advanced Colonies-3.zip" "dist/advanced-colonies-serverpack.zip"
 
 dist: dist/mods.md ${DEB_FILE}
+
+dev: ${DEB_FILE}
+	scp ${DEB_FILE} mc-dev:~/advanced-colonies-server.deb
+	# --reinstall is needed because local builds default to always being 3.0.
+	ssh -t mc-dev sudo apt install --reinstall ~/advanced-colonies-server.deb
 
 clean:
 	rm -rf build dist *.log

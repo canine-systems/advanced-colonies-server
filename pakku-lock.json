@@ -1846,7 +1846,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MineColonies_Compatibility-1.21.1-3.40.jar",
+                    "file_name": "MineColonies_Compatibility-1.21.1-3.42.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1854,19 +1854,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7810/541/MineColonies_Compatibility-1.21.1-3.40.jar",
-                    "id": "7810541",
+                    "url": "http://edge.forgecdn.net/files/7856/281/MineColonies_Compatibility-1.21.1-3.42.jar",
+                    "id": "7856281",
                     "parent_id": "1006214",
                     "hashes": {
-                        "sha1": "ee0a00d823daf649019deb37f52c7c5de409a2ea",
-                        "md5": "6a01f003bc8380fe2f76544ff8d96584"
+                        "sha1": "707e730ba3fde383d34c542b98aaf6782910ba02",
+                        "md5": "60a5ce0c0cd0df2a267cabec2a69663b"
                     },
                     "required_dependencies": [
                         "975812",
                         "245506"
                     ],
-                    "size": 1419088,
-                    "date_published": "2026-03-25T11:23:43.103Z"
+                    "size": 1430280,
+                    "date_published": "2026-04-01T11:23:43.103Z"
                 }
             ]
         },
@@ -2058,43 +2058,6 @@
                     "required_dependencies": [],
                     "size": 92722,
                     "date_published": "2024-08-09T10:07:57.437Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "0ESuer7cOkRimkl6",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "crafttweaker"
-            },
-            "name": {
-                "modrinth": "CraftTweaker"
-            },
-            "id": {
-                "modrinth": "Xg35A4rS"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "CraftTweaker-neoforge-1.21.1-21.0.38.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Xg35A4rS/versions/BVOSHJwc/CraftTweaker-neoforge-1.21.1-21.0.38.jar",
-                    "id": "BVOSHJwc",
-                    "parent_id": "Xg35A4rS",
-                    "hashes": {
-                        "sha512": "2534b0914b3323799410dc246c10376e8172f4f01694094831f9beacd202d4244e6cf788a5dfcad09608977df2afdacd2704bdd96e49eb36c9cc0d75ea42fef1",
-                        "sha1": "dba530a29e0dd26333c1a1a82ae33942483306df"
-                    },
-                    "required_dependencies": [],
-                    "size": 3465718,
-                    "date_published": "2026-03-17T18:29:57.242033Z"
                 }
             ]
         },
@@ -5576,6 +5539,94 @@
             ]
         },
         {
+            "pakku_id": "9ozhvaNtHLhLHyAR",
+            "pakku_links": [
+                "LJiCAPR5YgJcqjoN"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "kubejs"
+            },
+            "name": {
+                "modrinth": "KubeJS"
+            },
+            "id": {
+                "modrinth": "umyGl7zF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/8nuqyxbw/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "8nuqyxbw",
+                    "parent_id": "umyGl7zF",
+                    "hashes": {
+                        "sha512": "63d6f8d96347c656c1427ee5e8af20a60ab2a59458f3449eb2a7c2cce18cc4b49374aef607f97c9566181ec077cff937d21084cc400e40d28dd46b34f32a3296",
+                        "sha1": "d3b606167d77dd3c561e682b7e373a01a369cc95"
+                    },
+                    "required_dependencies": [
+                        "sk9knFPE"
+                    ],
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:52.777594Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dXgLF2cweBBQfQmb",
+            "pakku_links": [
+                "CJU2ArnVpXR02Re3",
+                "9ozhvaNtHLhLHyAR"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "kubejs-create"
+            },
+            "name": {
+                "modrinth": "KubeJS Create"
+            },
+            "id": {
+                "modrinth": "T38eAZQC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "id": "1qmcLagN",
+                    "parent_id": "T38eAZQC",
+                    "hashes": {
+                        "sha512": "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fcab09a1e5d6fed88b289941f9ecf3f71ba9a7b8b84397cab2b8d9801d",
+                        "sha1": "f54d9ff53909771d27e4d9d135c3707cd5d5f855"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "umyGl7zF"
+                    ],
+                    "size": 38629,
+                    "date_published": "2025-11-12T09:22:05.119602Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6xFGn4ocLNB1MHX0",
             "type": "MOD",
             "side": "BOTH",
@@ -6643,7 +6694,7 @@
                 "pZK1iopXfuVqo6Fa"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "oracle-index"
             },
@@ -7402,6 +7453,49 @@
                     "required_dependencies": [],
                     "size": 484332,
                     "date_published": "2024-12-08T04:44:13.631452Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LJiCAPR5YgJcqjoN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "rhino"
+            },
+            "name": {
+                "modrinth": "Rhino"
+            },
+            "id": {
+                "modrinth": "sk9knFPE"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar",
+                    "id": "ZdLtebKH",
+                    "parent_id": "sk9knFPE",
+                    "hashes": {
+                        "sha512": "83a4f35cce9902b7175700aeccb8519716ff407dff2a936aa0215e162d81421d109c95f82ff88a84ccbe197caee0a4a76ca44d9c8b8ce954162596d7ede18c23",
+                        "sha1": "480235a9f7749f68ce6fec3b9c3cac3428b92a4a"
+                    },
+                    "required_dependencies": [],
+                    "size": 882033,
+                    "date_published": "2025-10-13T22:23:08.213734Z"
                 }
             ]
         },
@@ -9298,5 +9392,5 @@
             ]
         }
     ],
-    "lockfile_version": 1
+    "lockfile_version": 2
 }

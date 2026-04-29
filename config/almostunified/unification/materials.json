@@ -3,7 +3,8 @@
     "minecraft",
     "crafttweaker",
     "create",
-    "immersiveengineering"
+    "immersiveengineering",
+    "oritech"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -27,7 +28,8 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "c:clumps/{material}"
   ],
   "ignored_tags": [],
   "ignored_items": [],
