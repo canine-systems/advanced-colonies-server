@@ -54,7 +54,12 @@ ${PROFILE_OPT_BIN}:
 
 ${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause ${BIN}/_ac-apply-discord-config-template
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR}
+SMM_VERSION = 1.7
+SMM_JAR := ${SERVER_DIR}/mods/server_maintenance_mode-${SMM_VERSION}.jar
+${SMM_JAR}:
+	wget -O $@ https://github.com/canine-systems/server-maintenance-mode/releases/download/${SMM_VERSION}/server_maintenance_mode-${SMM_VERSION}.jar
+
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR} ${SMM_JAR}
 
 pristine: ${PRISTINE}
 
