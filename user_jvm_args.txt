@@ -21,3 +21,5 @@
 -Dcom.sun.management.jmxremote.ssl=false
 # Disable authentication for JMX.
 -Dcom.sun.management.jmxremote.authenticate=false
+# Allow remote JMX connections.
+-Dcom.sun.management.jmxremote.local.only=false

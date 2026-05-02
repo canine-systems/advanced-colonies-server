@@ -54,12 +54,19 @@ ${PROFILE_OPT_BIN}:
 
 ${BIN}: ${BIN}/ac-do-update ${BIN}/ac-sync ${BIN}/ac-update ${BIN}/ac-pause ${BIN}/ac-unpause ${BIN}/_ac-apply-discord-config-template
 
+
+JMX_AGENT_VERSION := 1.5.0
+JMX_AGENT_FILE := jmx_prometheus_javaagent-${JMX_AGENT_VERSION}.jar
+JMX_AGENT := ${SERVER_DIR}/${JMX_AGENT_FILE}
+${JMX_AGENT}:
+	wget -O $@ https://github.com/prometheus/jmx_exporter/releases/download/${JMX_AGENT_VERSION}/${JMX_AGENT_FILE}
+
 SMM_VERSION = 1.7
 SMM_JAR := ${SERVER_DIR}/mods/server_maintenance_mode-${SMM_VERSION}.jar
 ${SMM_JAR}:
 	wget -O $@ https://github.com/canine-systems/server-maintenance-mode/releases/download/${SMM_VERSION}/server_maintenance_mode-${SMM_VERSION}.jar
 
-${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${DEATHWATCH_JAR} ${SMM_JAR}
+${PRISTINE}: ${SERVER_DIR} ${SYSTEMD_FILES} ${LEGO_FILE} ${PROFILE_OPT_BIN} ${BIN} ${JMX_AGENT} ${SMM_JAR}
 
 pristine: ${PRISTINE}
 
