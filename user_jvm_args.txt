@@ -14,3 +14,10 @@
 
 # Deduplicate strings on the heap.
 -XX:+UseStringDeduplication
+
+# Expose JMX on port 5000.
+-Dcom.sun.management.jmxremote.port=5000
+# Disable SSL/TLS for JMX.
+-Dcom.sun.management.jmxremote.ssl=false
+# Disable authentication for JMX.
+-Dcom.sun.management.jmxremote.authenticate=false
