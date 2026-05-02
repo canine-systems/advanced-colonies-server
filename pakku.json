@@ -13,7 +13,9 @@
         "schematics",
         "server.properties",
         "server-icon.png",
-        "squaremap"
+        "squaremap",
+        "prometheus_jvm_args.txt",
+        "jmx_prometheus_javaagent_config.yml"
     ],
     "projects": {
         "animated-door": {
