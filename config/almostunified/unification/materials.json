@@ -1,12 +1,15 @@
 {
   "mod_priorities": [
     "minecraft",
-    "crafttweaker",
+    "kubejs",
     "create",
+    "powergrid",
     "immersiveengineering",
     "oritech"
   ],
-  "priority_overrides": {},
+  "priority_overrides": {
+      "#c:wires/copper": "powergrid"
+  },
   "stone_variants": [
     "stone",
     "andesite",
