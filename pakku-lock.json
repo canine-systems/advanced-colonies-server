@@ -4355,7 +4355,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "fruitsdelight-1.2.12.jar",
+                    "file_name": "fruitsdelight-1.2.13.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4363,18 +4363,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/g6sbyCTu/versions/34hdoNH8/fruitsdelight-1.2.12.jar",
-                    "id": "34hdoNH8",
+                    "url": "https://cdn.modrinth.com/data/g6sbyCTu/versions/kLzQjFUo/fruitsdelight-1.2.13.jar",
+                    "id": "kLzQjFUo",
                     "parent_id": "g6sbyCTu",
                     "hashes": {
-                        "sha512": "403b5586d56992d60bc47f9bb958eb32a13ff8ccc1554eb90d43cb0fd80843da9c2784514d5f062e466464685523d95fafdca38b7d42876a1e5f409d31c80060",
-                        "sha1": "d988016317f75331ed385517fad42c2cfd293fce"
+                        "sha512": "731bfe5a1367784bbb7bb67ad5fbb53ba5c613bd3752ce1af0ad5a8840c79c9488863b611e51994ce6de7f25d36f237a3a91960ee36a66020a6c2c05bdee0f0e",
+                        "sha1": "93f5e6fd2fcdb4a8975113e3e038e84eec47be5a"
                     },
                     "required_dependencies": [
                         "R2OftAxM"
                     ],
-                    "size": 1908304,
-                    "date_published": "2026-02-06T08:22:00.449053Z"
+                    "size": 1910600,
+                    "date_published": "2026-04-28T11:14:20.543206Z"
                 }
             ]
         },
