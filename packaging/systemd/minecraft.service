@@ -15,7 +15,7 @@ RestartSec=30
 
 ExecStartPre=/opt/bin/_ac-apply-discord-config-template
 
-ExecStart=java @prometheus_jvm_args.txt @user_jvm_args.txt -Djava.rmi.server.hostname=%H @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt
+ExecStart=java @prometheus_jvm_args.txt @user_jvm_args.txt -Djava.rmi.server.hostname=%H @libraries/net/neoforged/neoforge/21.1.228/unix_args.txt
 ExecStop=timeout 60 bash -c "kill -INT $MAINPID && tail --pid=$MAINPID -f /dev/null"
 
 NoNewPrivileges=true
