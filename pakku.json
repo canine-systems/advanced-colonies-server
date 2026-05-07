@@ -18,6 +18,15 @@
         "jmx_prometheus_javaagent_config.yml"
     ],
     "projects": {
+        "extreme_sound_muffler": {
+            "side": "BOTH"
+        },
+        "fusion-connected-textures": {
+            "side": "BOTH"
+        },
+        "betterf3": {
+            "side": "BOTH"
+        },
         "animated-door": {
             "side": "BOTH"
         },
