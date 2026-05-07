@@ -1192,7 +1192,7 @@
                 "ryR9vvBuUd1bSh9x"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "betterf3"
             },
@@ -4228,7 +4228,7 @@
         {
             "pakku_id": "Wt6WsC1MduL1V6lL",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "extreme_sound_muffler"
             },
@@ -4497,7 +4497,7 @@
         {
             "pakku_id": "Wo0ny48bh9rF93Fb",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "fusion-connected-textures"
             },
@@ -6854,7 +6854,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.26.1.jar",
+                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.26.2.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6863,16 +6863,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/c2oTZgsF/open-parties-and-claims-neoforge-1.21.1-0.26.1.jar",
-                    "id": "c2oTZgsF",
+                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/b16WHzyv/open-parties-and-claims-neoforge-1.21.1-0.26.2.jar",
+                    "id": "b16WHzyv",
                     "parent_id": "gF3BGWvG",
                     "hashes": {
-                        "sha512": "d6532e7dde6ca414b6468521779347b74a7b78bfb664ecbafecf1a3a9b1d8beadc8dcb32c50766742bb37fb1f81a481d3a338c7319cc86f18b2eb17278f8260a",
-                        "sha1": "2f6121ad9a041cb192133bb7c1ab75d7d34436e1"
+                        "sha512": "94e2b32c44fdced1bb2d2df22df0cddae4757adcb69acd4019816e7dd6312ea36ff96c31662f48bc8908f147511338145fd4e956404376a679dde1ca29bbf333",
+                        "sha1": "fa16d80d0805eb4c2998bbe0e4eec5185f53c21d"
                     },
                     "required_dependencies": [],
-                    "size": 1577014,
-                    "date_published": "2026-04-12T09:00:38.290988Z"
+                    "size": 1577086,
+                    "date_published": "2026-04-26T11:11:34.183551Z"
                 }
             ]
         },
@@ -9126,7 +9126,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "waystones-neoforge-1.21.1-21.1.29.jar",
+                    "file_name": "waystones-neoforge-1.21.1-21.1.30.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -9134,18 +9134,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Ayolso4x/waystones-neoforge-1.21.1-21.1.29.jar",
-                    "id": "Ayolso4x",
+                    "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/ylfzux81/waystones-neoforge-1.21.1-21.1.30.jar",
+                    "id": "ylfzux81",
                     "parent_id": "LOpKHB2A",
                     "hashes": {
-                        "sha512": "87230fd132e281ba66baa40d2f367a584deb78ac6e693aa97355c90f26ef2607365621c297e29c180a289b93aedc84fa92aa37d350e358a3220ef21b1cc45a30",
-                        "sha1": "7bd06fb7dfd6904a0f4ec5b9b46da2325e247aa3"
+                        "sha512": "d3a4f8e1fac5521dd445e1cc9891ef428d7efa61aabdc1fbe5ea6390ecdee012b96219daea94a8f4f8329894d239d42ceb3d7b705477a47babcb45b5cf49f0e7",
+                        "sha1": "a1cc8995fb6ca9630f7a7f0bd1279312c7574855"
                     },
                     "required_dependencies": [
                         "MBAkmtvl"
                     ],
-                    "size": 876329,
-                    "date_published": "2026-03-13T07:17:52.235721Z"
+                    "size": 877356,
+                    "date_published": "2026-04-22T10:25:21.372989Z"
                 }
             ]
         },
@@ -9208,7 +9208,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xmxw-2.7.5+1.21.1-neoforge.jar",
+                    "file_name": "xmxw-2.10.1+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -9221,21 +9221,21 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/35ayTy2t/xmxw-2.7.5+1.21.1-neoforge.jar",
-                    "id": "35ayTy2t",
+                    "url": "https://cdn.modrinth.com/data/iv2jCzkP/versions/1gnn6EVI/xmxw-2.10.1+1.21.1-neoforge.jar",
+                    "id": "1gnn6EVI",
                     "parent_id": "iv2jCzkP",
                     "hashes": {
-                        "sha512": "66e3aaa4289c595a9fe657e13ac5f25776484b0a0df791b153672a9562cc208632cbf9f886a2c8e3855a7ad89c29e4d5a6ebd359d2eb6e52fae39550a0f41d91",
-                        "sha1": "54eded0de2ef4e79b0049359b3fa4f7196bcc8c2"
+                        "sha512": "2d44a9d62c6f2b3c952480a09b37d1586097050978e256b6723426facfca059dc120c61eebc6fd94a1b2d66242c8c0dbde9d2355602b888f87a5c430ed96f2d9",
+                        "sha1": "d36c7c4ca258ab743d6522266ea665d2c0b11f6d"
                     },
                     "required_dependencies": [
-                        "LOpKHB2A",
-                        "1eAoo2KR",
                         "1bokaNcj",
-                        "ordsPcFz"
+                        "LOpKHB2A",
+                        "ordsPcFz",
+                        "1eAoo2KR"
                     ],
-                    "size": 114152,
-                    "date_published": "2026-04-08T18:38:08.602481Z"
+                    "size": 126536,
+                    "date_published": "2026-05-06T04:00:09.067235Z"
                 }
             ]
         },
@@ -9255,7 +9255,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xaerominimap-neoforge-1.21.1-25.3.10.jar",
+                    "file_name": "xaerominimap-neoforge-1.21.1-25.3.13.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -9264,16 +9264,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/CatMvRfN/xaerominimap-neoforge-1.21.1-25.3.10.jar",
-                    "id": "CatMvRfN",
+                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/CklXEjmp/xaerominimap-neoforge-1.21.1-25.3.13.jar",
+                    "id": "CklXEjmp",
                     "parent_id": "1bokaNcj",
                     "hashes": {
-                        "sha512": "97dbc7ddc8b86edead71f60e3257175abe9e05e94387447aad2467cfcf0a5211ed848ee3df9bb3c308183405f997f8acd508ac01f8ee374f08d9af00729fc1d8",
-                        "sha1": "d4828332dd831455429156b6cfa24aa9bd99dd77"
+                        "sha512": "e6d12bcc860d81af59b8cb6d7e2306eb6c119b57f6bd0e7f9536e7800b82385b935b9b23b59e7935dd157724e2b02f32aa0e519dea033d45f7eae78362732c4b",
+                        "sha1": "06cdb37f394bdbebce94c64644ae4bc21bd98959"
                     },
                     "required_dependencies": [],
-                    "size": 2137784,
-                    "date_published": "2026-02-09T08:15:14.665044Z"
+                    "size": 2138329,
+                    "date_published": "2026-05-06T07:45:20.855426Z"
                 }
             ]
         },
@@ -9293,7 +9293,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xaeroworldmap-neoforge-1.21.1-1.40.11.jar",
+                    "file_name": "xaeroworldmap-neoforge-1.21.1-1.40.16.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -9302,16 +9302,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/arbQPyvf/xaeroworldmap-neoforge-1.21.1-1.40.11.jar",
-                    "id": "arbQPyvf",
+                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/XwL25au3/xaeroworldmap-neoforge-1.21.1-1.40.16.jar",
+                    "id": "XwL25au3",
                     "parent_id": "NcUtCpym",
                     "hashes": {
-                        "sha512": "a4bb890dbac27937411f570432ebc5a4cc5df9562c22e7c3d6a6516ff303bfcb7f35fb39d2ce42a51591a4b2a5b5debfc933fda3f5a552560442fe69f8828b0b",
-                        "sha1": "c6f596bb6bc7d734100b7dbc8a57f69a5fb549a3"
+                        "sha512": "30fee010d813ce1cffe67a7b386d0ff6a8f9bd49026a38d0ba948a44a4670c50d434d30cc0797453b51a9c73587a050669a8ab58d97c659397b4696bc2592f2d",
+                        "sha1": "d0865b6153c4d0feaf1551fb5309884ec3568c03"
                     },
                     "required_dependencies": [],
-                    "size": 1386001,
-                    "date_published": "2026-02-09T08:30:22.603386Z"
+                    "size": 1387011,
+                    "date_published": "2026-05-05T09:22:07.829539Z"
                 }
             ]
         },
