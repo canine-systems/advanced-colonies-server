@@ -2,7 +2,7 @@
 VERSION ?= $(shell jq -r '.version' pakku.json).0
 REVISION := 1
 
-NEOFORGE_VERSION := 21.1.216
+NEOFORGE_VERSION := 21.1.228
 LEGO_VERSION := v4.31.0
 
 # -----------------------------------------------
@@ -30,7 +30,7 @@ server: ${SERVER_DIR}
 	@printf "\n\nServer is available at:"
 	@echo "  $<"
 
-${SERVER_DIR}/run.sh: .cache/neoforge-installer.jar
+${SERVER_DIR}/run.sh: .cache/neoforge-installer-${NEOFORGE_VERSION}.jar
 	mkdir -p $(@D)
 	java -jar $< --install-server $(@D)
 
@@ -75,7 +75,7 @@ ${LIVE_DIR}: ${PRISTINE}
 
 run: ${LIVE_DIR}
 	echo eula=true > ${LIVE_SERVER_DIR}/eula.txt
-	cd ${LIVE_SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt nogui ||:
+	cd ${LIVE_SERVER_DIR} && java @user_jvm_args.txt -Xmx5G -Xms5G @libraries/net/neoforged/neoforge/21.1.228/unix_args.txt nogui ||:
 
 run-offline: ${LIVE_DIR}
 	sed -i.bak -e 's/online-mode=.*$$/online-mode=false/' \
@@ -84,7 +84,7 @@ run-offline: ${LIVE_DIR}
 	$(MAKE) run
 	mv ${LIVE_SERVER_DIR}/server.properties.bak ${LIVE_SERVER_DIR}/server.properties
 
-.cache/neoforge-installer.jar:
+.cache/neoforge-installer-${NEOFORGE_VERSION}.jar:
 	mkdir -p $(@D)
 	wget -O $@ "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
 
@@ -95,7 +95,7 @@ run-offline: ${LIVE_DIR}
 .cache/lego: .cache/lego.tar.gz
 	cd .cache && tar xzf lego.tar.gz lego && touch lego
 
-cache: .cache/neoforge-installer.jar .cache/lego
+cache: .cache/neoforge-installer-${NEOFORGE_VERSION}.jar .cache/lego
 
 ${LEGO_FILE}: .cache/lego
 	mkdir -p $(@D)
