@@ -30,7 +30,7 @@ server: ${SERVER_DIR}
 	@printf "\n\nServer is available at:"
 	@echo "  $<"
 
-${SERVER_DIR}/run.sh: .cache/neoforge-installer.jar
+${SERVER_DIR}/run.sh: .cache/neoforge-installer-${NEOFORGE_VERSION}.jar
 	mkdir -p $(@D)
 	java -jar $< --install-server $(@D)
 
@@ -84,7 +84,7 @@ run-offline: ${LIVE_DIR}
 	$(MAKE) run
 	mv ${LIVE_SERVER_DIR}/server.properties.bak ${LIVE_SERVER_DIR}/server.properties
 
-.cache/neoforge-installer.jar:
+.cache/neoforge-installer-${NEOFORGE_VERSION}.jar:
 	mkdir -p $(@D)
 	wget -O $@ "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
 
@@ -95,7 +95,7 @@ run-offline: ${LIVE_DIR}
 .cache/lego: .cache/lego.tar.gz
 	cd .cache && tar xzf lego.tar.gz lego && touch lego
 
-cache: .cache/neoforge-installer.jar .cache/lego
+cache: .cache/neoforge-installer-${NEOFORGE_VERSION}.jar .cache/lego
 
 ${LEGO_FILE}: .cache/lego
 	mkdir -p $(@D)
