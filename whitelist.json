@@ -70,5 +70,9 @@
   {
     "uuid": "d76b1464-f6af-408b-be16-b0404e9eb79f",
     "name": "SaphireLattice"
+  },
+  {
+    "uuid": "ea3a7020-cbb0-4671-affe-2c8e42eaa434",
+    "name": "formicFabricant"
   }
 ]
