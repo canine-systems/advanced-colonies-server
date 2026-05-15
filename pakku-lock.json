@@ -9447,7 +9447,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "deathwatch-1.6.jar",
+                    "file_name": "deathwatch-2.24.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -9455,16 +9455,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yavAcMCy/versions/vMEeaQgi/deathwatch-1.6.jar",
-                    "id": "vMEeaQgi",
+                    "url": "https://cdn.modrinth.com/data/yavAcMCy/versions/eKhRISAb/deathwatch-2.24.jar",
+                    "id": "eKhRISAb",
                     "parent_id": "yavAcMCy",
                     "hashes": {
-                        "sha512": "6ddf863727994e3d89904056dde82eb77d2d1f689ada5ef64e945f2ffd293aea131f1065b2d11225dc879e4ae7c7a03add6fd44fda293973b3392045dad36604",
-                        "sha1": "1139c46a62a658e5f5291e081b25610b4e13e20d"
+                        "sha512": "6b334bc611ecbfb7e57821547b1d0e95c68c2a0a99b7057468e06d5671d7dbc3e1c0a3476107b62bc42897a527bec9df8fcd8ce75075dfd99f968119da1eff6a",
+                        "sha1": "5ce9ed8f4a4b495ee0fe45c5e97f7a52395fb22e"
                     },
                     "required_dependencies": [],
-                    "size": 2428260,
-                    "date_published": "2026-04-01T00:19:25.397649Z"
+                    "size": 2431090,
+                    "date_published": "2026-05-14T18:45:31.345016Z"
                 }
             ]
         },
