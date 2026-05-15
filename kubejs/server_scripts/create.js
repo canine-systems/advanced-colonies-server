@@ -1,5 +1,17 @@
 ServerEvents.recipes(event => {
     // using mechanical press + basin:
+    //  1 block of flint
+    //  100mb lava
+    // =>
+    //  1 cobbled deepslate
+    event.recipes.create.compacting('minecraft:cobbled_deepslate',
+        [
+            'supplementaries:flint_block',
+            Fluid.of('minecraft:lava', 100)
+        ]
+    );
+
+    // using mechanical press + basin:
     //  1 cobbled deepslate
     //  1 cobblestone
     //  100mb lava
