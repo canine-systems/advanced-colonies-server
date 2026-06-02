@@ -1,4 +1,18 @@
 ServerEvents.recipes(recipes => {
+    recipes.replaceInput(
+        { input: ['minecolonies:rice', 'minecraft:bowl'] },
+        'minecolonies:rice',
+        '#c:crops/rice'
+    );
+
+    recipes.replaceInput(
+        { input: Ingredient.of('farmersdelight:rice', 9) },
+        'farmersdelight:rice',
+        '#c:crops/rice'
+    );
+
+    recipes.shapeless('farmersdelight:rice', ['#c:crops/rice']);
+
     //// SMELTING ////
 
     // cook 1x rotten flesh => 1x leather, no XP, 20 ticks (1 sescond)
